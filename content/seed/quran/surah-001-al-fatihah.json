@@ -1,0 +1,101 @@
+{
+  "number": 1,
+  "name_arabic": "الفاتحة",
+  "name_english": "The Opening",
+  "name_transliteration": "Al-Fatihah",
+  "revelation_type": "meccan",
+  "beginner_intro": "Al-Fatihah is the first chapter of the Quran and the single most-recited passage in Islam — it is recited in every unit (rak'ah) of the five daily prayers. It is a short, complete prayer in itself: praise of God, an acknowledgement of His mercy and authority, and a request for guidance. Many new Muslims memorise this surah first.",
+  "ayahs": [
+    {
+      "number_in_surah": 1,
+      "juz": 1,
+      "page": 1,
+      "arabic_text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "translations": [
+        { "translator": "Saheeh International", "text": "In the name of Allah, the Entirely Merciful, the Especially Merciful." }
+      ],
+      "tafsirs": [
+        { "source": "ibn_kathir", "text_summary": "Muslims begin nearly every significant act — including each surah of the Quran except one — with this phrase, seeking blessing and God's help by mentioning His name first. 'The Entirely Merciful, the Especially Merciful' (Ar-Rahman, Ar-Raheem) are two of God's names both built on the Arabic root for mercy, emphasising that mercy is central to how God relates to creation." },
+        { "source": "al_sadi", "text_summary": "Opening with God's name teaches the believer to begin every important task consciously aware of God, rather than acting on autopilot — a small habit meant to shape a whole outlook on life." }
+      ],
+      "words": [
+        { "position": 1, "arabic_word": "بِسْمِ", "transliteration": "bismi", "translation": "In the name" },
+        { "position": 2, "arabic_word": "اللَّهِ", "transliteration": "Allahi", "translation": "of Allah" },
+        { "position": 3, "arabic_word": "الرَّحْمَٰنِ", "transliteration": "ar-Rahmani", "translation": "the Entirely Merciful" },
+        { "position": 4, "arabic_word": "الرَّحِيمِ", "transliteration": "ar-Raheem", "translation": "the Especially Merciful" }
+      ]
+    },
+    {
+      "number_in_surah": 2,
+      "juz": 1,
+      "page": 1,
+      "arabic_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "translations": [
+        { "translator": "Saheeh International", "text": "[All] praise is [due] to Allah, Lord of the worlds -" }
+      ],
+      "tafsirs": [
+        { "source": "ibn_kathir", "text_summary": "Praise here means acknowledging that every good quality and every blessing ultimately belongs to and comes from God, who sustains and governs everything that exists (\"the worlds\") — not just humanity, but all creation." }
+      ]
+    },
+    {
+      "number_in_surah": 3,
+      "juz": 1,
+      "page": 1,
+      "arabic_text": "الرَّحْمَٰنِ الرَّحِيمِ",
+      "translations": [
+        { "translator": "Saheeh International", "text": "The Entirely Merciful, the Especially Merciful," }
+      ],
+      "tafsirs": [
+        { "source": "al_sadi", "text_summary": "These names are repeated here, right after describing God as Lord of all worlds, so that authority and mercy are held together — God's power over all things is paired immediately with a reminder of His mercy, so it is never read as power without compassion." }
+      ]
+    },
+    {
+      "number_in_surah": 4,
+      "juz": 1,
+      "page": 1,
+      "arabic_text": "مَالِكِ يَوْمِ الدِّينِ",
+      "translations": [
+        { "translator": "Saheeh International", "text": "Sovereign of the Day of Recompense." }
+      ],
+      "tafsirs": [
+        { "source": "ibn_kathir", "text_summary": "A reminder of accountability: a Day is coming when every person answers for their deeds. Mentioning it here, right after mercy, balances hope with responsibility." }
+      ]
+    },
+    {
+      "number_in_surah": 5,
+      "juz": 1,
+      "page": 1,
+      "arabic_text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "translations": [
+        { "translator": "Saheeh International", "text": "It is You we worship and You we ask for help." }
+      ],
+      "tafsirs": [
+        { "source": "al_sadi", "text_summary": "This is the turning point of the surah — from praising God to directly addressing Him. It pairs worship with a request for help, teaching that worship and reliance on God go together; a person doesn't worship alone under their own strength." }
+      ]
+    },
+    {
+      "number_in_surah": 6,
+      "juz": 1,
+      "page": 1,
+      "arabic_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "translations": [
+        { "translator": "Saheeh International", "text": "Guide us to the straight path -" }
+      ],
+      "tafsirs": [
+        { "source": "ibn_kathir", "text_summary": "The single request at the heart of the whole surah: guidance to a clear, correct way of living and believing. Scholars note that even someone already guided needs to ask for this repeatedly, since staying firm on the right path is an ongoing need, not a one-time achievement." }
+      ]
+    },
+    {
+      "number_in_surah": 7,
+      "juz": 1,
+      "page": 1,
+      "arabic_text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "translations": [
+        { "translator": "Saheeh International", "text": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray." }
+      ],
+      "tafsirs": [
+        { "source": "al_sadi", "text_summary": "The \"straight path\" is defined by example: the way of the prophets and righteous people who came before, rather than the way of those who knew the truth but rejected it, or those who sincerely erred without guidance. It closes the surah by asking to be kept in good company, spiritually speaking." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+# Content Sources & Licensing Notes
+
+This seed content is a small, representative sample for the Foundation
+Package — not the full content library. It exists to prove the schema and
+the app's end-to-end flow work correctly. **Before this content is used in
+any public or production release, every Arabic text, translation, and hadith
+wording below must be independently verified against the primary sources
+listed here** (e.g. Tanzil.net and sunnah.com), ideally by someone with
+Arabic reading ability and/or a qualified reviewer — this seed data was
+authored with care but has not had that independent verification pass yet.
+
+## Quran text and translation
+
+- **Arabic text**: sourced in the style of the Tanzil Project's Uthmani
+  Quran text (tanzil.net). Tanzil's usage conditions require that the text
+  not be altered from their published Unicode text — before shipping,
+  replace the Arabic strings in `content/seed/quran/*.json` with a direct
+  copy from Tanzil's official download, rather than relying on this seed's
+  transcription.
+- **Translation**: Saheeh International — a widely used, licensed English
+  translation. Verify current redistribution terms directly with Saheeh
+  International (or use `quran.com`'s API, which documents translation
+  licensing per-translator) before bundling any translation at scale.
+- **Tafsir summaries**: the summaries attributed to Ibn Kathir and Al-Sa'di
+  in this seed are **original short summaries written by this project**,
+  not verbatim translations of their tafsir works — this is deliberate, to
+  avoid redistributing full copyrighted/translated tafsir text without
+  clear licensing. If verbatim excerpts are wanted later, their licensing
+  must be checked per publisher/translator.
+
+## Hadith
+
+- **An-Nawawi's 40 Hadith**: English wording in
+  `content/seed/hadith/nawawi40-seed.json` is adapted from commonly
+  published English renderings (e.g. as available via sunnah.com); Arabic
+  text should be cross-checked against sunnah.com's Arabic text before
+  production use. Authenticity grading (`sahih`) reflects the standard
+  classification for these particular hadiths (all agreed upon by Bukhari
+  and Muslim), which is why An-Nawawi's collection is considered a safe,
+  authoritative starting point for beginners.
+
+## Duas
+
+- Wordings and gradings (`sahih`/`hasan`) in `content/seed/duas.json` follow
+  commonly cited classifications for these well-known duas (Bukhari, Muslim,
+  Abu Dawud, At-Tirmidhi). Cross-check against a Hisnul Muslim ("Fortress of
+  the Muslim") edition or sunnah.com before production use, as slight
+  wording variants exist across compilations.
+
+## Lessons
+
+- The four Stage 1 lessons in `content/seed/lessons/` are original
+  educational writing produced for this project, drawing on mainstream
+  Sunni consensus positions. They are not a translation of any single
+  external source, but the Quranic quotations within them follow the same
+  Saheeh International sourcing note above.
+
+## General principle for content going forward
+
+Only mainstream Sunni sources should be used (see the product brief's
+"Content Sources" section): Tanzil, Saheeh International / The Clear Quran /
+Abdul Haleem (where licensed) for Quran; Ibn Kathir, Al-Sa'di, Al-Tabari
+summaries for tafsir; Sahih al-Bukhari, Sahih Muslim, Riyad as-Salihin, and
+An-Nawawi's 40 for hadith. Where scholarly opinion differs (e.g. between
+madhhabs on fiqh questions), that difference should be labelled explicitly
+rather than presenting one view as the only one — this is not yet needed for
+the small seed set here, but will matter as soon as the content library
+grows into fiqh-heavy topics (e.g. detailed prayer rulings).

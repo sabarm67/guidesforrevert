@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://newmuslimcompanion.app/schema/faq-entry.schema.json",
+  "title": "AI Mentor FAQ Entry",
+  "type": "object",
+  "required": ["id", "canonical_question", "question_variants", "keywords", "category", "answer_text", "source_citations", "confidence", "requires_scholar_disclaimer"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^faq_[a-z0-9_]+$" },
+    "canonical_question": { "type": "string" },
+    "question_variants": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "keywords": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "category": { "type": "string" },
+    "answer_text": { "type": "string" },
+    "source_citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "label"],
+        "properties": {
+          "type": { "type": "string", "enum": ["lesson", "dua", "hadith", "quran"] },
+          "id": { "type": "string" },
+          "collection": { "type": "string" },
+          "number": { "type": "integer" },
+          "label": { "type": "string" }
+        }
+      }
+    },
+    "confidence": { "type": "string", "enum": ["general_guidance", "requires_scholar"] },
+    "requires_scholar_disclaimer": { "type": "boolean" }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "what-is-the-quran",
+  "stage_slug": "welcome-to-islam",
+  "order": 3,
+  "title": "What is the Quran?",
+  "summary": "A gentle first introduction to the Quran: what it is, how it came to Prophet Muhammad, and how it's organised.",
+  "estimated_minutes": 6,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "The final revealed book"
+    },
+    {
+      "type": "text",
+      "text": "Muslims believe the Quran is the literal word of God, revealed to Prophet Muhammad (peace be upon him) over about 23 years, through the angel Gabriel (Jibril). It is regarded as the final revelation in a line that Islamic teaching says includes earlier scriptures given to earlier prophets, such as the Torah given to Moses and the Gospel given to Jesus."
+    },
+    {
+      "type": "heading",
+      "text": "How it was revealed and preserved"
+    },
+    {
+      "type": "text",
+      "text": "The Quran was revealed gradually, in response to real events and needs in the early Muslim community — not delivered all at once as a finished book. Companions of the Prophet memorised each revelation as it came and also wrote it down; the Quran continues to be memorised in full by hundreds of thousands of Muslims worldwide today (called huffaz), which is one of the ways Muslims believe its text has remained unchanged since the 7th century."
+    },
+    {
+      "type": "heading",
+      "text": "How the Quran is organised"
+    },
+    {
+      "type": "text",
+      "text": "The Quran has 114 chapters, called surahs, of very different lengths — from a few lines to many pages. Surahs are traditionally labelled as either Meccan (revealed before the Prophet's migration to Madinah, generally focused on core belief, God, and the afterlife) or Medinan (revealed after, often addressing law and community life). The book is also divided into 30 roughly equal parts called Juz, which many Muslims use to read the whole Quran over the course of a month, especially during Ramadan."
+    },
+    {
+      "type": "heading",
+      "text": "A good place for beginners to start"
+    },
+    {
+      "type": "text",
+      "text": "New Muslims are often encouraged to start with short, frequently recited chapters — such as Al-Fatihah (\"The Opening,\" recited in every unit of prayer) and Al-Ikhlas (\"Sincerity,\" a concise statement about God's Oneness, covered in Lesson 1). Both are included in the Quran section of this app with word-by-word translation to help with early reading."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to read the whole Quran and understand Arabic right away?",
+      "answer": "No. Understanding grows over a lifetime for every Muslim, not just converts. Start with short surahs in translation, listen to recitation to get used to the sound of Arabic, and build up gradually — this app's Quran section is designed for exactly that gradual approach."
+    },
+    {
+      "type": "faq",
+      "question": "Why do Muslims sometimes only use the Arabic text and not translations during prayer?",
+      "answer": "The Arabic text is considered the actual revealed wording, and translations are understood as translations of meaning rather than the Quran itself — language carries nuance that doesn't always transfer directly. That said, reading and studying translations is strongly encouraged for understanding; it's the recitation during formal prayer that is done in Arabic."
+    },
+    {
+      "type": "reflection",
+      "question": "Al-Fatihah is recited many times a day in prayer. After reading its translation, what part of it stands out to you?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Surah Al-Fatihah", "reference": "See Quran section of this app" },
+    { "label": "Surah Al-Ikhlas", "reference": "See Quran section of this app" }
+  ]
+}

@@ -1,0 +1,421 @@
+openapi: 3.0.3
+info:
+  title: New Muslim Companion API
+  version: "0.1.0"
+  description: |
+    REST API for the New Muslim Companion backend. The client app is
+    offline-first; this API is an optional layer for account-based sync,
+    content updates, and (in a future phase) the CMS admin portal.
+
+    Every path carries an `x-status` extension:
+      * `implemented` — a real Laravel controller + Pest tests exist for this
+        in the Foundation Package.
+      * `planned` — documented here as the intended contract, but no
+        controller exists yet. This lets client and server work stay
+        consistent as these are built out later.
+servers:
+  - url: http://127.0.0.1:8000/api/v1
+    description: Local development
+security:
+  - bearerAuth: []
+tags:
+  - name: Auth
+  - name: Learning
+  - name: Duas
+  - name: Quran
+  - name: Hadith
+  - name: Community
+  - name: Journal
+  - name: Content Sync
+  - name: Admin (CMS)
+
+paths:
+  /auth/register:
+    post:
+      tags: [Auth]
+      x-status: implemented
+      summary: Register a new account
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [name, email, password, password_confirmation]
+              properties:
+                name: { type: string, example: "Amina" }
+                email: { type: string, format: email }
+                password: { type: string, format: password, minLength: 8 }
+                password_confirmation: { type: string, format: password }
+                background_type:
+                  type: string
+                  enum: [raised_muslim, revert, exploring, other]
+      responses:
+        "201":
+          description: Account created, bearer token issued
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AuthTokenResponse"
+        "422":
+          $ref: "#/components/responses/ValidationError"
+
+  /auth/login:
+    post:
+      tags: [Auth]
+      x-status: implemented
+      summary: Log in with email and password
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email: { type: string, format: email }
+                password: { type: string, format: password }
+      responses:
+        "200":
+          description: Bearer token issued
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AuthTokenResponse"
+        "422":
+          $ref: "#/components/responses/ValidationError"
+
+  /auth/logout:
+    post:
+      tags: [Auth]
+      x-status: implemented
+      summary: Revoke the current access token
+      responses:
+        "204": { description: Token revoked }
+
+  /auth/me:
+    get:
+      tags: [Auth]
+      x-status: implemented
+      summary: Get the authenticated user's profile
+      responses:
+        "200":
+          description: Current user
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data: { $ref: "#/components/schemas/User" }
+
+  /learning-stages:
+    get:
+      tags: [Learning]
+      x-status: implemented
+      summary: List all learning stages with nested lesson summaries
+      security: []
+      responses:
+        "200":
+          description: Ordered list of stages
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: "#/components/schemas/LearningStage" }
+
+  /learning-stages/{slug}/lessons:
+    get:
+      tags: [Learning]
+      x-status: implemented
+      summary: List lessons for a given stage
+      security: []
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          schema: { type: string }
+          example: welcome-to-islam
+      responses:
+        "200":
+          description: Lessons for the stage
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: "#/components/schemas/LessonSummary" }
+        "404":
+          description: Stage not found
+
+  /lessons/{id}:
+    get:
+      tags: [Learning]
+      x-status: implemented
+      summary: Get full lesson detail including structured body content
+      security: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Lesson detail
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data: { $ref: "#/components/schemas/Lesson" }
+        "404":
+          description: Lesson not found
+
+  /lessons/{id}/progress:
+    post:
+      tags: [Learning]
+      x-status: planned
+      summary: Mirror client-side lesson completion server-side (for future sync)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [status]
+              properties:
+                status: { type: string, enum: [in_progress, completed] }
+      responses:
+        "200": { description: Progress recorded }
+
+  /duas/daily:
+    get:
+      tags: [Duas]
+      x-status: implemented
+      summary: Get today's featured dua (deterministic day-of-year rotation)
+      security: []
+      responses:
+        "200":
+          description: Today's dua
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data: { $ref: "#/components/schemas/Dua" }
+
+  /duas:
+    get:
+      tags: [Duas]
+      x-status: planned
+      summary: List duas, optionally filtered by category
+      security: []
+      parameters:
+        - name: category
+          in: query
+          schema: { type: string }
+      responses:
+        "200": { description: List of duas }
+
+  /quran/surahs:
+    get:
+      tags: [Quran]
+      x-status: planned
+      summary: List all surahs
+      security: []
+      responses:
+        "200": { description: List of surahs }
+
+  /quran/surahs/{number}/ayahs:
+    get:
+      tags: [Quran]
+      x-status: planned
+      summary: Get ayahs for a surah, with translation and tafsir
+      security: []
+      parameters:
+        - name: number
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1, maximum: 114 }
+      responses:
+        "200": { description: Ayahs for the surah }
+
+  /hadith/collections:
+    get:
+      tags: [Hadith]
+      x-status: planned
+      summary: List hadith collections
+      security: []
+      responses:
+        "200": { description: List of collections }
+
+  /hadith/collections/{slug}/hadiths:
+    get:
+      tags: [Hadith]
+      x-status: planned
+      summary: List hadiths in a collection
+      security: []
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        "200": { description: Hadiths in the collection }
+
+  /community/places:
+    get:
+      tags: [Community]
+      x-status: planned
+      summary: Find nearby mosques, musallas, halal shops, etc.
+      security: []
+      parameters:
+        - name: lat
+          in: query
+          schema: { type: number }
+        - name: lng
+          in: query
+          schema: { type: number }
+        - name: radius_km
+          in: query
+          schema: { type: number, default: 10 }
+        - name: type
+          in: query
+          schema:
+            type: string
+            enum: [mosque, halal_restaurant, halal_shop, islamic_center]
+      responses:
+        "200": { description: Nearby places }
+
+  /journal:
+    get:
+      tags: [Journal]
+      x-status: planned
+      summary: List the authenticated user's journal entries
+      responses:
+        "200": { description: Journal entries }
+    post:
+      tags: [Journal]
+      x-status: planned
+      summary: Create a journal entry
+      responses:
+        "201": { description: Entry created }
+
+  /content/manifest:
+    get:
+      tags: [Content Sync]
+      x-status: planned
+      summary: Per-content-type version/checksum manifest for delta sync
+      security: []
+      description: |
+        See docs/architecture/content-sync-and-versioning.md — the sync
+        engine that consumes this is not implemented yet.
+      responses:
+        "200": { description: Manifest of content versions }
+
+  /admin/lessons:
+    get:
+      tags: [Admin (CMS)]
+      x-status: planned
+      summary: (CMS) List/manage lessons for editing and approval
+      responses:
+        "200": { description: Lessons for admin editing }
+    post:
+      tags: [Admin (CMS)]
+      x-status: planned
+      summary: (CMS) Create a new lesson draft
+      responses:
+        "201": { description: Draft created }
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      description: Laravel Sanctum personal access token
+  responses:
+    ValidationError:
+      description: Validation failed
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message: { type: string }
+              errors:
+                type: object
+                additionalProperties:
+                  type: array
+                  items: { type: string }
+  schemas:
+    User:
+      type: object
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        email: { type: string }
+        background_type:
+          type: string
+          enum: [raised_muslim, revert, exploring, other]
+        locale: { type: string }
+    AuthTokenResponse:
+      type: object
+      properties:
+        data:
+          type: object
+          properties:
+            user: { $ref: "#/components/schemas/User" }
+            token: { type: string, example: "1|abcdef123456..." }
+    LearningStage:
+      type: object
+      properties:
+        id: { type: integer }
+        slug: { type: string }
+        order: { type: integer }
+        title: { type: string }
+        description: { type: string }
+        icon: { type: string }
+        lessons:
+          type: array
+          items: { $ref: "#/components/schemas/LessonSummary" }
+    LessonSummary:
+      type: object
+      properties:
+        id: { type: integer }
+        slug: { type: string }
+        order: { type: integer }
+        title: { type: string }
+        summary: { type: string }
+        estimated_minutes: { type: integer }
+    Lesson:
+      allOf:
+        - $ref: "#/components/schemas/LessonSummary"
+        - type: object
+          properties:
+            body:
+              type: array
+              description: Structured content blocks
+              items:
+                type: object
+                properties:
+                  type: { type: string, enum: [heading, text, quote, image] }
+                  text: { type: string }
+                  arabic: { type: string }
+                  translation: { type: string }
+                  reference: { type: string }
+    Dua:
+      type: object
+      properties:
+        id: { type: integer }
+        title: { type: string }
+        arabic_text: { type: string }
+        transliteration: { type: string }
+        translation: { type: string }
+        reference: { type: string }
+        category: { type: string }

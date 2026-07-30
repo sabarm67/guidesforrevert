@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://newmuslimcompanion.app/schema/dua.schema.json",
+  "title": "Dua",
+  "type": "object",
+  "required": ["category_slug", "title", "arabic_text", "transliteration", "translation", "reference"],
+  "properties": {
+    "category_slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "arabic_text": { "type": "string" },
+    "transliteration": { "type": "string" },
+    "translation": { "type": "string" },
+    "reference": { "type": "string" },
+    "authenticity": { "type": "string", "enum": ["quran", "sahih", "hasan"] },
+    "benefits": { "type": "string" },
+    "is_daily_featured": { "type": "boolean", "default": false },
+    "order": { "type": "integer", "minimum": 1 }
+  }
+}

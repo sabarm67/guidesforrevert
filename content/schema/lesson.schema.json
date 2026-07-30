@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://newmuslimcompanion.app/schema/lesson.schema.json",
+  "title": "Lesson",
+  "type": "object",
+  "required": ["slug", "stage_slug", "order", "title", "summary", "estimated_minutes", "body"],
+  "properties": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "stage_slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "order": { "type": "integer", "minimum": 1 },
+    "title": { "type": "string" },
+    "summary": { "type": "string" },
+    "estimated_minutes": { "type": "integer", "minimum": 1 },
+    "need_to_know": { "type": "boolean", "default": true, "description": "true = essential practice, false = good-to-know/deeper study" },
+    "body": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["type"],
+        "properties": {
+          "type": { "type": "string", "enum": ["heading", "text", "quote", "image", "reflection", "faq"] },
+          "text": { "type": "string" },
+          "arabic": { "type": "string" },
+          "transliteration": { "type": "string" },
+          "translation": { "type": "string" },
+          "reference": { "type": "string" },
+          "image_ref": { "type": "string" },
+          "question": { "type": "string" },
+          "answer": { "type": "string" }
+        }
+      }
+    },
+    "further_reading": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "reference": { "type": "string" }
+        }
+      }
+    }
+  }
+}

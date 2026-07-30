@@ -1,0 +1,67 @@
+{
+  "color": {
+    "primary": "#2E7D5B",
+    "primaryContainer": "#D7EEE1",
+    "onPrimaryContainer": "#0B3B26",
+    "secondary": "#D4A24C",
+    "secondaryContainer": "#F6E6C8",
+    "onSecondaryContainer": "#4A3610",
+    "background": "#FBF8F3",
+    "surface": "#FFFFFF",
+    "surfaceVariant": "#F1ECE1",
+    "error": "#B3261E",
+    "errorContainer": "#F9DEDC",
+    "onPrimary": "#FFFFFF",
+    "onSecondary": "#3A2B0A",
+    "onSurface": "#1B1B18",
+    "onError": "#FFFFFF",
+    "textPrimary": "#1B1B18",
+    "textSecondary": "#5C5C55",
+    "outline": "#D8D2C4",
+    "success": "#2E7D5B",
+    "info": "#3E6B8A"
+  },
+  "dark": {
+    "primary": "#8FD4B3",
+    "primaryContainer": "#0F4A32",
+    "onPrimaryContainer": "#D7EEE1",
+    "secondary": "#E8C077",
+    "secondaryContainer": "#5A4415",
+    "onSecondaryContainer": "#F6E6C8",
+    "background": "#15170F",
+    "surface": "#1E2018",
+    "surfaceVariant": "#2A2C21",
+    "error": "#F2B8B5",
+    "errorContainer": "#8C1D18",
+    "onPrimary": "#0B3B26",
+    "onSecondary": "#3A2B0A",
+    "onSurface": "#EAE8DD",
+    "onError": "#601410",
+    "textPrimary": "#EAE8DD",
+    "textSecondary": "#C7C4B6",
+    "outline": "#4A4C40"
+  },
+  "typography": {
+    "fontFamilyLatin": "Inter",
+    "fontFamilyArabic": "AmiriQuran",
+    "scale": {
+      "displayLarge": 32,
+      "titleLarge": 22,
+      "titleMedium": 18,
+      "bodyLarge": 16,
+      "bodyMedium": 14,
+      "labelSmall": 12,
+      "arabicBody": 24,
+      "arabicAyah": 28
+    },
+    "lineHeight": {
+      "tight": 1.2,
+      "normal": 1.5,
+      "relaxed": 1.8
+    }
+  },
+  "spacing": { "xs": 4, "sm": 8, "md": 16, "lg": 24, "xl": 32, "xxl": 48 },
+  "radius": { "card": 16, "pill": 24, "sheet": 28, "chip": 12 },
+  "elevation": { "card": 1, "modal": 4, "nav": 2 },
+  "breakpoints": { "compact": 0, "medium": 600, "expanded": 840 }
+}

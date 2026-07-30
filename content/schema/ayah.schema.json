@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://newmuslimcompanion.app/schema/ayah.schema.json",
+  "title": "Surah with Ayahs",
+  "type": "object",
+  "required": ["number", "name_arabic", "name_english", "name_transliteration", "revelation_type", "ayahs"],
+  "properties": {
+    "number": { "type": "integer", "minimum": 1, "maximum": 114 },
+    "name_arabic": { "type": "string" },
+    "name_english": { "type": "string" },
+    "name_transliteration": { "type": "string" },
+    "revelation_type": { "type": "string", "enum": ["meccan", "medinan"] },
+    "beginner_intro": { "type": "string", "description": "Short beginner-friendly context for this surah" },
+    "ayahs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["number_in_surah", "arabic_text", "translations"],
+        "properties": {
+          "number_in_surah": { "type": "integer", "minimum": 1 },
+          "juz": { "type": "integer" },
+          "page": { "type": "integer" },
+          "arabic_text": { "type": "string" },
+          "translations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["translator", "text"],
+              "properties": {
+                "translator": { "type": "string" },
+                "text": { "type": "string" }
+              }
+            }
+          },
+          "tafsirs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["source", "text_summary"],
+              "properties": {
+                "source": { "type": "string", "enum": ["ibn_kathir", "al_sadi"] },
+                "text_summary": { "type": "string" }
+              }
+            }
+          },
+          "words": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["position", "arabic_word", "transliteration", "translation"],
+              "properties": {
+                "position": { "type": "integer", "minimum": 1 },
+                "arabic_word": { "type": "string" },
+                "transliteration": { "type": "string" },
+                "translation": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
