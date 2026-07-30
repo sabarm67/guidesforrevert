@@ -1,36 +1,50 @@
-# Backend (Laravel)
-backend/vendor/
-backend/node_modules/
-backend/.env
-backend/.env.backup
-backend/database/database.sqlite
-backend/storage/*.key
-backend/storage/framework/cache/data/*
-backend/storage/framework/sessions/*
-backend/storage/framework/views/*
-backend/storage/logs/*.log
-backend/bootstrap/cache/*.php
-backend/public/hot
-backend/public/storage
-backend/.phpunit.result.cache
+# Backend (Laravel, at repo root)
+/vendor
+/node_modules
+.env
+.env.backup
+.env.production
+database/database.sqlite
+storage/*.key
+storage/pail
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*.log
+bootstrap/cache/*.php
+/public/build
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+.phpunit.result.cache
+/.phpunit.cache
+.phpactor.json
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+/auth.json
+/.codex
+/.cursor/
+/.nova
+/.zed
 
-# Flutter app
-app/.dart_tool/
-app/.flutter-plugins
-app/.flutter-plugins-dependencies
-app/.packages
-app/.pub-cache/
-app/.pub/
-app/build/
-app/**/generated_plugin_registrant.dart
-app/*.g.dart
-app/*.drift.dart
-app/ios/Pods/
-app/ios/.symlinks/
-app/android/.gradle/
-app/android/local.properties
-app/web/sqlite3.wasm
-app/web/drift_worker.js
+# Frontend (Flutter)
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/**/generated_plugin_registrant.dart
+frontend/*.g.dart
+frontend/*.drift.dart
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/web/sqlite3.wasm
+frontend/web/drift_worker.js
 
 # Editors / OS
 .vscode/

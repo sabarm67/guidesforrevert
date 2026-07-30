@@ -20,7 +20,7 @@ class DuaSeeder extends Seeder
 
     public function run(): void
     {
-        $seedPath = base_path('../content/seed');
+        $seedPath = base_path('content/seed');
         $duas = json_decode(File::get("{$seedPath}/duas.json"), true);
 
         $categoryOrder = [];

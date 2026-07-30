@@ -53,7 +53,7 @@ regardless of match confidence.
 
 ## Matching algorithm (pure Dart, no ML model, no network)
 
-Implemented in `app/lib/features/ai_mentor/ai_mentor_matcher.dart`, with zero
+Implemented in `frontend/lib/features/ai_mentor/ai_mentor_matcher.dart`, with zero
 Flutter/widget dependency so it is directly unit-testable.
 
 1. **Normalize** the user's typed question: lowercase, strip punctuation,

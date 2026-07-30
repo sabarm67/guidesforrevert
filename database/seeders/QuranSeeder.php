@@ -14,7 +14,7 @@ class QuranSeeder extends Seeder
 {
     public function run(): void
     {
-        $seedPath = base_path('../content/seed');
+        $seedPath = base_path('content/seed');
         $surahFiles = File::glob("{$seedPath}/quran/*.json");
 
         foreach ($surahFiles as $file) {

@@ -48,19 +48,19 @@ flowchart LR
 Islamic content shipped in this phase (learning stages/lessons, dua library,
 Quran surahs/ayahs, Hadith, AI mentor FAQ). It is consumed two ways:
 
-- **Backend**: Laravel database seeders read these files directly (backend/
-  and content/ are sibling directories) and load them into the relational
-  schema described in [`er-diagram.md`](er-diagram.md).
+- **Backend**: Laravel database seeders read these files directly (Laravel
+  lives at the repo root and `content/` is a sibling directory) and load
+  them into the relational schema described in [`er-diagram.md`](er-diagram.md).
 - **Client**: `scripts/sync-content.ps1` / `.sh` copies the same JSON files
-  into `app/assets/content/` so they can be declared as Flutter assets and
-  bundled into every platform build. On first app launch, `SeedImporter`
+  into `frontend/assets/content/` so they can be declared as Flutter assets
+  and bundled into every platform build. On first app launch, `SeedImporter`
   imports them into the local Drift database.
 
 This means the schema the backend seeds and the schema the client imports are
 defined by the same files — there is one content model, not two that could
 drift apart.
 
-### 2. Client layer (`app/`)
+### 2. Client layer (`frontend/`)
 
 Flutter app, single codebase for all six targets. See
 [`../design-system/design-tokens.md`](../design-system/design-tokens.md) for
@@ -69,9 +69,12 @@ choices (Riverpod, Drift, go_router, adhan_dart). The client is the
 system's source of truth for a given device's state while offline; sync (when
 enabled) reconciles it with the server.
 
-### 3. Server layer (`backend/`)
+### 3. Server layer (repo root)
 
-Laravel 13 REST API. Authentication via Laravel Sanctum (bearer tokens — not
+Laravel 13 REST API, living at the **repo root** (not a subfolder) so that
+Forge's default deployment flow — which runs `composer install` at the
+release root — works with no custom path configuration. Authentication via
+Laravel Sanctum (bearer tokens — not
 cookie/session auth — so the same auth flow works identically across mobile,
 desktop and web clients). Role-based access (`spatie/laravel-permission`) for
 the future CMS/admin portal, where scholars and administrators will manage
@@ -98,7 +101,7 @@ background download manager are not implemented yet.
 | Directory | Layer |
 |---|---|
 | `content/` | Canonical content, shared by both layers |
-| `backend/` | Server (Laravel API) |
-| `app/` | Client (Flutter) |
+| repo root (`app/`, `routes/`, `config/`, etc.) | Server (Laravel API) |
+| `frontend/` | Client (Flutter) |
 | `docs/` | Cross-cutting documentation |
-| `scripts/` | Dev tooling gluing content/ to app/ |
+| `scripts/` | Dev tooling gluing content/ to frontend/ |

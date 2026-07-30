@@ -28,8 +28,11 @@ docs/            Architecture, ERD, API contract, design system, AI mentor
                  design, testing plan, dev setup guide
 content/         Canonical seed content (JSON) + JSON Schemas, shared by
                  backend seeders and the Flutter app's offline database
-backend/         Laravel 13 REST API (Sanctum auth, MariaDB/PostgreSQL/SQLite)
-app/             Flutter app (Android, iOS, Windows, macOS, Linux, Web/PWA)
+(repo root)      Laravel 13 REST API (Sanctum auth, MariaDB/PostgreSQL/SQLite)
+                 — lives at the root, not a subfolder, so Forge-style
+                 deployment ("composer install" at the release root) works
+                 with no custom configuration
+frontend/        Flutter app (Android, iOS, Windows, macOS, Linux, Web/PWA)
 scripts/         Dev scripts (e.g. syncing content/ into the Flutter app)
 ```
 

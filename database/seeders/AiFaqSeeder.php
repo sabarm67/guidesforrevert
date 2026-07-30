@@ -10,7 +10,7 @@ class AiFaqSeeder extends Seeder
 {
     public function run(): void
     {
-        $seedPath = base_path('../content/seed');
+        $seedPath = base_path('content/seed');
         $entries = json_decode(File::get("{$seedPath}/ai-mentor-faq.json"), true);
 
         foreach ($entries as $entry) {

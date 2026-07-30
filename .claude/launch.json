@@ -4,7 +4,7 @@
     {
       "name": "flutter-web-preview",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "app/build/web"],
+      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "frontend/build/web"],
       "port": 8765
     }
   ]

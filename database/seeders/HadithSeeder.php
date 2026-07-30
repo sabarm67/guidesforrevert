@@ -11,7 +11,7 @@ class HadithSeeder extends Seeder
 {
     public function run(): void
     {
-        $seedPath = base_path('../content/seed');
+        $seedPath = base_path('content/seed');
         $files = File::glob("{$seedPath}/hadith/*.json");
 
         foreach ($files as $file) {

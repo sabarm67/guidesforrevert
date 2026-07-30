@@ -2,7 +2,7 @@
 
 `design-tokens.json` in this folder is the canonical, machine-readable source
 of truth. This document explains the reasoning; the Flutter theme
-(`app/lib/theme/`) hardcodes these same values rather than deriving them
+(`frontend/lib/theme/`) hardcodes these same values rather than deriving them
 algorithmically, since the palette is hand-designed, not seed-generated.
 
 ## Visual direction
@@ -32,7 +32,7 @@ algorithmically, since the palette is hand-designed, not seed-generated.
 
 ## Critical offline-first constraint
 
-Font files **must** be bundled locally (`app/assets/fonts/*.ttf`, declared in
+Font files **must** be bundled locally (`frontend/assets/fonts/*.ttf`, declared in
 `pubspec.yaml`). Do **not** use the `google_fonts` package's default runtime
 behaviour, which fetches font files over the network on first use — that
 would silently break on a first launch with no connectivity, directly

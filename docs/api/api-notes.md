@@ -32,5 +32,5 @@ in the Foundation Package. Do not assume a `planned` path works.
 using `dayOfYear % count`. This is deterministic and stateless: the same
 calendar day always produces the same dua for every user, with no need to
 persist "which dua was shown today" anywhere. The Flutter client mirrors this
-exact calculation offline (see `app/lib/features/home/`) so the two never
+exact calculation offline (see `frontend/lib/features/home/`) so the two never
 disagree, whether or not the device is online.

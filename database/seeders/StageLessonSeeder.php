@@ -11,7 +11,7 @@ class StageLessonSeeder extends Seeder
 {
     public function run(): void
     {
-        $seedPath = base_path('../content/seed');
+        $seedPath = base_path('content/seed');
 
         $stages = json_decode(File::get("{$seedPath}/stages.json"), true);
 

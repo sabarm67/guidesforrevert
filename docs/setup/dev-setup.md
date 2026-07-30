@@ -6,11 +6,16 @@ it is a prerequisite step below.
 
 ## Backend (Laravel)
 
+Laravel lives at the **repo root** (composer.json, artisan, app/, public/
+etc. are all here directly) — not in a subfolder — so that deployment
+tools like Laravel Forge that run `composer install` at the release root
+work without any custom path configuration. The Flutter app lives
+alongside it in `frontend/`.
+
 Prerequisites already satisfied on this machine (PHP 8.2+ required by
 Laravel 13; 8.3.31 is installed).
 
 ```bash
-cd backend
 composer install
 copy .env.example .env
 php artisan key:generate
@@ -52,10 +57,10 @@ future step needing access to Mac hardware or a cloud Mac CI runner.
 ### 2. Sync content and install dependencies
 
 ```bash
-# from the repo root, populate app/assets/content/ from content/seed/
+# from the repo root, populate frontend/assets/content/ from content/seed/
 ./scripts/sync-content.sh    # or scripts/sync-content.ps1 on Windows
 
-cd app
+cd frontend
 flutter pub get
 dart run build_runner build --delete-conflicting-outputs   # generates Drift code
 flutter analyze
@@ -76,7 +81,7 @@ the app (or clear its local storage) to reset that flag.
 ### Flutter Web-specific note
 
 Drift's web backend needs `sqlite3.wasm` and `drift_worker.js` present under
-`app/web/`, matching the versions of the installed `sqlite3`/`drift`
+`frontend/web/`, matching the versions of the installed `sqlite3`/`drift`
 packages. These are not generated automatically by `flutter create` — see
 the Drift web platform documentation for the exact copy command to run
 after `flutter pub get`, and re-run it whenever the `drift`/`sqlite3`
@@ -89,5 +94,14 @@ for this phase. The backend seeders read it directly from the sibling
 `content/` folder (no copy needed). The Flutter app cannot reliably declare
 assets living outside its own project folder across all target platforms'
 build tooling, so `scripts/sync-content.ps1`/`.sh` copies the JSON into
-`app/assets/content/` — re-run this script any time `content/seed/` changes
-and before running/building the Flutter app.
+`frontend/assets/content/` — re-run this script any time `content/seed/`
+changes and before running/building the Flutter app.
+
+## Production deployment (Laravel Forge)
+
+Because Laravel lives at the repo root, Forge's default Zero-Downtime
+Deployment flow works with **no custom Web Directory setting** — it stays
+at the default `/public`. See [`../../scripts/forge-deploy.sh`](../../scripts/forge-deploy.sh)
+for the deploy script to paste into the Forge site's "Deployment Script"
+field (based on the same working pattern used by the sibling Hafazan
+project).

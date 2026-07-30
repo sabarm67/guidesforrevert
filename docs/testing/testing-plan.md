@@ -4,9 +4,9 @@
 
 | Layer | What's tested | Location |
 |---|---|---|
-| Feature tests | One per implemented endpoint: register, login, logout, me, learning-stages index, lessons-by-stage, lesson detail, today's-dua | `backend/tests/Feature/` |
-| Determinism test | `duas/daily` returns the same dua for two calls on the same date, and can differ across two different dates (test by freezing/travelling time, e.g. `Carbon::setTestNow`) | `backend/tests/Feature/DuaDailyTest.php` |
-| Unit tests | Any non-trivial logic extracted out of controllers (e.g. the daily-dua rotation calculation, in its own small service class so it's testable without an HTTP round-trip) | `backend/tests/Unit/` |
+| Feature tests | One per implemented endpoint: register, login, logout, me, learning-stages index, lessons-by-stage, lesson detail, today's-dua | `tests/Feature/` |
+| Determinism test | `duas/daily` returns the same dua for two calls on the same date, and can differ across two different dates (test by freezing/travelling time, e.g. `Carbon::setTestNow`) | `tests/Feature/DuaDailyTest.php` |
+| Unit tests | Any non-trivial logic extracted out of controllers (e.g. the daily-dua rotation calculation, in its own small service class so it's testable without an HTTP round-trip) | `tests/Unit/` |
 
 Run everything: `php artisan test` (aliased as `composer test`), using
 standard PHPUnit — Laravel 13's own default test setup. **Note:** the plan
@@ -21,10 +21,10 @@ factories for fixtures.
 
 | Layer | What's tested | Location |
 |---|---|---|
-| Unit tests | `ai_mentor_matcher.dart` scoring logic — the most important thing to get right and the cheapest to test thoroughly, since it's pure Dart with no widget dependency | `app/test/features/ai_mentor/` |
-| Unit tests | `SeedImporter` — imports once, does not duplicate rows on a second run (idempotency) | `app/test/core/db/` |
-| Widget tests | Onboarding screen (answering the background question persists it); lesson-detail screen's "Mark Complete" flow | `app/test/features/onboarding/`, `app/test/features/learning/` |
-| End-to-end vertical slice | launch app → answer onboarding → open Stage 1 Lesson 1 → mark complete → verify Home dashboard reflects it as the current stage/continue point → verify a prayer-times card renders a non-null time for a fixed test location | `app/test/vertical_slice_test.dart` |
+| Unit tests | `ai_mentor_matcher.dart` scoring logic — the most important thing to get right and the cheapest to test thoroughly, since it's pure Dart with no widget dependency | `frontend/test/features/ai_mentor/` |
+| Unit tests | `SeedImporter` — imports once, does not duplicate rows on a second run (idempotency) | `frontend/test/core/db/` |
+| Widget tests | Onboarding screen (answering the background question persists it); lesson-detail screen's "Mark Complete" flow | `frontend/test/features/onboarding/`, `frontend/test/features/learning/` |
+| End-to-end vertical slice | launch app → answer onboarding → open Stage 1 Lesson 1 → mark complete → verify Home dashboard reflects it as the current stage/continue point → verify a prayer-times card renders a non-null time for a fixed test location | `frontend/test/vertical_slice_test.dart` |
 
 Run everything: `flutter test`.
 
