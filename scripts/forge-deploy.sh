@@ -47,6 +47,17 @@ $FORGE_PHP artisan migrate --force
 # after this point does `current` get repointed at it:
 $ACTIVATE_RELEASE()
 
+# PHP-FPM workers cache their resolution of the `current` symlink (via
+# PHP's realpath_cache) for the lifetime of the worker process — activating
+# a release repoints the symlink, but already-running workers keep serving
+# whichever release they resolved it to at their last cache refresh. In
+# practice this meant a `php artisan db:seed` run via SSH (a fresh process,
+# resolves the symlink fresh) was immediately visible to `artisan tinker`
+# but NOT to live web requests until this reload ran. Reload (not restart)
+# so in-flight requests finish against the old code first.
+( flock -w 10 9 || exit 1
+    echo 'Reloading PHP-FPM...'; sudo -S service "$FORGE_PHP_FPM" reload ) 9>/tmp/fpmlock
+
 # Queue workers/Horizon keep running on the old code until restarted —
 # do this after activation so they pick up the new release.
 $RESTART_QUEUES()
