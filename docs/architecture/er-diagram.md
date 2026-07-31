@@ -248,7 +248,7 @@ erDiagram
 | Table | Status |
 |---|---|
 | `users`, `roles`, `permissions` (+ pivot tables) | **Implemented** — spatie/laravel-permission standard tables, published via Laravel's vendor:publish |
-| `learning_stages`, `lessons`, `lesson_progress` | **Implemented + seeded** (4 Stage 1 lessons) |
+| `learning_stages`, `lessons`, `lesson_progress` | **Implemented + seeded** (4 Stage 1 lessons + 5 Stage 2 lessons) |
 | `quizzes`, `quiz_questions`, `quiz_choices`, `quiz_attempts` | **Schema only** — migrations exist, no seed data or endpoints yet |
 | `dua_categories`, `duas` | **Implemented + seeded** (~5 duas) |
 | `surahs`, `ayahs`, `ayah_translations`, `ayah_tafsirs`, `ayah_words` | **Implemented + seeded** (Al-Fatihah, Al-Ikhlas; word-by-word only for Al-Fatihah ayah 1) |

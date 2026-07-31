@@ -1,0 +1,62 @@
+{
+  "slug": "cleanliness-and-purity",
+  "stage_slug": "your-first-week",
+  "order": 1,
+  "title": "Cleanliness and Purity (Taharah)",
+  "summary": "Why Islam treats physical cleanliness as spiritually important, and the basic categories of purity you'll meet this week.",
+  "estimated_minutes": 6,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Cleanliness is not just hygiene — it's worship"
+    },
+    {
+      "type": "text",
+      "text": "In many traditions, washing is just about health. In Islam, it's that too, but it's also treated as an act of worship in its own right. Before the five daily prayers, before touching the Quran, before entering a state of readiness to stand before God, a Muslim performs a specific kind of cleansing called Taharah (purity). This lesson introduces the idea; the next lesson walks through Wudu (ablution) step by step."
+    },
+    {
+      "type": "heading",
+      "text": "Two kinds of purity"
+    },
+    {
+      "type": "text",
+      "text": "Islamic teaching distinguishes between two things that need addressing separately: najasah (physical impurity — actual dirt or filth on the body, clothes, or place of prayer, like blood or waste) and hadath (a ritual state that calls for purification, even if you're not visibly dirty). Hadath itself has two levels: a \"minor\" state removed by Wudu (e.g. after using the toilet, sleeping, or passing wind), and a \"major\" state removed by Ghusl, a full-body wash (e.g. after intimate relations, or for women, after the end of a menstrual period). Ghusl isn't covered in detail in this lesson — the key idea for now is just that these are two different, addressable states, not a permanent judgment on a person's worth."
+    },
+    {
+      "type": "quote",
+      "arabic": "إِنَّ اللَّهَ يُحِبُّ التَّوَّابِينَ وَيُحِبُّ الْمُتَطَهِّرِينَ",
+      "translation": "Indeed, Allah loves those who repent and loves those who purify themselves.",
+      "reference": "Quran 2:222 (Saheeh International)"
+    },
+    {
+      "type": "text",
+      "text": "Notice how this verse pairs spiritual repentance with physical purification in the same breath — that pairing is exactly the mindset this whole topic is built around. Outward cleanliness and inward sincerity are treated as connected, not separate boxes to tick."
+    },
+    {
+      "type": "heading",
+      "text": "Why this comes before Wudu and Salah"
+    },
+    {
+      "type": "text",
+      "text": "It can feel like a lot of rules to learn all at once in your first week. The reason this app introduces purity before Wudu, and Wudu before Salah, is that each step genuinely depends on the one before it: you can't validly pray without Wudu, and you can't validly do Wudu if you're dealing with a physical impurity that needs addressing first. Taking it in this order — rather than jumping straight to \"how do I pray\" — makes each later step make more sense."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need special clothes or a prayer mat to be clean enough to pray?",
+      "answer": "No specific clothing brand or mat is required — the requirement is that your body, clothes, and the immediate place you pray on are free of physical impurity, and that your clothing covers what's required modestly. A clean towel, sheet, or even a clean patch of floor is enough; a prayer mat is a common convenience, not a requirement."
+    },
+    {
+      "type": "faq",
+      "question": "What if I don't have access to clean water?",
+      "answer": "Islamic teaching includes a provision called Tayammum — a dry purification using clean sand or dust — for situations where water is genuinely unavailable or would cause harm (e.g. illness). This is a real accommodation built into the practice, not a loophole; it's covered in more depth in a future lesson."
+    },
+    {
+      "type": "reflection",
+      "question": "Before this lesson, would you have guessed that physical cleanliness and spiritual sincerity were treated as connected in Islam? Does linking them change how you think about something as ordinary as washing your hands?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Learning Wudu", "reference": "See Stage 2, next lesson" }
+  ]
+}
