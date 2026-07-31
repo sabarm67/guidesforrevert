@@ -34,7 +34,7 @@ flowchart LR
 
   subgraph Server["Laravel Backend"]
     LaravelAPI["REST API v1"] --> AppDB[("MariaDB / PostgreSQL")]
-    CMS["CMS Admin Portal\n(future phase)"] --> LaravelAPI
+    CMS["CMS Admin Portal\n(Filament, /admin)"] --> AppDB
   end
 
   ContentSeed["content/seed/*.json\n(canonical source)"] --> AppDB
@@ -76,17 +76,38 @@ Forge's default deployment flow — which runs `composer install` at the
 release root — works with no custom path configuration. Authentication via
 Laravel Sanctum (bearer tokens — not
 cookie/session auth — so the same auth flow works identically across mobile,
-desktop and web clients). Role-based access (`spatie/laravel-permission`) for
-the future CMS/admin portal, where scholars and administrators will manage
-content, review analytics, and manage the mosque/halal directories.
+desktop and web clients).
 
 In this phase the API implements: auth (register/login/logout/me),
 learning-stage and lesson read endpoints, and a deterministic "today's dua"
 endpoint. All other domain endpoints (Quran, Hadith, community directory,
-journal, content-version manifest, full CMS CRUD) are specified in
+journal, content-version manifest) are specified in
 [`../api/openapi.yaml`](../api/openapi.yaml) tagged `x-status: planned` —
 the contract exists so client and server work stays consistent as those are
 built out, but no controller code exists for them yet.
+
+### CMS admin portal (`/admin`, Filament)
+
+A separate, session-authenticated web panel (Filament v3) for scholars and
+content editors, gated by `spatie/laravel-permission` roles (`admin`,
+`scholar_reviewer`, `content_editor` — any of the three grants full access;
+finer per-action permissions are future work). Covers CRUD for the core
+content types seeded in this phase: learning stages, lessons (structured
+body blocks via a Filament Builder field, including image uploads), dua
+categories/duas (with audio upload), Quran surahs and ayahs (with nested
+translation/tafsir management), hadith collections/hadiths, and AI mentor
+FAQ entries. Not yet covered: mosque/halal directory management,
+notification template management, analytics, and content
+versioning/approval workflow.
+
+Ayahs are a **top-level resource** (`/admin/ayahs`), not a Filament relation
+manager nested under Surahs — a nested relation manager here hit a
+reproducible Filament 3.3.54/Laravel 13.23 hydration bug (the relation
+manager's `$table` typed property was unset on the second, deferred-load
+request, specific to nesting a nested Livewire table component two levels
+deep). Every other resource in this app works without issue; only that
+specific nesting pattern triggered it. Revisit if a future Filament/Laravel
+version fixes it upstream.
 
 ### 4. Sync layer (future work)
 

@@ -16,6 +16,8 @@ bootstrap/cache/*.php
 /public/hot
 /public/storage
 /public/fonts-manifest.dev.json
+/public/css/filament
+/public/js/filament
 .phpunit.result.cache
 /.phpunit.cache
 .phpactor.json

@@ -12,11 +12,13 @@ install.
 
 This repository currently contains the **Foundation Package**: system
 architecture, database schema/ERD, API contract, design system, seed content,
-a working Laravel backend, and a working Flutter vertical slice (onboarding →
-first lesson → home dashboard with prayer times → on-device AI mentor).
+a working Laravel backend with a Filament CMS admin portal (`/admin`) for
+managing core content, and a working Flutter vertical slice (onboarding →
+first lesson → home dashboard with prayer times → on-device AI mentor). It's
+deployed and live at `guides.rcaquacycle.com`.
 
-The full product scope (complete content libraries, CMS admin UI, full prayer
-module, community directory, notifications, biometric security, app-store
+The full product scope (complete content libraries, full prayer module,
+community/mosque directory, notifications, biometric security, app-store
 deployment, etc.) is tracked as future work — see
 [`docs/architecture/system-architecture.md`](docs/architecture/system-architecture.md)
 for what's implemented vs. planned.

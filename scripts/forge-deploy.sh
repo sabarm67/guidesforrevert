@@ -43,6 +43,11 @@ $FORGE_PHP artisan optimize
 $FORGE_PHP artisan storage:link
 $FORGE_PHP artisan migrate --force
 
+# Filament's CSS/JS assets (public/css/filament, public/js/filament) are
+# vendor-derived build artifacts and are gitignored rather than committed —
+# regenerate them fresh on every deploy instead.
+$FORGE_PHP artisan filament:assets
+
 # Everything above runs against the new release before it's live. Only
 # after this point does `current` get repointed at it:
 $ACTIVATE_RELEASE()

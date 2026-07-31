@@ -20,10 +20,16 @@ composer install
 copy .env.example .env
 php artisan key:generate
 php artisan install:api
+php artisan filament:assets
 php artisan migrate --seed
 php artisan test
 php artisan serve
 ```
+
+`filament:assets` publishes the CMS panel's CSS/JS into `public/css/filament`
+and `public/js/filament` — these are gitignored (vendor-derived build
+output), so run this once after `composer install` and again after
+upgrading Filament.
 
 - Local dev uses SQLite (`DB_CONNECTION=sqlite`) so no separate database
   server is required to start developing. Production targets MariaDB or
@@ -33,6 +39,26 @@ php artisan serve
   migrations (none are, in this schema).
 - Verify manually: `curl http://127.0.0.1:8000/api/v1/duas/daily` should
   return a JSON dua payload.
+
+## CMS admin portal (Filament, `/admin`)
+
+The CMS is a separate, session-authenticated Filament panel (not part of
+the Sanctum API). It has no seeded login by design — create your own admin
+user, then grant it one of the three panel-access roles (`admin`,
+`scholar_reviewer`, `content_editor` — `RoleSeeder`, part of `migrate --seed`
+above, creates the roles themselves):
+
+```bash
+php artisan make:filament-user
+php artisan tinker --execute="App\Models\User::where('email', 'YOUR_EMAIL')->first()->assignRole('admin');"
+```
+
+Then visit `/admin` and log in. Covers CRUD for learning stages, lessons
+(with a structured content-block builder, including image uploads), duas
+(with audio upload), Quran surahs/ayahs (with nested translations/tafsirs),
+hadith collections/hadiths, and AI mentor FAQ entries — see
+[`../architecture/system-architecture.md`](../architecture/system-architecture.md)
+for what's covered vs. future work.
 
 ## Flutter app
 
