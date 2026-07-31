@@ -1,0 +1,57 @@
+{
+  "slug": "understanding-madhhabs",
+  "stage_slug": "growing-in-knowledge",
+  "order": 4,
+  "title": "Understanding the Madhhabs (Schools of Thought)",
+  "summary": "What the four major Sunni schools of Islamic law are, why they exist, and why differences between them are normal rather than a sign something is wrong.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Why differences of opinion exist at all"
+    },
+    {
+      "type": "text",
+      "text": "New Muslims are sometimes unsettled to discover that trusted, knowledgeable Muslims can genuinely disagree on details of practice — how to hold your hands in prayer, specific fasting rulings, and more. This isn't disorganisation; it reflects that the Quran and hadith, while clear on core matters, require careful, reasoned interpretation (ijtihad) on many specific points, and early scholars, working carefully and sincerely, sometimes reached different conclusions using different methods and available evidence."
+    },
+    {
+      "type": "heading",
+      "text": "The four major Sunni madhhabs"
+    },
+    {
+      "type": "text",
+      "text": "A madhhab is a structured school of legal methodology, named after its founding scholar, followed and refined by generations of later scholars. The four that remain widely followed today are: Hanafi (founded by Imam Abu Hanifah, widespread in Turkey, South Asia, and Central Asia), Maliki (Imam Malik, widespread in North and West Africa), Shafi'i (Imam al-Shafi'i, widespread in East Africa and Southeast Asia), and Hanbali (Imam Ahmad ibn Hanbal, widespread in the Arabian Peninsula). Each represents a rigorous, internally consistent legal tradition, not a casual preference."
+    },
+    {
+      "type": "quote",
+      "translation": "So ask the people of knowledge if you do not know.",
+      "reference": "Quran 16:43 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "What this means practically for a new Muslim"
+    },
+    {
+      "type": "text",
+      "text": "You are not required to pick a madhhab on day one, or ever formally declare one. In practice, most people naturally lean toward whichever school is most common in their local mosque or community, since that's where they'll get consistent, practical guidance. What matters far more than which school you follow is finding a reliable local source of guidance at all, and not treating minor differences between schools (or between individuals following different schools) as evidence that one side is wrong or less legitimate."
+    },
+    {
+      "type": "faq",
+      "question": "If scholars disagree, how do I know which practice is \"correct\"?",
+      "answer": "On core matters — the Five Pillars, the six Articles of Faith, major prohibitions — there is no real disagreement across the schools. On secondary details, more than one position can be legitimately correct, in the sense that qualified scholars reached them through sound methodology; you're generally safe following any recognised madhhab's ruling on those points, ideally guided by a local, trustworthy teacher."
+    },
+    {
+      "type": "faq",
+      "question": "Are there Muslims who don't follow any of the four schools?",
+      "answer": "Yes — some Muslims (and some entire regions or movements) don't formally affiliate with a specific madhhab and instead follow scholars who draw directly and independently from the primary sources; there are also non-Sunni legal traditions, such as Ja'fari fiqh within Shia Islam. This app's Understanding Islam section covers Sunni/Shia distinctions separately."
+    },
+    {
+      "type": "reflection",
+      "question": "Has a difference in practice between Muslims you've met ever confused or worried you? Does knowing this background change how you see it?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Sunni and Shia: What's the Difference?", "reference": "See Understanding Islam section (future content)" }
+  ]
+}

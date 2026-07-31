@@ -1,0 +1,59 @@
+{
+  "slug": "dhikr-remembrance-of-allah",
+  "stage_slug": "building-daily-habits",
+  "order": 3,
+  "title": "Dhikr: Remembrance of Allah",
+  "summary": "Short phrases of remembrance that keep God present in ordinary moments, not just during formal prayer.",
+  "estimated_minutes": 5,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Keeping God present outside of Salah"
+    },
+    {
+      "type": "text",
+      "text": "Dhikr (literally \"remembrance\") is the practice of repeating short phrases that praise or acknowledge God, at any moment throughout the day — waiting in traffic, doing chores, or just sitting quietly. Where Salah is structured and time-bound, dhikr is meant to spread that same awareness across the rest of your day."
+    },
+    {
+      "type": "quote",
+      "arabic": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
+      "translation": "Verily, in the remembrance of Allah do hearts find rest.",
+      "reference": "Quran 13:28 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "A few simple phrases to start with"
+    },
+    {
+      "type": "text",
+      "text": "You've already met several of these in the Islamic Greetings lesson. As dhikr specifically, they're often repeated in short sets, commonly after each of the five prayers:\n\n• SubhanAllah (\"glory be to Allah\") — often repeated 33 times.\n• Alhamdulillah (\"praise be to Allah\") — often repeated 33 times.\n• Allahu Akbar (\"Allah is greatest\") — often repeated 34 times.\n• La ilaha illallah (\"there is no god but Allah\") — a direct restatement of Tawhid, usable any time.\n\nA set of prayer beads (misbaha/tasbih) is a common, optional aid for counting — your fingers work just as well, and there's no requirement to use beads."
+    },
+    {
+      "type": "heading",
+      "text": "Quality of attention matters more than speed"
+    },
+    {
+      "type": "text",
+      "text": "Dhikr said quickly without any thought behind it still counts as an act of remembrance, but the deeper benefit described in Islamic teaching comes from actually meaning the words as you say them — pausing, even briefly, on what \"glory be to Allah\" or \"Allah is greatest\" actually mean, rather than treating it purely as a repetition exercise."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need prayer beads (a tasbih) to do dhikr properly?",
+      "answer": "No — prayer beads are a common, helpful counting tool, not a requirement. Counting on your fingers, using a phone app, or not counting at all and just repeating a phrase for a while are all valid ways to practice dhikr."
+    },
+    {
+      "type": "faq",
+      "question": "Can dhikr be done silently, in my head?",
+      "answer": "Yes — dhikr can be spoken aloud, spoken quietly, or done silently in your mind, depending on the situation (for example, silently is often more practical in a public place). What matters is the sincerity and awareness behind it, not the volume."
+    },
+    {
+      "type": "reflection",
+      "question": "Pick one of the four phrases above and try saying it a handful of times today, ideally right after a prayer. Did it change how the rest of that moment felt?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Islamic Greetings", "reference": "See Stage 2" },
+    { "label": "Making Daily Prayers a Habit", "reference": "See Stage 3, previous lesson" }
+  ]
+}

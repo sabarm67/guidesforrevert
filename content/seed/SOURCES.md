@@ -49,18 +49,26 @@ authored with care but has not had that independent verification pass yet.
 
 ## Lessons
 
-- The Stage 1 and Stage 2 lessons in `content/seed/lessons/` are original
+- All 28 lessons across Stages 1-4 in `content/seed/lessons/` are original
   educational writing produced for this project, drawing on mainstream
   Sunni consensus positions. They are not a translation of any single
   external source, but the Quranic quotations within them follow the same
   Saheeh International sourcing note above, and any hadith quotations
-  (e.g. the Wudu, mosque-entry, and greeting hadiths in the Stage 2
-  lessons) follow the same commonly-published-English-wording caveat as
-  the An-Nawawi's 40 note above — cross-check exact wording against
-  sunnah.com before production use. Where a lesson describes a step-by-step
-  practice with minor variation between the Sunni schools of law (e.g.
-  Wudu's exact head-wiping method), the lesson says so explicitly rather
-  than presenting one madhhab's practice as the only valid one.
+  (e.g. the Wudu, mosque-entry, and greeting hadiths in Stage 2; the
+  dhikr, family, food, and charity hadiths in Stage 3; and the Seerah,
+  companions, and community hadiths in Stage 4) follow the same
+  commonly-published-English-wording caveat as the An-Nawawi's 40 note
+  above — cross-check exact wording against sunnah.com before production
+  use. Where a lesson describes a step-by-step practice with minor
+  variation between the Sunni schools of law (e.g. Wudu's exact
+  head-wiping method), or references genuinely disputed fiqh questions
+  (e.g. interfaith marriage in the Stage 4 marriage lesson), the lesson
+  says so explicitly and defers to a local imam rather than presenting one
+  view as the only valid one. The Stage 4 "Islamic History" and "Islamic
+  Civilisation" lessons summarise widely documented historical facts
+  (dates, dynasties, named scholars) rather than religious rulings, so
+  they carry lower sourcing risk but should still be spot-checked for
+  factual accuracy before production use.
 
 ## General principle for content going forward
 

@@ -1,0 +1,57 @@
+{
+  "slug": "charity-and-zakat",
+  "stage_slug": "building-daily-habits",
+  "order": 8,
+  "title": "Charity and Zakat",
+  "summary": "The difference between obligatory Zakat and voluntary Sadaqah, and why giving is treated as central to Islam rather than optional generosity.",
+  "estimated_minutes": 7,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Two kinds of giving"
+    },
+    {
+      "type": "text",
+      "text": "Zakat is one of the Five Pillars you met in Stage 1 — a specific, calculated, obligatory portion of a Muslim's savings and qualifying wealth given annually once it exceeds a minimum threshold (nisab). Sadaqah is different: any voluntary act of charity or kindness, of any amount, given at any time, with no threshold or calculation required. Both matter, but they work differently."
+    },
+    {
+      "type": "quote",
+      "translation": "The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills.",
+      "reference": "Quran 2:261 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Why charity is treated as central, not just kindness"
+    },
+    {
+      "type": "text",
+      "text": "Zakat is described in Islamic teaching as a purification of wealth, not just a donation — the Arabic root of the word is connected to growth and purification. The underlying idea is that wealth genuinely belongs to God, and a person holding it is a trustee expected to circulate a small portion of it back into the community, particularly to those in need. This is also why Zakat functioned historically, and still functions today, as a real social safety net woven directly into the practice of the religion rather than left to individual choice."
+    },
+    {
+      "type": "heading",
+      "text": "Sadaqah can be small, and doesn't have to be money"
+    },
+    {
+      "type": "text",
+      "text": "A well-known hadith broadens sadaqah remarkably far: a kind word, helping someone, even smiling at another person, is described as a form of charity. This matters especially early on — if Zakat's calculations feel distant or you're not yet in a financial position to give much, sadaqah in small, everyday forms is fully available to you right now, with no minimum at all."
+    },
+    {
+      "type": "faq",
+      "question": "How much is Zakat, exactly, and do I need to pay it right away as a new Muslim?",
+      "answer": "The standard rate is 2.5% of qualifying savings and wealth held for a full lunar year above the nisab threshold (roughly the value of a set amount of gold or silver, which moves with market prices) — it is not owed on income you spend as you earn it, only on wealth that accumulates. If you're not yet above that threshold, Zakat isn't currently due from you; this is a good, specific question to confirm with a local imam once your finances are more established, since the exact calculation can get detailed."
+    },
+    {
+      "type": "faq",
+      "question": "Can I give Sadaqah even if I can't afford much?",
+      "answer": "Yes — Sadaqah has no minimum amount, and Islamic teaching explicitly praises small, sincere giving alongside large giving, and even non-monetary acts like kindness or removing something harmful from a path. What matters is sincerity and consistency far more than size."
+    },
+    {
+      "type": "reflection",
+      "question": "Beyond money, what's one act of Sadaqah — a kind word, some help, a small favour — you could offer someone this week?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Five Pillars of Islam", "reference": "See Stage 1" }
+  ]
+}

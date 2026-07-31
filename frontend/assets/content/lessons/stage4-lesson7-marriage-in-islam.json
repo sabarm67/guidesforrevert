@@ -1,0 +1,57 @@
+{
+  "slug": "marriage-in-islam",
+  "stage_slug": "growing-in-knowledge",
+  "order": 7,
+  "title": "Marriage in Islam",
+  "summary": "The purpose and basic structure of marriage in Islamic teaching, and a few practical points new Muslims often want to know.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Marriage as tranquility, not just a legal contract"
+    },
+    {
+      "type": "text",
+      "text": "Marriage (nikah) in Islam is described in notably warm, emotional language, not merely as a legal or transactional arrangement. It's presented as a source of tranquility and companionship, built on love and mercy between spouses."
+    },
+    {
+      "type": "quote",
+      "translation": "And among His signs is that He created for you mates from among yourselves, that you may dwell in tranquility with them, and He has put love and mercy between your hearts.",
+      "reference": "Quran 30:21 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "The basic structure"
+    },
+    {
+      "type": "text",
+      "text": "An Islamic marriage requires, at minimum: the mutual consent of both spouses (forced marriage is not valid in Islamic law), a mahr — a mandatory gift from the groom to the bride, hers to keep and use as she wishes — and two witnesses, formalised through a marriage contract. In practice, many communities also hold an announced celebration (walimah), which the Prophet encouraged as a way of publicising the marriage rather than keeping it hidden."
+    },
+    {
+      "type": "heading",
+      "text": "Rights and responsibilities run both ways"
+    },
+    {
+      "type": "text",
+      "text": "Islamic teaching describes marriage as involving mutual rights and responsibilities between spouses, not a one-directional arrangement — kindness, financial support from the husband, consultation, and good treatment are repeatedly emphasised. The Prophet's own description of the best among Muslims as those best to their families is often cited as a direct standard for how marriage should be lived, not just contracted."
+    },
+    {
+      "type": "faq",
+      "question": "Can a Muslim marry a non-Muslim?",
+      "answer": "This is a genuinely nuanced area with real differences of scholarly opinion depending on the specific case (for example, a Muslim man marrying a woman from the People of the Book is discussed differently across scholars than other combinations) — it's a question worth raising directly with a knowledgeable local imam rather than relying on a general summary, since personal circumstances matter a great deal here."
+    },
+    {
+      "type": "faq",
+      "question": "What if I'm not ready to think about marriage yet, or it's not on my radar at all?",
+      "answer": "That's completely fine — marriage isn't a requirement to be a complete or committed Muslim, and there's no pressure or timeline attached to it in this app or in Islamic teaching generally. This lesson exists so the topic isn't a mystery whenever it does become relevant to you, not to suggest it should be a priority right now."
+    },
+    {
+      "type": "reflection",
+      "question": "Was there anything about the structure or purpose of marriage here that differed from what you expected beforehand?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Family in Islam", "reference": "See Stage 3" }
+  ]
+}

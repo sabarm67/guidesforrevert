@@ -1,0 +1,57 @@
+{
+  "slug": "making-daily-prayers-a-habit",
+  "stage_slug": "building-daily-habits",
+  "order": 1,
+  "title": "Making Daily Prayers a Habit",
+  "summary": "Moving from knowing how to pray to actually praying five times a day, consistently — practical tips, not just theory.",
+  "estimated_minutes": 7,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Knowing how isn't the same as doing it consistently"
+    },
+    {
+      "type": "text",
+      "text": "By this point you've learned Wudu and the basic shape of Salah. The harder part for almost every new Muslim isn't understanding the mechanics — it's building the daily rhythm of actually stopping five times a day, especially around work, school, or a household that isn't set up for it. That's completely normal, and this lesson is about closing that specific gap."
+    },
+    {
+      "type": "quote",
+      "translation": "Indeed, prayer has been decreed upon the believers at specified times.",
+      "reference": "Quran 4:103 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Practical ways to build the habit"
+    },
+    {
+      "type": "text",
+      "text": "A few things that consistently help new Muslims: turning on this app's prayer-time notifications rather than relying on memory; linking a prayer to something you already do at that time of day (right after you wake up, right before lunch); keeping a small, discreet prayer space or mat somewhere convenient (a corner of a room, your car, a spare office); and accepting that a slightly late prayer is far better than a skipped one. Consistency, built slowly, beats an ambitious plan that collapses after three days."
+    },
+    {
+      "type": "heading",
+      "text": "It's a lifelong practice, not a test you pass or fail"
+    },
+    {
+      "type": "text",
+      "text": "Every practicing Muslim — including people who've prayed daily for decades — has missed prayers, prayed late, or gone through rough patches. Islamic teaching treats this as an ongoing relationship to keep returning to, not a scoreboard. The aim this week isn't perfection; it's simply praying more today than you did last week."
+    },
+    {
+      "type": "faq",
+      "question": "What if my work or school schedule genuinely doesn't allow a break at the right time?",
+      "answer": "Most prayers have a fairly wide valid time window (often two to three hours), so there's usually more flexibility than it first appears — check this app's prayer times to see the full window, not just the \"start\" time. For situations with real, hard scheduling conflicts (a job with no breaks at all, for example), that's worth discussing with a local imam, who can advise on options for your specific situation."
+    },
+    {
+      "type": "faq",
+      "question": "Can I combine or shorten prayers if I'm travelling or unwell?",
+      "answer": "Yes — Islamic teaching includes real accommodations for travellers and people who are unwell, including combining certain prayers and shortening others. This app's dedicated Prayer module (a future addition) will cover traveller and missed-prayer rules in full detail; for now, know that these accommodations exist and aren't something to feel guilty about using."
+    },
+    {
+      "type": "reflection",
+      "question": "Which one of today's five prayers is hardest for you to catch on time, and why? Naming the specific obstacle is usually the first step to solving it."
+    }
+  ],
+  "further_reading": [
+    { "label": "Learning Salah (Getting Started)", "reference": "See Stage 2" }
+  ]
+}

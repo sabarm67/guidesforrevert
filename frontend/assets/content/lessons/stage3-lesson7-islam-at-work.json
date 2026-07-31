@@ -1,0 +1,58 @@
+{
+  "slug": "islam-at-work",
+  "stage_slug": "building-daily-habits",
+  "order": 7,
+  "title": "Islam at Work",
+  "summary": "Balancing prayer times, honesty, and modesty with the everyday reality of a job — and work itself is valued, not seen as a distraction from faith.",
+  "estimated_minutes": 6,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Earning a living is itself valued, not a distraction from religion"
+    },
+    {
+      "type": "text",
+      "text": "It's a common misconception that a devout life means minimising worldly work. Islamic teaching does the opposite — honest work to support yourself and your family is described as an act of worship in its own right, not something faith competes with."
+    },
+    {
+      "type": "quote",
+      "translation": "And when the prayer has been concluded, disperse within the land and seek from the bounty of Allah, and remember Allah often that you may succeed.",
+      "reference": "Quran 62:10 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Practical things that come up at work"
+    },
+    {
+      "type": "text",
+      "text": "A few situations most new Muslims eventually navigate: finding a few minutes for a prayer during a shift (many workplaces are more accommodating than expected once asked directly, and this app's prayer-time window flexibility, covered in an earlier lesson, helps here too), being honest in your dealings and reporting even when it's inconvenient, dressing modestly within whatever your role allows, and quietly declining work social events built around alcohol without making it a big statement."
+    },
+    {
+      "type": "heading",
+      "text": "Honesty in dealings is treated as seriously as ritual worship"
+    },
+    {
+      "type": "text",
+      "text": "The Quran and hadith repeatedly link honest trade and fair dealing directly to faith — a merchant known for cheating customers is described in early Islamic teaching in the same breath as far more obviously \"religious\" failings. This extends to ordinary workplace honesty too: accurate timesheets, not taking credit for others' work, and straightforward communication are treated as genuinely religious matters, not just professional ones."
+    },
+    {
+      "type": "faq",
+      "question": "How do I actually ask my employer for a short prayer break?",
+      "answer": "Most workplaces, especially in larger or more diverse organisations, are used to this request and have some flexibility, even informally. A short, direct conversation — explaining you need five to ten minutes at a specific time of day, and offering to make it up if needed — works far more often than people expect; you don't need to justify the religious reasoning in detail unless you want to."
+    },
+    {
+      "type": "faq",
+      "question": "What if my job involves something that conflicts with Islamic practice, like serving alcohol?",
+      "answer": "This is a real, common situation with no single answer that fits everyone — it depends on your specific role, how central the conflict is, and your circumstances (a bartender's role differs a lot from a waiter who occasionally serves a table that orders wine). This is exactly the kind of specific, personal question worth taking to a local imam or knowledgeable Muslim rather than guessing; this app's AI Mentor can also point you toward relevant lessons while being clear it can't issue a personal ruling."
+    },
+    {
+      "type": "reflection",
+      "question": "Is there one work situation where your faith and your job currently feel in tension? What would a small, honest conversation about it look like?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Making Daily Prayers a Habit", "reference": "See Stage 3" },
+    { "label": "New Muslim Survival Guide: Islam at Work", "reference": "See Survival Guide section (future content)" }
+  ]
+}

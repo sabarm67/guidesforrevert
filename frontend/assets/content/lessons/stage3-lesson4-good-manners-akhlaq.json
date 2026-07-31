@@ -1,0 +1,57 @@
+{
+  "slug": "good-manners-akhlaq",
+  "stage_slug": "building-daily-habits",
+  "order": 4,
+  "title": "Good Manners (Akhlaq)",
+  "summary": "Why Islamic teaching treats everyday character — honesty, patience, kindness — as central to faith, not a separate add-on to ritual practice.",
+  "estimated_minutes": 6,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Character is the point, not a side effect"
+    },
+    {
+      "type": "text",
+      "text": "It would be easy to assume Islam is mainly about rituals — prayer, fasting, specific rules — and that being a \"good person\" is a separate matter. Islamic teaching pushes back hard on that assumption: good character (akhlaq) is presented as central to what all the rituals are actually for, not an optional extra layered on top."
+    },
+    {
+      "type": "quote",
+      "translation": "I was only sent to perfect good character.",
+      "reference": "Musnad Ahmad"
+    },
+    {
+      "type": "heading",
+      "text": "What this looks like in practice"
+    },
+    {
+      "type": "text",
+      "text": "Honesty in speech and business dealings, controlling anger rather than being controlled by it, treating neighbours well regardless of their faith, keeping promises, and simple everyday kindness are all repeatedly emphasised in the Quran and hadith — often in the same breath as prayer and fasting, not as an afterthought. The Prophet Muhammad's own character (peace be upon him) is described by those who knew him as remarkably patient, generous, and even-tempered, including toward people who treated him badly."
+    },
+    {
+      "type": "heading",
+      "text": "This connects directly back to why you're worshipping at all"
+    },
+    {
+      "type": "text",
+      "text": "Recall from Stage 1 that prayer, fasting, and charity are described as flowing from your relationship with God — good character is where that relationship is meant to become visible to everyone around you, Muslim or not. A Muslim known for dishonesty or cruelty despite outwardly perfect ritual practice is described in Islamic teaching as having profoundly missed the point."
+    },
+    {
+      "type": "faq",
+      "question": "Does good character matter more than getting the rituals right?",
+      "answer": "They're not presented as competing priorities — both matter, and Islamic teaching consistently links them rather than ranking one above the other. A helpful way to think about it: the rituals are training and reminders that are meant to produce good character as their fruit, not a separate checklist running alongside it."
+    },
+    {
+      "type": "faq",
+      "question": "What if I genuinely struggle with something like my temper?",
+      "answer": "That's extremely common and nothing to be ashamed of — Islamic teaching treats controlling anger as a real, ongoing struggle worth effort and prayer, not something everyone else has already mastered. Small, practical habits (a well-known hadith recommends changing your physical position — sitting down, or leaving the room — when angry) and simply trying again after a setback are exactly what's expected."
+    },
+    {
+      "type": "reflection",
+      "question": "Think of one small habit of good character you'd like to strengthen this week — patience, honesty, kindness to a specific person. What's one concrete way you could practice it today?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Who was Prophet Muhammad (peace be upon him)?", "reference": "See Stage 1" }
+  ]
+}

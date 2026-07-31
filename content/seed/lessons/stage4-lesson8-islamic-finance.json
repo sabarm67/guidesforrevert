@@ -1,0 +1,57 @@
+{
+  "slug": "islamic-finance",
+  "stage_slug": "growing-in-knowledge",
+  "order": 8,
+  "title": "Islamic Finance Basics",
+  "summary": "Why interest (riba) is prohibited in Islam, and practical starting points for banking, saving, and debt as a new Muslim.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Why riba (interest) is prohibited"
+    },
+    {
+      "type": "text",
+      "text": "Riba, generally translated as interest or usury, is one of the more firmly and repeatedly prohibited matters in the Quran. The core concern is fairness: charging a guaranteed return on lent money, regardless of whether the borrower's venture succeeds or fails, is seen as exploitative — it extracts wealth without shared risk or genuine productive effort, and historically trapped the poor in worsening debt."
+    },
+    {
+      "type": "quote",
+      "translation": "Allah has permitted trade and has forbidden interest.",
+      "reference": "Quran 2:275 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "What Islamic finance offers instead"
+    },
+    {
+      "type": "text",
+      "text": "Rather than interest-based lending, Islamic finance structures deals around shared risk and real assets: profit-and-loss sharing partnerships (mudarabah, musharakah), cost-plus sale arrangements for financing purchases like homes or cars (murabahah), and leasing structures (ijarah). Dedicated Islamic banks and finance providers offering these products now exist in many countries, alongside \"Islamic windows\" offered by some conventional banks."
+    },
+    {
+      "type": "heading",
+      "text": "Practical starting points as a new Muslim"
+    },
+    {
+      "type": "text",
+      "text": "For everyday banking, a standard non-interest checking account (one you don't intentionally earn interest on) is generally treated as acceptable by most scholars, since you're not the one initiating or profiting from interest. Existing interest-based debt (student loans, an existing mortgage) taken on before becoming Muslim is a separate, more nuanced question — the general guidance is to move away from new interest-based commitments going forward and seek knowledgeable advice on handling existing ones, rather than assuming you must immediately unwind everything at once."
+    },
+    {
+      "type": "faq",
+      "question": "What do I do if my bank account already earns some interest?",
+      "answer": "Common guidance is to withdraw any interest earned and give it away as charity (without seeking reward for it, since it isn't considered your own halal wealth) rather than leaving it in the account or spending it on yourself — many scholars and Islamic finance resources can point you to accounts designed to avoid this going forward."
+    },
+    {
+      "type": "faq",
+      "question": "Is it realistic to avoid all interest, like on a mortgage, immediately?",
+      "answer": "For many new Muslims, no — and Islamic teaching generally recognises genuine hardship and gradual transition rather than demanding an impossible, immediate overhaul of existing major financial commitments. This is a good, specific question for a knowledgeable local imam or an Islamic finance advisor, since individual circumstances vary widely."
+    },
+    {
+      "type": "reflection",
+      "question": "Is there one financial habit or product in your life right now where this lesson raises a question worth looking into further?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Charity and Zakat", "reference": "See Stage 3" }
+  ]
+}

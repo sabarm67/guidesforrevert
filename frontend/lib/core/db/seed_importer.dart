@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 2;
+  static const currentContentVersion = 3;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -87,6 +87,25 @@ class SeedImporter {
       'assets/content/lessons/stage2-lesson3-learning-salah.json',
       'assets/content/lessons/stage2-lesson4-entering-the-mosque.json',
       'assets/content/lessons/stage2-lesson5-islamic-greetings.json',
+      'assets/content/lessons/stage2-lesson6-arabic-pronunciation.json',
+      'assets/content/lessons/stage2-lesson7-basic-duas-for-daily-life.json',
+      'assets/content/lessons/stage3-lesson1-making-daily-prayers-a-habit.json',
+      'assets/content/lessons/stage3-lesson2-engaging-with-the-quran-daily.json',
+      'assets/content/lessons/stage3-lesson3-dhikr-remembrance-of-allah.json',
+      'assets/content/lessons/stage3-lesson4-good-manners-akhlaq.json',
+      'assets/content/lessons/stage3-lesson5-family-in-islam.json',
+      'assets/content/lessons/stage3-lesson6-food-and-halal.json',
+      'assets/content/lessons/stage3-lesson7-islam-at-work.json',
+      'assets/content/lessons/stage3-lesson8-charity-and-zakat.json',
+      'assets/content/lessons/stage4-lesson1-seerah-the-life-of-the-prophet.json',
+      'assets/content/lessons/stage4-lesson2-the-companions-sahabah.json',
+      'assets/content/lessons/stage4-lesson3-islamic-history-overview.json',
+      'assets/content/lessons/stage4-lesson4-understanding-madhhabs.json',
+      'assets/content/lessons/stage4-lesson5-islamic-civilisation.json',
+      'assets/content/lessons/stage4-lesson6-islamic-ethics.json',
+      'assets/content/lessons/stage4-lesson7-marriage-in-islam.json',
+      'assets/content/lessons/stage4-lesson8-islamic-finance.json',
+      'assets/content/lessons/stage4-lesson9-building-community.json',
     ];
 
     for (final path in lessonAssetPaths) {

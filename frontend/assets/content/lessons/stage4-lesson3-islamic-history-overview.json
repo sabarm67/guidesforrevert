@@ -1,0 +1,65 @@
+{
+  "slug": "islamic-history-overview",
+  "stage_slug": "growing-in-knowledge",
+  "order": 3,
+  "title": "Islamic History: A Brief Overview",
+  "summary": "A bird's-eye map of Islamic history from the early caliphates through to the present, so later, more detailed reading has somewhere to attach.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Why a rough map helps"
+    },
+    {
+      "type": "text",
+      "text": "Islamic history spans nearly 1,400 years across three continents, which can feel overwhelming to approach at once. A simple, rough timeline — even one that skips enormous amounts of detail — gives you a frame to hang future reading on, rather than encountering names and dynasties with no sense of when or where they fit."
+    },
+    {
+      "type": "heading",
+      "text": "The Rightly Guided Caliphs (632-661 CE)"
+    },
+    {
+      "type": "text",
+      "text": "After the Prophet's death, the Muslim community was led in turn by four Caliphs closely connected to him: Abu Bakr, Umar, Uthman, and Ali. This period, called the Rashidun (\"Rightly Guided\") era, saw rapid expansion beyond Arabia and the formal compilation of the Quran into a single standard written text, but also serious internal political conflict, including the assassination of three of the four caliphs."
+    },
+    {
+      "type": "heading",
+      "text": "Major dynasties and centres of learning"
+    },
+    {
+      "type": "text",
+      "text": "The Umayyad dynasty (661-750 CE) expanded Muslim rule from Spain to Central Asia and moved the capital to Damascus. The Abbasid dynasty (750-1258 CE) that followed, based in Baghdad, oversaw a long period often called the Islamic Golden Age — major advances in medicine, astronomy, mathematics, and philosophy, much of it building on and passing forward Greek, Persian, and Indian knowledge. Meanwhile, distinct regional centres flourished elsewhere too: Muslim Spain (al-Andalus) for centuries, the Ottoman Empire (from the 1300s, eventually spanning much of the Middle East, North Africa, and southeastern Europe until the early 1900s), the Mughal Empire in South Asia, and long-standing Islamic states and trade networks across West Africa and Southeast Asia."
+    },
+    {
+      "type": "quote",
+      "translation": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allah is the most righteous of you.",
+      "reference": "Quran 49:13 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Islam was never one culture or one empire"
+    },
+    {
+      "type": "text",
+      "text": "A common misconception is that Islamic history is a single continuous empire or a single ethnic story. In reality, it's a religion that took root across radically different cultures, languages, and political systems simultaneously — often with more than one major Muslim power existing at the same time. Present-day Muslims are similarly diverse: the largest Muslim-majority country by population is Indonesia, not an Arab nation, and Muslims today make up meaningful communities on every populated continent."
+    },
+    {
+      "type": "faq",
+      "question": "Is Islamic history mostly a story of conquest?",
+      "answer": "Military expansion is part of the story, as it is in the history of virtually every major civilisation, but it's far from the whole picture — long periods of scholarship, trade, architecture, legal development, and peaceful conversion (often through trade networks, as in much of Southeast Asia and West Africa) are equally, if less dramatically, part of the record."
+    },
+    {
+      "type": "faq",
+      "question": "Where should I go next if I want more depth on a specific period?",
+      "answer": "Pick one era or region that interests you most — the Golden Age, al-Andalus, the Ottomans, or the spread of Islam in your own region — rather than trying to study everything chronologically at once; a focused starting point tends to stick better than a broad survey alone."
+    },
+    {
+      "type": "reflection",
+      "question": "Which period or region of Islamic history mentioned here would you like to explore in more depth first?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Islamic Civilisation", "reference": "See Stage 4" }
+  ]
+}

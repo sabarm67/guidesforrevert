@@ -1,0 +1,57 @@
+{
+  "slug": "family-in-islam",
+  "stage_slug": "building-daily-habits",
+  "order": 5,
+  "title": "Family in Islam",
+  "summary": "Why maintaining family ties is treated as a serious religious duty in Islam, and how to hold onto that while navigating a family that may not share your new faith.",
+  "estimated_minutes": 7,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Family ties as a religious duty, not just a nice idea"
+    },
+    {
+      "type": "text",
+      "text": "Islamic teaching uses a specific term, silat ar-rahim (\"maintaining the ties of the womb\"), for staying connected to and treating family well — and treats severing those ties as a serious matter, not a private lifestyle choice. This applies broadly to family, but is emphasised most strongly for parents."
+    },
+    {
+      "type": "quote",
+      "translation": "And your Lord has decreed that you worship none but Him, and to parents, good treatment... and lower to them the wing of humility out of mercy and say, \"My Lord, have mercy upon them as they brought me up when I was small.\"",
+      "reference": "Quran 17:23-24 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "This duty doesn't disappear if your family isn't Muslim"
+    },
+    {
+      "type": "text",
+      "text": "This is a point new Muslims are often surprised by: kindness and good treatment toward parents is commanded in the Quran without a condition that they share your faith. There's a well-known instruction from the Prophet Muhammad (peace be upon him) that even a parent who tries to pressure their child away from their faith should still be treated with worldly kindness and companionship — disagreement on belief doesn't cancel the duty of good treatment. Becoming Muslim is not, in Islamic teaching, a reason to distance yourself from your family; if anything, it's framed as raising the bar on how well you should treat them."
+    },
+    {
+      "type": "heading",
+      "text": "A real, common tension worth naming"
+    },
+    {
+      "type": "text",
+      "text": "In practice, this can still be genuinely hard — family gatherings involving alcohol, holidays with religious elements, or simple disapproval of your choice all create real friction that this teaching doesn't erase. The general approach many new Muslims find workable is: stay warm and present wherever possible, be honest but not confrontational about your own practice, decline participation in specific things you now avoid without lecturing others for their choices, and give the relationship time to adjust rather than expecting instant understanding."
+    },
+    {
+      "type": "faq",
+      "question": "What if my family strongly disapproves or is upset about my conversion?",
+      "answer": "This is one of the most common and painful experiences new Muslims describe, and it doesn't mean you did anything wrong. Patience, continued kindness, and giving family time are usually more effective than trying to argue them into acceptance quickly. This app's New Muslim Survival Guide (a future section) is specifically built to go deeper into handling this well."
+    },
+    {
+      "type": "faq",
+      "question": "How do I honour parents who aren't Muslim without compromising my own practice?",
+      "answer": "You can decline specific things (alcohol, certain foods, mixed prayers at religious events) respectfully while still attending, helping, calling, and showing ordinary care and affection — the two aren't in conflict most of the time. For genuinely difficult specific situations, asking a local imam or a trusted, experienced Muslim for practical advice is far more useful than guessing alone."
+    },
+    {
+      "type": "reflection",
+      "question": "Is there one family relationship that feels strained right now because of your new faith? What's one small, low-pressure way you could show care in that relationship this week?"
+    }
+  ],
+  "further_reading": [
+    { "label": "New Muslim Survival Guide: How to Tell Family", "reference": "See Survival Guide section (future content)" }
+  ]
+}

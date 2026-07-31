@@ -1,0 +1,57 @@
+{
+  "slug": "islamic-civilisation",
+  "stage_slug": "growing-in-knowledge",
+  "order": 5,
+  "title": "Islamic Civilisation and Its Contributions",
+  "summary": "A look at the scientific, artistic, and intellectual contributions of Islamic civilisation, and how faith and inquiry were seen as connected rather than in conflict.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Faith and knowledge, not faith versus knowledge"
+    },
+    {
+      "type": "text",
+      "text": "The very first word revealed in the Quran was \"Iqra\" — read, or recite. From its earliest period, Islamic teaching repeatedly frames the pursuit of knowledge as an act of worship, not something in tension with it. That framing helped fuel centuries during which centres of Muslim learning — Baghdad's House of Wisdom, Cordoba, Cairo, Fez, and others — became major hubs of scientific and intellectual work, often collaborative across Muslim, Christian, and Jewish scholars."
+    },
+    {
+      "type": "quote",
+      "translation": "And say, \"My Lord, increase me in knowledge.\"",
+      "reference": "Quran 20:114 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "A few concrete contributions"
+    },
+    {
+      "type": "text",
+      "text": "In mathematics, algebra (from the Arabic al-jabr) was systematised by al-Khwarizmi, whose name is also the root of the word \"algorithm.\" In medicine, Ibn Sina's (Avicenna's) Canon of Medicine was a standard textbook in both the Muslim world and Europe for centuries. In optics, Ibn al-Haytham developed the scientific method as a rigorous, experiment-based approach to studying light and vision. Astronomy, chemistry, and geography also saw major advances, and the world's oldest continuously operating degree-granting institution, the University of al-Qarawiyyin in Fez, Morocco, was founded by a Muslim woman, Fatima al-Fihri, in 859 CE."
+    },
+    {
+      "type": "heading",
+      "text": "Art and architecture built around belief"
+    },
+    {
+      "type": "text",
+      "text": "Because depicting God or the Prophets in art is generally avoided, Islamic art developed its own distinct visual language — geometric patterns, intricate calligraphy (often of Quranic verses), and elaborate architecture such as the Alhambra in Spain, the Great Mosque of Cordoba, and countless mosques across the Muslim world. This wasn't a limitation so much as a redirection of creative energy toward pattern, symmetry, and text as beauty."
+    },
+    {
+      "type": "faq",
+      "question": "Why don't people hear more about this history in general education?",
+      "answer": "It varies a lot by country and curriculum, but the contributions of the Islamic Golden Age are genuinely under-covered in much of Western general education relative to their historical significance — this is a well-documented gap, not a claim unique to Islamic sources, and part of why dedicated reading on the topic is worthwhile."
+    },
+    {
+      "type": "faq",
+      "question": "Does celebrating this history mean modern Muslim-majority countries are automatically leaders in science today?",
+      "answer": "No — the Golden Age was a particular historical period, and its intellectual momentum slowed for a range of later historical, political, and economic reasons well beyond what a short lesson can cover; knowing the history doesn't require overstating the present, and honest engagement with both the achievements and the later decline is more useful than a purely celebratory version of the story."
+    },
+    {
+      "type": "reflection",
+      "question": "Which contribution mentioned here — mathematics, medicine, art, or something else — surprised you most, and why?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Islamic History: A Brief Overview", "reference": "See Stage 4" }
+  ]
+}

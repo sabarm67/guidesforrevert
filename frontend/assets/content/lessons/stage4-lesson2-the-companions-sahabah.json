@@ -1,0 +1,57 @@
+{
+  "slug": "the-companions-sahabah",
+  "stage_slug": "growing-in-knowledge",
+  "order": 2,
+  "title": "The Companions (Sahabah)",
+  "summary": "Who the Sahabah were, why they hold such a special place in Islamic history, and a few individual stories worth knowing.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Who counts as a Companion"
+    },
+    {
+      "type": "text",
+      "text": "A Sahabi (plural: Sahabah) is broadly defined as someone who met the Prophet Muhammad (peace be upon him) while believing in him, and died a believer. That definition includes thousands of people across very different backgrounds — early converts who endured years of persecution in Makkah, later converts who joined after the Muslim community was already established, men, women, the wealthy, the enslaved, Arabs and non-Arabs."
+    },
+    {
+      "type": "quote",
+      "translation": "And the first forerunners [in the faith] among the Muhajireen and the Ansar and those who followed them with good conduct - Allah is pleased with them and they are pleased with Him.",
+      "reference": "Quran 9:100 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Why they matter beyond just \"being there\""
+    },
+    {
+      "type": "text",
+      "text": "The Sahabah are the direct link between the Prophet and everyone who came after — they are the ones who narrated his sayings and actions (hadith), witnessed how the Quran was revealed and applied, and carried the practice of Islam forward into the wider world. Their collective honesty and effort is a large part of why later generations can trust that what's known about early Islam is well-preserved rather than lost or distorted over time."
+    },
+    {
+      "type": "heading",
+      "text": "A few names worth knowing early"
+    },
+    {
+      "type": "text",
+      "text": "Abu Bakr, the Prophet's closest friend and the first adult male convert, later became the first Caliph. Umar ibn al-Khattab, known for his strong sense of justice, was the second Caliph and oversaw major expansion and administration. Khadijah, the Prophet's first wife, was the very first person to believe in him and supported him financially and emotionally through the hardest early years. Bilal ibn Rabah, formerly enslaved and tortured for his faith, became the first person to call the adhan and is remembered as a symbol of Islam's rejection of racial and social hierarchy. Aisha, another wife of the Prophet, became one of the most important scholars and hadith narrators in early Islam. These are only a handful of a much larger group worth exploring further."
+    },
+    {
+      "type": "faq",
+      "question": "Why do Muslims say \"may Allah be pleased with him/her\" after a Companion's name?",
+      "answer": "It's a short prayer of honour and respect (in Arabic, radiyallahu anhu for a man or anha for a woman, often abbreviated \"RA\" in English text), reflecting the high regard Islamic tradition holds for this generation. It's a nice habit to pick up, though not obligatory."
+    },
+    {
+      "type": "faq",
+      "question": "Were the Companions considered infallible or beyond criticism?",
+      "answer": "No — they were real, fallible people, and classical Islamic scholarship openly discusses disagreements and mistakes among them, including serious political disputes after the Prophet's death. Respect for them as a generation doesn't mean treating every individual action as beyond question; it means recognising their foundational, largely sincere role in preserving and transmitting the religion."
+    },
+    {
+      "type": "reflection",
+      "question": "Which of the Companions mentioned above would you like to learn more about first, and why?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Seerah: The Life of the Prophet", "reference": "See Stage 4" }
+  ]
+}

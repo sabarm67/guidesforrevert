@@ -1,0 +1,62 @@
+{
+  "slug": "islamic-ethics",
+  "stage_slug": "growing-in-knowledge",
+  "order": 6,
+  "title": "Islamic Ethics and Character",
+  "summary": "How Islam frames good character (akhlaq) as inseparable from faith itself, and the core ethical principles that shape everyday behaviour.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Character as the point, not a side effect"
+    },
+    {
+      "type": "text",
+      "text": "It's a common misunderstanding that Islam is primarily a set of rituals — prayer, fasting, and so on — with ethics as a separate, secondary concern. In fact, the Prophet Muhammad (peace be upon him) described his own mission in terms of character directly."
+    },
+    {
+      "type": "quote",
+      "translation": "I have only been sent to perfect good character.",
+      "reference": "Musnad Ahmad (commonly cited; authenticity graded hasan by several scholars)"
+    },
+    {
+      "type": "heading",
+      "text": "A few core ethical principles"
+    },
+    {
+      "type": "text",
+      "text": "Several themes recur constantly across the Quran and hadith: honesty (in speech, trade, and dealings), justice (even against your own interests or those close to you), mercy and compassion (including toward animals), humility, patience, and controlling anger. These aren't presented as optional extras for especially devout people — they're treated as core expressions of faith itself, on the same level of seriousness as ritual worship."
+    },
+    {
+      "type": "quote",
+      "translation": "O you who have believed, be persistently standing firm in justice, witnesses for Allah, even if it be against yourselves or parents and relatives.",
+      "reference": "Quran 4:135 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Intention (niyyah) shapes the value of an action"
+    },
+    {
+      "type": "text",
+      "text": "A foundational hadith states that actions are judged by intentions — meaning the same outward act can carry very different weight depending on why it was done. This principle runs through Islamic ethics broadly: sincerity toward God, rather than performing good deeds for praise or show, is what gives an action its real value. It also means ethics in Islam isn't just about outward rule-following, but about the state of the heart behind the action."
+    },
+    {
+      "type": "faq",
+      "question": "How does Islamic ethics handle situations the Quran and hadith don't mention directly?",
+      "answer": "Scholars extend general ethical principles — justice, avoiding harm, honesty, mercy — to new situations through reasoned analysis (qiyas and related methods), which is part of why Islamic ethics has remained applicable across very different times and places rather than being frozen to 7th-century Arabia."
+    },
+    {
+      "type": "faq",
+      "question": "Is being ethical only about avoiding sin?",
+      "answer": "No — Islamic ethics is at least as much about actively cultivating good qualities (generosity, patience, gratitude, gentleness) as it is about avoiding prohibited actions; a purely rule-avoidance mindset misses a large part of what akhlaq is aiming at."
+    },
+    {
+      "type": "reflection",
+      "question": "Of honesty, justice, mercy, humility, and patience, which one do you feel is currently your strongest, and which would you most like to work on?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Seerah: The Life of the Prophet", "reference": "See Stage 4" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "engaging-with-the-quran-daily",
+  "stage_slug": "building-daily-habits",
+  "order": 2,
+  "title": "Engaging with the Quran Daily",
+  "summary": "Building a small, sustainable daily habit of reading, listening to, or reflecting on the Quran beyond what's recited in Salah.",
+  "estimated_minutes": 6,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Beyond what you recite in prayer"
+    },
+    {
+      "type": "text",
+      "text": "You already recite short passages of the Quran in every Salah. This lesson is about a separate, additional habit: spending a little time most days actually reading, listening to, or reflecting on the Quran outside of prayer — in translation, in Arabic, or both."
+    },
+    {
+      "type": "quote",
+      "translation": "The best among you are those who learn the Quran and teach it.",
+      "reference": "Sahih al-Bukhari"
+    },
+    {
+      "type": "heading",
+      "text": "Small and consistent beats long and occasional"
+    },
+    {
+      "type": "text",
+      "text": "A common mistake is trying to read large sections rarely, burning out, and stopping altogether. A handful of ayahs a day, understood and reflected on, is described in Islamic teaching as more valuable than rushing through pages without absorbing anything. A few realistic starting patterns: listen to a short surah's recitation during a commute; read one page of translation before bed; or revisit a surah you've already learned (like Al-Fatihah or Al-Ikhlas) and read its tafsir summary in this app's Quran section to go one layer deeper than you did the first time."
+    },
+    {
+      "type": "heading",
+      "text": "Different ways to engage, not just one \"right\" way"
+    },
+    {
+      "type": "text",
+      "text": "Listening mode (hearing recitation with translation alongside), reading mode (working through the translation directly), memorisation mode (building up short surahs by heart, useful for prayer), and word-by-word study (matching individual Arabic words to their meaning) are all legitimate ways in — this app's Quran section is built to support several of them rather than assuming everyone learns the same way."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to read it in Arabic to benefit from it?",
+      "answer": "No — reading a reliable translation (this app uses Saheeh International) gives you real access to the meaning, and that's where most new Muslims start. Learning to read the Arabic script itself is a valuable, separate long-term goal, not a prerequisite to beginning."
+    },
+    {
+      "type": "faq",
+      "question": "How much is actually enough to start with?",
+      "answer": "A few minutes a day is a completely legitimate starting point — even one short surah with its translation. The goal at this stage is building the habit itself, not covering a target amount of text; the amount naturally grows once the habit is established."
+    },
+    {
+      "type": "reflection",
+      "question": "Of the four ways to engage described above — listening, reading, memorising, word-by-word — which one appeals to you most right now?"
+    }
+  ],
+  "further_reading": [
+    { "label": "What is the Quran?", "reference": "See Stage 1" },
+    { "label": "Surah Al-Fatihah / Al-Ikhlas", "reference": "See Quran section of this app" }
+  ]
+}

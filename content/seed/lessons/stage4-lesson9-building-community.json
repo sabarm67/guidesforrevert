@@ -1,0 +1,58 @@
+{
+  "slug": "building-community",
+  "stage_slug": "growing-in-knowledge",
+  "order": 9,
+  "title": "Building Community",
+  "summary": "Why community (ummah) is treated as essential rather than optional in Islam, and practical ways to build one, especially as a new Muslim who may feel isolated.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Islam is not designed to be practised alone"
+    },
+    {
+      "type": "text",
+      "text": "Congregational prayer, the Friday sermon, communal fasting during Ramadan, the Hajj pilgrimage, and the emphasis throughout the Quran and hadith on visiting, helping, and caring for other believers all point in the same direction: Islamic practice assumes and builds toward community, not solitary devotion. The word ummah refers to the global community of Muslims as a single body, bound together by faith rather than nationality or ethnicity."
+    },
+    {
+      "type": "quote",
+      "translation": "The believers in their mutual kindness, compassion, and sympathy are just like one body. When any limb of it aches, the whole body aches, because of sleeplessness and fever.",
+      "reference": "Sahih al-Bukhari and Sahih Muslim (widely narrated hadith, agreed upon)"
+    },
+    {
+      "type": "heading",
+      "text": "Why this matters especially for new Muslims"
+    },
+    {
+      "type": "text",
+      "text": "Many new Muslims describe an early period of isolation — old social circles may shift, family relationships can feel strained (covered in an earlier lesson), and finding a new community takes real, active effort rather than happening automatically. This is a well-recognised experience, not a sign that something is wrong with you or your practice."
+    },
+    {
+      "type": "heading",
+      "text": "Practical ways to start"
+    },
+    {
+      "type": "text",
+      "text": "A few starting points that consistently work: attending Friday prayer (Jumu'ah) regularly at a local mosque, even before you know anyone there; asking mosque staff or the imam directly about new-Muslim or revert support groups, which many mosques now run specifically; joining a local class or study circle rather than only attending prayers and leaving immediately; and being patient with yourself, since real community usually builds over months of small, repeated interactions rather than a single visit."
+    },
+    {
+      "type": "faq",
+      "question": "What if my local mosque feels unwelcoming or culturally unfamiliar?",
+      "answer": "This happens, and it doesn't mean Islam itself is the problem — mosques vary a lot in culture, language, and how welcoming they are to newcomers. It's worth trying more than one mosque if possible, and specifically seeking out ones known for supporting new Muslims; this app's Community section (a future expansion) is intended to help with exactly this kind of search."
+    },
+    {
+      "type": "faq",
+      "question": "Is online community a reasonable substitute if there's no mosque nearby?",
+      "answer": "It's a reasonable supplement and can genuinely help, especially early on, but it's not a full substitute for in-person community and congregational worship where that's realistically available — many new Muslims use both together, leaning more on online support in areas with few local options."
+    },
+    {
+      "type": "reflection",
+      "question": "What's one small, concrete step you could take this month to build more in-person Muslim community around you?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Family in Islam", "reference": "See Stage 3" },
+    { "label": "Entering the Mosque", "reference": "See Stage 2" }
+  ]
+}

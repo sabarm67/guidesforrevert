@@ -49,11 +49,18 @@ authored with care but has not had that independent verification pass yet.
 
 ## Lessons
 
-- The four Stage 1 lessons in `content/seed/lessons/` are original
+- The Stage 1 and Stage 2 lessons in `content/seed/lessons/` are original
   educational writing produced for this project, drawing on mainstream
   Sunni consensus positions. They are not a translation of any single
   external source, but the Quranic quotations within them follow the same
-  Saheeh International sourcing note above.
+  Saheeh International sourcing note above, and any hadith quotations
+  (e.g. the Wudu, mosque-entry, and greeting hadiths in the Stage 2
+  lessons) follow the same commonly-published-English-wording caveat as
+  the An-Nawawi's 40 note above — cross-check exact wording against
+  sunnah.com before production use. Where a lesson describes a step-by-step
+  practice with minor variation between the Sunni schools of law (e.g.
+  Wudu's exact head-wiping method), the lesson says so explicitly rather
+  than presenting one madhhab's practice as the only valid one.
 
 ## General principle for content going forward
 
