@@ -57,6 +57,23 @@ class LearningRepository {
     )..where((t) => t.lessonId.equals(lessonId))).watchSingleOrNull();
   }
 
+  /// Streams (completedCount, totalCount) for a stage's lessons, used to show
+  /// a per-stage progress indicator on the roadmap.
+  Stream<(int, int)> watchStageProgress(int stageId) {
+    final query = _db.select(_db.lessons).join([
+      leftOuterJoin(_db.lessonProgressEntries, _db.lessonProgressEntries.lessonId.equalsExp(_db.lessons.id)),
+    ])..where(_db.lessons.learningStageId.equals(stageId));
+
+    return query.watch().map((rows) {
+      final completed = rows.where((row) {
+        final progress = row.readTableOrNull(_db.lessonProgressEntries);
+        return progress?.status == 'completed';
+      }).length;
+
+      return (completed, rows.length);
+    });
+  }
+
   Future<void> markLessonStatus(int lessonId, String status) async {
     await _db
         .into(_db.lessonProgressEntries)

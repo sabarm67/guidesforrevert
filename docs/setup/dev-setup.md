@@ -108,10 +108,26 @@ the app (or clear its local storage) to reset that flag.
 
 Drift's web backend needs `sqlite3.wasm` and `drift_worker.js` present under
 `frontend/web/`, matching the versions of the installed `sqlite3`/`drift`
-packages. These are not generated automatically by `flutter create` — see
-the Drift web platform documentation for the exact copy command to run
-after `flutter pub get`, and re-run it whenever the `drift`/`sqlite3`
-package versions are bumped.
+packages (see https://drift.simonbinder.eu/web/ for background). These are
+not generated automatically by `flutter create` and are deliberately
+`.gitignore`d rather than committed, so fetch them after `flutter pub get`:
+
+1. Check the exact locked versions:
+   `grep -A2 "name: drift$" frontend/pubspec.lock` and
+   `grep -A2 "name: sqlite3$" frontend/pubspec.lock`.
+2. Download the matching release assets (adjust the version tags below to
+   match step 1):
+   ```bash
+   curl -sL -o frontend/web/drift_worker.js \
+     https://github.com/simolus3/drift/releases/download/drift-2.31.0/drift_worker.js
+   curl -sL -o frontend/web/sqlite3.wasm \
+     https://github.com/simolus3/sqlite3.dart/releases/download/sqlite3-2.9.4/sqlite3.wasm
+   ```
+
+Re-run this whenever the `drift`/`sqlite3` package versions are bumped —
+`flutter build web`/`flutter run -d chrome` will fail at runtime with
+"When compiling to the web, the `web` parameter needs to be set" style
+errors (or a blank screen) if these files are missing or mismatched.
 
 ## Repository-wide content sync
 
