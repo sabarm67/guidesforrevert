@@ -1,0 +1,70 @@
+{
+    "number": 105,
+    "name_arabic": "الفيل",
+    "name_english": "The Elephant",
+    "name_transliteration": "Al-Fil",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Fil (\"The Elephant\") is a Meccan surah of 5 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Hast thou not seen how thy Lord dealt with the owners of the Elephant?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Did He not bring their stratagem to naught,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And send against them swarms of flying creatures,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Which pelted them with stones of baked clay,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And made them like green crops devoured (by cattle)?"
+                }
+            ]
+        }
+    ]
+}

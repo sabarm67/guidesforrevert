@@ -1,0 +1,274 @@
+{
+    "number": 85,
+    "name_arabic": "البروج",
+    "name_english": "The Mansions of the Stars",
+    "name_transliteration": "Al-Buruj",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Buruj (\"The Mansions of the Stars\") is a Meccan surah of 22 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By the heaven, holding mansions of the stars,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "وَٱلْيَوْمِ ٱلْمَوْعُودِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And by the Promised Day."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "وَشَاهِدٍ وَمَشْهُودٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And by the witness and that whereunto he beareth testimony,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(Self-)destroyed were the owners of the ditch"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Of the fuel-fed fire,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "When they sat by it,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And were themselves the witnesses of what they did to the believers."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "They had naught against them save that they believed in Allah, the Mighty, the Owner of Praise,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Him unto Whom belongeth the Sovereignty of the heavens and the earth; and Allah is of all things the Witness."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! they who persecute believing men and believing women and repent not, theirs verily will be the doom of hell, and theirs the doom of burning."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! those who believe and do good works, theirs will be Gardens underneath which rivers flow. That is the Great Success."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 12,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! the punishment of thy Lord is stern."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 13,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! He it is Who produceth, then reproduceth,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 14,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And He is the Forgiving, the Loving,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 15,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lord of the Throne of Glory,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 16,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "فَعَّالٌ لِّمَا يُرِيدُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Doer of what He will."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 17,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Hath there come unto thee the story of the hosts"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 18,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "فِرْعَوْنَ وَثَمُودَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Of Pharaoh and (the tribe of) Thamud?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 19,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, but those who disbelieve live in denial"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 20,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And Allah, all unseen, surroundeth them."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 21,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "بَلْ هُوَ قُرْءَانٌ مَّجِيدٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, but it is a glorious Qur'an."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 22,
+            "juz": 30,
+            "page": 590,
+            "arabic_text": "فِى لَوْحٍ مَّحْفُوظٍۭ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "On a guarded tablet."
+                }
+            ]
+        }
+    ]
+}

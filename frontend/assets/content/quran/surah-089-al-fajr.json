@@ -1,0 +1,370 @@
+{
+    "number": 89,
+    "name_arabic": "الفجر",
+    "name_english": "The Dawn",
+    "name_transliteration": "Al-Fajr",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Fajr (\"The Dawn\") is a Meccan surah of 30 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَٱلْفَجْرِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By the Dawn"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَلَيَالٍ عَشْرٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And ten nights,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the Even and the Odd,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَٱلَّيْلِ إِذَا يَسْرِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the night when it departeth,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى حِجْرٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "There surely is an oath for thinking man."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Dost thou not consider how thy Lord dealt with (the tribe of) A'ad,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "With many-columned Iram,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَـٰدِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "The like of which was not created in the lands;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And with (the tribe of) Thamud, who clove the rocks in the valley;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And with Pharaoh, firm of might,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَـٰدِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Who (all) were rebellious (to Allah) in these lands,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 12,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And multiplied iniquity therein?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 13,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Therefore thy Lord poured on them the disaster of His punishment."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 14,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! thy Lord is ever watchful."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 15,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "فَأَمَّا ٱلْإِنسَـٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "As for man, whenever his Lord trieth him by honouring him, and is gracious unto him, he saith: My Lord honoureth me."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 16,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَـٰنَنِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But whenever He trieth him by straitening his means of life, he saith: My Lord despiseth me."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 17,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, but ye (for your part) honour not the orphan"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 18,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And urge not on the feeding of the poor."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 19,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًا لَّمًّا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And ye devour heritages with devouring greed."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 20,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَتُحِبُّونَ ٱلْمَالَ حُبًّا جَمًّا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And love wealth with abounding love."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 21,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, but when the earth is ground to atoms, grinding, grinding,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 22,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And thy Lord shall come with angels, rank on rank,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 23,
+            "juz": 30,
+            "page": 593,
+            "arabic_text": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And hell is brought near that day; on that day man will remember, but how will the remembrance (then avail him)?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 24,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "يَقُولُ يَـٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "He will say: Ah, would that I had sent before me (some provision) for my life!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 25,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "None punisheth as He will punish on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 26,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "None bindeth as He then will bind."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 27,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But ah! thou soul at peace!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 28,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Return unto thy Lord, content in His good pleasure!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 29,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "فَٱدْخُلِى فِى عِبَـٰدِى",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Enter thou among My bondmen!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 30,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "وَٱدْخُلِى جَنَّتِى",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Enter thou My Garden!"
+                }
+            ]
+        }
+    ]
+}

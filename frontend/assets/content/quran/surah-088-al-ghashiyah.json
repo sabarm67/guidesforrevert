@@ -1,0 +1,322 @@
+{
+    "number": 88,
+    "name_arabic": "الغاشية",
+    "name_english": "The Overwhelming",
+    "name_transliteration": "Al-Ghashiyah",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Ghashiyah (\"The Overwhelming\") is a Meccan surah of 26 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Hath there come unto thee tidings of the Overwhelming?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "On that day (many) faces will be downcast,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "عَامِلَةٌ نَّاصِبَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Toiling, weary,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "تَصْلَىٰ نَارًا حَامِيَةً",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Scorched by burning fire,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Drinking from a boiling spring,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "No food for them save bitter thorn-fruit"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Which doth not nourish nor release from hunger."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "In that day other faces will be calm,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "لِّسَعْيِهَا رَاضِيَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Glad for their effort past,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "فِى جَنَّةٍ عَالِيَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "In a high Garden"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Where they hear no idle speech,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 12,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "فِيهَا عَيْنٌ جَارِيَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Wherein is a gushing spring,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 13,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Wherein are couches raised"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 14,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And goblets set at hand"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 15,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "وَنَمَارِقُ مَصْفُوفَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And cushions ranged"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 16,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And silken carpets spread."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 17,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Will they not regard the camels, how they are created?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 18,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the heaven, how it is raised?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 19,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the hills, how they are set up?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 20,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the earth, how it is spread?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 21,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Remind them, for thou art but a remembrancer,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 22,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Thou art not at all a warder over them."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 23,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But whoso is averse and disbelieveth,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 24,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Allah will punish him with direst punishment."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 25,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! unto Us is their return"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 26,
+            "juz": 30,
+            "page": 592,
+            "arabic_text": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And Ours their reckoning."
+                }
+            ]
+        }
+    ]
+}

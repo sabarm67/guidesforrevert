@@ -1,0 +1,214 @@
+{
+    "number": 86,
+    "name_arabic": "الطارق",
+    "name_english": "The Nightcommer",
+    "name_transliteration": "At-Tariq",
+    "revelation_type": "meccan",
+    "beginner_intro": "At-Tariq (\"The Nightcommer\") is a Meccan surah of 17 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By the heaven and the Morning Star"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "- Ah, what will tell thee what the Morning Star is!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "ٱلنَّجْمُ ٱلثَّاقِبُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "- The piercing Star!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "No human soul but hath a guardian over it."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ مِمَّ خُلِقَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "So let man consider from what he is created."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "خُلِقَ مِن مَّآءٍ دَافِقٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "He is created from a gushing fluid"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "That issued from between the loins and ribs."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! He verily is Able to return him (unto life)"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "On the day when hidden thoughts shall be searched out."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "فَمَا لَهُۥ مِن قُوَّةٍ وَلَا نَاصِرٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then will he have no might nor any helper."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By the heaven which giveth the returning rain,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 12,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the earth which splitteth (with the growth of trees and plants)"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 13,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "إِنَّهُۥ لَقَوْلٌ فَصْلٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! this (Qur'an) is a conclusive word,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 14,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "وَمَا هُوَ بِٱلْهَزْلِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "It is no pleasantry."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 15,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! they plot a plot (against thee, O Muhammad)"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 16,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "وَأَكِيدُ كَيْدًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And I plot a plot (against them)."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 17,
+            "juz": 30,
+            "page": 591,
+            "arabic_text": "فَمَهِّلِ ٱلْكَـٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "So give a respite to the disbelievers. Deal thou gently with them for a while."
+                }
+            ]
+        }
+    ]
+}

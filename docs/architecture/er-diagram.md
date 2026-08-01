@@ -251,8 +251,8 @@ erDiagram
 | `learning_stages`, `lessons`, `lesson_progress` | **Implemented + seeded** — all 4 stages fully populated (4 Stage 1 + 7 Stage 2 + 8 Stage 3 + 9 Stage 4 = 28 lessons) |
 | `quizzes`, `quiz_questions`, `quiz_choices`, `quiz_attempts` | **Schema only** — migrations exist, no seed data or endpoints yet |
 | `dua_categories`, `duas` | **Implemented + seeded** (~5 duas) |
-| `surahs`, `ayahs`, `ayah_translations`, `ayah_tafsirs`, `ayah_words` | **Implemented + seeded** (Al-Fatihah, Al-Ikhlas; word-by-word only for Al-Fatihah ayah 1) |
-| `hadith_collections`, `hadiths` | **Implemented + seeded** (3 hadiths from An-Nawawi's 40) |
+| `surahs`, `ayahs`, `ayah_translations`, `ayah_tafsirs`, `ayah_words` | **Implemented + seeded** — Al-Fatihah + full Juz 'Amma (surahs 1, 78-114 = 38 surahs / 571 ayahs), real Tanzil Arabic + public-domain Pickthall translation via `php artisan quran:import`; word-by-word and tafsir only on Al-Fatihah ayah 1 |
+| `hadith_collections`, `hadiths` | **Implemented + seeded** (4 hadiths from An-Nawawi's 40 — wording not yet independently verified, see SOURCES.md) |
 | `community_places` | **Schema only** — no live OSM/Overpass integration yet |
 | `journal_entries` | **Schema only** — no client UI yet |
 | `notification_templates` | **Schema only** — no push scheduling implemented |

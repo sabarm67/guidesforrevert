@@ -1,0 +1,142 @@
+{
+    "number": 93,
+    "name_arabic": "الضحى",
+    "name_english": "The Morning Hours",
+    "name_transliteration": "Ad-Duhaa",
+    "revelation_type": "meccan",
+    "beginner_intro": "Ad-Duhaa (\"The Morning Hours\") is a Meccan surah of 11 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَٱلضُّحَىٰ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By the morning hours"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And by the night when it is stillest,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Thy Lord hath not forsaken thee nor doth He hate thee,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And verily the latter portion will be better for thee than the former,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And verily thy Lord will give unto thee so that thou wilt be content."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Did He not find thee an orphan and protect (thee)?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Did He not find thee wandering and direct (thee)?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Did He not find thee destitute and enrich (thee)?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Therefor the orphan oppress not,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Therefor the beggar drive not away,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Therefor of the bounty of thy Lord be thy discourse."
+                }
+            ]
+        }
+    ]
+}

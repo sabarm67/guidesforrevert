@@ -11,22 +11,42 @@ authored with care but has not had that independent verification pass yet.
 
 ## Quran text and translation
 
-- **Arabic text**: sourced in the style of the Tanzil Project's Uthmani
-  Quran text (tanzil.net). Tanzil's usage conditions require that the text
-  not be altered from their published Unicode text — before shipping,
-  replace the Arabic strings in `content/seed/quran/*.json` with a direct
-  copy from Tanzil's official download, rather than relying on this seed's
-  transcription.
-- **Translation**: Saheeh International — a widely used, licensed English
-  translation. Verify current redistribution terms directly with Saheeh
-  International (or use `quran.com`'s API, which documents translation
-  licensing per-translator) before bundling any translation at scale.
+**Status: verified and safely sourced** (as of 2026-08, covering Al-Fatihah
+and the full Juz 'Amma — surahs 1 and 78-114, 38 surahs / 571 ayahs).
+
+- **Arabic text**: `text_uthmani` pulled directly from the official
+  `api.quran.com` API, which mirrors the Tanzil Project's Uthmani Quran
+  text. Tanzil's terms (confirmed at tanzil.net/download) grant permission
+  to copy and distribute verbatim copies of the text in any application,
+  commercial or not, provided the source (Tanzil Project) is credited with
+  a link to tanzil.net — done via this note. Text must not be altered.
+- **Translation**: **Pickthall** (Mohammed Marmaduke William Pickthall,
+  1930) — chosen specifically because it is a public-domain English
+  translation (pre-1964 US publication, copyright not renewed), unlike
+  modern translations such as Saheeh International, the Clear Quran, or
+  Abdul Haleem, which remain under active copyright and are NOT safe to
+  redistribute without a direct license from the publisher. Tanzil's own
+  translation downloads are explicitly restricted to non-commercial use
+  unless the translator/publisher grants permission — Pickthall's
+  public-domain status is what makes it usable regardless of that
+  restriction. Text pulled via `api.quran.com/api/v4/verses/by_chapter`,
+  translation resource id 19.
+- **Reproducing/expanding**: `php artisan quran:import {surah_numbers*}`
+  (see `app/Console/Commands/ImportQuranContent.php`) regenerates seed
+  files from the live API — a content-authoring tool run locally, never
+  called by the shipped app at runtime.
 - **Tafsir summaries**: the summaries attributed to Ibn Kathir and Al-Sa'di
-  in this seed are **original short summaries written by this project**,
+  on Al-Fatihah are **original short summaries written by this project**,
   not verbatim translations of their tafsir works — this is deliberate, to
   avoid redistributing full copyrighted/translated tafsir text without
-  clear licensing. If verbatim excerpts are wanted later, their licensing
-  must be checked per publisher/translator.
+  clear licensing. The auto-imported Juz 'Amma surahs have no tafsir yet.
+- **Known remaining risk**: the Quranic verse quotes embedded *inside*
+  lesson content (`content/seed/lessons/*.json`, `"type": "quote"` blocks)
+  are still unverified LLM-generated text loosely attributed to "Saheeh
+  International" — the same risk this section used to describe. They were
+  NOT covered by the fix above and should be replaced with verified
+  Pickthall (or another confirmed-safe) text the same way, ideally before
+  any public release.
 
 ## Hadith
 
@@ -49,27 +69,40 @@ authored with care but has not had that independent verification pass yet.
 
 ## Lessons
 
-- The Stage 1 and Stage 2 lessons in `content/seed/lessons/` are original
+- All 28 lessons across Stages 1-4 in `content/seed/lessons/` are original
   educational writing produced for this project, drawing on mainstream
   Sunni consensus positions. They are not a translation of any single
   external source, but the Quranic quotations within them follow the same
   Saheeh International sourcing note above, and any hadith quotations
-  (e.g. the Wudu, mosque-entry, and greeting hadiths in the Stage 2
-  lessons) follow the same commonly-published-English-wording caveat as
-  the An-Nawawi's 40 note above — cross-check exact wording against
-  sunnah.com before production use. Where a lesson describes a step-by-step
-  practice with minor variation between the Sunni schools of law (e.g.
-  Wudu's exact head-wiping method), the lesson says so explicitly rather
-  than presenting one madhhab's practice as the only valid one.
+  (e.g. the Wudu, mosque-entry, and greeting hadiths in Stage 2; the
+  dhikr, family, food, and charity hadiths in Stage 3; and the Seerah,
+  companions, and community hadiths in Stage 4) follow the same
+  commonly-published-English-wording caveat as the An-Nawawi's 40 note
+  above — cross-check exact wording against sunnah.com before production
+  use. Where a lesson describes a step-by-step practice with minor
+  variation between the Sunni schools of law (e.g. Wudu's exact
+  head-wiping method), or references genuinely disputed fiqh questions
+  (e.g. interfaith marriage in the Stage 4 marriage lesson), the lesson
+  says so explicitly and defers to a local imam rather than presenting one
+  view as the only valid one. The Stage 4 "Islamic History" and "Islamic
+  Civilisation" lessons summarise widely documented historical facts
+  (dates, dynasties, named scholars) rather than religious rulings, so
+  they carry lower sourcing risk but should still be spot-checked for
+  factual accuracy before production use.
 
 ## General principle for content going forward
 
 Only mainstream Sunni sources should be used (see the product brief's
-"Content Sources" section): Tanzil, Saheeh International / The Clear Quran /
-Abdul Haleem (where licensed) for Quran; Ibn Kathir, Al-Sa'di, Al-Tabari
-summaries for tafsir; Sahih al-Bukhari, Sahih Muslim, Riyad as-Salihin, and
-An-Nawawi's 40 for hadith. Where scholarly opinion differs (e.g. between
-madhhabs on fiqh questions), that difference should be labelled explicitly
-rather than presenting one view as the only one — this is not yet needed for
-the small seed set here, but will matter as soon as the content library
-grows into fiqh-heavy topics (e.g. detailed prayer rulings).
+"Content Sources" section): Tanzil (Arabic) + Pickthall (default, public
+domain) for Quran, with Saheeh International / The Clear Quran / Abdul
+Haleem usable only after obtaining an actual license or written permission
+from the respective publisher/translator; Ibn Kathir, Al-Sa'di, Al-Tabari
+original summaries for tafsir; Sahih al-Bukhari, Sahih Muslim, Riyad
+as-Salihin, and An-Nawawi's 40 for hadith — via sunnah.com's official API
+(api.sunnah.com, requires a free registered API key) once available, rather
+than LLM-paraphrased "commonly published" wording. Where scholarly opinion
+differs (e.g. between madhhabs on fiqh questions), that difference should be
+labelled explicitly rather than presenting one view as the only one — this
+is not yet needed for the small seed set here, but will matter as soon as
+the content library grows into fiqh-heavy topics (e.g. detailed prayer
+rulings).

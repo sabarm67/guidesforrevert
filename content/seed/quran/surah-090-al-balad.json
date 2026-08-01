@@ -1,0 +1,250 @@
+{
+    "number": 90,
+    "name_arabic": "البلد",
+    "name_english": "The City",
+    "name_transliteration": "Al-Balad",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Balad (\"The City\") is a Meccan surah of 20 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, I swear by this city -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And thou art an indweller of this city -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "وَوَالِدٍ وَمَا وَلَدَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the begetter and that which he begat,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "We verily have created man in an atmosphere:"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Thinketh he that none hath power over him?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And he saith: I have destroyed vast wealth:"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Thinketh he that none beholdeth him?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Did We not assign unto him two eyes"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "وَلِسَانًا وَشَفَتَيْنِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And a tongue and two lips,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And guide him to the parting of the mountain ways?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But he hath not attempted the Ascent -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 12,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Ah, what will convey unto thee what the Ascent is! -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 13,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "فَكُّ رَقَبَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(It is) to free a slave,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 14,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "أَوْ إِطْعَـٰمٌ فِى يَوْمٍ ذِى مَسْغَبَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And to feed in the day of hunger."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 15,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "يَتِيمًا ذَا مَقْرَبَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "An orphan near of kin,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 16,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Or some poor wretch in misery,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 17,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And to be of those who believe and exhort one another to perseverance and exhort one another to pity."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 18,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Their place will be on the right hand."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 19,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But those who disbelieve Our revelations, their place will be on the left hand."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 20,
+            "juz": 30,
+            "page": 594,
+            "arabic_text": "عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌۢ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Fire will be an awning over them."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "number": 94,
+    "name_arabic": "الشرح",
+    "name_english": "The Relief",
+    "name_transliteration": "Ash-Sharh",
+    "revelation_type": "meccan",
+    "beginner_intro": "Ash-Sharh (\"The Relief\") is a Meccan surah of 8 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Have We not caused thy bosom to dilate,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And eased thee of the burden"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Which weighed down thy back;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And exalted thy fame?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But lo! with hardship goeth ease,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! with hardship goeth ease;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "So when thou art relieved, still toil"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 596,
+            "arabic_text": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And strive to please thy Lord."
+                }
+            ]
+        }
+    ]
+}

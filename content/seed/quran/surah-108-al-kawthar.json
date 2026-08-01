@@ -1,0 +1,46 @@
+{
+    "number": 108,
+    "name_arabic": "الكوثر",
+    "name_english": "The Abundance",
+    "name_transliteration": "Al-Kawthar",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Kawthar (\"The Abundance\") is a Meccan surah of 3 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! We have given thee Abundance;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "So pray unto thy Lord, and sacrifice."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! it is thy insulter (and not thou) who is without posterity."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "number": 114,
+    "name_arabic": "الناس",
+    "name_english": "Mankind",
+    "name_transliteration": "An-Nas",
+    "revelation_type": "meccan",
+    "beginner_intro": "An-Nas (\"Mankind\") is a Meccan surah of 6 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 604,
+            "arabic_text": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Say: I seek refuge in the Lord of mankind,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 604,
+            "arabic_text": "مَلِكِ ٱلنَّاسِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "The King of mankind,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 604,
+            "arabic_text": "إِلَـٰهِ ٱلنَّاسِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "The God of mankind,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 604,
+            "arabic_text": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "From the evil of the sneaking whisperer,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 604,
+            "arabic_text": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Who whispereth in the hearts of mankind,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 604,
+            "arabic_text": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Of the jinn and of mankind."
+                }
+            ]
+        }
+    ]
+}
