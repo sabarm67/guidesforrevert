@@ -66,6 +66,21 @@ class LessonResource extends Resource
                         ->image()
                         ->directory('lesson-images')
                         ->required(),
+                    Forms\Components\TextInput::make('caption')
+                        ->helperText('Optional caption shown under the image.'),
+                ]),
+            Block::make('video')
+                ->label('Video (not yet shown in-app)')
+                ->icon('heroicon-o-play-circle')
+                ->schema([
+                    Forms\Components\TextInput::make('video_url')
+                        ->label('Video URL')
+                        ->url()
+                        ->required()
+                        ->helperText(
+                            'Schema/CMS support only for now — the Flutter app does not render '
+                            .'video blocks yet, so anything added here will not appear in the app.',
+                        ),
                 ]),
             Block::make('faq')
                 ->label('FAQ item')

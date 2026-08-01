@@ -3,8 +3,8 @@
   "stage_slug": "your-first-week",
   "order": 2,
   "title": "Learning Wudu (Ablution)",
-  "summary": "A step-by-step walkthrough of the ablution Muslims perform before prayer, and what it means beyond the physical steps.",
-  "estimated_minutes": 8,
+  "summary": "A step-by-step, illustrated walkthrough of the ablution Muslims perform before prayer, and what it means beyond the physical steps.",
+  "estimated_minutes": 9,
   "need_to_know": true,
   "body": [
     {
@@ -17,12 +17,68 @@
     },
     {
       "type": "heading",
-      "text": "The steps, in order"
+      "text": "The 12 steps, in order"
     },
     {
       "type": "text",
-      "text": "1. Begin with the intention (niyyah) to purify yourself for prayer — this is a mental intention, not something you have to say aloud. Many people say \"Bismillah\" (in the name of Allah) as they start.\n2. Wash both hands up to the wrists, three times, making sure water reaches between the fingers.\n3. Rinse the mouth with water, three times.\n4. Sniff water into the nostrils and blow it out, three times.\n5. Wash the whole face, from the hairline to the chin and ear to ear, three times.\n6. Wash the arms up to and including the elbows, right arm first then left, three times each.\n7. Wipe the head once with a wet hand, from front to back (or back to front and back again, depending on the school of thought).\n8. Wipe the inside and outside of both ears with wet fingers.\n9. Wash the feet up to and including the ankles, right foot first then left, three times each, making sure water reaches between the toes."
+      "text": "1. Begin with the intention (niyyah) to purify yourself for prayer — this is a mental intention, not something you have to say aloud. Many people say \"Bismillah\" (in the name of Allah) as they start."
     },
+    { "type": "image", "image_ref": "assets/images/wudu/01-niyyah.png", "caption": "Step 1: Niyyah — intend in your heart to perform Wudu for Allah" },
+    {
+      "type": "text",
+      "text": "2. Wash both hands up to the wrists, three times, making sure water reaches between the fingers."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/02-wash-hands.png", "caption": "Step 2: wash both hands to the wrists, 3 times" },
+    {
+      "type": "text",
+      "text": "3. Rinse the mouth with water, three times, making sure the water reaches every part of the mouth."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/03-rinse-mouth.png", "caption": "Step 3: rinse the mouth, 3 times" },
+    {
+      "type": "text",
+      "text": "4. Sniff water into the nostrils and blow it out, three times."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/04-rinse-nose.png", "caption": "Step 4: sniff water into the nostrils, 3 times" },
+    {
+      "type": "text",
+      "text": "5. Wash the whole face, from the hairline to the chin and ear to ear, three times."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/05-wash-face.png", "caption": "Step 5: wash the whole face, 3 times" },
+    {
+      "type": "text",
+      "text": "6. Wash the right arm from the fingertips to the elbow, three times."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/06-wash-right-arm.png", "caption": "Step 6: wash the right arm to the elbow, 3 times" },
+    {
+      "type": "text",
+      "text": "7. Wash the left arm from the fingertips to the elbow, three times."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/07-wash-left-arm.png", "caption": "Step 7: wash the left arm to the elbow, 3 times" },
+    {
+      "type": "text",
+      "text": "8. Wipe part of the head with a wet hand, from the forehead toward the nape and back, once (the exact motion varies slightly by school of thought — see below)."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/08-wipe-head.png", "caption": "Step 8: wipe the head, once" },
+    {
+      "type": "text",
+      "text": "9. Wipe both ears, inside and outside, with water, once."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/09-wipe-ears.png", "caption": "Step 9: wipe both ears, once" },
+    {
+      "type": "text",
+      "text": "10. Wash the right foot from the toes to the ankle, three times."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/10-wash-right-foot.png", "caption": "Step 10: wash the right foot to the ankle, 3 times" },
+    {
+      "type": "text",
+      "text": "11. Wash the left foot from the toes to the ankle, three times, making sure water reaches between the toes."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/11-wash-left-foot.png", "caption": "Step 11: wash the left foot to the ankle, 3 times" },
+    {
+      "type": "text",
+      "text": "12. Tertib — make sure all the steps above were done, in this order, without skipping any. This last \"step\" is really a check, not a physical action: it's what makes the previous eleven count as one valid Wudu rather than a disconnected set of washes."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/12-tertib-order.png", "caption": "Step 12: Tertib — confirm every step was done in order" },
     {
       "type": "text",
       "text": "Minor details of exactly how the head is wiped, or whether some steps are done once versus three times, vary slightly between the Sunni schools of law (madhhabs) — these are legitimate differences of scholarly opinion, not contradictions, and any of them is valid. The sequence above reflects the commonly taught general practice."
@@ -56,7 +112,7 @@
     },
     {
       "type": "reflection",
-      "question": "Try doing Wudu once today, slowly, following the steps above without rushing. What did you notice — was any step less intuitive than you expected?"
+      "question": "Try doing Wudu once today, slowly, following the 12 steps above without rushing. What did you notice — was any step less intuitive than you expected?"
     }
   ],
   "further_reading": [

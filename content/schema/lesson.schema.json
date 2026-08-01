@@ -19,13 +19,15 @@
         "type": "object",
         "required": ["type"],
         "properties": {
-          "type": { "type": "string", "enum": ["heading", "text", "quote", "image", "reflection", "faq"] },
+          "type": { "type": "string", "enum": ["heading", "text", "quote", "image", "video", "reflection", "faq"] },
           "text": { "type": "string" },
           "arabic": { "type": "string" },
           "transliteration": { "type": "string" },
           "translation": { "type": "string" },
           "reference": { "type": "string" },
-          "image_ref": { "type": "string" },
+          "image_ref": { "type": "string", "description": "Asset path (bundled, e.g. assets/images/wudu/01-wash-hands.svg) or a CMS-uploaded storage path, for type: image." },
+          "caption": { "type": "string", "description": "Optional caption shown under an image block." },
+          "video_url": { "type": "string", "description": "External video URL, for type: video. Schema/CMS support only for now — not yet rendered by the Flutter app (see docs/architecture/system-architecture.md)." },
           "question": { "type": "string" },
           "answer": { "type": "string" }
         }

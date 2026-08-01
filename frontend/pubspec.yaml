@@ -57,6 +57,7 @@ dependencies:
   intl: ^0.19.0
   http: ^1.6.0
   url_launcher: ^6.3.2
+  flutter_svg: ^2.3.0
 
 dev_dependencies:
   flutter_test:
@@ -91,6 +92,8 @@ flutter:
     - assets/content/ai-mentor-faq.json
     - assets/content/lessons/
     - assets/content/quran/
+    - assets/images/wudu/
+    - assets/images/salah/
     - assets/content/hadith/
 
   # An image asset can refer to one or more resolution-specific "variants", see

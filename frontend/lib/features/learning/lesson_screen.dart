@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../theme/app_spacing.dart';
 import '../../theme/app_typography.dart';
@@ -101,6 +102,30 @@ class _LessonBlock extends StatelessWidget {
                 ],
               ],
             ),
+          ),
+        );
+      case 'image':
+        final ref = block['image_ref'] as String?;
+        if (ref == null) return const SizedBox.shrink();
+        return Padding(
+          padding: const EdgeInsets.only(bottom: AppSpacing.md),
+          child: Column(
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(AppSpacing.sm),
+                child: ref.endsWith('.svg')
+                    ? SvgPicture.asset(ref, width: 180, height: 180)
+                    : Image.asset(ref, width: 180, height: 180, fit: BoxFit.contain),
+              ),
+              if (block['caption'] != null) ...[
+                const SizedBox(height: AppSpacing.xs),
+                Text(
+                  block['caption'] as String,
+                  style: textTheme.labelMedium?.copyWith(color: colors.onSurfaceVariant),
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ],
           ),
         );
       case 'faq':
