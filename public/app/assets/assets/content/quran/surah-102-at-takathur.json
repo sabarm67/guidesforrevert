@@ -1,0 +1,106 @@
+{
+    "number": 102,
+    "name_arabic": "التكاثر",
+    "name_english": "The Rivalry in world increase",
+    "name_transliteration": "At-Takathur",
+    "revelation_type": "meccan",
+    "beginner_intro": "At-Takathur (\"The Rivalry in world increase\") is a Meccan surah of 8 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Rivalry in worldly increase distracteth you"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Until ye come to the graves."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "كَلَّا سَوْفَ تَعْلَمُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, but ye will come to know!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, but ye will come to know!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, would that ye knew (now) with a sure knowledge!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "For ye will behold hell-fire."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Aye, ye will behold it with sure vision."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then, on that day, ye will be asked concerning pleasure."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "number": 107,
+    "name_arabic": "الماعون",
+    "name_english": "The Small kindnesses",
+    "name_transliteration": "Al-Ma'un",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Ma'un (\"The Small kindnesses\") is a Meccan surah of 7 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Hast thou observed him who belieth religion?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "That is he who repelleth the orphan,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And urgeth not the feeding of the needy."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Ah, woe unto worshippers"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Who are heedless of their prayer;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Who would be seen (at worship)"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Yet refuse small kindnesses!"
+                }
+            ]
+        }
+    ]
+}

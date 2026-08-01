@@ -1,0 +1,142 @@
+{
+    "number": 100,
+    "name_arabic": "العاديات",
+    "name_english": "The Courser",
+    "name_transliteration": "Al-'Adiyat",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-'Adiyat (\"The Courser\") is a Meccan surah of 11 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "وَٱلْعَـٰدِيَـٰتِ ضَبْحًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By the snorting courses,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "فَٱلْمُورِيَـٰتِ قَدْحًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Striking sparks of fire"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "فَٱلْمُغِيرَٰتِ صُبْحًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And scouring to the raid at dawn,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "فَأَثَرْنَ بِهِۦ نَقْعًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then, therewith, with their trail of dust,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Cleaving, as one, the centre (of the foe),"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! man is an ingrate unto his Lord"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And lo! he is a witness unto that;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And lo! in the love of wealth he is violent."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Knoweth he not that, when the contents of the graves are poured forth"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the secrets of the breasts are made known,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "On that day will their Lord be perfectly informed concerning them."
+                }
+            ]
+        }
+    ]
+}

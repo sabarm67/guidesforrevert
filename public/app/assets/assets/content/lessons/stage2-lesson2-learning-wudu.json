@@ -1,0 +1,66 @@
+{
+  "slug": "learning-wudu",
+  "stage_slug": "your-first-week",
+  "order": 2,
+  "title": "Learning Wudu (Ablution)",
+  "summary": "A step-by-step walkthrough of the ablution Muslims perform before prayer, and what it means beyond the physical steps.",
+  "estimated_minutes": 8,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "What Wudu is for"
+    },
+    {
+      "type": "text",
+      "text": "Wudu is the ritual washing that puts a Muslim into the state of purity needed for Salah (the five daily prayers) and for touching the Quran's Arabic text. It's required again after anything that \"breaks\" it — most commonly using the toilet, passing wind, deep sleep, or bleeding. It does not need to be repeated before every single prayer if it hasn't been broken since the last one; many people simply keep their Wudu through the day."
+    },
+    {
+      "type": "heading",
+      "text": "The steps, in order"
+    },
+    {
+      "type": "text",
+      "text": "1. Begin with the intention (niyyah) to purify yourself for prayer — this is a mental intention, not something you have to say aloud. Many people say \"Bismillah\" (in the name of Allah) as they start.\n2. Wash both hands up to the wrists, three times, making sure water reaches between the fingers.\n3. Rinse the mouth with water, three times.\n4. Sniff water into the nostrils and blow it out, three times.\n5. Wash the whole face, from the hairline to the chin and ear to ear, three times.\n6. Wash the arms up to and including the elbows, right arm first then left, three times each.\n7. Wipe the head once with a wet hand, from front to back (or back to front and back again, depending on the school of thought).\n8. Wipe the inside and outside of both ears with wet fingers.\n9. Wash the feet up to and including the ankles, right foot first then left, three times each, making sure water reaches between the toes."
+    },
+    {
+      "type": "text",
+      "text": "Minor details of exactly how the head is wiped, or whether some steps are done once versus three times, vary slightly between the Sunni schools of law (madhhabs) — these are legitimate differences of scholarly opinion, not contradictions, and any of them is valid. The sequence above reflects the commonly taught general practice."
+    },
+    {
+      "type": "quote",
+      "translation": "Whoever performs Wudu well, his sins depart from his body, even from beneath his nails.",
+      "reference": "Sahih Muslim"
+    },
+    {
+      "type": "text",
+      "text": "Hadiths like this one are why Wudu is described as more than hygiene — it's taught as a small, repeated act of spiritual renewal, not just a practical prerequisite to prayer."
+    },
+    {
+      "type": "heading",
+      "text": "What breaks Wudu"
+    },
+    {
+      "type": "text",
+      "text": "Common things that require you to repeat Wudu before your next prayer: using the toilet, passing gas, deep sleep, and bleeding or discharge. Simply touching someone, or minor tiredness, does not break it — scholars differ on a few edge cases, but the core list above covers what a beginner needs to know."
+    },
+    {
+      "type": "faq",
+      "question": "What if I make a mistake in the order, or forget a step?",
+      "answer": "If you realise partway through, just go back and do the missed step and continue in order — there's no need to start completely over unless you've moved on and finished. Early on, mistakes are completely normal; the goal is steady improvement, not instant perfection."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to say anything in Arabic during Wudu?",
+      "answer": "No specific Arabic recitation is required during the washing itself — the intention is a matter of the heart, not a spoken formula. Many people say \"Bismillah\" at the start and a short dua afterward, but these are recommended additions (Sunnah), not conditions for the Wudu to count."
+    },
+    {
+      "type": "reflection",
+      "question": "Try doing Wudu once today, slowly, following the steps above without rushing. What did you notice — was any step less intuitive than you expected?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Cleanliness and Purity (Taharah)", "reference": "See Stage 2, previous lesson" },
+    { "label": "Learning Salah", "reference": "See Stage 2, next lesson" }
+  ]
+}

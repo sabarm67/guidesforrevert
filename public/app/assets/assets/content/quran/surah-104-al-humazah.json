@@ -1,0 +1,118 @@
+{
+    "number": 104,
+    "name_arabic": "الهمزة",
+    "name_english": "The Traducer",
+    "name_transliteration": "Al-Humazah",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Humazah (\"The Traducer\") is a Meccan surah of 9 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto every slandering traducer,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Who hath gathered wealth (of this world) and arranged it."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "He thinketh that his wealth will render him immortal."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, but verily he will be flung to the Consuming One."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Ah, what will convey unto thee what the Consuming One is!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(It is) the fire of Allah, kindled,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Which leapeth up over the hearts (of men)."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! it is closed in on them"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 601,
+            "arabic_text": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "In outstretched columns."
+                }
+            ]
+        }
+    ]
+}

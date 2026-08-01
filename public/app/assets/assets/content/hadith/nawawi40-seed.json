@@ -1,0 +1,40 @@
+{
+  "collection_slug": "nawawi40",
+  "collection_title": "An-Nawawi's Forty Hadith",
+  "collection_description": "A widely-studied collection of 42 hadiths compiled by Imam An-Nawawi (13th century), chosen because each one covers a major principle of Islamic practice and character. A traditional starting point for beginners. This seed includes a small sample of 3; the full 42 are future content.",
+  "hadiths": [
+    {
+      "number_in_collection": 1,
+      "arabic_text": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ",
+      "english_text": "Actions are judged by intentions, and everyone will be rewarded according to their intention. Whoever migrates for the sake of Allah and His Messenger, their migration is for Allah and His Messenger. But whoever migrates for worldly gain, or to marry someone, their migration is for what they migrated for.",
+      "narrator": "Umar ibn al-Khattab",
+      "authenticity_grade": "sahih",
+      "reference_note": "Related by Bukhari and Muslim",
+      "context": "Reported to have been said in relation to a man who migrated from Makkah to Madinah in order to marry a woman, rather than purely for the sake of his faith.",
+      "explanation": "This hadith is considered so central that Islamic scholarship traditionally places it first in almost every hadith collection: the same outward action can carry very different weight depending on the intention (niyyah) behind it. Two people can do the exact same deed — for instance, both give money to charity — and be judged completely differently because one did it sincerely for God and the other to be seen or praised.",
+      "practical_application": "Before any act of worship — prayer, fasting, charity, even small daily habits like this app's lessons — it helps to pause and briefly renew the intention: doing this for God's sake, not out of habit or to impress anyone."
+    },
+    {
+      "number_in_collection": 13,
+      "arabic_text": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+      "english_text": "None of you truly believes until he loves for his brother what he loves for himself.",
+      "narrator": "Anas ibn Malik",
+      "authenticity_grade": "sahih",
+      "reference_note": "Related by Bukhari and Muslim",
+      "context": "A general statement on brotherhood and good character among believers, understood by scholars to extend broadly to good treatment of others, not narrowly to fellow Muslims only.",
+      "explanation": "This hadith ties the completeness of one's faith directly to how one treats other people — not just ritual practice. Wanting good for others as sincerely as you want it for yourself is presented as a marker of genuine belief, not an optional extra.",
+      "practical_application": "A simple daily check: before acting toward a family member, colleague, or neighbour, ask whether you'd be comfortable being treated that same way yourself."
+    },
+    {
+      "number_in_collection": 15,
+      "arabic_text": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيُكْرِمْ جَارَهُ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيُكْرِمْ ضَيْفَهُ",
+      "english_text": "Whoever believes in Allah and the Last Day should speak good or remain silent; whoever believes in Allah and the Last Day should be generous to his neighbour; and whoever believes in Allah and the Last Day should be generous to his guest.",
+      "narrator": "Abu Hurairah",
+      "authenticity_grade": "sahih",
+      "reference_note": "Related by Bukhari and Muslim",
+      "context": "One of several hadiths linking belief directly to everyday conduct — speech, treatment of neighbours, and hospitality — rather than treating faith as a purely private, internal matter.",
+      "explanation": "Three practical instructions tied to the same standard (\"whoever believes in Allah and the Last Day\"): guard your speech, look after your neighbours, and be generous to guests. Silence is explicitly presented as preferable to harmful or careless speech.",
+      "practical_application": "A very concrete daily habit for a new Muslim: before speaking, especially online or in an argument, pause and ask whether it's good to say — and if not, staying quiet is itself the taught response, not a failure to speak up."
+    }
+  ]
+}

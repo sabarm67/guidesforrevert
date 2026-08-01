@@ -1,0 +1,106 @@
+{
+    "number": 99,
+    "name_arabic": "الزلزلة",
+    "name_english": "The Earthquake",
+    "name_transliteration": "Az-Zalzalah",
+    "revelation_type": "medinan",
+    "beginner_intro": "Az-Zalzalah (\"The Earthquake\") is a Medinan surah of 8 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "When Earth is shaken with her (final) earthquake"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And Earth yieldeth up her burdens,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And man saith: What aileth her?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "That day she will relate her chronicles,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Because thy Lord inspireth her."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "That day mankind will issue forth in scattered groups to be shown their deeds."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And whoso doeth good an atom's weight will see it then,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 599,
+            "arabic_text": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And whoso doeth ill an atom's weight will see it then."
+                }
+            ]
+        }
+    ]
+}

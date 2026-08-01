@@ -1,0 +1,57 @@
+{
+  "slug": "food-and-halal",
+  "stage_slug": "building-daily-habits",
+  "order": 6,
+  "title": "Food and Halal",
+  "summary": "What \"halal\" actually means, the main food rules to know day-to-day, and the reasoning behind them.",
+  "estimated_minutes": 7,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Halal means \"permissible,\" not \"blessed\" or \"special\""
+    },
+    {
+      "type": "text",
+      "text": "Halal (permissible) and haram (prohibited) are general Islamic legal categories that apply to far more than food, but food is where most people encounter the terms first. For food specifically, the two clearest, most consistent rules are: pork and its by-products are prohibited, and alcohol is prohibited, in any food or drink."
+    },
+    {
+      "type": "quote",
+      "translation": "O you who have believed, indeed, intoxicants, gambling, [sacrificing on] stone altars [to other than Allah], and divining arrows are but defilement from the work of Satan, so avoid it that you may be successful.",
+      "reference": "Quran 5:90 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Meat specifically: zabihah"
+    },
+    {
+      "type": "text",
+      "text": "Beyond avoiding pork, other meat is expected to be zabihah — slaughtered according to Islamic method, which includes a swift cut, a specific invocation of God's name, and draining the blood. This is why you'll see \"halal\" certification specifically called out on meat products and restaurants — it's addressing this requirement, not just \"no pork.\" When eating out or buying meat and you're unsure, asking directly or looking for halal certification is the normal, expected thing to do — nobody will think it's a strange question."
+    },
+    {
+      "type": "heading",
+      "text": "A brief note on why"
+    },
+    {
+      "type": "text",
+      "text": "Scholars point to a mix of reasons across these rules: physical and social harms associated with alcohol and pork in the historical and modern record, a broader Quranic theme of consuming what's \"good and pure\" (tayyib) rather than just permissible, and — as with many Islamic practices — an element of trust and discipline in following a divine instruction even where the full reasoning isn't the main point. A deeper background story on alcohol specifically, including the gradual, staged way it was prohibited over years rather than all at once, is planned for this app's Background Stories section."
+    },
+    {
+      "type": "faq",
+      "question": "What if I accidentally eat something haram without realising?",
+      "answer": "Islamic teaching is notably gentle here: acting in genuine ignorance or by honest mistake is not treated the same as knowingly and deliberately doing something prohibited. The general advice is simply to avoid it going forward once you know, without excessive guilt over past mistakes made before you knew better."
+    },
+    {
+      "type": "faq",
+      "question": "Is all seafood automatically halal?",
+      "answer": "Most scholars hold that seafood is broadly permissible without needing the zabihah slaughter process that applies to land animals, though there are some differences of scholarly opinion on specific categories of sea creatures between the Sunni schools of law. For everyday purposes, standard fish and shellfish are widely treated as halal; if you're ever unsure about a specific case, asking a local imam is the reliable way to get a clear answer."
+    },
+    {
+      "type": "reflection",
+      "question": "Think about your usual weekly meals. What's one small, practical change you could make this week to start eating more consistently halal?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Why Alcohol is Prohibited", "reference": "See Understanding Islam / Background Stories section (future content)" }
+  ]
+}

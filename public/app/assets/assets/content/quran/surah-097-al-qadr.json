@@ -1,0 +1,70 @@
+{
+    "number": 97,
+    "name_arabic": "القدر",
+    "name_english": "The Power",
+    "name_transliteration": "Al-Qadr",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Qadr (\"The Power\") is a Meccan surah of 5 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 598,
+            "arabic_text": "إِنَّآ أَنزَلْنَـٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! We revealed it on the Night of Predestination."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 598,
+            "arabic_text": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Ah, what will convey unto thee what the Night of Power is!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 598,
+            "arabic_text": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "The Night of Power is better than a thousand months."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 598,
+            "arabic_text": "تَنَزَّلُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "The angels and the Spirit descend therein, by the permission of their Lord, with all decrees."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 598,
+            "arabic_text": "سَلَـٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(The night is) Peace until the rising of the dawn."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "seerah-the-life-of-the-prophet",
+  "stage_slug": "growing-in-knowledge",
+  "order": 1,
+  "title": "Seerah: The Life of the Prophet",
+  "summary": "A first overview of the Seerah — the biography of Prophet Muhammad (peace be upon him) — and why studying his life in detail matters.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Why Muslims study his life in such detail"
+    },
+    {
+      "type": "text",
+      "text": "You met the basics of who the Prophet Muhammad (peace be upon him) was back in Stage 1. Seerah is the traditional name for the detailed biographical study of his life — and Muslims study it far more closely than most religious traditions study their founders' lives, because his example (the Sunnah) is considered a practical guide for living, not just a historical curiosity."
+    },
+    {
+      "type": "heading",
+      "text": "The shape of his life, in brief"
+    },
+    {
+      "type": "text",
+      "text": "Born in Makkah around 570 CE and orphaned young, he grew up known for honesty and trustworthiness. Around age 40, he began receiving revelation, first privately, then publicly — which brought years of ridicule and persecution against the small early Muslim community in Makkah. In 622 CE, he and his followers migrated to Madinah (an event called the Hijrah, which marks year one of the Islamic calendar), where a growing Muslim community built the first real Islamic society, including treaties with neighbouring tribes and, eventually, conflict with Makkah before a largely peaceful return to the city in 630 CE. He passed away in 632 CE, by which point most of Arabia had accepted Islam."
+    },
+    {
+      "type": "quote",
+      "translation": "And We have not sent you, [O Muhammad], except as a mercy to the worlds.",
+      "reference": "Quran 21:107 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Why the details matter, not just the outline"
+    },
+    {
+      "type": "text",
+      "text": "The value of Seerah isn't just knowing dates and events — it's seeing how he handled specific, relatable situations: patience under persecution, forgiveness toward former enemies after victory, fairness in dealing with people of other faiths, grief at personal loss, and simplicity despite eventually leading a large community. Those specific moments are what later scholars drew on to derive practical guidance for everyday life, far more than the broad timeline alone could provide."
+    },
+    {
+      "type": "faq",
+      "question": "Where should I actually start reading Seerah in more depth?",
+      "answer": "Most beginners start with a single, well-regarded, accessible biography rather than the earliest classical Arabic sources directly — a knowledgeable local imam or Muslim friend can point you to a translation suited to your reading level. This app's dedicated Seerah content, going event-by-event, is planned as a future expansion of this section."
+    },
+    {
+      "type": "faq",
+      "question": "Are all the stories about his life equally reliable?",
+      "answer": "No — like hadith generally, narrations about his life carry different levels of authentication, from extremely well-verified to weak or unreliable. A trustworthy Seerah source will generally note this, rather than presenting every popular story as equally certain; this is one more reason to prefer reputable, scholarly-reviewed sources over informal retellings."
+    },
+    {
+      "type": "reflection",
+      "question": "Of the qualities mentioned above — patience, forgiveness, fairness, simplicity — which one do you feel most drawn to learn more about through his example?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Who was Prophet Muhammad (peace be upon him)?", "reference": "See Stage 1" }
+  ]
+}

@@ -162,3 +162,34 @@ at the default `/public`. See [`../../scripts/forge-deploy.sh`](../../scripts/fo
 for the deploy script to paste into the Forge site's "Deployment Script"
 field (based on the same working pattern used by the sibling Hafazan
 project).
+
+### Flutter Web/PWA (public/app/)
+
+The Flutter Web build is committed **pre-built** into `public/app/` and
+served as plain static files at `https://guides.rcaquacycle.com/app/` —
+the production server has no Flutter SDK installed, so it can't run
+`flutter build web` itself the way it runs `composer install`. Whenever a
+frontend change should reach the web build, rebuild and re-copy locally,
+then commit and push like any other change:
+
+```bash
+cd frontend
+flutter build web --release --base-href /app/
+cd ..
+rm -rf public/app
+mkdir -p public/app
+cp -r frontend/build/web/. public/app/
+rm -rf public/app/canvaskit   # ~37MB local fallback the bootstrap doesn't
+                              # use by default (it fetches CanvasKit from
+                              # Google's CDN, gstatic.com/flutter-canvaskit,
+                              # unless useLocalCanvasKit is set) — dropping
+                              # it keeps the repo lean with no behaviour change.
+git add public/app
+git commit -m "Update deployed web build"
+git push
+```
+
+Forge's normal git-based Zero-Downtime Deployment then ships the new
+`public/app/` contents on the next deploy — no changes to
+`forge-deploy.sh` needed, since these are just files checked out with the
+rest of the release.

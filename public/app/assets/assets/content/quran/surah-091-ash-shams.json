@@ -1,0 +1,190 @@
+{
+    "number": 91,
+    "name_arabic": "الشمس",
+    "name_english": "The Sun",
+    "name_transliteration": "Ash-Shams",
+    "revelation_type": "meccan",
+    "beginner_intro": "Ash-Shams (\"The Sun\") is a Meccan surah of 15 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "وَٱلشَّمْسِ وَضُحَىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By the sun and his brightness,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the moon when she followeth him,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the day when it revealeth him,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the night when it enshroudeth him,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the heaven and Him Who built it,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the earth and Him Who spread it,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "وَنَفْسٍ وَمَا سَوَّىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And a soul and Him Who perfected it"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And inspired it (with conscience of) what is wrong for it and (what is) right for it."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "He is indeed successful who causeth it to grow,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And he is indeed a failure who stunteth it."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(The tribe of) Thamud denied (the truth) in their rebellious pride,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 12,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "When the basest of them broke forth"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 13,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the messenger of Allah said: It is the she-camel of Allah, so let her drink!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 14,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But they denied him, and they hamstrung her, so Allah doomed them for their sin and rased (their dwellings)."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 15,
+            "juz": 30,
+            "page": 595,
+            "arabic_text": "وَلَا يَخَافُ عُقْبَـٰهَا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "He dreadeth not the sequel (of events)."
+                }
+            ]
+        }
+    ]
+}

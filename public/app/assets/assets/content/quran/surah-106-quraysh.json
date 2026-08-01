@@ -1,0 +1,58 @@
+{
+    "number": 106,
+    "name_arabic": "قريش",
+    "name_english": "Quraysh",
+    "name_transliteration": "Quraysh",
+    "revelation_type": "meccan",
+    "beginner_intro": "Quraysh (\"Quraysh\") is a Meccan surah of 4 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "لِإِيلَـٰفِ قُرَيْشٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "For the taming of Qureysh."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "For their taming (We cause) the caravans to set forth in winter and summer."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "So let them worship the Lord of this House,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 602,
+            "arabic_text": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Who hath fed them against hunger and hath made them safe from fear."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "welcome-to-islam",
+    "order": 1,
+    "title": "Welcome to Islam",
+    "description": "The foundations: who Allah is, who Prophet Muhammad (peace be upon him) is, the purpose of life, the Shahadah, the Five Pillars, the Six Articles of Faith, and gently addressing common misconceptions.",
+    "icon": "stage_welcome"
+  },
+  {
+    "slug": "your-first-week",
+    "order": 2,
+    "title": "Your First Week",
+    "description": "Practical first steps: learning Wudu, learning Salah, simple Arabic pronunciation, basic duas, how to enter a mosque, Islamic greetings, and cleanliness.",
+    "icon": "stage_first_week"
+  },
+  {
+    "slug": "building-daily-habits",
+    "order": 3,
+    "title": "Building Daily Habits",
+    "description": "Making Islam part of daily life: the five daily prayers, the Quran, dhikr, good manners, family, food and halal, work, and charity.",
+    "icon": "stage_habits"
+  },
+  {
+    "slug": "growing-in-knowledge",
+    "order": 4,
+    "title": "Growing in Knowledge",
+    "description": "Deeper study for those ready: the Seerah (life of the Prophet), the Companions, Islamic history, the madhhabs, Islamic civilisation, ethics, marriage, finance, and community.",
+    "icon": "stage_knowledge"
+  }
+]

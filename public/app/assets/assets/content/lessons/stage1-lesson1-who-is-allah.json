@@ -1,0 +1,67 @@
+{
+  "slug": "who-is-allah",
+  "stage_slug": "welcome-to-islam",
+  "order": 1,
+  "title": "Who is Allah?",
+  "summary": "An introduction to the Oneness of God (Tawhid) in Islam, and why this is the very first thing to understand.",
+  "estimated_minutes": 6,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "One God, known to every people"
+    },
+    {
+      "type": "text",
+      "text": "\"Allah\" is simply the Arabic word for God — the same God, and the same message of the Oneness of God, that was taught by Adam, Noah, Abraham, Moses, Jesus, and every prophet before Muhammad (peace be upon them all). Arabic-speaking Christians and Jews also use the word \"Allah\" for God. It is not a different or new deity — it is the One Creator of everything, known by this name."
+    },
+    {
+      "type": "heading",
+      "text": "Tawhid: the Oneness of God"
+    },
+    {
+      "type": "text",
+      "text": "The single most important idea in Islam is called Tawhid — belief that Allah is One, without partner, without equal, and without need of anyone. Allah was not born and does not give birth. Nothing is comparable to Him. Everything else that exists — the sun, the angels, every human being, every prophet — is a created thing, not divine. This is why Islam places such importance on worshipping God alone, directly, without intermediaries."
+    },
+    {
+      "type": "quote",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ * اللَّهُ الصَّمَدُ * لَمْ يَلِدْ وَلَمْ يُولَدْ * وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+      "translation": "Say, He is Allah, [who is] One, Allah, the Eternal Refuge. He neither begets nor is born, nor is there to Him any equivalent.",
+      "reference": "Quran 112:1-4 (Saheeh International)"
+    },
+    {
+      "type": "text",
+      "text": "This short chapter, Surah Al-Ikhlas, is recited by Muslims many times a day. The Prophet Muhammad (peace be upon him) described it as equal in meaning to a third of the Quran, because it summarises the entire concept of who God is."
+    },
+    {
+      "type": "heading",
+      "text": "Why this matters before anything else"
+    },
+    {
+      "type": "text",
+      "text": "Islam teaches that everything else — prayer, fasting, charity, good character — flows from getting this one relationship right first: your relationship with the One who created you. That's why this is Lesson 1. Nothing else in the app will make full sense without this foundation."
+    },
+    {
+      "type": "heading",
+      "text": "Common misconceptions, gently addressed"
+    },
+    {
+      "type": "faq",
+      "question": "Is Allah a different God from the God worshipped by Christians and Jews?",
+      "answer": "No. Muslims believe in the same God worshipped by Abraham, Moses, and Jesus — the One Creator of the universe. Islam does differ from Christianity and Judaism on some specific beliefs about God's nature and about the prophets, and a later section of this app explores those differences respectfully and in detail. But the starting point — one God, Creator of all — is shared."
+    },
+    {
+      "type": "faq",
+      "question": "Do Muslims worship the Prophet Muhammad or the Kaaba?",
+      "answer": "No. Muslims worship Allah alone. The Prophet Muhammad (peace be upon him) is deeply respected as the final messenger, but he is not worshipped — he was a human being. The Kaaba in Makkah is a direction Muslims face during prayer as a symbol of unity in worship; it is not itself worshipped."
+    },
+    {
+      "type": "reflection",
+      "question": "What does it mean to you, personally, that God is described as having \"no partner and no equal\"? How might that change the way a person thinks about relying on God versus relying on other things?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Surah Al-Ikhlas (Quran 112)", "reference": "See Quran section of this app" },
+    { "label": "Six Articles of Faith", "reference": "See Stage 1, later lesson" }
+  ]
+}

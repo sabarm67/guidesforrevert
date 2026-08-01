@@ -1,0 +1,238 @@
+{
+    "number": 96,
+    "name_arabic": "العلق",
+    "name_english": "The Clot",
+    "name_transliteration": "Al-'Alaq",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-'Alaq (\"The Clot\") is a Meccan surah of 19 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Read: In the name of thy Lord Who createth,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Createth man from a clot."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Read: And thy Lord is the Most Bounteous,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Who teacheth by the pen,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Teacheth man that which he knew not."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, but verily man is rebellious"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "That he thinketh himself independent!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! unto thy Lord is the return."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Hast thou seen him who dissuadeth"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "عَبْدًا إِذَا صَلَّىٰٓ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "A slave when he prayeth?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Hast thou seen if he relieth on the guidance (of Allah)"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 12,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Or enjoineth piety?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 13,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Hast thou seen if he denieth (Allah's guidance) and is froward?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 14,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Is he then unaware that Allah seeth?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 15,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, but if he cease not We will seize him by the forelock -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 16,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "The lying, sinful forelock -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 17,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "فَلْيَدْعُ نَادِيَهُۥ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then let him call upon his henchmen!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 18,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "We will call the guards of hell."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 19,
+            "juz": 30,
+            "page": 597,
+            "arabic_text": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, Obey not thou him. But prostrate thyself, and draw near (unto Allah)."
+                }
+            ]
+        }
+    ]
+}

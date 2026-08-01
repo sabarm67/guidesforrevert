@@ -1,0 +1,67 @@
+{
+  "slug": "learning-salah",
+  "stage_slug": "your-first-week",
+  "order": 3,
+  "title": "Learning Salah (Getting Started)",
+  "summary": "An introduction to the five daily prayers — their names, basic structure, and the history behind why there are five.",
+  "estimated_minutes": 9,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "This is a starting point, not the full guide"
+    },
+    {
+      "type": "text",
+      "text": "A complete, step-by-step Salah guide — with images, audio, and positions for every situation (travel, illness, congregational prayer, and more) — is a dedicated module planned for this app. This lesson is a conceptual foundation: what the five prayers are called, roughly how each one is structured, and why there are five of them at all. Don't worry about performing it perfectly yet — that comes with practice and, ideally, someone showing you in person."
+    },
+    {
+      "type": "heading",
+      "text": "The five daily prayers"
+    },
+    {
+      "type": "text",
+      "text": "Fajr (dawn, before sunrise), Dhuhr (midday), Asr (mid-afternoon), Maghrib (just after sunset), and Isha (night). Each one has a valid time window, shown on this app's Home dashboard based on your location. Each prayer consists of a set number of units called rak'ahs — a repeating sequence of standing, bowing, and prostrating — ranging from two rak'ahs (Fajr) to four (Dhuhr, Asr, Isha), with Maghrib at three."
+    },
+    {
+      "type": "heading",
+      "text": "The basic shape of a rak'ah"
+    },
+    {
+      "type": "text",
+      "text": "Each rak'ah follows roughly the same pattern: standing (Qiyam) while reciting Quran, bowing at the waist (Ruku) while praising God, standing briefly again, then two prostrations (Sujud) — forehead, nose, palms, knees, and toes touching the ground — with a brief sitting pause between them. After the final rak'ah of a prayer, you sit for a closing recitation and end by turning your head to each side, saying \"as-salamu alaykum\" (peace be upon you)."
+    },
+    {
+      "type": "heading",
+      "text": "Why five times a day? A brief history"
+    },
+    {
+      "type": "text",
+      "text": "Islamic tradition traces the five daily prayers to a specific event: the Isra and Mi'raj, a night journey and ascension the Prophet Muhammad (peace be upon him) is described as undertaking, during which he is said to have been instructed to establish fifty daily prayers. According to the narration, on his way back he passed Moses, who advised him to ask for a reduction, believing his own community had struggled with less. After repeated requests, the number was reduced to five — while the spiritual reward is described as remaining equivalent to fifty. Whatever one makes of the details, the story is told specifically to make a point: five daily prayers is presented as a mercy and a reduction, not a maximum demand."
+    },
+    {
+      "type": "quote",
+      "arabic": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+      "translation": "And seek help through patience and prayer.",
+      "reference": "Quran 2:153 (Saheeh International)"
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to know Arabic before I can start praying?",
+      "answer": "The recitations within Salah are in Arabic, but you're not expected to already know them — you learn a small set of short, frequently repeated phrases gradually (Al-Fatihah, a short surah, and a few fixed phrases for bowing/prostrating). Transliteration and translation are available throughout this app's Quran and Dua sections precisely so you can start learning them at your own pace rather than waiting until you feel \"ready.\""
+    },
+    {
+      "type": "faq",
+      "question": "What happens if I miss a prayer or pray late?",
+      "answer": "It happens to every Muslim at some point, especially early on. The general teaching is to pray it as soon as you remember (called making it up, or \"qada\"), without excessive guilt — Islamic teaching consistently emphasises God's mercy and gradual improvement over harsh self-judgment. A dedicated lesson on missed prayers is planned; for now, the short version is: catch up when you can, and keep going."
+    },
+    {
+      "type": "reflection",
+      "question": "The story behind the number five is framed as a reduction and a mercy, not a burden. Does hearing that context change how the number \"five times a day\" feels to you?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Learning Wudu", "reference": "See Stage 2, previous lesson" },
+    { "label": "Surah Al-Fatihah", "reference": "See Quran section of this app" }
+  ]
+}

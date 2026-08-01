@@ -1,0 +1,67 @@
+{
+  "slug": "the-shahada",
+  "stage_slug": "welcome-to-islam",
+  "order": 2,
+  "title": "The Shahadah: The Declaration of Faith",
+  "summary": "What the Shahadah means, why it is the doorway into Islam, and what changes (and doesn't change) once you say it.",
+  "estimated_minutes": 7,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "The words themselves"
+    },
+    {
+      "type": "quote",
+      "arabic": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+      "translation": "I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah.",
+      "reference": "The Shahadah (Declaration of Faith)"
+    },
+    {
+      "type": "text",
+      "text": "Transliteration: Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadan rasulullah."
+    },
+    {
+      "type": "heading",
+      "text": "Two witnessings in one sentence"
+    },
+    {
+      "type": "text",
+      "text": "The Shahadah has two parts. The first — \"there is no god but Allah\" — is a restatement of Tawhid from the previous lesson: no one and nothing deserves worship except the One God. The second — \"Muhammad is the Messenger of Allah\" — is an acceptance that Muhammad (peace be upon him) was sent by God to deliver His final message to humanity, and that his example (his sayings and actions, called the Sunnah) is a guide for how to live out that first declaration in practice."
+    },
+    {
+      "type": "heading",
+      "text": "Why this one sentence is the doorway into Islam"
+    },
+    {
+      "type": "text",
+      "text": "In mainstream Sunni teaching, a person becomes Muslim by sincerely believing and declaring the Shahadah, out loud if able, ideally in front of witnesses (though witnesses are not strictly required for it to count before God). There is no complicated ceremony, no fee, and no permission needed from anyone. If you have said it and meant it, you are Muslim from that moment. Everything else you will learn in this app — prayer, fasting, the rest of your journey — is about living that declaration out, not about qualifying for it."
+    },
+    {
+      "type": "heading",
+      "text": "What changes, and what doesn't"
+    },
+    {
+      "type": "text",
+      "text": "Spiritually, a great deal changes: Islamic teaching describes previous sins as being forgiven when someone sincerely enters Islam. Practically, nothing about your family, your job, your citizenship, or your existing responsibilities changes on its own. You are still the same person, with the same relationships and obligations — now with a framework for how to grow. It's normal, even expected, not to know how to pray yet, not to know Arabic, and not to have read the whole Quran. This app exists specifically to walk through that gradually, one step at a time."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to know Arabic to say the Shahadah or to become Muslim?",
+      "answer": "No. Saying the Shahadah in Arabic is the standard practice because these are the words used across the Muslim world and are considered part of the ritual formula, but understanding its meaning matters more than perfect pronunciation, and Arabic is something you can keep learning gradually afterward — not a prerequisite."
+    },
+    {
+      "type": "faq",
+      "question": "What if I'm not fully sure yet — can I still say it?",
+      "answer": "The Shahadah should be said with sincere belief, not out of pressure or before you're ready. If you are still exploring, that is completely fine — take the time you need, ask questions, and use the earlier lessons in this app to build understanding first. There is no deadline."
+    },
+    {
+      "type": "reflection",
+      "question": "Sit with the two parts of the Shahadah for a moment. Which part feels most personally meaningful to you right now, and why?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Five Pillars of Islam", "reference": "See Stage 1, later lesson" },
+    { "label": "New Muslim Survival Guide: Telling Family", "reference": "See Survival Guide section (future content)" }
+  ]
+}

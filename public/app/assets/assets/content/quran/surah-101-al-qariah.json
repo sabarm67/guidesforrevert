@@ -1,0 +1,142 @@
+{
+    "number": 101,
+    "name_arabic": "القارعة",
+    "name_english": "The Calamity",
+    "name_transliteration": "Al-Qari'ah",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Qari'ah (\"The Calamity\") is a Meccan surah of 11 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "ٱلْقَارِعَةُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "The Calamity!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "مَا ٱلْقَارِعَةُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "What is the Calamity?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Ah, what will convey unto thee what the Calamity is!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "A day wherein mankind will be as thickly-scattered moths"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the mountains will become as carded wool."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then, as for him whose scales are heavy (with good works),"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "He will live a pleasant life."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But as for him whose scales are light,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "فَأُمُّهُۥ هَاوِيَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "A bereft and Hungry One will be his mother,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Ah, what will convey unto thee what she is! -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 30,
+            "page": 600,
+            "arabic_text": "نَارٌ حَامِيَةٌۢ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Raging Fire."
+                }
+            ]
+        }
+    ]
+}

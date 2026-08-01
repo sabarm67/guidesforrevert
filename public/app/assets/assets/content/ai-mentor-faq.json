@@ -1,0 +1,194 @@
+[
+  {
+    "id": "faq_family_disclosure_001",
+    "canonical_question": "Do I need to tell my family I've become Muslim?",
+    "question_variants": [
+      "should i tell my parents im muslim",
+      "how do i tell my family i converted",
+      "coming out as muslim to family",
+      "do i have to announce becoming muslim"
+    ],
+    "keywords": ["family", "parents", "tell", "reveal", "convert", "disclose", "announce"],
+    "category": "family_and_social",
+    "answer_text": "There's no single rule that fits everyone here. Saying the Shahadah sincerely is what makes someone Muslim — there's no requirement to announce it publicly right away. Many new Muslims choose to share the news gradually, when they feel safe and ready, especially if they're worried about a difficult reaction at home.",
+    "source_citations": [
+      { "type": "lesson", "id": "the-shahada", "label": "Lesson: The Shahadah — The Declaration of Faith" }
+    ],
+    "confidence": "general_guidance",
+    "requires_scholar_disclaimer": false
+  },
+  {
+    "id": "faq_arabic_needed_002",
+    "canonical_question": "Do I need to know Arabic immediately?",
+    "question_variants": [
+      "do i have to learn arabic right away",
+      "can i be muslim without knowing arabic",
+      "how fast do i need to learn arabic"
+    ],
+    "keywords": ["arabic", "language", "learn", "immediately", "quran", "read"],
+    "category": "quran_and_learning",
+    "answer_text": "No. Understanding grows gradually for every Muslim, not just converts. You can start by reading short surahs in translation and listening to recitation to get used to the sound of Arabic — full fluency is a lifelong, gradual goal, not a starting requirement.",
+    "source_citations": [
+      { "type": "lesson", "id": "what-is-the-quran", "label": "Lesson: What is the Quran?" }
+    ],
+    "confidence": "general_guidance",
+    "requires_scholar_disclaimer": false
+  },
+  {
+    "id": "faq_prayer_mistakes_003",
+    "canonical_question": "Can I pray if I make mistakes?",
+    "question_variants": [
+      "what if i mess up during prayer",
+      "is my prayer invalid if i make a mistake",
+      "im scared of praying wrong"
+    ],
+    "keywords": ["prayer", "salah", "mistake", "wrong", "invalid", "mess up"],
+    "category": "prayer",
+    "answer_text": "Making mistakes while learning to pray is completely normal and expected — every Muslim went through this stage. The exact rulings on what affects a prayer's validity involve some specific fiqh detail that this app hasn't covered yet (the full Salah module is a future addition), so for now the safest general guidance is: keep practising sincerely, and ask a local scholar or knowledgeable Muslim friend for step-by-step correction.",
+    "source_citations": [
+      { "type": "hadith", "collection": "nawawi40", "number": 1, "label": "Nawawi 40, Hadith 1 — actions are judged by intentions" }
+    ],
+    "confidence": "requires_scholar",
+    "requires_scholar_disclaimer": true
+  },
+  {
+    "id": "faq_who_worshipped_004",
+    "canonical_question": "Who do Muslims worship — is Allah a different God?",
+    "question_variants": [
+      "is allah a different god",
+      "do muslims worship a different god than christians",
+      "who is allah exactly"
+    ],
+    "keywords": ["allah", "god", "worship", "different", "same"],
+    "category": "belief",
+    "answer_text": "Muslims worship the same God worshipped by Abraham, Moses, and Jesus — the One Creator of everything. \"Allah\" is simply the Arabic word for God. Islam does differ from Christianity and Judaism on some specific beliefs, but the starting point — one God, Creator of all — is shared.",
+    "source_citations": [
+      { "type": "lesson", "id": "who-is-allah", "label": "Lesson: Who is Allah?" },
+      { "type": "quran", "id": "surah-112", "label": "Surah Al-Ikhlas (112) — on God's Oneness" }
+    ],
+    "confidence": "general_guidance",
+    "requires_scholar_disclaimer": false
+  },
+  {
+    "id": "faq_shahada_words_005",
+    "canonical_question": "What do I need to say to become Muslim?",
+    "question_variants": [
+      "what words do i say to convert",
+      "how do i officially become muslim",
+      "what is the declaration of faith"
+    ],
+    "keywords": ["shahada", "shahadah", "become", "muslim", "declaration", "convert"],
+    "category": "belief",
+    "answer_text": "Sincerely believing and declaring the Shahadah: 'I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah.' There's no ceremony, fee, or permission required — if you say it and mean it, you are Muslim from that moment.",
+    "source_citations": [
+      { "type": "lesson", "id": "the-shahada", "label": "Lesson: The Shahadah — The Declaration of Faith" }
+    ],
+    "confidence": "general_guidance",
+    "requires_scholar_disclaimer": false
+  },
+  {
+    "id": "faq_muhammad_worship_006",
+    "canonical_question": "Do Muslims worship Prophet Muhammad?",
+    "question_variants": [
+      "is muhammad worshipped by muslims",
+      "do muslims pray to muhammad",
+      "why do muslims respect muhammad so much"
+    ],
+    "keywords": ["muhammad", "worship", "prophet", "respect", "pray to"],
+    "category": "belief",
+    "answer_text": "No. Muslims worship Allah alone. Muhammad (peace be upon him) is deeply respected as the final messenger of God, but he was a human being, not divine, and is never worshipped.",
+    "source_citations": [
+      { "type": "lesson", "id": "who-was-muhammad", "label": "Lesson: Who was Prophet Muhammad?" },
+      { "type": "lesson", "id": "who-is-allah", "label": "Lesson: Who is Allah?" }
+    ],
+    "confidence": "general_guidance",
+    "requires_scholar_disclaimer": false
+  },
+  {
+    "id": "faq_read_whole_quran_007",
+    "canonical_question": "Do I need to read the whole Quran right away?",
+    "question_variants": [
+      "how much quran should i read as a new muslim",
+      "where should i start reading the quran",
+      "do i need to finish the quran quickly"
+    ],
+    "keywords": ["quran", "read", "whole", "start", "beginner"],
+    "category": "quran_and_learning",
+    "answer_text": "No — start small. Short, frequently recited chapters like Al-Fatihah and Al-Ikhlas are a good beginner starting point, and understanding deepens gradually over a lifetime for every Muslim.",
+    "source_citations": [
+      { "type": "quran", "id": "surah-001", "label": "Surah Al-Fatihah (1)" },
+      { "type": "lesson", "id": "what-is-the-quran", "label": "Lesson: What is the Quran?" }
+    ],
+    "confidence": "general_guidance",
+    "requires_scholar_disclaimer": false
+  },
+  {
+    "id": "faq_treat_others_008",
+    "canonical_question": "What does Islam say about how I treat other people?",
+    "question_variants": [
+      "how should muslims treat others",
+      "does islam teach kindness to non muslims too",
+      "what does islam say about being a good person"
+    ],
+    "keywords": ["treat", "others", "kindness", "character", "brother", "good person"],
+    "category": "character",
+    "answer_text": "Good character is central, not optional. One well-known teaching says none of you truly believes until you love for others what you love for yourself — this is understood to apply broadly to good treatment of people, not narrowly.",
+    "source_citations": [
+      { "type": "hadith", "collection": "nawawi40", "number": 13, "label": "Nawawi 40, Hadith 13 — loving for others what you love for yourself" }
+    ],
+    "confidence": "general_guidance",
+    "requires_scholar_disclaimer": false
+  },
+  {
+    "id": "faq_speech_arguing_009",
+    "canonical_question": "What does Islam say about arguing or gossiping online?",
+    "question_variants": [
+      "is it wrong to argue online as a muslim",
+      "what does islam say about gossip",
+      "should i stay quiet during arguments"
+    ],
+    "keywords": ["speech", "argue", "gossip", "silent", "online", "words"],
+    "category": "character",
+    "answer_text": "A well-known teaching says whoever believes in Allah and the Last Day should speak good or remain silent. Silence is explicitly presented as the better option over careless or harmful speech — a useful habit for online disagreements too.",
+    "source_citations": [
+      { "type": "hadith", "collection": "nawawi40", "number": 15, "label": "Nawawi 40, Hadith 15 — speak good or remain silent" }
+    ],
+    "confidence": "general_guidance",
+    "requires_scholar_disclaimer": false
+  },
+  {
+    "id": "faq_daily_dua_010",
+    "canonical_question": "Are there short prayers for daily life, not just the five daily prayers?",
+    "question_variants": [
+      "are there duas for everyday things",
+      "what should i say before eating or sleeping",
+      "short prayers for daily life"
+    ],
+    "keywords": ["dua", "daily", "everyday", "morning", "evening", "eating"],
+    "category": "daily_practice",
+    "answer_text": "Yes — duas are short remembrances for everyday moments: waking up, eating, leaving the house, and more. They're easy to learn a few at a time; the app's Dua Library is organised by situation.",
+    "source_citations": [
+      { "type": "dua", "id": "upon-waking-up", "label": "Dua: Upon Waking Up" },
+      { "type": "dua", "id": "before-eating", "label": "Dua: Before Eating" }
+    ],
+    "confidence": "general_guidance",
+    "requires_scholar_disclaimer": false
+  },
+  {
+    "id": "faq_intention_matters_011",
+    "canonical_question": "Does God care more about my intentions or my actions?",
+    "question_variants": [
+      "does niyyah matter in islam",
+      "why does intention matter so much in islam",
+      "is intention important in islam"
+    ],
+    "keywords": ["intention", "niyyah", "actions", "matter", "reward"],
+    "category": "belief",
+    "answer_text": "Intention matters enormously — one of the most quoted teachings in Islam states that actions are judged by intentions, and everyone is rewarded according to what they intended. The same action can carry very different weight depending on why it was done.",
+    "source_citations": [
+      { "type": "hadith", "collection": "nawawi40", "number": 1, "label": "Nawawi 40, Hadith 1 — actions are judged by intentions" }
+    ],
+    "confidence": "general_guidance",
+    "requires_scholar_disclaimer": false
+  }
+]
