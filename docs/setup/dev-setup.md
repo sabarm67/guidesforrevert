@@ -129,6 +129,21 @@ Re-run this whenever the `drift`/`sqlite3` package versions are bumped —
 "When compiling to the web, the `web` parameter needs to be set" style
 errors (or a blank screen) if these files are missing or mismatched.
 
+### Flutter Web preview caching gotcha
+
+Flutter's web bootstrap loads `main.dart.js` via a fixed, non-versioned URL
+(no content-hash query string), so serving `frontend/build/web/` with a
+plain static file server (e.g. `python -m http.server`) lets the browser
+silently keep using a stale build after a rebuild — no error, the app just
+keeps running old code, which can look exactly like a real bug (this cost
+real debugging time once already). `scripts/dev-web-server.py` (used by the
+`flutter-web-preview` launch config) sends `Cache-Control: no-store` on
+every response to prevent this — always serve `build/web/` through it (or
+an equivalent no-cache server) rather than a bare `http.server`, and when
+in doubt after a rebuild, do a genuine hard reload
+(`window.location.reload(true)` from devtools, not just a normal navigate)
+before concluding a change didn't take effect.
+
 ## Repository-wide content sync
 
 `content/seed/**/*.json` is the single canonical source of Islamic content

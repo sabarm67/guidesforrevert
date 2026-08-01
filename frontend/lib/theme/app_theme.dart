@@ -35,6 +35,12 @@ class AppTheme {
       navigationBarTheme: NavigationBarThemeData(
         backgroundColor: colors.surface,
         indicatorColor: colors.primaryContainer,
+        // Six top-level destinations no longer fit comfortably at the
+        // default label size on narrow phone widths (the longest label,
+        // "Community", was wrapping onto two lines) — a slightly smaller,
+        // fixed label size keeps every label on one line down to small
+        // phone widths.
+        labelTextStyle: WidgetStateProperty.all(const TextStyle(fontSize: 11)),
       ),
       navigationRailTheme: NavigationRailThemeData(
         backgroundColor: colors.surface,

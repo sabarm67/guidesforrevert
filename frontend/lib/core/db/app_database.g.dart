@@ -3,7 +3,8 @@
 part of 'app_database.dart';
 
 // ignore_for_file: type=lint
-class $LearningStagesTable extends LearningStages with TableInfo<$LearningStagesTable, LearningStage> {
+class $LearningStagesTable extends LearningStages
+    with TableInfo<$LearningStagesTable, LearningStage> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
@@ -17,7 +18,9 @@ class $LearningStagesTable extends LearningStages with TableInfo<$LearningStages
     hasAutoIncrement: true,
     type: DriftSqlType.int,
     requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways('PRIMARY KEY AUTOINCREMENT'),
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
   );
   static const VerificationMeta _slugMeta = const VerificationMeta('slug');
   @override
@@ -47,7 +50,9 @@ class $LearningStagesTable extends LearningStages with TableInfo<$LearningStages
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _descriptionMeta = const VerificationMeta('description');
+  static const VerificationMeta _descriptionMeta = const VerificationMeta(
+    'description',
+  );
   @override
   late final GeneratedColumn<String> description = GeneratedColumn<String>(
     'description',
@@ -66,42 +71,67 @@ class $LearningStagesTable extends LearningStages with TableInfo<$LearningStages
     requiredDuringInsert: false,
   );
   @override
-  List<GeneratedColumn> get $columns => [id, slug, order, title, description, icon];
+  List<GeneratedColumn> get $columns => [
+    id,
+    slug,
+    order,
+    title,
+    description,
+    icon,
+  ];
   @override
   String get aliasedName => _alias ?? actualTableName;
   @override
   String get actualTableName => $name;
   static const String $name = 'learning_stages';
   @override
-  VerificationContext validateIntegrity(Insertable<LearningStage> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<LearningStage> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('id')) {
       context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
     }
     if (data.containsKey('slug')) {
-      context.handle(_slugMeta, slug.isAcceptableOrUnknown(data['slug']!, _slugMeta));
+      context.handle(
+        _slugMeta,
+        slug.isAcceptableOrUnknown(data['slug']!, _slugMeta),
+      );
     } else if (isInserting) {
       context.missing(_slugMeta);
     }
     if (data.containsKey('order')) {
-      context.handle(_orderMeta, order.isAcceptableOrUnknown(data['order']!, _orderMeta));
+      context.handle(
+        _orderMeta,
+        order.isAcceptableOrUnknown(data['order']!, _orderMeta),
+      );
     } else if (isInserting) {
       context.missing(_orderMeta);
     }
     if (data.containsKey('title')) {
-      context.handle(_titleMeta, title.isAcceptableOrUnknown(data['title']!, _titleMeta));
+      context.handle(
+        _titleMeta,
+        title.isAcceptableOrUnknown(data['title']!, _titleMeta),
+      );
     } else if (isInserting) {
       context.missing(_titleMeta);
     }
     if (data.containsKey('description')) {
       context.handle(
         _descriptionMeta,
-        description.isAcceptableOrUnknown(data['description']!, _descriptionMeta),
+        description.isAcceptableOrUnknown(
+          data['description']!,
+          _descriptionMeta,
+        ),
       );
     }
     if (data.containsKey('icon')) {
-      context.handle(_iconMeta, icon.isAcceptableOrUnknown(data['icon']!, _iconMeta));
+      context.handle(
+        _iconMeta,
+        icon.isAcceptableOrUnknown(data['icon']!, _iconMeta),
+      );
     }
     return context;
   }
@@ -112,15 +142,30 @@ class $LearningStagesTable extends LearningStages with TableInfo<$LearningStages
   LearningStage map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return LearningStage(
-      id: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}id'])!,
-      slug: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}slug'])!,
-      order: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}order'])!,
-      title: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}title'])!,
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      slug: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}slug'],
+      )!,
+      order: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}order'],
+      )!,
+      title: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}title'],
+      )!,
       description: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}description'],
       ),
-      icon: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}icon']),
+      icon: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}icon'],
+      ),
     );
   }
 
@@ -167,12 +212,17 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
       slug: Value(slug),
       order: Value(order),
       title: Value(title),
-      description: description == null && nullToAbsent ? const Value.absent() : Value(description),
+      description: description == null && nullToAbsent
+          ? const Value.absent()
+          : Value(description),
       icon: icon == null && nullToAbsent ? const Value.absent() : Value(icon),
     );
   }
 
-  factory LearningStage.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory LearningStage.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return LearningStage(
       id: serializer.fromJson<int>(json['id']),
@@ -217,7 +267,9 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
       slug: data.slug.present ? data.slug.value : this.slug,
       order: data.order.present ? data.order.value : this.order,
       title: data.title.present ? data.title.value : this.title,
-      description: data.description.present ? data.description.value : this.description,
+      description: data.description.present
+          ? data.description.value
+          : this.description,
       icon: data.icon.present ? data.icon.value : this.icon,
     );
   }
@@ -362,9 +414,13 @@ class $LessonsTable extends Lessons with TableInfo<$LessonsTable, Lesson> {
     hasAutoIncrement: true,
     type: DriftSqlType.int,
     requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways('PRIMARY KEY AUTOINCREMENT'),
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
   );
-  static const VerificationMeta _learningStageIdMeta = const VerificationMeta('learningStageId');
+  static const VerificationMeta _learningStageIdMeta = const VerificationMeta(
+    'learningStageId',
+  );
   @override
   late final GeneratedColumn<int> learningStageId = GeneratedColumn<int>(
     'learning_stage_id',
@@ -401,7 +457,9 @@ class $LessonsTable extends Lessons with TableInfo<$LessonsTable, Lesson> {
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _summaryMeta = const VerificationMeta('summary');
+  static const VerificationMeta _summaryMeta = const VerificationMeta(
+    'summary',
+  );
   @override
   late final GeneratedColumn<String> summary = GeneratedColumn<String>(
     'summary',
@@ -410,7 +468,9 @@ class $LessonsTable extends Lessons with TableInfo<$LessonsTable, Lesson> {
     type: DriftSqlType.string,
     requiredDuringInsert: false,
   );
-  static const VerificationMeta _bodyJsonMeta = const VerificationMeta('bodyJson');
+  static const VerificationMeta _bodyJsonMeta = const VerificationMeta(
+    'bodyJson',
+  );
   @override
   late final GeneratedColumn<String> bodyJson = GeneratedColumn<String>(
     'body_json',
@@ -419,7 +479,9 @@ class $LessonsTable extends Lessons with TableInfo<$LessonsTable, Lesson> {
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _estimatedMinutesMeta = const VerificationMeta('estimatedMinutes');
+  static const VerificationMeta _estimatedMinutesMeta = const VerificationMeta(
+    'estimatedMinutes',
+  );
   @override
   late final GeneratedColumn<int> estimatedMinutes = GeneratedColumn<int>(
     'estimated_minutes',
@@ -429,7 +491,9 @@ class $LessonsTable extends Lessons with TableInfo<$LessonsTable, Lesson> {
     requiredDuringInsert: false,
     defaultValue: const Constant(5),
   );
-  static const VerificationMeta _needToKnowMeta = const VerificationMeta('needToKnow');
+  static const VerificationMeta _needToKnowMeta = const VerificationMeta(
+    'needToKnow',
+  );
   @override
   late final GeneratedColumn<bool> needToKnow = GeneratedColumn<bool>(
     'need_to_know',
@@ -437,7 +501,9 @@ class $LessonsTable extends Lessons with TableInfo<$LessonsTable, Lesson> {
     false,
     type: DriftSqlType.bool,
     requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways('CHECK ("need_to_know" IN (0, 1))'),
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("need_to_know" IN (0, 1))',
+    ),
     defaultValue: const Constant(true),
   );
   @override
@@ -458,7 +524,10 @@ class $LessonsTable extends Lessons with TableInfo<$LessonsTable, Lesson> {
   String get actualTableName => $name;
   static const String $name = 'lessons';
   @override
-  VerificationContext validateIntegrity(Insertable<Lesson> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<Lesson> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('id')) {
@@ -467,44 +536,68 @@ class $LessonsTable extends Lessons with TableInfo<$LessonsTable, Lesson> {
     if (data.containsKey('learning_stage_id')) {
       context.handle(
         _learningStageIdMeta,
-        learningStageId.isAcceptableOrUnknown(data['learning_stage_id']!, _learningStageIdMeta),
+        learningStageId.isAcceptableOrUnknown(
+          data['learning_stage_id']!,
+          _learningStageIdMeta,
+        ),
       );
     } else if (isInserting) {
       context.missing(_learningStageIdMeta);
     }
     if (data.containsKey('slug')) {
-      context.handle(_slugMeta, slug.isAcceptableOrUnknown(data['slug']!, _slugMeta));
+      context.handle(
+        _slugMeta,
+        slug.isAcceptableOrUnknown(data['slug']!, _slugMeta),
+      );
     } else if (isInserting) {
       context.missing(_slugMeta);
     }
     if (data.containsKey('order')) {
-      context.handle(_orderMeta, order.isAcceptableOrUnknown(data['order']!, _orderMeta));
+      context.handle(
+        _orderMeta,
+        order.isAcceptableOrUnknown(data['order']!, _orderMeta),
+      );
     } else if (isInserting) {
       context.missing(_orderMeta);
     }
     if (data.containsKey('title')) {
-      context.handle(_titleMeta, title.isAcceptableOrUnknown(data['title']!, _titleMeta));
+      context.handle(
+        _titleMeta,
+        title.isAcceptableOrUnknown(data['title']!, _titleMeta),
+      );
     } else if (isInserting) {
       context.missing(_titleMeta);
     }
     if (data.containsKey('summary')) {
-      context.handle(_summaryMeta, summary.isAcceptableOrUnknown(data['summary']!, _summaryMeta));
+      context.handle(
+        _summaryMeta,
+        summary.isAcceptableOrUnknown(data['summary']!, _summaryMeta),
+      );
     }
     if (data.containsKey('body_json')) {
-      context.handle(_bodyJsonMeta, bodyJson.isAcceptableOrUnknown(data['body_json']!, _bodyJsonMeta));
+      context.handle(
+        _bodyJsonMeta,
+        bodyJson.isAcceptableOrUnknown(data['body_json']!, _bodyJsonMeta),
+      );
     } else if (isInserting) {
       context.missing(_bodyJsonMeta);
     }
     if (data.containsKey('estimated_minutes')) {
       context.handle(
         _estimatedMinutesMeta,
-        estimatedMinutes.isAcceptableOrUnknown(data['estimated_minutes']!, _estimatedMinutesMeta),
+        estimatedMinutes.isAcceptableOrUnknown(
+          data['estimated_minutes']!,
+          _estimatedMinutesMeta,
+        ),
       );
     }
     if (data.containsKey('need_to_know')) {
       context.handle(
         _needToKnowMeta,
-        needToKnow.isAcceptableOrUnknown(data['need_to_know']!, _needToKnowMeta),
+        needToKnow.isAcceptableOrUnknown(
+          data['need_to_know']!,
+          _needToKnowMeta,
+        ),
       );
     }
     return context;
@@ -516,16 +609,34 @@ class $LessonsTable extends Lessons with TableInfo<$LessonsTable, Lesson> {
   Lesson map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return Lesson(
-      id: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}id'])!,
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
       learningStageId: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
         data['${effectivePrefix}learning_stage_id'],
       )!,
-      slug: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}slug'])!,
-      order: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}order'])!,
-      title: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}title'])!,
-      summary: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}summary']),
-      bodyJson: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}body_json'])!,
+      slug: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}slug'],
+      )!,
+      order: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}order'],
+      )!,
+      title: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}title'],
+      )!,
+      summary: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}summary'],
+      ),
+      bodyJson: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}body_json'],
+      )!,
       estimatedMinutes: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
         data['${effectivePrefix}estimated_minutes'],
@@ -590,14 +701,19 @@ class Lesson extends DataClass implements Insertable<Lesson> {
       slug: Value(slug),
       order: Value(order),
       title: Value(title),
-      summary: summary == null && nullToAbsent ? const Value.absent() : Value(summary),
+      summary: summary == null && nullToAbsent
+          ? const Value.absent()
+          : Value(summary),
       bodyJson: Value(bodyJson),
       estimatedMinutes: Value(estimatedMinutes),
       needToKnow: Value(needToKnow),
     );
   }
 
-  factory Lesson.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory Lesson.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return Lesson(
       id: serializer.fromJson<int>(json['id']),
@@ -651,14 +767,20 @@ class Lesson extends DataClass implements Insertable<Lesson> {
   Lesson copyWithCompanion(LessonsCompanion data) {
     return Lesson(
       id: data.id.present ? data.id.value : this.id,
-      learningStageId: data.learningStageId.present ? data.learningStageId.value : this.learningStageId,
+      learningStageId: data.learningStageId.present
+          ? data.learningStageId.value
+          : this.learningStageId,
       slug: data.slug.present ? data.slug.value : this.slug,
       order: data.order.present ? data.order.value : this.order,
       title: data.title.present ? data.title.value : this.title,
       summary: data.summary.present ? data.summary.value : this.summary,
       bodyJson: data.bodyJson.present ? data.bodyJson.value : this.bodyJson,
-      estimatedMinutes: data.estimatedMinutes.present ? data.estimatedMinutes.value : this.estimatedMinutes,
-      needToKnow: data.needToKnow.present ? data.needToKnow.value : this.needToKnow,
+      estimatedMinutes: data.estimatedMinutes.present
+          ? data.estimatedMinutes.value
+          : this.estimatedMinutes,
+      needToKnow: data.needToKnow.present
+          ? data.needToKnow.value
+          : this.needToKnow,
     );
   }
 
@@ -679,8 +801,17 @@ class Lesson extends DataClass implements Insertable<Lesson> {
   }
 
   @override
-  int get hashCode =>
-      Object.hash(id, learningStageId, slug, order, title, summary, bodyJson, estimatedMinutes, needToKnow);
+  int get hashCode => Object.hash(
+    id,
+    learningStageId,
+    slug,
+    order,
+    title,
+    summary,
+    bodyJson,
+    estimatedMinutes,
+    needToKnow,
+  );
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
@@ -845,9 +976,13 @@ class $LessonProgressEntriesTable extends LessonProgressEntries
     hasAutoIncrement: true,
     type: DriftSqlType.int,
     requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways('PRIMARY KEY AUTOINCREMENT'),
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
   );
-  static const VerificationMeta _lessonIdMeta = const VerificationMeta('lessonId');
+  static const VerificationMeta _lessonIdMeta = const VerificationMeta(
+    'lessonId',
+  );
   @override
   late final GeneratedColumn<int> lessonId = GeneratedColumn<int>(
     'lesson_id',
@@ -866,7 +1001,9 @@ class $LessonProgressEntriesTable extends LessonProgressEntries
     requiredDuringInsert: false,
     defaultValue: const Constant('not_started'),
   );
-  static const VerificationMeta _completedAtMeta = const VerificationMeta('completedAt');
+  static const VerificationMeta _completedAtMeta = const VerificationMeta(
+    'completedAt',
+  );
   @override
   late final GeneratedColumn<DateTime> completedAt = GeneratedColumn<DateTime>(
     'completed_at',
@@ -893,17 +1030,26 @@ class $LessonProgressEntriesTable extends LessonProgressEntries
       context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
     }
     if (data.containsKey('lesson_id')) {
-      context.handle(_lessonIdMeta, lessonId.isAcceptableOrUnknown(data['lesson_id']!, _lessonIdMeta));
+      context.handle(
+        _lessonIdMeta,
+        lessonId.isAcceptableOrUnknown(data['lesson_id']!, _lessonIdMeta),
+      );
     } else if (isInserting) {
       context.missing(_lessonIdMeta);
     }
     if (data.containsKey('status')) {
-      context.handle(_statusMeta, status.isAcceptableOrUnknown(data['status']!, _statusMeta));
+      context.handle(
+        _statusMeta,
+        status.isAcceptableOrUnknown(data['status']!, _statusMeta),
+      );
     }
     if (data.containsKey('completed_at')) {
       context.handle(
         _completedAtMeta,
-        completedAt.isAcceptableOrUnknown(data['completed_at']!, _completedAtMeta),
+        completedAt.isAcceptableOrUnknown(
+          data['completed_at']!,
+          _completedAtMeta,
+        ),
       );
     }
     return context;
@@ -919,9 +1065,18 @@ class $LessonProgressEntriesTable extends LessonProgressEntries
   LessonProgressEntry map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return LessonProgressEntry(
-      id: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}id'])!,
-      lessonId: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}lesson_id'])!,
-      status: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}status'])!,
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      lessonId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}lesson_id'],
+      )!,
+      status: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}status'],
+      )!,
       completedAt: attachedDatabase.typeMapping.read(
         DriftSqlType.dateTime,
         data['${effectivePrefix}completed_at'],
@@ -935,7 +1090,8 @@ class $LessonProgressEntriesTable extends LessonProgressEntries
   }
 }
 
-class LessonProgressEntry extends DataClass implements Insertable<LessonProgressEntry> {
+class LessonProgressEntry extends DataClass
+    implements Insertable<LessonProgressEntry> {
   final int id;
   final int lessonId;
 
@@ -965,11 +1121,16 @@ class LessonProgressEntry extends DataClass implements Insertable<LessonProgress
       id: Value(id),
       lessonId: Value(lessonId),
       status: Value(status),
-      completedAt: completedAt == null && nullToAbsent ? const Value.absent() : Value(completedAt),
+      completedAt: completedAt == null && nullToAbsent
+          ? const Value.absent()
+          : Value(completedAt),
     );
   }
 
-  factory LessonProgressEntry.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory LessonProgressEntry.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return LessonProgressEntry(
       id: serializer.fromJson<int>(json['id']),
@@ -1005,7 +1166,9 @@ class LessonProgressEntry extends DataClass implements Insertable<LessonProgress
       id: data.id.present ? data.id.value : this.id,
       lessonId: data.lessonId.present ? data.lessonId.value : this.lessonId,
       status: data.status.present ? data.status.value : this.status,
-      completedAt: data.completedAt.present ? data.completedAt.value : this.completedAt,
+      completedAt: data.completedAt.present
+          ? data.completedAt.value
+          : this.completedAt,
     );
   }
 
@@ -1032,7 +1195,8 @@ class LessonProgressEntry extends DataClass implements Insertable<LessonProgress
           other.completedAt == this.completedAt);
 }
 
-class LessonProgressEntriesCompanion extends UpdateCompanion<LessonProgressEntry> {
+class LessonProgressEntriesCompanion
+    extends UpdateCompanion<LessonProgressEntry> {
   final Value<int> id;
   final Value<int> lessonId;
   final Value<String> status;
@@ -1107,7 +1271,8 @@ class LessonProgressEntriesCompanion extends UpdateCompanion<LessonProgressEntry
   }
 }
 
-class $DuaCategoriesTable extends DuaCategories with TableInfo<$DuaCategoriesTable, DuaCategory> {
+class $DuaCategoriesTable extends DuaCategories
+    with TableInfo<$DuaCategoriesTable, DuaCategory> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
@@ -1121,7 +1286,9 @@ class $DuaCategoriesTable extends DuaCategories with TableInfo<$DuaCategoriesTab
     hasAutoIncrement: true,
     type: DriftSqlType.int,
     requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways('PRIMARY KEY AUTOINCREMENT'),
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
   );
   static const VerificationMeta _slugMeta = const VerificationMeta('slug');
   @override
@@ -1168,27 +1335,42 @@ class $DuaCategoriesTable extends DuaCategories with TableInfo<$DuaCategoriesTab
   String get actualTableName => $name;
   static const String $name = 'dua_categories';
   @override
-  VerificationContext validateIntegrity(Insertable<DuaCategory> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<DuaCategory> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('id')) {
       context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
     }
     if (data.containsKey('slug')) {
-      context.handle(_slugMeta, slug.isAcceptableOrUnknown(data['slug']!, _slugMeta));
+      context.handle(
+        _slugMeta,
+        slug.isAcceptableOrUnknown(data['slug']!, _slugMeta),
+      );
     } else if (isInserting) {
       context.missing(_slugMeta);
     }
     if (data.containsKey('title')) {
-      context.handle(_titleMeta, title.isAcceptableOrUnknown(data['title']!, _titleMeta));
+      context.handle(
+        _titleMeta,
+        title.isAcceptableOrUnknown(data['title']!, _titleMeta),
+      );
     } else if (isInserting) {
       context.missing(_titleMeta);
     }
     if (data.containsKey('icon')) {
-      context.handle(_iconMeta, icon.isAcceptableOrUnknown(data['icon']!, _iconMeta));
+      context.handle(
+        _iconMeta,
+        icon.isAcceptableOrUnknown(data['icon']!, _iconMeta),
+      );
     }
     if (data.containsKey('order')) {
-      context.handle(_orderMeta, order.isAcceptableOrUnknown(data['order']!, _orderMeta));
+      context.handle(
+        _orderMeta,
+        order.isAcceptableOrUnknown(data['order']!, _orderMeta),
+      );
     } else if (isInserting) {
       context.missing(_orderMeta);
     }
@@ -1201,11 +1383,26 @@ class $DuaCategoriesTable extends DuaCategories with TableInfo<$DuaCategoriesTab
   DuaCategory map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return DuaCategory(
-      id: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}id'])!,
-      slug: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}slug'])!,
-      title: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}title'])!,
-      icon: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}icon']),
-      order: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}order'])!,
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      slug: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}slug'],
+      )!,
+      title: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}title'],
+      )!,
+      icon: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}icon'],
+      ),
+      order: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}order'],
+      )!,
     );
   }
 
@@ -1251,7 +1448,10 @@ class DuaCategory extends DataClass implements Insertable<DuaCategory> {
     );
   }
 
-  factory DuaCategory.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory DuaCategory.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return DuaCategory(
       id: serializer.fromJson<int>(json['id']),
@@ -1423,9 +1623,13 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     hasAutoIncrement: true,
     type: DriftSqlType.int,
     requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways('PRIMARY KEY AUTOINCREMENT'),
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
   );
-  static const VerificationMeta _duaCategoryIdMeta = const VerificationMeta('duaCategoryId');
+  static const VerificationMeta _duaCategoryIdMeta = const VerificationMeta(
+    'duaCategoryId',
+  );
   @override
   late final GeneratedColumn<int> duaCategoryId = GeneratedColumn<int>(
     'dua_category_id',
@@ -1443,7 +1647,9 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _arabicTextMeta = const VerificationMeta('arabicText');
+  static const VerificationMeta _arabicTextMeta = const VerificationMeta(
+    'arabicText',
+  );
   @override
   late final GeneratedColumn<String> arabicText = GeneratedColumn<String>(
     'arabic_text',
@@ -1452,7 +1658,9 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _transliterationMeta = const VerificationMeta('transliteration');
+  static const VerificationMeta _transliterationMeta = const VerificationMeta(
+    'transliteration',
+  );
   @override
   late final GeneratedColumn<String> transliteration = GeneratedColumn<String>(
     'transliteration',
@@ -1461,7 +1669,9 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _translationMeta = const VerificationMeta('translation');
+  static const VerificationMeta _translationMeta = const VerificationMeta(
+    'translation',
+  );
   @override
   late final GeneratedColumn<String> translation = GeneratedColumn<String>(
     'translation',
@@ -1470,7 +1680,9 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _referenceMeta = const VerificationMeta('reference');
+  static const VerificationMeta _referenceMeta = const VerificationMeta(
+    'reference',
+  );
   @override
   late final GeneratedColumn<String> reference = GeneratedColumn<String>(
     'reference',
@@ -1479,7 +1691,9 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _authenticityMeta = const VerificationMeta('authenticity');
+  static const VerificationMeta _authenticityMeta = const VerificationMeta(
+    'authenticity',
+  );
   @override
   late final GeneratedColumn<String> authenticity = GeneratedColumn<String>(
     'authenticity',
@@ -1489,7 +1703,9 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     requiredDuringInsert: false,
     defaultValue: const Constant('sahih'),
   );
-  static const VerificationMeta _benefitsMeta = const VerificationMeta('benefits');
+  static const VerificationMeta _benefitsMeta = const VerificationMeta(
+    'benefits',
+  );
   @override
   late final GeneratedColumn<String> benefits = GeneratedColumn<String>(
     'benefits',
@@ -1498,7 +1714,9 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     type: DriftSqlType.string,
     requiredDuringInsert: false,
   );
-  static const VerificationMeta _isDailyFeaturedMeta = const VerificationMeta('isDailyFeatured');
+  static const VerificationMeta _isDailyFeaturedMeta = const VerificationMeta(
+    'isDailyFeatured',
+  );
   @override
   late final GeneratedColumn<bool> isDailyFeatured = GeneratedColumn<bool>(
     'is_daily_featured',
@@ -1506,7 +1724,9 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     false,
     type: DriftSqlType.bool,
     requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways('CHECK ("is_daily_featured" IN (0, 1))'),
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("is_daily_featured" IN (0, 1))',
+    ),
     defaultValue: const Constant(false),
   );
   static const VerificationMeta _orderMeta = const VerificationMeta('order');
@@ -1538,7 +1758,10 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
   String get actualTableName => $name;
   static const String $name = 'duas';
   @override
-  VerificationContext validateIntegrity(Insertable<Dua> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<Dua> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('id')) {
@@ -1547,13 +1770,19 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     if (data.containsKey('dua_category_id')) {
       context.handle(
         _duaCategoryIdMeta,
-        duaCategoryId.isAcceptableOrUnknown(data['dua_category_id']!, _duaCategoryIdMeta),
+        duaCategoryId.isAcceptableOrUnknown(
+          data['dua_category_id']!,
+          _duaCategoryIdMeta,
+        ),
       );
     } else if (isInserting) {
       context.missing(_duaCategoryIdMeta);
     }
     if (data.containsKey('title')) {
-      context.handle(_titleMeta, title.isAcceptableOrUnknown(data['title']!, _titleMeta));
+      context.handle(
+        _titleMeta,
+        title.isAcceptableOrUnknown(data['title']!, _titleMeta),
+      );
     } else if (isInserting) {
       context.missing(_titleMeta);
     }
@@ -1568,7 +1797,10 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     if (data.containsKey('transliteration')) {
       context.handle(
         _transliterationMeta,
-        transliteration.isAcceptableOrUnknown(data['transliteration']!, _transliterationMeta),
+        transliteration.isAcceptableOrUnknown(
+          data['transliteration']!,
+          _transliterationMeta,
+        ),
       );
     } else if (isInserting) {
       context.missing(_transliterationMeta);
@@ -1576,33 +1808,51 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
     if (data.containsKey('translation')) {
       context.handle(
         _translationMeta,
-        translation.isAcceptableOrUnknown(data['translation']!, _translationMeta),
+        translation.isAcceptableOrUnknown(
+          data['translation']!,
+          _translationMeta,
+        ),
       );
     } else if (isInserting) {
       context.missing(_translationMeta);
     }
     if (data.containsKey('reference')) {
-      context.handle(_referenceMeta, reference.isAcceptableOrUnknown(data['reference']!, _referenceMeta));
+      context.handle(
+        _referenceMeta,
+        reference.isAcceptableOrUnknown(data['reference']!, _referenceMeta),
+      );
     } else if (isInserting) {
       context.missing(_referenceMeta);
     }
     if (data.containsKey('authenticity')) {
       context.handle(
         _authenticityMeta,
-        authenticity.isAcceptableOrUnknown(data['authenticity']!, _authenticityMeta),
+        authenticity.isAcceptableOrUnknown(
+          data['authenticity']!,
+          _authenticityMeta,
+        ),
       );
     }
     if (data.containsKey('benefits')) {
-      context.handle(_benefitsMeta, benefits.isAcceptableOrUnknown(data['benefits']!, _benefitsMeta));
+      context.handle(
+        _benefitsMeta,
+        benefits.isAcceptableOrUnknown(data['benefits']!, _benefitsMeta),
+      );
     }
     if (data.containsKey('is_daily_featured')) {
       context.handle(
         _isDailyFeaturedMeta,
-        isDailyFeatured.isAcceptableOrUnknown(data['is_daily_featured']!, _isDailyFeaturedMeta),
+        isDailyFeatured.isAcceptableOrUnknown(
+          data['is_daily_featured']!,
+          _isDailyFeaturedMeta,
+        ),
       );
     }
     if (data.containsKey('order')) {
-      context.handle(_orderMeta, order.isAcceptableOrUnknown(data['order']!, _orderMeta));
+      context.handle(
+        _orderMeta,
+        order.isAcceptableOrUnknown(data['order']!, _orderMeta),
+      );
     } else if (isInserting) {
       context.missing(_orderMeta);
     }
@@ -1615,12 +1865,18 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
   Dua map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return Dua(
-      id: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}id'])!,
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
       duaCategoryId: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
         data['${effectivePrefix}dua_category_id'],
       )!,
-      title: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}title'])!,
+      title: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}title'],
+      )!,
       arabicText: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}arabic_text'],
@@ -1633,17 +1889,26 @@ class $DuasTable extends Duas with TableInfo<$DuasTable, Dua> {
         DriftSqlType.string,
         data['${effectivePrefix}translation'],
       )!,
-      reference: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}reference'])!,
+      reference: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}reference'],
+      )!,
       authenticity: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}authenticity'],
       )!,
-      benefits: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}benefits']),
+      benefits: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}benefits'],
+      ),
       isDailyFeatured: attachedDatabase.typeMapping.read(
         DriftSqlType.bool,
         data['${effectivePrefix}is_daily_featured'],
       )!,
-      order: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}order'])!,
+      order: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}order'],
+      )!,
     );
   }
 
@@ -1707,13 +1972,18 @@ class Dua extends DataClass implements Insertable<Dua> {
       translation: Value(translation),
       reference: Value(reference),
       authenticity: Value(authenticity),
-      benefits: benefits == null && nullToAbsent ? const Value.absent() : Value(benefits),
+      benefits: benefits == null && nullToAbsent
+          ? const Value.absent()
+          : Value(benefits),
       isDailyFeatured: Value(isDailyFeatured),
       order: Value(order),
     );
   }
 
-  factory Dua.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory Dua.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return Dua(
       id: serializer.fromJson<int>(json['id']),
@@ -1775,15 +2045,27 @@ class Dua extends DataClass implements Insertable<Dua> {
   Dua copyWithCompanion(DuasCompanion data) {
     return Dua(
       id: data.id.present ? data.id.value : this.id,
-      duaCategoryId: data.duaCategoryId.present ? data.duaCategoryId.value : this.duaCategoryId,
+      duaCategoryId: data.duaCategoryId.present
+          ? data.duaCategoryId.value
+          : this.duaCategoryId,
       title: data.title.present ? data.title.value : this.title,
-      arabicText: data.arabicText.present ? data.arabicText.value : this.arabicText,
-      transliteration: data.transliteration.present ? data.transliteration.value : this.transliteration,
-      translation: data.translation.present ? data.translation.value : this.translation,
+      arabicText: data.arabicText.present
+          ? data.arabicText.value
+          : this.arabicText,
+      transliteration: data.transliteration.present
+          ? data.transliteration.value
+          : this.transliteration,
+      translation: data.translation.present
+          ? data.translation.value
+          : this.translation,
       reference: data.reference.present ? data.reference.value : this.reference,
-      authenticity: data.authenticity.present ? data.authenticity.value : this.authenticity,
+      authenticity: data.authenticity.present
+          ? data.authenticity.value
+          : this.authenticity,
       benefits: data.benefits.present ? data.benefits.value : this.benefits,
-      isDailyFeatured: data.isDailyFeatured.present ? data.isDailyFeatured.value : this.isDailyFeatured,
+      isDailyFeatured: data.isDailyFeatured.present
+          ? data.isDailyFeatured.value
+          : this.isDailyFeatured,
       order: data.order.present ? data.order.value : this.order,
     );
   }
@@ -1995,7 +2277,8 @@ class DuasCompanion extends UpdateCompanion<Dua> {
   }
 }
 
-class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable, AiFaqEntry> {
+class $AiFaqEntriesTable extends AiFaqEntries
+    with TableInfo<$AiFaqEntriesTable, AiFaqEntry> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
@@ -2009,7 +2292,9 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
     hasAutoIncrement: true,
     type: DriftSqlType.int,
     requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways('PRIMARY KEY AUTOINCREMENT'),
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
   );
   static const VerificationMeta _faqKeyMeta = const VerificationMeta('faqKey');
   @override
@@ -2021,25 +2306,32 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
     requiredDuringInsert: true,
     defaultConstraints: GeneratedColumn.constraintIsAlways('UNIQUE'),
   );
-  static const VerificationMeta _canonicalQuestionMeta = const VerificationMeta('canonicalQuestion');
-  @override
-  late final GeneratedColumn<String> canonicalQuestion = GeneratedColumn<String>(
-    'canonical_question',
-    aliasedName,
-    false,
-    type: DriftSqlType.string,
-    requiredDuringInsert: true,
+  static const VerificationMeta _canonicalQuestionMeta = const VerificationMeta(
+    'canonicalQuestion',
   );
-  static const VerificationMeta _questionVariantsJsonMeta = const VerificationMeta('questionVariantsJson');
   @override
-  late final GeneratedColumn<String> questionVariantsJson = GeneratedColumn<String>(
-    'question_variants_json',
-    aliasedName,
-    false,
-    type: DriftSqlType.string,
-    requiredDuringInsert: true,
+  late final GeneratedColumn<String> canonicalQuestion =
+      GeneratedColumn<String>(
+        'canonical_question',
+        aliasedName,
+        false,
+        type: DriftSqlType.string,
+        requiredDuringInsert: true,
+      );
+  static const VerificationMeta _questionVariantsJsonMeta =
+      const VerificationMeta('questionVariantsJson');
+  @override
+  late final GeneratedColumn<String> questionVariantsJson =
+      GeneratedColumn<String>(
+        'question_variants_json',
+        aliasedName,
+        false,
+        type: DriftSqlType.string,
+        requiredDuringInsert: true,
+      );
+  static const VerificationMeta _keywordsJsonMeta = const VerificationMeta(
+    'keywordsJson',
   );
-  static const VerificationMeta _keywordsJsonMeta = const VerificationMeta('keywordsJson');
   @override
   late final GeneratedColumn<String> keywordsJson = GeneratedColumn<String>(
     'keywords_json',
@@ -2048,7 +2340,9 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _categoryMeta = const VerificationMeta('category');
+  static const VerificationMeta _categoryMeta = const VerificationMeta(
+    'category',
+  );
   @override
   late final GeneratedColumn<String> category = GeneratedColumn<String>(
     'category',
@@ -2057,7 +2351,9 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _answerTextMeta = const VerificationMeta('answerText');
+  static const VerificationMeta _answerTextMeta = const VerificationMeta(
+    'answerText',
+  );
   @override
   late final GeneratedColumn<String> answerText = GeneratedColumn<String>(
     'answer_text',
@@ -2066,16 +2362,20 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _sourceCitationsJsonMeta = const VerificationMeta('sourceCitationsJson');
+  static const VerificationMeta _sourceCitationsJsonMeta =
+      const VerificationMeta('sourceCitationsJson');
   @override
-  late final GeneratedColumn<String> sourceCitationsJson = GeneratedColumn<String>(
-    'source_citations_json',
-    aliasedName,
-    false,
-    type: DriftSqlType.string,
-    requiredDuringInsert: true,
+  late final GeneratedColumn<String> sourceCitationsJson =
+      GeneratedColumn<String>(
+        'source_citations_json',
+        aliasedName,
+        false,
+        type: DriftSqlType.string,
+        requiredDuringInsert: true,
+      );
+  static const VerificationMeta _confidenceMeta = const VerificationMeta(
+    'confidence',
   );
-  static const VerificationMeta _confidenceMeta = const VerificationMeta('confidence');
   @override
   late final GeneratedColumn<String> confidence = GeneratedColumn<String>(
     'confidence',
@@ -2084,19 +2384,21 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _requiresScholarDisclaimerMeta = const VerificationMeta(
-    'requiresScholarDisclaimer',
-  );
+  static const VerificationMeta _requiresScholarDisclaimerMeta =
+      const VerificationMeta('requiresScholarDisclaimer');
   @override
-  late final GeneratedColumn<bool> requiresScholarDisclaimer = GeneratedColumn<bool>(
-    'requires_scholar_disclaimer',
-    aliasedName,
-    false,
-    type: DriftSqlType.bool,
-    requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways('CHECK ("requires_scholar_disclaimer" IN (0, 1))'),
-    defaultValue: const Constant(false),
-  );
+  late final GeneratedColumn<bool> requiresScholarDisclaimer =
+      GeneratedColumn<bool>(
+        'requires_scholar_disclaimer',
+        aliasedName,
+        false,
+        type: DriftSqlType.bool,
+        requiredDuringInsert: false,
+        defaultConstraints: GeneratedColumn.constraintIsAlways(
+          'CHECK ("requires_scholar_disclaimer" IN (0, 1))',
+        ),
+        defaultValue: const Constant(false),
+      );
   @override
   List<GeneratedColumn> get $columns => [
     id,
@@ -2116,21 +2418,30 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
   String get actualTableName => $name;
   static const String $name = 'ai_faq_entries';
   @override
-  VerificationContext validateIntegrity(Insertable<AiFaqEntry> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<AiFaqEntry> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('id')) {
       context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
     }
     if (data.containsKey('faq_key')) {
-      context.handle(_faqKeyMeta, faqKey.isAcceptableOrUnknown(data['faq_key']!, _faqKeyMeta));
+      context.handle(
+        _faqKeyMeta,
+        faqKey.isAcceptableOrUnknown(data['faq_key']!, _faqKeyMeta),
+      );
     } else if (isInserting) {
       context.missing(_faqKeyMeta);
     }
     if (data.containsKey('canonical_question')) {
       context.handle(
         _canonicalQuestionMeta,
-        canonicalQuestion.isAcceptableOrUnknown(data['canonical_question']!, _canonicalQuestionMeta),
+        canonicalQuestion.isAcceptableOrUnknown(
+          data['canonical_question']!,
+          _canonicalQuestionMeta,
+        ),
       );
     } else if (isInserting) {
       context.missing(_canonicalQuestionMeta);
@@ -2149,13 +2460,19 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
     if (data.containsKey('keywords_json')) {
       context.handle(
         _keywordsJsonMeta,
-        keywordsJson.isAcceptableOrUnknown(data['keywords_json']!, _keywordsJsonMeta),
+        keywordsJson.isAcceptableOrUnknown(
+          data['keywords_json']!,
+          _keywordsJsonMeta,
+        ),
       );
     } else if (isInserting) {
       context.missing(_keywordsJsonMeta);
     }
     if (data.containsKey('category')) {
-      context.handle(_categoryMeta, category.isAcceptableOrUnknown(data['category']!, _categoryMeta));
+      context.handle(
+        _categoryMeta,
+        category.isAcceptableOrUnknown(data['category']!, _categoryMeta),
+      );
     } else if (isInserting) {
       context.missing(_categoryMeta);
     }
@@ -2170,13 +2487,19 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
     if (data.containsKey('source_citations_json')) {
       context.handle(
         _sourceCitationsJsonMeta,
-        sourceCitationsJson.isAcceptableOrUnknown(data['source_citations_json']!, _sourceCitationsJsonMeta),
+        sourceCitationsJson.isAcceptableOrUnknown(
+          data['source_citations_json']!,
+          _sourceCitationsJsonMeta,
+        ),
       );
     } else if (isInserting) {
       context.missing(_sourceCitationsJsonMeta);
     }
     if (data.containsKey('confidence')) {
-      context.handle(_confidenceMeta, confidence.isAcceptableOrUnknown(data['confidence']!, _confidenceMeta));
+      context.handle(
+        _confidenceMeta,
+        confidence.isAcceptableOrUnknown(data['confidence']!, _confidenceMeta),
+      );
     } else if (isInserting) {
       context.missing(_confidenceMeta);
     }
@@ -2198,8 +2521,14 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
   AiFaqEntry map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return AiFaqEntry(
-      id: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}id'])!,
-      faqKey: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}faq_key'])!,
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      faqKey: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}faq_key'],
+      )!,
       canonicalQuestion: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}canonical_question'],
@@ -2212,7 +2541,10 @@ class $AiFaqEntriesTable extends AiFaqEntries with TableInfo<$AiFaqEntriesTable,
         DriftSqlType.string,
         data['${effectivePrefix}keywords_json'],
       )!,
-      category: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}category'])!,
+      category: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}category'],
+      )!,
       answerText: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}answer_text'],
@@ -2281,7 +2613,9 @@ class AiFaqEntry extends DataClass implements Insertable<AiFaqEntry> {
     map['answer_text'] = Variable<String>(answerText);
     map['source_citations_json'] = Variable<String>(sourceCitationsJson);
     map['confidence'] = Variable<String>(confidence);
-    map['requires_scholar_disclaimer'] = Variable<bool>(requiresScholarDisclaimer);
+    map['requires_scholar_disclaimer'] = Variable<bool>(
+      requiresScholarDisclaimer,
+    );
     return map;
   }
 
@@ -2300,19 +2634,28 @@ class AiFaqEntry extends DataClass implements Insertable<AiFaqEntry> {
     );
   }
 
-  factory AiFaqEntry.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory AiFaqEntry.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return AiFaqEntry(
       id: serializer.fromJson<int>(json['id']),
       faqKey: serializer.fromJson<String>(json['faqKey']),
       canonicalQuestion: serializer.fromJson<String>(json['canonicalQuestion']),
-      questionVariantsJson: serializer.fromJson<String>(json['questionVariantsJson']),
+      questionVariantsJson: serializer.fromJson<String>(
+        json['questionVariantsJson'],
+      ),
       keywordsJson: serializer.fromJson<String>(json['keywordsJson']),
       category: serializer.fromJson<String>(json['category']),
       answerText: serializer.fromJson<String>(json['answerText']),
-      sourceCitationsJson: serializer.fromJson<String>(json['sourceCitationsJson']),
+      sourceCitationsJson: serializer.fromJson<String>(
+        json['sourceCitationsJson'],
+      ),
       confidence: serializer.fromJson<String>(json['confidence']),
-      requiresScholarDisclaimer: serializer.fromJson<bool>(json['requiresScholarDisclaimer']),
+      requiresScholarDisclaimer: serializer.fromJson<bool>(
+        json['requiresScholarDisclaimer'],
+      ),
     );
   }
   @override
@@ -2328,7 +2671,9 @@ class AiFaqEntry extends DataClass implements Insertable<AiFaqEntry> {
       'answerText': serializer.toJson<String>(answerText),
       'sourceCitationsJson': serializer.toJson<String>(sourceCitationsJson),
       'confidence': serializer.toJson<String>(confidence),
-      'requiresScholarDisclaimer': serializer.toJson<bool>(requiresScholarDisclaimer),
+      'requiresScholarDisclaimer': serializer.toJson<bool>(
+        requiresScholarDisclaimer,
+      ),
     };
   }
 
@@ -2353,7 +2698,8 @@ class AiFaqEntry extends DataClass implements Insertable<AiFaqEntry> {
     answerText: answerText ?? this.answerText,
     sourceCitationsJson: sourceCitationsJson ?? this.sourceCitationsJson,
     confidence: confidence ?? this.confidence,
-    requiresScholarDisclaimer: requiresScholarDisclaimer ?? this.requiresScholarDisclaimer,
+    requiresScholarDisclaimer:
+        requiresScholarDisclaimer ?? this.requiresScholarDisclaimer,
   );
   AiFaqEntry copyWithCompanion(AiFaqEntriesCompanion data) {
     return AiFaqEntry(
@@ -2365,13 +2711,19 @@ class AiFaqEntry extends DataClass implements Insertable<AiFaqEntry> {
       questionVariantsJson: data.questionVariantsJson.present
           ? data.questionVariantsJson.value
           : this.questionVariantsJson,
-      keywordsJson: data.keywordsJson.present ? data.keywordsJson.value : this.keywordsJson,
+      keywordsJson: data.keywordsJson.present
+          ? data.keywordsJson.value
+          : this.keywordsJson,
       category: data.category.present ? data.category.value : this.category,
-      answerText: data.answerText.present ? data.answerText.value : this.answerText,
+      answerText: data.answerText.present
+          ? data.answerText.value
+          : this.answerText,
       sourceCitationsJson: data.sourceCitationsJson.present
           ? data.sourceCitationsJson.value
           : this.sourceCitationsJson,
-      confidence: data.confidence.present ? data.confidence.value : this.confidence,
+      confidence: data.confidence.present
+          ? data.confidence.value
+          : this.confidence,
       requiresScholarDisclaimer: data.requiresScholarDisclaimer.present
           ? data.requiresScholarDisclaimer.value
           : this.requiresScholarDisclaimer,
@@ -2482,13 +2834,16 @@ class AiFaqEntriesCompanion extends UpdateCompanion<AiFaqEntry> {
       if (id != null) 'id': id,
       if (faqKey != null) 'faq_key': faqKey,
       if (canonicalQuestion != null) 'canonical_question': canonicalQuestion,
-      if (questionVariantsJson != null) 'question_variants_json': questionVariantsJson,
+      if (questionVariantsJson != null)
+        'question_variants_json': questionVariantsJson,
       if (keywordsJson != null) 'keywords_json': keywordsJson,
       if (category != null) 'category': category,
       if (answerText != null) 'answer_text': answerText,
-      if (sourceCitationsJson != null) 'source_citations_json': sourceCitationsJson,
+      if (sourceCitationsJson != null)
+        'source_citations_json': sourceCitationsJson,
       if (confidence != null) 'confidence': confidence,
-      if (requiresScholarDisclaimer != null) 'requires_scholar_disclaimer': requiresScholarDisclaimer,
+      if (requiresScholarDisclaimer != null)
+        'requires_scholar_disclaimer': requiresScholarDisclaimer,
     });
   }
 
@@ -2514,7 +2869,8 @@ class AiFaqEntriesCompanion extends UpdateCompanion<AiFaqEntry> {
       answerText: answerText ?? this.answerText,
       sourceCitationsJson: sourceCitationsJson ?? this.sourceCitationsJson,
       confidence: confidence ?? this.confidence,
-      requiresScholarDisclaimer: requiresScholarDisclaimer ?? this.requiresScholarDisclaimer,
+      requiresScholarDisclaimer:
+          requiresScholarDisclaimer ?? this.requiresScholarDisclaimer,
     );
   }
 
@@ -2531,7 +2887,9 @@ class AiFaqEntriesCompanion extends UpdateCompanion<AiFaqEntry> {
       map['canonical_question'] = Variable<String>(canonicalQuestion.value);
     }
     if (questionVariantsJson.present) {
-      map['question_variants_json'] = Variable<String>(questionVariantsJson.value);
+      map['question_variants_json'] = Variable<String>(
+        questionVariantsJson.value,
+      );
     }
     if (keywordsJson.present) {
       map['keywords_json'] = Variable<String>(keywordsJson.value);
@@ -2543,13 +2901,17 @@ class AiFaqEntriesCompanion extends UpdateCompanion<AiFaqEntry> {
       map['answer_text'] = Variable<String>(answerText.value);
     }
     if (sourceCitationsJson.present) {
-      map['source_citations_json'] = Variable<String>(sourceCitationsJson.value);
+      map['source_citations_json'] = Variable<String>(
+        sourceCitationsJson.value,
+      );
     }
     if (confidence.present) {
       map['confidence'] = Variable<String>(confidence.value);
     }
     if (requiresScholarDisclaimer.present) {
-      map['requires_scholar_disclaimer'] = Variable<bool>(requiresScholarDisclaimer.value);
+      map['requires_scholar_disclaimer'] = Variable<bool>(
+        requiresScholarDisclaimer.value,
+      );
     }
     return map;
   }
@@ -2587,9 +2949,13 @@ class $OnboardingAnswersTable extends OnboardingAnswers
     hasAutoIncrement: true,
     type: DriftSqlType.int,
     requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways('PRIMARY KEY AUTOINCREMENT'),
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
   );
-  static const VerificationMeta _backgroundTypeMeta = const VerificationMeta('backgroundType');
+  static const VerificationMeta _backgroundTypeMeta = const VerificationMeta(
+    'backgroundType',
+  );
   @override
   late final GeneratedColumn<String> backgroundType = GeneratedColumn<String>(
     'background_type',
@@ -2598,7 +2964,9 @@ class $OnboardingAnswersTable extends OnboardingAnswers
     type: DriftSqlType.string,
     requiredDuringInsert: false,
   );
-  static const VerificationMeta _completedAtMeta = const VerificationMeta('completedAt');
+  static const VerificationMeta _completedAtMeta = const VerificationMeta(
+    'completedAt',
+  );
   @override
   late final GeneratedColumn<DateTime> completedAt = GeneratedColumn<DateTime>(
     'completed_at',
@@ -2615,7 +2983,10 @@ class $OnboardingAnswersTable extends OnboardingAnswers
   String get actualTableName => $name;
   static const String $name = 'onboarding_answers';
   @override
-  VerificationContext validateIntegrity(Insertable<OnboardingAnswer> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<OnboardingAnswer> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('id')) {
@@ -2624,13 +2995,19 @@ class $OnboardingAnswersTable extends OnboardingAnswers
     if (data.containsKey('background_type')) {
       context.handle(
         _backgroundTypeMeta,
-        backgroundType.isAcceptableOrUnknown(data['background_type']!, _backgroundTypeMeta),
+        backgroundType.isAcceptableOrUnknown(
+          data['background_type']!,
+          _backgroundTypeMeta,
+        ),
       );
     }
     if (data.containsKey('completed_at')) {
       context.handle(
         _completedAtMeta,
-        completedAt.isAcceptableOrUnknown(data['completed_at']!, _completedAtMeta),
+        completedAt.isAcceptableOrUnknown(
+          data['completed_at']!,
+          _completedAtMeta,
+        ),
       );
     }
     return context;
@@ -2642,7 +3019,10 @@ class $OnboardingAnswersTable extends OnboardingAnswers
   OnboardingAnswer map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return OnboardingAnswer(
-      id: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}id'])!,
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
       backgroundType: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}background_type'],
@@ -2660,11 +3040,16 @@ class $OnboardingAnswersTable extends OnboardingAnswers
   }
 }
 
-class OnboardingAnswer extends DataClass implements Insertable<OnboardingAnswer> {
+class OnboardingAnswer extends DataClass
+    implements Insertable<OnboardingAnswer> {
   final int id;
   final String? backgroundType;
   final DateTime? completedAt;
-  const OnboardingAnswer({required this.id, this.backgroundType, this.completedAt});
+  const OnboardingAnswer({
+    required this.id,
+    this.backgroundType,
+    this.completedAt,
+  });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
@@ -2681,12 +3066,19 @@ class OnboardingAnswer extends DataClass implements Insertable<OnboardingAnswer>
   OnboardingAnswersCompanion toCompanion(bool nullToAbsent) {
     return OnboardingAnswersCompanion(
       id: Value(id),
-      backgroundType: backgroundType == null && nullToAbsent ? const Value.absent() : Value(backgroundType),
-      completedAt: completedAt == null && nullToAbsent ? const Value.absent() : Value(completedAt),
+      backgroundType: backgroundType == null && nullToAbsent
+          ? const Value.absent()
+          : Value(backgroundType),
+      completedAt: completedAt == null && nullToAbsent
+          ? const Value.absent()
+          : Value(completedAt),
     );
   }
 
-  factory OnboardingAnswer.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory OnboardingAnswer.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return OnboardingAnswer(
       id: serializer.fromJson<int>(json['id']),
@@ -2710,14 +3102,20 @@ class OnboardingAnswer extends DataClass implements Insertable<OnboardingAnswer>
     Value<DateTime?> completedAt = const Value.absent(),
   }) => OnboardingAnswer(
     id: id ?? this.id,
-    backgroundType: backgroundType.present ? backgroundType.value : this.backgroundType,
+    backgroundType: backgroundType.present
+        ? backgroundType.value
+        : this.backgroundType,
     completedAt: completedAt.present ? completedAt.value : this.completedAt,
   );
   OnboardingAnswer copyWithCompanion(OnboardingAnswersCompanion data) {
     return OnboardingAnswer(
       id: data.id.present ? data.id.value : this.id,
-      backgroundType: data.backgroundType.present ? data.backgroundType.value : this.backgroundType,
-      completedAt: data.completedAt.present ? data.completedAt.value : this.completedAt,
+      backgroundType: data.backgroundType.present
+          ? data.backgroundType.value
+          : this.backgroundType,
+      completedAt: data.completedAt.present
+          ? data.completedAt.value
+          : this.completedAt,
     );
   }
 
@@ -2812,7 +3210,9 @@ class $ContentVersionMetaTable extends ContentVersionMeta
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
   $ContentVersionMetaTable(this.attachedDatabase, [this._alias]);
-  static const VerificationMeta _contentTypeMeta = const VerificationMeta('contentType');
+  static const VerificationMeta _contentTypeMeta = const VerificationMeta(
+    'contentType',
+  );
   @override
   late final GeneratedColumn<String> contentType = GeneratedColumn<String>(
     'content_type',
@@ -2821,7 +3221,9 @@ class $ContentVersionMetaTable extends ContentVersionMeta
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _importedVersionMeta = const VerificationMeta('importedVersion');
+  static const VerificationMeta _importedVersionMeta = const VerificationMeta(
+    'importedVersion',
+  );
   @override
   late final GeneratedColumn<int> importedVersion = GeneratedColumn<int>(
     'imported_version',
@@ -2848,7 +3250,10 @@ class $ContentVersionMetaTable extends ContentVersionMeta
     if (data.containsKey('content_type')) {
       context.handle(
         _contentTypeMeta,
-        contentType.isAcceptableOrUnknown(data['content_type']!, _contentTypeMeta),
+        contentType.isAcceptableOrUnknown(
+          data['content_type']!,
+          _contentTypeMeta,
+        ),
       );
     } else if (isInserting) {
       context.missing(_contentTypeMeta);
@@ -2856,7 +3261,10 @@ class $ContentVersionMetaTable extends ContentVersionMeta
     if (data.containsKey('imported_version')) {
       context.handle(
         _importedVersionMeta,
-        importedVersion.isAcceptableOrUnknown(data['imported_version']!, _importedVersionMeta),
+        importedVersion.isAcceptableOrUnknown(
+          data['imported_version']!,
+          _importedVersionMeta,
+        ),
       );
     }
     return context;
@@ -2885,10 +3293,14 @@ class $ContentVersionMetaTable extends ContentVersionMeta
   }
 }
 
-class ContentVersionMetaData extends DataClass implements Insertable<ContentVersionMetaData> {
+class ContentVersionMetaData extends DataClass
+    implements Insertable<ContentVersionMetaData> {
   final String contentType;
   final int importedVersion;
-  const ContentVersionMetaData({required this.contentType, required this.importedVersion});
+  const ContentVersionMetaData({
+    required this.contentType,
+    required this.importedVersion,
+  });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
@@ -2904,7 +3316,10 @@ class ContentVersionMetaData extends DataClass implements Insertable<ContentVers
     );
   }
 
-  factory ContentVersionMetaData.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory ContentVersionMetaData.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return ContentVersionMetaData(
       contentType: serializer.fromJson<String>(json['contentType']),
@@ -2920,14 +3335,21 @@ class ContentVersionMetaData extends DataClass implements Insertable<ContentVers
     };
   }
 
-  ContentVersionMetaData copyWith({String? contentType, int? importedVersion}) => ContentVersionMetaData(
+  ContentVersionMetaData copyWith({
+    String? contentType,
+    int? importedVersion,
+  }) => ContentVersionMetaData(
     contentType: contentType ?? this.contentType,
     importedVersion: importedVersion ?? this.importedVersion,
   );
   ContentVersionMetaData copyWithCompanion(ContentVersionMetaCompanion data) {
     return ContentVersionMetaData(
-      contentType: data.contentType.present ? data.contentType.value : this.contentType,
-      importedVersion: data.importedVersion.present ? data.importedVersion.value : this.importedVersion,
+      contentType: data.contentType.present
+          ? data.contentType.value
+          : this.contentType,
+      importedVersion: data.importedVersion.present
+          ? data.importedVersion.value
+          : this.importedVersion,
     );
   }
 
@@ -2950,7 +3372,8 @@ class ContentVersionMetaData extends DataClass implements Insertable<ContentVers
           other.importedVersion == this.importedVersion);
 }
 
-class ContentVersionMetaCompanion extends UpdateCompanion<ContentVersionMetaData> {
+class ContentVersionMetaCompanion
+    extends UpdateCompanion<ContentVersionMetaData> {
   final Value<String> contentType;
   final Value<int> importedVersion;
   final Value<int> rowid;
@@ -3014,17 +3437,363 @@ class ContentVersionMetaCompanion extends UpdateCompanion<ContentVersionMetaData
   }
 }
 
+class $JournalEntriesTable extends JournalEntries
+    with TableInfo<$JournalEntriesTable, JournalEntry> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $JournalEntriesTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _titleMeta = const VerificationMeta('title');
+  @override
+  late final GeneratedColumn<String> title = GeneratedColumn<String>(
+    'title',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _bodyMeta = const VerificationMeta('body');
+  @override
+  late final GeneratedColumn<String> body = GeneratedColumn<String>(
+    'body',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _createdAtMeta = const VerificationMeta(
+    'createdAt',
+  );
+  @override
+  late final GeneratedColumn<DateTime> createdAt = GeneratedColumn<DateTime>(
+    'created_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: false,
+    defaultValue: currentDateAndTime,
+  );
+  static const VerificationMeta _updatedAtMeta = const VerificationMeta(
+    'updatedAt',
+  );
+  @override
+  late final GeneratedColumn<DateTime> updatedAt = GeneratedColumn<DateTime>(
+    'updated_at',
+    aliasedName,
+    true,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: false,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [id, title, body, createdAt, updatedAt];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'journal_entries';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<JournalEntry> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('title')) {
+      context.handle(
+        _titleMeta,
+        title.isAcceptableOrUnknown(data['title']!, _titleMeta),
+      );
+    }
+    if (data.containsKey('body')) {
+      context.handle(
+        _bodyMeta,
+        body.isAcceptableOrUnknown(data['body']!, _bodyMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_bodyMeta);
+    }
+    if (data.containsKey('created_at')) {
+      context.handle(
+        _createdAtMeta,
+        createdAt.isAcceptableOrUnknown(data['created_at']!, _createdAtMeta),
+      );
+    }
+    if (data.containsKey('updated_at')) {
+      context.handle(
+        _updatedAtMeta,
+        updatedAt.isAcceptableOrUnknown(data['updated_at']!, _updatedAtMeta),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  JournalEntry map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return JournalEntry(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      title: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}title'],
+      ),
+      body: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}body'],
+      )!,
+      createdAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}created_at'],
+      )!,
+      updatedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}updated_at'],
+      ),
+    );
+  }
+
+  @override
+  $JournalEntriesTable createAlias(String alias) {
+    return $JournalEntriesTable(attachedDatabase, alias);
+  }
+}
+
+class JournalEntry extends DataClass implements Insertable<JournalEntry> {
+  final int id;
+  final String? title;
+  final String body;
+  final DateTime createdAt;
+  final DateTime? updatedAt;
+  const JournalEntry({
+    required this.id,
+    this.title,
+    required this.body,
+    required this.createdAt,
+    this.updatedAt,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    if (!nullToAbsent || title != null) {
+      map['title'] = Variable<String>(title);
+    }
+    map['body'] = Variable<String>(body);
+    map['created_at'] = Variable<DateTime>(createdAt);
+    if (!nullToAbsent || updatedAt != null) {
+      map['updated_at'] = Variable<DateTime>(updatedAt);
+    }
+    return map;
+  }
+
+  JournalEntriesCompanion toCompanion(bool nullToAbsent) {
+    return JournalEntriesCompanion(
+      id: Value(id),
+      title: title == null && nullToAbsent
+          ? const Value.absent()
+          : Value(title),
+      body: Value(body),
+      createdAt: Value(createdAt),
+      updatedAt: updatedAt == null && nullToAbsent
+          ? const Value.absent()
+          : Value(updatedAt),
+    );
+  }
+
+  factory JournalEntry.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return JournalEntry(
+      id: serializer.fromJson<int>(json['id']),
+      title: serializer.fromJson<String?>(json['title']),
+      body: serializer.fromJson<String>(json['body']),
+      createdAt: serializer.fromJson<DateTime>(json['createdAt']),
+      updatedAt: serializer.fromJson<DateTime?>(json['updatedAt']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'title': serializer.toJson<String?>(title),
+      'body': serializer.toJson<String>(body),
+      'createdAt': serializer.toJson<DateTime>(createdAt),
+      'updatedAt': serializer.toJson<DateTime?>(updatedAt),
+    };
+  }
+
+  JournalEntry copyWith({
+    int? id,
+    Value<String?> title = const Value.absent(),
+    String? body,
+    DateTime? createdAt,
+    Value<DateTime?> updatedAt = const Value.absent(),
+  }) => JournalEntry(
+    id: id ?? this.id,
+    title: title.present ? title.value : this.title,
+    body: body ?? this.body,
+    createdAt: createdAt ?? this.createdAt,
+    updatedAt: updatedAt.present ? updatedAt.value : this.updatedAt,
+  );
+  JournalEntry copyWithCompanion(JournalEntriesCompanion data) {
+    return JournalEntry(
+      id: data.id.present ? data.id.value : this.id,
+      title: data.title.present ? data.title.value : this.title,
+      body: data.body.present ? data.body.value : this.body,
+      createdAt: data.createdAt.present ? data.createdAt.value : this.createdAt,
+      updatedAt: data.updatedAt.present ? data.updatedAt.value : this.updatedAt,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('JournalEntry(')
+          ..write('id: $id, ')
+          ..write('title: $title, ')
+          ..write('body: $body, ')
+          ..write('createdAt: $createdAt, ')
+          ..write('updatedAt: $updatedAt')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(id, title, body, createdAt, updatedAt);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is JournalEntry &&
+          other.id == this.id &&
+          other.title == this.title &&
+          other.body == this.body &&
+          other.createdAt == this.createdAt &&
+          other.updatedAt == this.updatedAt);
+}
+
+class JournalEntriesCompanion extends UpdateCompanion<JournalEntry> {
+  final Value<int> id;
+  final Value<String?> title;
+  final Value<String> body;
+  final Value<DateTime> createdAt;
+  final Value<DateTime?> updatedAt;
+  const JournalEntriesCompanion({
+    this.id = const Value.absent(),
+    this.title = const Value.absent(),
+    this.body = const Value.absent(),
+    this.createdAt = const Value.absent(),
+    this.updatedAt = const Value.absent(),
+  });
+  JournalEntriesCompanion.insert({
+    this.id = const Value.absent(),
+    this.title = const Value.absent(),
+    required String body,
+    this.createdAt = const Value.absent(),
+    this.updatedAt = const Value.absent(),
+  }) : body = Value(body);
+  static Insertable<JournalEntry> custom({
+    Expression<int>? id,
+    Expression<String>? title,
+    Expression<String>? body,
+    Expression<DateTime>? createdAt,
+    Expression<DateTime>? updatedAt,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (title != null) 'title': title,
+      if (body != null) 'body': body,
+      if (createdAt != null) 'created_at': createdAt,
+      if (updatedAt != null) 'updated_at': updatedAt,
+    });
+  }
+
+  JournalEntriesCompanion copyWith({
+    Value<int>? id,
+    Value<String?>? title,
+    Value<String>? body,
+    Value<DateTime>? createdAt,
+    Value<DateTime?>? updatedAt,
+  }) {
+    return JournalEntriesCompanion(
+      id: id ?? this.id,
+      title: title ?? this.title,
+      body: body ?? this.body,
+      createdAt: createdAt ?? this.createdAt,
+      updatedAt: updatedAt ?? this.updatedAt,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (title.present) {
+      map['title'] = Variable<String>(title.value);
+    }
+    if (body.present) {
+      map['body'] = Variable<String>(body.value);
+    }
+    if (createdAt.present) {
+      map['created_at'] = Variable<DateTime>(createdAt.value);
+    }
+    if (updatedAt.present) {
+      map['updated_at'] = Variable<DateTime>(updatedAt.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('JournalEntriesCompanion(')
+          ..write('id: $id, ')
+          ..write('title: $title, ')
+          ..write('body: $body, ')
+          ..write('createdAt: $createdAt, ')
+          ..write('updatedAt: $updatedAt')
+          ..write(')'))
+        .toString();
+  }
+}
+
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(e);
   $AppDatabaseManager get managers => $AppDatabaseManager(this);
   late final $LearningStagesTable learningStages = $LearningStagesTable(this);
   late final $LessonsTable lessons = $LessonsTable(this);
-  late final $LessonProgressEntriesTable lessonProgressEntries = $LessonProgressEntriesTable(this);
+  late final $LessonProgressEntriesTable lessonProgressEntries =
+      $LessonProgressEntriesTable(this);
   late final $DuaCategoriesTable duaCategories = $DuaCategoriesTable(this);
   late final $DuasTable duas = $DuasTable(this);
   late final $AiFaqEntriesTable aiFaqEntries = $AiFaqEntriesTable(this);
-  late final $OnboardingAnswersTable onboardingAnswers = $OnboardingAnswersTable(this);
-  late final $ContentVersionMetaTable contentVersionMeta = $ContentVersionMetaTable(this);
+  late final $OnboardingAnswersTable onboardingAnswers =
+      $OnboardingAnswersTable(this);
+  late final $ContentVersionMetaTable contentVersionMeta =
+      $ContentVersionMetaTable(this);
+  late final $JournalEntriesTable journalEntries = $JournalEntriesTable(this);
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -3038,6 +3807,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     aiFaqEntries,
     onboardingAnswers,
     contentVersionMeta,
+    journalEntries,
   ];
 }
 
@@ -3060,7 +3830,8 @@ typedef $$LearningStagesTableUpdateCompanionBuilder =
       Value<String?> icon,
     });
 
-class $$LearningStagesTableFilterComposer extends Composer<_$AppDatabase, $LearningStagesTable> {
+class $$LearningStagesTableFilterComposer
+    extends Composer<_$AppDatabase, $LearningStagesTable> {
   $$LearningStagesTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -3068,26 +3839,39 @@ class $$LearningStagesTableFilterComposer extends Composer<_$AppDatabase, $Learn
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get slug =>
-      $composableBuilder(column: $table.slug, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get slug => $composableBuilder(
+    column: $table.slug,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get order =>
-      $composableBuilder(column: $table.order, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get order => $composableBuilder(
+    column: $table.order,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get title =>
-      $composableBuilder(column: $table.title, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get description =>
-      $composableBuilder(column: $table.description, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get description => $composableBuilder(
+    column: $table.description,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get icon =>
-      $composableBuilder(column: $table.icon, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get icon => $composableBuilder(
+    column: $table.icon,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
-class $$LearningStagesTableOrderingComposer extends Composer<_$AppDatabase, $LearningStagesTable> {
+class $$LearningStagesTableOrderingComposer
+    extends Composer<_$AppDatabase, $LearningStagesTable> {
   $$LearningStagesTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -3095,26 +3879,39 @@ class $$LearningStagesTableOrderingComposer extends Composer<_$AppDatabase, $Lea
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get slug =>
-      $composableBuilder(column: $table.slug, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get slug => $composableBuilder(
+    column: $table.slug,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get order =>
-      $composableBuilder(column: $table.order, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get order => $composableBuilder(
+    column: $table.order,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get title =>
-      $composableBuilder(column: $table.title, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get description =>
-      $composableBuilder(column: $table.description, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get description => $composableBuilder(
+    column: $table.description,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get icon =>
-      $composableBuilder(column: $table.icon, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get icon => $composableBuilder(
+    column: $table.icon,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$LearningStagesTableAnnotationComposer extends Composer<_$AppDatabase, $LearningStagesTable> {
+class $$LearningStagesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $LearningStagesTable> {
   $$LearningStagesTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -3122,18 +3919,25 @@ class $$LearningStagesTableAnnotationComposer extends Composer<_$AppDatabase, $L
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<int> get id => $composableBuilder(column: $table.id, builder: (column) => column);
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
 
-  GeneratedColumn<String> get slug => $composableBuilder(column: $table.slug, builder: (column) => column);
+  GeneratedColumn<String> get slug =>
+      $composableBuilder(column: $table.slug, builder: (column) => column);
 
-  GeneratedColumn<int> get order => $composableBuilder(column: $table.order, builder: (column) => column);
+  GeneratedColumn<int> get order =>
+      $composableBuilder(column: $table.order, builder: (column) => column);
 
-  GeneratedColumn<String> get title => $composableBuilder(column: $table.title, builder: (column) => column);
+  GeneratedColumn<String> get title =>
+      $composableBuilder(column: $table.title, builder: (column) => column);
 
-  GeneratedColumn<String> get description =>
-      $composableBuilder(column: $table.description, builder: (column) => column);
+  GeneratedColumn<String> get description => $composableBuilder(
+    column: $table.description,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<String> get icon => $composableBuilder(column: $table.icon, builder: (column) => column);
+  GeneratedColumn<String> get icon =>
+      $composableBuilder(column: $table.icon, builder: (column) => column);
 }
 
 class $$LearningStagesTableTableManager
@@ -3147,18 +3951,26 @@ class $$LearningStagesTableTableManager
           $$LearningStagesTableAnnotationComposer,
           $$LearningStagesTableCreateCompanionBuilder,
           $$LearningStagesTableUpdateCompanionBuilder,
-          (LearningStage, BaseReferences<_$AppDatabase, $LearningStagesTable, LearningStage>),
+          (
+            LearningStage,
+            BaseReferences<_$AppDatabase, $LearningStagesTable, LearningStage>,
+          ),
           LearningStage,
           PrefetchHooks Function()
         > {
-  $$LearningStagesTableTableManager(_$AppDatabase db, $LearningStagesTable table)
-    : super(
+  $$LearningStagesTableTableManager(
+    _$AppDatabase db,
+    $LearningStagesTable table,
+  ) : super(
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$LearningStagesTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$LearningStagesTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () => $$LearningStagesTableAnnotationComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$LearningStagesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$LearningStagesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$LearningStagesTableAnnotationComposer($db: db, $table: table),
           updateCompanionCallback:
               ({
                 Value<int> id = const Value.absent(),
@@ -3191,8 +4003,9 @@ class $$LearningStagesTableTableManager
                 description: description,
                 icon: icon,
               ),
-          withReferenceMapper: (p0) =>
-              p0.map((e) => (e.readTable(table), BaseReferences(db, table, e))).toList(),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
           prefetchHooksCallback: null,
         ),
       );
@@ -3208,7 +4021,10 @@ typedef $$LearningStagesTableProcessedTableManager =
       $$LearningStagesTableAnnotationComposer,
       $$LearningStagesTableCreateCompanionBuilder,
       $$LearningStagesTableUpdateCompanionBuilder,
-      (LearningStage, BaseReferences<_$AppDatabase, $LearningStagesTable, LearningStage>),
+      (
+        LearningStage,
+        BaseReferences<_$AppDatabase, $LearningStagesTable, LearningStage>,
+      ),
       LearningStage,
       PrefetchHooks Function()
     >;
@@ -3237,7 +4053,8 @@ typedef $$LessonsTableUpdateCompanionBuilder =
       Value<bool> needToKnow,
     });
 
-class $$LessonsTableFilterComposer extends Composer<_$AppDatabase, $LessonsTable> {
+class $$LessonsTableFilterComposer
+    extends Composer<_$AppDatabase, $LessonsTable> {
   $$LessonsTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -3245,35 +4062,54 @@ class $$LessonsTableFilterComposer extends Composer<_$AppDatabase, $LessonsTable
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get learningStageId =>
-      $composableBuilder(column: $table.learningStageId, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get learningStageId => $composableBuilder(
+    column: $table.learningStageId,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get slug =>
-      $composableBuilder(column: $table.slug, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get slug => $composableBuilder(
+    column: $table.slug,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get order =>
-      $composableBuilder(column: $table.order, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get order => $composableBuilder(
+    column: $table.order,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get title =>
-      $composableBuilder(column: $table.title, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get summary =>
-      $composableBuilder(column: $table.summary, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get summary => $composableBuilder(
+    column: $table.summary,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get bodyJson =>
-      $composableBuilder(column: $table.bodyJson, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get bodyJson => $composableBuilder(
+    column: $table.bodyJson,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get estimatedMinutes =>
-      $composableBuilder(column: $table.estimatedMinutes, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get estimatedMinutes => $composableBuilder(
+    column: $table.estimatedMinutes,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<bool> get needToKnow =>
-      $composableBuilder(column: $table.needToKnow, builder: (column) => ColumnFilters(column));
+  ColumnFilters<bool> get needToKnow => $composableBuilder(
+    column: $table.needToKnow,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
-class $$LessonsTableOrderingComposer extends Composer<_$AppDatabase, $LessonsTable> {
+class $$LessonsTableOrderingComposer
+    extends Composer<_$AppDatabase, $LessonsTable> {
   $$LessonsTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -3281,35 +4117,54 @@ class $$LessonsTableOrderingComposer extends Composer<_$AppDatabase, $LessonsTab
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get learningStageId =>
-      $composableBuilder(column: $table.learningStageId, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get learningStageId => $composableBuilder(
+    column: $table.learningStageId,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get slug =>
-      $composableBuilder(column: $table.slug, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get slug => $composableBuilder(
+    column: $table.slug,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get order =>
-      $composableBuilder(column: $table.order, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get order => $composableBuilder(
+    column: $table.order,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get title =>
-      $composableBuilder(column: $table.title, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get summary =>
-      $composableBuilder(column: $table.summary, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get summary => $composableBuilder(
+    column: $table.summary,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get bodyJson =>
-      $composableBuilder(column: $table.bodyJson, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get bodyJson => $composableBuilder(
+    column: $table.bodyJson,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get estimatedMinutes =>
-      $composableBuilder(column: $table.estimatedMinutes, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get estimatedMinutes => $composableBuilder(
+    column: $table.estimatedMinutes,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<bool> get needToKnow =>
-      $composableBuilder(column: $table.needToKnow, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<bool> get needToKnow => $composableBuilder(
+    column: $table.needToKnow,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$LessonsTableAnnotationComposer extends Composer<_$AppDatabase, $LessonsTable> {
+class $$LessonsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $LessonsTable> {
   $$LessonsTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -3317,16 +4172,22 @@ class $$LessonsTableAnnotationComposer extends Composer<_$AppDatabase, $LessonsT
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<int> get id => $composableBuilder(column: $table.id, builder: (column) => column);
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
 
-  GeneratedColumn<int> get learningStageId =>
-      $composableBuilder(column: $table.learningStageId, builder: (column) => column);
+  GeneratedColumn<int> get learningStageId => $composableBuilder(
+    column: $table.learningStageId,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<String> get slug => $composableBuilder(column: $table.slug, builder: (column) => column);
+  GeneratedColumn<String> get slug =>
+      $composableBuilder(column: $table.slug, builder: (column) => column);
 
-  GeneratedColumn<int> get order => $composableBuilder(column: $table.order, builder: (column) => column);
+  GeneratedColumn<int> get order =>
+      $composableBuilder(column: $table.order, builder: (column) => column);
 
-  GeneratedColumn<String> get title => $composableBuilder(column: $table.title, builder: (column) => column);
+  GeneratedColumn<String> get title =>
+      $composableBuilder(column: $table.title, builder: (column) => column);
 
   GeneratedColumn<String> get summary =>
       $composableBuilder(column: $table.summary, builder: (column) => column);
@@ -3334,11 +4195,15 @@ class $$LessonsTableAnnotationComposer extends Composer<_$AppDatabase, $LessonsT
   GeneratedColumn<String> get bodyJson =>
       $composableBuilder(column: $table.bodyJson, builder: (column) => column);
 
-  GeneratedColumn<int> get estimatedMinutes =>
-      $composableBuilder(column: $table.estimatedMinutes, builder: (column) => column);
+  GeneratedColumn<int> get estimatedMinutes => $composableBuilder(
+    column: $table.estimatedMinutes,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<bool> get needToKnow =>
-      $composableBuilder(column: $table.needToKnow, builder: (column) => column);
+  GeneratedColumn<bool> get needToKnow => $composableBuilder(
+    column: $table.needToKnow,
+    builder: (column) => column,
+  );
 }
 
 class $$LessonsTableTableManager
@@ -3361,9 +4226,12 @@ class $$LessonsTableTableManager
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$LessonsTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$LessonsTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () => $$LessonsTableAnnotationComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$LessonsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$LessonsTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$LessonsTableAnnotationComposer($db: db, $table: table),
           updateCompanionCallback:
               ({
                 Value<int> id = const Value.absent(),
@@ -3408,8 +4276,9 @@ class $$LessonsTableTableManager
                 estimatedMinutes: estimatedMinutes,
                 needToKnow: needToKnow,
               ),
-          withReferenceMapper: (p0) =>
-              p0.map((e) => (e.readTable(table), BaseReferences(db, table, e))).toList(),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
           prefetchHooksCallback: null,
         ),
       );
@@ -3453,17 +4322,25 @@ class $$LessonProgressEntriesTableFilterComposer
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get lessonId =>
-      $composableBuilder(column: $table.lessonId, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get lessonId => $composableBuilder(
+    column: $table.lessonId,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get status =>
-      $composableBuilder(column: $table.status, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get status => $composableBuilder(
+    column: $table.status,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<DateTime> get completedAt =>
-      $composableBuilder(column: $table.completedAt, builder: (column) => ColumnFilters(column));
+  ColumnFilters<DateTime> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
 class $$LessonProgressEntriesTableOrderingComposer
@@ -3475,17 +4352,25 @@ class $$LessonProgressEntriesTableOrderingComposer
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get lessonId =>
-      $composableBuilder(column: $table.lessonId, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get lessonId => $composableBuilder(
+    column: $table.lessonId,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get status =>
-      $composableBuilder(column: $table.status, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get status => $composableBuilder(
+    column: $table.status,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<DateTime> get completedAt =>
-      $composableBuilder(column: $table.completedAt, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<DateTime> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
 class $$LessonProgressEntriesTableAnnotationComposer
@@ -3497,7 +4382,8 @@ class $$LessonProgressEntriesTableAnnotationComposer
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<int> get id => $composableBuilder(column: $table.id, builder: (column) => column);
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
 
   GeneratedColumn<int> get lessonId =>
       $composableBuilder(column: $table.lessonId, builder: (column) => column);
@@ -3505,8 +4391,10 @@ class $$LessonProgressEntriesTableAnnotationComposer
   GeneratedColumn<String> get status =>
       $composableBuilder(column: $table.status, builder: (column) => column);
 
-  GeneratedColumn<DateTime> get completedAt =>
-      $composableBuilder(column: $table.completedAt, builder: (column) => column);
+  GeneratedColumn<DateTime> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => column,
+  );
 }
 
 class $$LessonProgressEntriesTableTableManager
@@ -3522,20 +4410,37 @@ class $$LessonProgressEntriesTableTableManager
           $$LessonProgressEntriesTableUpdateCompanionBuilder,
           (
             LessonProgressEntry,
-            BaseReferences<_$AppDatabase, $LessonProgressEntriesTable, LessonProgressEntry>,
+            BaseReferences<
+              _$AppDatabase,
+              $LessonProgressEntriesTable,
+              LessonProgressEntry
+            >,
           ),
           LessonProgressEntry,
           PrefetchHooks Function()
         > {
-  $$LessonProgressEntriesTableTableManager(_$AppDatabase db, $LessonProgressEntriesTable table)
-    : super(
+  $$LessonProgressEntriesTableTableManager(
+    _$AppDatabase db,
+    $LessonProgressEntriesTable table,
+  ) : super(
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$LessonProgressEntriesTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$LessonProgressEntriesTableOrderingComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$LessonProgressEntriesTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$LessonProgressEntriesTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
           createComputedFieldComposer: () =>
-              $$LessonProgressEntriesTableAnnotationComposer($db: db, $table: table),
+              $$LessonProgressEntriesTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
           updateCompanionCallback:
               ({
                 Value<int> id = const Value.absent(),
@@ -3560,8 +4465,9 @@ class $$LessonProgressEntriesTableTableManager
                 status: status,
                 completedAt: completedAt,
               ),
-          withReferenceMapper: (p0) =>
-              p0.map((e) => (e.readTable(table), BaseReferences(db, table, e))).toList(),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
           prefetchHooksCallback: null,
         ),
       );
@@ -3577,7 +4483,14 @@ typedef $$LessonProgressEntriesTableProcessedTableManager =
       $$LessonProgressEntriesTableAnnotationComposer,
       $$LessonProgressEntriesTableCreateCompanionBuilder,
       $$LessonProgressEntriesTableUpdateCompanionBuilder,
-      (LessonProgressEntry, BaseReferences<_$AppDatabase, $LessonProgressEntriesTable, LessonProgressEntry>),
+      (
+        LessonProgressEntry,
+        BaseReferences<
+          _$AppDatabase,
+          $LessonProgressEntriesTable,
+          LessonProgressEntry
+        >,
+      ),
       LessonProgressEntry,
       PrefetchHooks Function()
     >;
@@ -3598,7 +4511,8 @@ typedef $$DuaCategoriesTableUpdateCompanionBuilder =
       Value<int> order,
     });
 
-class $$DuaCategoriesTableFilterComposer extends Composer<_$AppDatabase, $DuaCategoriesTable> {
+class $$DuaCategoriesTableFilterComposer
+    extends Composer<_$AppDatabase, $DuaCategoriesTable> {
   $$DuaCategoriesTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -3606,23 +4520,34 @@ class $$DuaCategoriesTableFilterComposer extends Composer<_$AppDatabase, $DuaCat
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get slug =>
-      $composableBuilder(column: $table.slug, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get slug => $composableBuilder(
+    column: $table.slug,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get title =>
-      $composableBuilder(column: $table.title, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get icon =>
-      $composableBuilder(column: $table.icon, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get icon => $composableBuilder(
+    column: $table.icon,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get order =>
-      $composableBuilder(column: $table.order, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get order => $composableBuilder(
+    column: $table.order,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
-class $$DuaCategoriesTableOrderingComposer extends Composer<_$AppDatabase, $DuaCategoriesTable> {
+class $$DuaCategoriesTableOrderingComposer
+    extends Composer<_$AppDatabase, $DuaCategoriesTable> {
   $$DuaCategoriesTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -3630,23 +4555,34 @@ class $$DuaCategoriesTableOrderingComposer extends Composer<_$AppDatabase, $DuaC
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get slug =>
-      $composableBuilder(column: $table.slug, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get slug => $composableBuilder(
+    column: $table.slug,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get title =>
-      $composableBuilder(column: $table.title, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get icon =>
-      $composableBuilder(column: $table.icon, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get icon => $composableBuilder(
+    column: $table.icon,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get order =>
-      $composableBuilder(column: $table.order, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get order => $composableBuilder(
+    column: $table.order,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$DuaCategoriesTableAnnotationComposer extends Composer<_$AppDatabase, $DuaCategoriesTable> {
+class $$DuaCategoriesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $DuaCategoriesTable> {
   $$DuaCategoriesTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -3654,15 +4590,20 @@ class $$DuaCategoriesTableAnnotationComposer extends Composer<_$AppDatabase, $Du
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<int> get id => $composableBuilder(column: $table.id, builder: (column) => column);
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
 
-  GeneratedColumn<String> get slug => $composableBuilder(column: $table.slug, builder: (column) => column);
+  GeneratedColumn<String> get slug =>
+      $composableBuilder(column: $table.slug, builder: (column) => column);
 
-  GeneratedColumn<String> get title => $composableBuilder(column: $table.title, builder: (column) => column);
+  GeneratedColumn<String> get title =>
+      $composableBuilder(column: $table.title, builder: (column) => column);
 
-  GeneratedColumn<String> get icon => $composableBuilder(column: $table.icon, builder: (column) => column);
+  GeneratedColumn<String> get icon =>
+      $composableBuilder(column: $table.icon, builder: (column) => column);
 
-  GeneratedColumn<int> get order => $composableBuilder(column: $table.order, builder: (column) => column);
+  GeneratedColumn<int> get order =>
+      $composableBuilder(column: $table.order, builder: (column) => column);
 }
 
 class $$DuaCategoriesTableTableManager
@@ -3676,7 +4617,10 @@ class $$DuaCategoriesTableTableManager
           $$DuaCategoriesTableAnnotationComposer,
           $$DuaCategoriesTableCreateCompanionBuilder,
           $$DuaCategoriesTableUpdateCompanionBuilder,
-          (DuaCategory, BaseReferences<_$AppDatabase, $DuaCategoriesTable, DuaCategory>),
+          (
+            DuaCategory,
+            BaseReferences<_$AppDatabase, $DuaCategoriesTable, DuaCategory>,
+          ),
           DuaCategory,
           PrefetchHooks Function()
         > {
@@ -3685,9 +4629,12 @@ class $$DuaCategoriesTableTableManager
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$DuaCategoriesTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$DuaCategoriesTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () => $$DuaCategoriesTableAnnotationComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$DuaCategoriesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$DuaCategoriesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$DuaCategoriesTableAnnotationComposer($db: db, $table: table),
           updateCompanionCallback:
               ({
                 Value<int> id = const Value.absent(),
@@ -3695,7 +4642,13 @@ class $$DuaCategoriesTableTableManager
                 Value<String> title = const Value.absent(),
                 Value<String?> icon = const Value.absent(),
                 Value<int> order = const Value.absent(),
-              }) => DuaCategoriesCompanion(id: id, slug: slug, title: title, icon: icon, order: order),
+              }) => DuaCategoriesCompanion(
+                id: id,
+                slug: slug,
+                title: title,
+                icon: icon,
+                order: order,
+              ),
           createCompanionCallback:
               ({
                 Value<int> id = const Value.absent(),
@@ -3703,9 +4656,16 @@ class $$DuaCategoriesTableTableManager
                 required String title,
                 Value<String?> icon = const Value.absent(),
                 required int order,
-              }) => DuaCategoriesCompanion.insert(id: id, slug: slug, title: title, icon: icon, order: order),
-          withReferenceMapper: (p0) =>
-              p0.map((e) => (e.readTable(table), BaseReferences(db, table, e))).toList(),
+              }) => DuaCategoriesCompanion.insert(
+                id: id,
+                slug: slug,
+                title: title,
+                icon: icon,
+                order: order,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
           prefetchHooksCallback: null,
         ),
       );
@@ -3721,7 +4681,10 @@ typedef $$DuaCategoriesTableProcessedTableManager =
       $$DuaCategoriesTableAnnotationComposer,
       $$DuaCategoriesTableCreateCompanionBuilder,
       $$DuaCategoriesTableUpdateCompanionBuilder,
-      (DuaCategory, BaseReferences<_$AppDatabase, $DuaCategoriesTable, DuaCategory>),
+      (
+        DuaCategory,
+        BaseReferences<_$AppDatabase, $DuaCategoriesTable, DuaCategory>,
+      ),
       DuaCategory,
       PrefetchHooks Function()
     >;
@@ -3762,38 +4725,60 @@ class $$DuasTableFilterComposer extends Composer<_$AppDatabase, $DuasTable> {
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get duaCategoryId =>
-      $composableBuilder(column: $table.duaCategoryId, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get duaCategoryId => $composableBuilder(
+    column: $table.duaCategoryId,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get title =>
-      $composableBuilder(column: $table.title, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get arabicText =>
-      $composableBuilder(column: $table.arabicText, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get arabicText => $composableBuilder(
+    column: $table.arabicText,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get transliteration =>
-      $composableBuilder(column: $table.transliteration, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get transliteration => $composableBuilder(
+    column: $table.transliteration,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get translation =>
-      $composableBuilder(column: $table.translation, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get translation => $composableBuilder(
+    column: $table.translation,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get reference =>
-      $composableBuilder(column: $table.reference, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get reference => $composableBuilder(
+    column: $table.reference,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get authenticity =>
-      $composableBuilder(column: $table.authenticity, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get authenticity => $composableBuilder(
+    column: $table.authenticity,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get benefits =>
-      $composableBuilder(column: $table.benefits, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get benefits => $composableBuilder(
+    column: $table.benefits,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<bool> get isDailyFeatured =>
-      $composableBuilder(column: $table.isDailyFeatured, builder: (column) => ColumnFilters(column));
+  ColumnFilters<bool> get isDailyFeatured => $composableBuilder(
+    column: $table.isDailyFeatured,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get order =>
-      $composableBuilder(column: $table.order, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get order => $composableBuilder(
+    column: $table.order,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
 class $$DuasTableOrderingComposer extends Composer<_$AppDatabase, $DuasTable> {
@@ -3804,41 +4789,64 @@ class $$DuasTableOrderingComposer extends Composer<_$AppDatabase, $DuasTable> {
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get duaCategoryId =>
-      $composableBuilder(column: $table.duaCategoryId, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get duaCategoryId => $composableBuilder(
+    column: $table.duaCategoryId,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get title =>
-      $composableBuilder(column: $table.title, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get arabicText =>
-      $composableBuilder(column: $table.arabicText, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get arabicText => $composableBuilder(
+    column: $table.arabicText,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get transliteration =>
-      $composableBuilder(column: $table.transliteration, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get transliteration => $composableBuilder(
+    column: $table.transliteration,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get translation =>
-      $composableBuilder(column: $table.translation, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get translation => $composableBuilder(
+    column: $table.translation,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get reference =>
-      $composableBuilder(column: $table.reference, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get reference => $composableBuilder(
+    column: $table.reference,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get authenticity =>
-      $composableBuilder(column: $table.authenticity, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get authenticity => $composableBuilder(
+    column: $table.authenticity,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get benefits =>
-      $composableBuilder(column: $table.benefits, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get benefits => $composableBuilder(
+    column: $table.benefits,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<bool> get isDailyFeatured =>
-      $composableBuilder(column: $table.isDailyFeatured, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<bool> get isDailyFeatured => $composableBuilder(
+    column: $table.isDailyFeatured,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get order =>
-      $composableBuilder(column: $table.order, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get order => $composableBuilder(
+    column: $table.order,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$DuasTableAnnotationComposer extends Composer<_$AppDatabase, $DuasTable> {
+class $$DuasTableAnnotationComposer
+    extends Composer<_$AppDatabase, $DuasTable> {
   $$DuasTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -3846,35 +4854,50 @@ class $$DuasTableAnnotationComposer extends Composer<_$AppDatabase, $DuasTable> 
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<int> get id => $composableBuilder(column: $table.id, builder: (column) => column);
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
 
-  GeneratedColumn<int> get duaCategoryId =>
-      $composableBuilder(column: $table.duaCategoryId, builder: (column) => column);
+  GeneratedColumn<int> get duaCategoryId => $composableBuilder(
+    column: $table.duaCategoryId,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<String> get title => $composableBuilder(column: $table.title, builder: (column) => column);
+  GeneratedColumn<String> get title =>
+      $composableBuilder(column: $table.title, builder: (column) => column);
 
-  GeneratedColumn<String> get arabicText =>
-      $composableBuilder(column: $table.arabicText, builder: (column) => column);
+  GeneratedColumn<String> get arabicText => $composableBuilder(
+    column: $table.arabicText,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<String> get transliteration =>
-      $composableBuilder(column: $table.transliteration, builder: (column) => column);
+  GeneratedColumn<String> get transliteration => $composableBuilder(
+    column: $table.transliteration,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<String> get translation =>
-      $composableBuilder(column: $table.translation, builder: (column) => column);
+  GeneratedColumn<String> get translation => $composableBuilder(
+    column: $table.translation,
+    builder: (column) => column,
+  );
 
   GeneratedColumn<String> get reference =>
       $composableBuilder(column: $table.reference, builder: (column) => column);
 
-  GeneratedColumn<String> get authenticity =>
-      $composableBuilder(column: $table.authenticity, builder: (column) => column);
+  GeneratedColumn<String> get authenticity => $composableBuilder(
+    column: $table.authenticity,
+    builder: (column) => column,
+  );
 
   GeneratedColumn<String> get benefits =>
       $composableBuilder(column: $table.benefits, builder: (column) => column);
 
-  GeneratedColumn<bool> get isDailyFeatured =>
-      $composableBuilder(column: $table.isDailyFeatured, builder: (column) => column);
+  GeneratedColumn<bool> get isDailyFeatured => $composableBuilder(
+    column: $table.isDailyFeatured,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<int> get order => $composableBuilder(column: $table.order, builder: (column) => column);
+  GeneratedColumn<int> get order =>
+      $composableBuilder(column: $table.order, builder: (column) => column);
 }
 
 class $$DuasTableTableManager
@@ -3897,9 +4920,12 @@ class $$DuasTableTableManager
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$DuasTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$DuasTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () => $$DuasTableAnnotationComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$DuasTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$DuasTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$DuasTableAnnotationComposer($db: db, $table: table),
           updateCompanionCallback:
               ({
                 Value<int> id = const Value.absent(),
@@ -3952,8 +4978,9 @@ class $$DuasTableTableManager
                 isDailyFeatured: isDailyFeatured,
                 order: order,
               ),
-          withReferenceMapper: (p0) =>
-              p0.map((e) => (e.readTable(table), BaseReferences(db, table, e))).toList(),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
           prefetchHooksCallback: null,
         ),
       );
@@ -4000,7 +5027,8 @@ typedef $$AiFaqEntriesTableUpdateCompanionBuilder =
       Value<bool> requiresScholarDisclaimer,
     });
 
-class $$AiFaqEntriesTableFilterComposer extends Composer<_$AppDatabase, $AiFaqEntriesTable> {
+class $$AiFaqEntriesTableFilterComposer
+    extends Composer<_$AppDatabase, $AiFaqEntriesTable> {
   $$AiFaqEntriesTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -4008,32 +5036,50 @@ class $$AiFaqEntriesTableFilterComposer extends Composer<_$AppDatabase, $AiFaqEn
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get faqKey =>
-      $composableBuilder(column: $table.faqKey, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get faqKey => $composableBuilder(
+    column: $table.faqKey,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get canonicalQuestion =>
-      $composableBuilder(column: $table.canonicalQuestion, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get canonicalQuestion => $composableBuilder(
+    column: $table.canonicalQuestion,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get questionVariantsJson =>
-      $composableBuilder(column: $table.questionVariantsJson, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get questionVariantsJson => $composableBuilder(
+    column: $table.questionVariantsJson,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get keywordsJson =>
-      $composableBuilder(column: $table.keywordsJson, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get keywordsJson => $composableBuilder(
+    column: $table.keywordsJson,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get category =>
-      $composableBuilder(column: $table.category, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get category => $composableBuilder(
+    column: $table.category,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get answerText =>
-      $composableBuilder(column: $table.answerText, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get answerText => $composableBuilder(
+    column: $table.answerText,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get sourceCitationsJson =>
-      $composableBuilder(column: $table.sourceCitationsJson, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get sourceCitationsJson => $composableBuilder(
+    column: $table.sourceCitationsJson,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get confidence =>
-      $composableBuilder(column: $table.confidence, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get confidence => $composableBuilder(
+    column: $table.confidence,
+    builder: (column) => ColumnFilters(column),
+  );
 
   ColumnFilters<bool> get requiresScholarDisclaimer => $composableBuilder(
     column: $table.requiresScholarDisclaimer,
@@ -4041,7 +5087,8 @@ class $$AiFaqEntriesTableFilterComposer extends Composer<_$AppDatabase, $AiFaqEn
   );
 }
 
-class $$AiFaqEntriesTableOrderingComposer extends Composer<_$AppDatabase, $AiFaqEntriesTable> {
+class $$AiFaqEntriesTableOrderingComposer
+    extends Composer<_$AppDatabase, $AiFaqEntriesTable> {
   $$AiFaqEntriesTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -4049,32 +5096,50 @@ class $$AiFaqEntriesTableOrderingComposer extends Composer<_$AppDatabase, $AiFaq
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get faqKey =>
-      $composableBuilder(column: $table.faqKey, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get faqKey => $composableBuilder(
+    column: $table.faqKey,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get canonicalQuestion =>
-      $composableBuilder(column: $table.canonicalQuestion, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get canonicalQuestion => $composableBuilder(
+    column: $table.canonicalQuestion,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get questionVariantsJson =>
-      $composableBuilder(column: $table.questionVariantsJson, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get questionVariantsJson => $composableBuilder(
+    column: $table.questionVariantsJson,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get keywordsJson =>
-      $composableBuilder(column: $table.keywordsJson, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get keywordsJson => $composableBuilder(
+    column: $table.keywordsJson,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get category =>
-      $composableBuilder(column: $table.category, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get category => $composableBuilder(
+    column: $table.category,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get answerText =>
-      $composableBuilder(column: $table.answerText, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get answerText => $composableBuilder(
+    column: $table.answerText,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get sourceCitationsJson =>
-      $composableBuilder(column: $table.sourceCitationsJson, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get sourceCitationsJson => $composableBuilder(
+    column: $table.sourceCitationsJson,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get confidence =>
-      $composableBuilder(column: $table.confidence, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get confidence => $composableBuilder(
+    column: $table.confidence,
+    builder: (column) => ColumnOrderings(column),
+  );
 
   ColumnOrderings<bool> get requiresScholarDisclaimer => $composableBuilder(
     column: $table.requiresScholarDisclaimer,
@@ -4082,7 +5147,8 @@ class $$AiFaqEntriesTableOrderingComposer extends Composer<_$AppDatabase, $AiFaq
   );
 }
 
-class $$AiFaqEntriesTableAnnotationComposer extends Composer<_$AppDatabase, $AiFaqEntriesTable> {
+class $$AiFaqEntriesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $AiFaqEntriesTable> {
   $$AiFaqEntriesTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -4090,34 +5156,49 @@ class $$AiFaqEntriesTableAnnotationComposer extends Composer<_$AppDatabase, $AiF
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<int> get id => $composableBuilder(column: $table.id, builder: (column) => column);
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
 
   GeneratedColumn<String> get faqKey =>
       $composableBuilder(column: $table.faqKey, builder: (column) => column);
 
-  GeneratedColumn<String> get canonicalQuestion =>
-      $composableBuilder(column: $table.canonicalQuestion, builder: (column) => column);
+  GeneratedColumn<String> get canonicalQuestion => $composableBuilder(
+    column: $table.canonicalQuestion,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<String> get questionVariantsJson =>
-      $composableBuilder(column: $table.questionVariantsJson, builder: (column) => column);
+  GeneratedColumn<String> get questionVariantsJson => $composableBuilder(
+    column: $table.questionVariantsJson,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<String> get keywordsJson =>
-      $composableBuilder(column: $table.keywordsJson, builder: (column) => column);
+  GeneratedColumn<String> get keywordsJson => $composableBuilder(
+    column: $table.keywordsJson,
+    builder: (column) => column,
+  );
 
   GeneratedColumn<String> get category =>
       $composableBuilder(column: $table.category, builder: (column) => column);
 
-  GeneratedColumn<String> get answerText =>
-      $composableBuilder(column: $table.answerText, builder: (column) => column);
+  GeneratedColumn<String> get answerText => $composableBuilder(
+    column: $table.answerText,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<String> get sourceCitationsJson =>
-      $composableBuilder(column: $table.sourceCitationsJson, builder: (column) => column);
+  GeneratedColumn<String> get sourceCitationsJson => $composableBuilder(
+    column: $table.sourceCitationsJson,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<String> get confidence =>
-      $composableBuilder(column: $table.confidence, builder: (column) => column);
+  GeneratedColumn<String> get confidence => $composableBuilder(
+    column: $table.confidence,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<bool> get requiresScholarDisclaimer =>
-      $composableBuilder(column: $table.requiresScholarDisclaimer, builder: (column) => column);
+  GeneratedColumn<bool> get requiresScholarDisclaimer => $composableBuilder(
+    column: $table.requiresScholarDisclaimer,
+    builder: (column) => column,
+  );
 }
 
 class $$AiFaqEntriesTableTableManager
@@ -4131,7 +5212,10 @@ class $$AiFaqEntriesTableTableManager
           $$AiFaqEntriesTableAnnotationComposer,
           $$AiFaqEntriesTableCreateCompanionBuilder,
           $$AiFaqEntriesTableUpdateCompanionBuilder,
-          (AiFaqEntry, BaseReferences<_$AppDatabase, $AiFaqEntriesTable, AiFaqEntry>),
+          (
+            AiFaqEntry,
+            BaseReferences<_$AppDatabase, $AiFaqEntriesTable, AiFaqEntry>,
+          ),
           AiFaqEntry,
           PrefetchHooks Function()
         > {
@@ -4140,9 +5224,12 @@ class $$AiFaqEntriesTableTableManager
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$AiFaqEntriesTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$AiFaqEntriesTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () => $$AiFaqEntriesTableAnnotationComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$AiFaqEntriesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$AiFaqEntriesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$AiFaqEntriesTableAnnotationComposer($db: db, $table: table),
           updateCompanionCallback:
               ({
                 Value<int> id = const Value.absent(),
@@ -4191,8 +5278,9 @@ class $$AiFaqEntriesTableTableManager
                 confidence: confidence,
                 requiresScholarDisclaimer: requiresScholarDisclaimer,
               ),
-          withReferenceMapper: (p0) =>
-              p0.map((e) => (e.readTable(table), BaseReferences(db, table, e))).toList(),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
           prefetchHooksCallback: null,
         ),
       );
@@ -4208,7 +5296,10 @@ typedef $$AiFaqEntriesTableProcessedTableManager =
       $$AiFaqEntriesTableAnnotationComposer,
       $$AiFaqEntriesTableCreateCompanionBuilder,
       $$AiFaqEntriesTableUpdateCompanionBuilder,
-      (AiFaqEntry, BaseReferences<_$AppDatabase, $AiFaqEntriesTable, AiFaqEntry>),
+      (
+        AiFaqEntry,
+        BaseReferences<_$AppDatabase, $AiFaqEntriesTable, AiFaqEntry>,
+      ),
       AiFaqEntry,
       PrefetchHooks Function()
     >;
@@ -4225,7 +5316,8 @@ typedef $$OnboardingAnswersTableUpdateCompanionBuilder =
       Value<DateTime?> completedAt,
     });
 
-class $$OnboardingAnswersTableFilterComposer extends Composer<_$AppDatabase, $OnboardingAnswersTable> {
+class $$OnboardingAnswersTableFilterComposer
+    extends Composer<_$AppDatabase, $OnboardingAnswersTable> {
   $$OnboardingAnswersTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -4233,17 +5325,24 @@ class $$OnboardingAnswersTableFilterComposer extends Composer<_$AppDatabase, $On
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get backgroundType =>
-      $composableBuilder(column: $table.backgroundType, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get backgroundType => $composableBuilder(
+    column: $table.backgroundType,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<DateTime> get completedAt =>
-      $composableBuilder(column: $table.completedAt, builder: (column) => ColumnFilters(column));
+  ColumnFilters<DateTime> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
-class $$OnboardingAnswersTableOrderingComposer extends Composer<_$AppDatabase, $OnboardingAnswersTable> {
+class $$OnboardingAnswersTableOrderingComposer
+    extends Composer<_$AppDatabase, $OnboardingAnswersTable> {
   $$OnboardingAnswersTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -4251,17 +5350,24 @@ class $$OnboardingAnswersTableOrderingComposer extends Composer<_$AppDatabase, $
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get backgroundType =>
-      $composableBuilder(column: $table.backgroundType, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get backgroundType => $composableBuilder(
+    column: $table.backgroundType,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<DateTime> get completedAt =>
-      $composableBuilder(column: $table.completedAt, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<DateTime> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$OnboardingAnswersTableAnnotationComposer extends Composer<_$AppDatabase, $OnboardingAnswersTable> {
+class $$OnboardingAnswersTableAnnotationComposer
+    extends Composer<_$AppDatabase, $OnboardingAnswersTable> {
   $$OnboardingAnswersTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -4269,13 +5375,18 @@ class $$OnboardingAnswersTableAnnotationComposer extends Composer<_$AppDatabase,
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<int> get id => $composableBuilder(column: $table.id, builder: (column) => column);
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
 
-  GeneratedColumn<String> get backgroundType =>
-      $composableBuilder(column: $table.backgroundType, builder: (column) => column);
+  GeneratedColumn<String> get backgroundType => $composableBuilder(
+    column: $table.backgroundType,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<DateTime> get completedAt =>
-      $composableBuilder(column: $table.completedAt, builder: (column) => column);
+  GeneratedColumn<DateTime> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => column,
+  );
 }
 
 class $$OnboardingAnswersTableTableManager
@@ -4289,19 +5400,33 @@ class $$OnboardingAnswersTableTableManager
           $$OnboardingAnswersTableAnnotationComposer,
           $$OnboardingAnswersTableCreateCompanionBuilder,
           $$OnboardingAnswersTableUpdateCompanionBuilder,
-          (OnboardingAnswer, BaseReferences<_$AppDatabase, $OnboardingAnswersTable, OnboardingAnswer>),
+          (
+            OnboardingAnswer,
+            BaseReferences<
+              _$AppDatabase,
+              $OnboardingAnswersTable,
+              OnboardingAnswer
+            >,
+          ),
           OnboardingAnswer,
           PrefetchHooks Function()
         > {
-  $$OnboardingAnswersTableTableManager(_$AppDatabase db, $OnboardingAnswersTable table)
-    : super(
+  $$OnboardingAnswersTableTableManager(
+    _$AppDatabase db,
+    $OnboardingAnswersTable table,
+  ) : super(
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$OnboardingAnswersTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$OnboardingAnswersTableOrderingComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$OnboardingAnswersTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$OnboardingAnswersTableOrderingComposer($db: db, $table: table),
           createComputedFieldComposer: () =>
-              $$OnboardingAnswersTableAnnotationComposer($db: db, $table: table),
+              $$OnboardingAnswersTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
           updateCompanionCallback:
               ({
                 Value<int> id = const Value.absent(),
@@ -4322,8 +5447,9 @@ class $$OnboardingAnswersTableTableManager
                 backgroundType: backgroundType,
                 completedAt: completedAt,
               ),
-          withReferenceMapper: (p0) =>
-              p0.map((e) => (e.readTable(table), BaseReferences(db, table, e))).toList(),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
           prefetchHooksCallback: null,
         ),
       );
@@ -4339,7 +5465,14 @@ typedef $$OnboardingAnswersTableProcessedTableManager =
       $$OnboardingAnswersTableAnnotationComposer,
       $$OnboardingAnswersTableCreateCompanionBuilder,
       $$OnboardingAnswersTableUpdateCompanionBuilder,
-      (OnboardingAnswer, BaseReferences<_$AppDatabase, $OnboardingAnswersTable, OnboardingAnswer>),
+      (
+        OnboardingAnswer,
+        BaseReferences<
+          _$AppDatabase,
+          $OnboardingAnswersTable,
+          OnboardingAnswer
+        >,
+      ),
       OnboardingAnswer,
       PrefetchHooks Function()
     >;
@@ -4356,7 +5489,8 @@ typedef $$ContentVersionMetaTableUpdateCompanionBuilder =
       Value<int> rowid,
     });
 
-class $$ContentVersionMetaTableFilterComposer extends Composer<_$AppDatabase, $ContentVersionMetaTable> {
+class $$ContentVersionMetaTableFilterComposer
+    extends Composer<_$AppDatabase, $ContentVersionMetaTable> {
   $$ContentVersionMetaTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -4364,14 +5498,19 @@ class $$ContentVersionMetaTableFilterComposer extends Composer<_$AppDatabase, $C
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<String> get contentType =>
-      $composableBuilder(column: $table.contentType, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get contentType => $composableBuilder(
+    column: $table.contentType,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get importedVersion =>
-      $composableBuilder(column: $table.importedVersion, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get importedVersion => $composableBuilder(
+    column: $table.importedVersion,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
-class $$ContentVersionMetaTableOrderingComposer extends Composer<_$AppDatabase, $ContentVersionMetaTable> {
+class $$ContentVersionMetaTableOrderingComposer
+    extends Composer<_$AppDatabase, $ContentVersionMetaTable> {
   $$ContentVersionMetaTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -4379,14 +5518,19 @@ class $$ContentVersionMetaTableOrderingComposer extends Composer<_$AppDatabase, 
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<String> get contentType =>
-      $composableBuilder(column: $table.contentType, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get contentType => $composableBuilder(
+    column: $table.contentType,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get importedVersion =>
-      $composableBuilder(column: $table.importedVersion, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get importedVersion => $composableBuilder(
+    column: $table.importedVersion,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$ContentVersionMetaTableAnnotationComposer extends Composer<_$AppDatabase, $ContentVersionMetaTable> {
+class $$ContentVersionMetaTableAnnotationComposer
+    extends Composer<_$AppDatabase, $ContentVersionMetaTable> {
   $$ContentVersionMetaTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -4394,11 +5538,15 @@ class $$ContentVersionMetaTableAnnotationComposer extends Composer<_$AppDatabase
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<String> get contentType =>
-      $composableBuilder(column: $table.contentType, builder: (column) => column);
+  GeneratedColumn<String> get contentType => $composableBuilder(
+    column: $table.contentType,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<int> get importedVersion =>
-      $composableBuilder(column: $table.importedVersion, builder: (column) => column);
+  GeneratedColumn<int> get importedVersion => $composableBuilder(
+    column: $table.importedVersion,
+    builder: (column) => column,
+  );
 }
 
 class $$ContentVersionMetaTableTableManager
@@ -4414,20 +5562,31 @@ class $$ContentVersionMetaTableTableManager
           $$ContentVersionMetaTableUpdateCompanionBuilder,
           (
             ContentVersionMetaData,
-            BaseReferences<_$AppDatabase, $ContentVersionMetaTable, ContentVersionMetaData>,
+            BaseReferences<
+              _$AppDatabase,
+              $ContentVersionMetaTable,
+              ContentVersionMetaData
+            >,
           ),
           ContentVersionMetaData,
           PrefetchHooks Function()
         > {
-  $$ContentVersionMetaTableTableManager(_$AppDatabase db, $ContentVersionMetaTable table)
-    : super(
+  $$ContentVersionMetaTableTableManager(
+    _$AppDatabase db,
+    $ContentVersionMetaTable table,
+  ) : super(
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$ContentVersionMetaTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$ContentVersionMetaTableOrderingComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$ContentVersionMetaTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$ContentVersionMetaTableOrderingComposer($db: db, $table: table),
           createComputedFieldComposer: () =>
-              $$ContentVersionMetaTableAnnotationComposer($db: db, $table: table),
+              $$ContentVersionMetaTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
           updateCompanionCallback:
               ({
                 Value<String> contentType = const Value.absent(),
@@ -4448,8 +5607,9 @@ class $$ContentVersionMetaTableTableManager
                 importedVersion: importedVersion,
                 rowid: rowid,
               ),
-          withReferenceMapper: (p0) =>
-              p0.map((e) => (e.readTable(table), BaseReferences(db, table, e))).toList(),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
           prefetchHooksCallback: null,
         ),
       );
@@ -4467,9 +5627,209 @@ typedef $$ContentVersionMetaTableProcessedTableManager =
       $$ContentVersionMetaTableUpdateCompanionBuilder,
       (
         ContentVersionMetaData,
-        BaseReferences<_$AppDatabase, $ContentVersionMetaTable, ContentVersionMetaData>,
+        BaseReferences<
+          _$AppDatabase,
+          $ContentVersionMetaTable,
+          ContentVersionMetaData
+        >,
       ),
       ContentVersionMetaData,
+      PrefetchHooks Function()
+    >;
+typedef $$JournalEntriesTableCreateCompanionBuilder =
+    JournalEntriesCompanion Function({
+      Value<int> id,
+      Value<String?> title,
+      required String body,
+      Value<DateTime> createdAt,
+      Value<DateTime?> updatedAt,
+    });
+typedef $$JournalEntriesTableUpdateCompanionBuilder =
+    JournalEntriesCompanion Function({
+      Value<int> id,
+      Value<String?> title,
+      Value<String> body,
+      Value<DateTime> createdAt,
+      Value<DateTime?> updatedAt,
+    });
+
+class $$JournalEntriesTableFilterComposer
+    extends Composer<_$AppDatabase, $JournalEntriesTable> {
+  $$JournalEntriesTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get body => $composableBuilder(
+    column: $table.body,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get createdAt => $composableBuilder(
+    column: $table.createdAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$JournalEntriesTableOrderingComposer
+    extends Composer<_$AppDatabase, $JournalEntriesTable> {
+  $$JournalEntriesTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get body => $composableBuilder(
+    column: $table.body,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get createdAt => $composableBuilder(
+    column: $table.createdAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$JournalEntriesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $JournalEntriesTable> {
+  $$JournalEntriesTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get title =>
+      $composableBuilder(column: $table.title, builder: (column) => column);
+
+  GeneratedColumn<String> get body =>
+      $composableBuilder(column: $table.body, builder: (column) => column);
+
+  GeneratedColumn<DateTime> get createdAt =>
+      $composableBuilder(column: $table.createdAt, builder: (column) => column);
+
+  GeneratedColumn<DateTime> get updatedAt =>
+      $composableBuilder(column: $table.updatedAt, builder: (column) => column);
+}
+
+class $$JournalEntriesTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $JournalEntriesTable,
+          JournalEntry,
+          $$JournalEntriesTableFilterComposer,
+          $$JournalEntriesTableOrderingComposer,
+          $$JournalEntriesTableAnnotationComposer,
+          $$JournalEntriesTableCreateCompanionBuilder,
+          $$JournalEntriesTableUpdateCompanionBuilder,
+          (
+            JournalEntry,
+            BaseReferences<_$AppDatabase, $JournalEntriesTable, JournalEntry>,
+          ),
+          JournalEntry,
+          PrefetchHooks Function()
+        > {
+  $$JournalEntriesTableTableManager(
+    _$AppDatabase db,
+    $JournalEntriesTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$JournalEntriesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$JournalEntriesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$JournalEntriesTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<String?> title = const Value.absent(),
+                Value<String> body = const Value.absent(),
+                Value<DateTime> createdAt = const Value.absent(),
+                Value<DateTime?> updatedAt = const Value.absent(),
+              }) => JournalEntriesCompanion(
+                id: id,
+                title: title,
+                body: body,
+                createdAt: createdAt,
+                updatedAt: updatedAt,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<String?> title = const Value.absent(),
+                required String body,
+                Value<DateTime> createdAt = const Value.absent(),
+                Value<DateTime?> updatedAt = const Value.absent(),
+              }) => JournalEntriesCompanion.insert(
+                id: id,
+                title: title,
+                body: body,
+                createdAt: createdAt,
+                updatedAt: updatedAt,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$JournalEntriesTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $JournalEntriesTable,
+      JournalEntry,
+      $$JournalEntriesTableFilterComposer,
+      $$JournalEntriesTableOrderingComposer,
+      $$JournalEntriesTableAnnotationComposer,
+      $$JournalEntriesTableCreateCompanionBuilder,
+      $$JournalEntriesTableUpdateCompanionBuilder,
+      (
+        JournalEntry,
+        BaseReferences<_$AppDatabase, $JournalEntriesTable, JournalEntry>,
+      ),
+      JournalEntry,
       PrefetchHooks Function()
     >;
 
@@ -4478,15 +5838,19 @@ class $AppDatabaseManager {
   $AppDatabaseManager(this._db);
   $$LearningStagesTableTableManager get learningStages =>
       $$LearningStagesTableTableManager(_db, _db.learningStages);
-  $$LessonsTableTableManager get lessons => $$LessonsTableTableManager(_db, _db.lessons);
+  $$LessonsTableTableManager get lessons =>
+      $$LessonsTableTableManager(_db, _db.lessons);
   $$LessonProgressEntriesTableTableManager get lessonProgressEntries =>
       $$LessonProgressEntriesTableTableManager(_db, _db.lessonProgressEntries);
   $$DuaCategoriesTableTableManager get duaCategories =>
       $$DuaCategoriesTableTableManager(_db, _db.duaCategories);
   $$DuasTableTableManager get duas => $$DuasTableTableManager(_db, _db.duas);
-  $$AiFaqEntriesTableTableManager get aiFaqEntries => $$AiFaqEntriesTableTableManager(_db, _db.aiFaqEntries);
+  $$AiFaqEntriesTableTableManager get aiFaqEntries =>
+      $$AiFaqEntriesTableTableManager(_db, _db.aiFaqEntries);
   $$OnboardingAnswersTableTableManager get onboardingAnswers =>
       $$OnboardingAnswersTableTableManager(_db, _db.onboardingAnswers);
   $$ContentVersionMetaTableTableManager get contentVersionMeta =>
       $$ContentVersionMetaTableTableManager(_db, _db.contentVersionMeta);
+  $$JournalEntriesTableTableManager get journalEntries =>
+      $$JournalEntriesTableTableManager(_db, _db.journalEntries);
 }

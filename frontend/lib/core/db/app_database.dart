@@ -105,6 +105,17 @@ class ContentVersionMeta extends Table {
   Set<Column> get primaryKey => {contentType};
 }
 
+/// A user's private reflections/journal entries — local-only in this phase
+/// (no backend sync), matching the offline-first default for anything that
+/// isn't shared, bundled content.
+class JournalEntries extends Table {
+  IntColumn get id => integer().autoIncrement()();
+  TextColumn get title => text().nullable()();
+  TextColumn get body => text()();
+  DateTimeColumn get createdAt => dateTime().withDefault(currentDateAndTime)();
+  DateTimeColumn get updatedAt => dateTime().nullable()();
+}
+
 @DriftDatabase(
   tables: [
     LearningStages,
@@ -115,13 +126,24 @@ class ContentVersionMeta extends Table {
     AiFaqEntries,
     OnboardingAnswers,
     ContentVersionMeta,
+    JournalEntries,
   ],
 )
 class AppDatabase extends _$AppDatabase {
   AppDatabase([QueryExecutor? executor]) : super(executor ?? _openConnection());
 
   @override
-  int get schemaVersion => 1;
+  int get schemaVersion => 2;
+
+  @override
+  MigrationStrategy get migration => MigrationStrategy(
+    onCreate: (m) => m.createAll(),
+    onUpgrade: (m, from, to) async {
+      if (from < 2) {
+        await m.createTable(journalEntries);
+      }
+    },
+  );
 
   static QueryExecutor _openConnection() {
     return driftDatabase(

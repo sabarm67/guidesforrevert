@@ -253,8 +253,8 @@ erDiagram
 | `dua_categories`, `duas` | **Implemented + seeded** (~5 duas) |
 | `surahs`, `ayahs`, `ayah_translations`, `ayah_tafsirs`, `ayah_words` | **Implemented + seeded** — Al-Fatihah + full Juz 'Amma (surahs 1, 78-114 = 38 surahs / 571 ayahs), real Tanzil Arabic + public-domain Pickthall translation via `php artisan quran:import`; word-by-word and tafsir only on Al-Fatihah ayah 1 |
 | `hadith_collections`, `hadiths` | **Implemented + seeded** (4 hadiths from An-Nawawi's 40 — wording not yet independently verified, see SOURCES.md) |
-| `community_places` | **Schema only** — no live OSM/Overpass integration yet |
-| `journal_entries` | **Schema only** — no client UI yet |
+| `community_places` | **Backend schema only** — the Flutter Community screen queries OpenStreetMap's public Overpass API live (no local caching table used yet), rather than reading this backend table; see system-architecture.md |
+| `journal_entries` | **Backend schema only** — implemented client-side as a local-only Drift table (`JournalEntries` in `frontend/lib/core/db/app_database.dart`) with no backend sync yet; this backend table remains for a future opt-in sync feature |
 | `notification_templates` | **Schema only** — no push scheduling implemented |
 | `ai_faq_entries` | **Implemented + seeded** (8-12 entries), mirrored on-device in Drift |
 | `content_versions` | **Schema + stub endpoint only** — full sync engine is future work |

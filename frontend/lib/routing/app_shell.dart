@@ -26,6 +26,7 @@ class AppShell extends StatelessWidget {
     _ShellDestination(icon: Icons.mosque_outlined, selectedIcon: Icons.mosque, label: 'Prayer'),
     _ShellDestination(icon: Icons.auto_stories_outlined, selectedIcon: Icons.auto_stories, label: 'Duas'),
     _ShellDestination(icon: Icons.groups_outlined, selectedIcon: Icons.groups, label: 'Community'),
+    _ShellDestination(icon: Icons.edit_note_outlined, selectedIcon: Icons.edit_note, label: 'Journal'),
   ];
 
   @override
@@ -64,7 +65,12 @@ class AppShell extends StatelessWidget {
         onDestinationSelected: onDestinationSelected,
         destinations: [
           for (final d in _destinations)
-            NavigationDestination(icon: Icon(d.icon), selectedIcon: Icon(d.selectedIcon), label: d.label),
+            NavigationDestination(
+              icon: Icon(d.icon),
+              selectedIcon: Icon(d.selectedIcon),
+              label: d.label,
+              tooltip: d.label,
+            ),
         ],
       ),
     );
