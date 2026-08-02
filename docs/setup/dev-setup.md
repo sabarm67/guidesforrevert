@@ -163,33 +163,40 @@ for the deploy script to paste into the Forge site's "Deployment Script"
 field (based on the same working pattern used by the sibling Hafazan
 project).
 
-### Flutter Web/PWA (public/app/)
+### Flutter Web/PWA (served at the site root)
 
-The Flutter Web build is committed **pre-built** into `public/app/` and
-served as plain static files at `https://guides.rcaquacycle.com/app/` —
-the production server has no Flutter SDK installed, so it can't run
-`flutter build web` itself the way it runs `composer install`. Whenever a
-frontend change should reach the web build, rebuild and re-copy locally,
-then commit and push like any other change:
+The Flutter Web build is committed **pre-built** directly into `public/`
+(alongside Laravel's own `index.php`, `.htaccess`, etc. — no filename
+collisions) and served at `https://guides.rcaquacycle.com/` — the
+production server has no Flutter SDK installed, so it can't run
+`flutter build web` itself the way it runs `composer install`. The
+`GET /` Laravel route (`routes/web.php`) explicitly serves
+`public_path('index.html')` as a safety net, since whether nginx's `index`
+directive serves the static file directly or falls through to `index.php`
+first isn't something verifiable without server access — this way both
+paths work. The old root JSON health-check moved to `GET /status`.
+
+Whenever a frontend change should reach the web build, rebuild and re-copy
+locally, then commit and push like any other change:
 
 ```bash
 cd frontend
-flutter build web --release --base-href /app/
+flutter build web --release --base-href /
 cd ..
-rm -rf public/app
-mkdir -p public/app
-cp -r frontend/build/web/. public/app/
-rm -rf public/app/canvaskit   # ~37MB local fallback the bootstrap doesn't
-                              # use by default (it fetches CanvasKit from
-                              # Google's CDN, gstatic.com/flutter-canvaskit,
-                              # unless useLocalCanvasKit is set) — dropping
-                              # it keeps the repo lean with no behaviour change.
-git add public/app
+rm -rf public/app  # old subpath deploy location, no longer used
+git rm -r --cached public/app 2>/dev/null  # only needed once, if still tracked
+cp -r frontend/build/web/. public/
+rm -rf public/canvaskit   # ~37MB local fallback the bootstrap doesn't
+                          # use by default (it fetches CanvasKit from
+                          # Google's CDN, gstatic.com/flutter-canvaskit,
+                          # unless useLocalCanvasKit is set) — dropping
+                          # it keeps the repo lean with no behaviour change.
+git add public/
 git commit -m "Update deployed web build"
 git push
 ```
 
 Forge's normal git-based Zero-Downtime Deployment then ships the new
-`public/app/` contents on the next deploy — no changes to
-`forge-deploy.sh` needed, since these are just files checked out with the
-rest of the release.
+`public/` contents on the next deploy — no changes to `forge-deploy.sh`
+needed, since these are just files checked out with the rest of the
+release.

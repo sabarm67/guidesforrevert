@@ -17,9 +17,11 @@ set -e
 # Laravel lives at the repo root (composer.json, artisan, public/ etc. are
 # all here directly), so Forge's Web Directory can stay at the default
 # `/public` — no custom path config needed. The Flutter Web/PWA build is
-# committed pre-built into public/app/ (this server has no Flutter SDK, so
-# `flutter build web` can't run here) and served as plain static files at
-# https://guides.rcaquacycle.com/app/ — see docs/setup/dev-setup.md for the
+# committed pre-built directly into public/ (this server has no Flutter
+# SDK, so `flutter build web` can't run here) and served as plain static
+# files at the site root, https://guides.rcaquacycle.com/ — routes/web.php
+# has a GET / route serving public/index.html as a safety net regardless
+# of nginx's index-file precedence. See docs/setup/dev-setup.md for the
 # build+copy steps to re-run after any frontend change.
 
 $CREATE_RELEASE()
