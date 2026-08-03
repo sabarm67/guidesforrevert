@@ -1,0 +1,79 @@
+{
+  "slug": "how-does-islam-view-other-faiths",
+  "stage_slug": "addressing-misconceptions",
+  "order": 6,
+  "title": "\"Does Islam Teach Hatred of Other Religions?\"",
+  "summary": "What the Quran actually commands about relating to people of other faiths — including your own non-Muslim family — and the specific, honoured status given to Jews and Christians.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A concern that becomes personal fast for new Muslims"
+    },
+    {
+      "type": "text",
+      "text": "This question often isn't abstract for a new Muslim — it's about whether your faith now requires you to see your own non-Muslim parents, siblings, or friends as enemies. It doesn't, and the Quran is explicit about this."
+    },
+    {
+      "type": "heading",
+      "text": "Kindness and justice toward non-Muslims, commanded directly"
+    },
+    {
+      "type": "quote",
+      "translation": "Allah does not forbid you from those who do not fight you because of religion and do not expel you from your homes - from being righteous toward them and acting justly toward them.",
+      "reference": "Quran 60:8 (Saheeh International, abridged)"
+    },
+    {
+      "type": "text",
+      "text": "This verse directly instructs kindness and justice toward non-Muslims who aren't hostile — the default posture the Quran commands, not an exception to it."
+    },
+    {
+      "type": "heading",
+      "text": "\"People of the Book\": a specifically honoured status"
+    },
+    {
+      "type": "text",
+      "text": "Jews and Christians are repeatedly given a distinct, respected category in the Quran — Ahl al-Kitab, People of the Book — recognising them as recipients of earlier genuine revelation. Practical markers of this status include permission for Muslims to eat meals prepared by Jews and Christians and to marry from among their women (a permission not extended the other way in classical fiqh, itself worth understanding as a specific fiqh point rather than a general hierarchy)."
+    },
+    {
+      "type": "quote",
+      "translation": "And do not argue with the People of the Scripture except in a way that is best... and say, \"We believe in that which has been revealed to us and revealed to you. Our God and your God is one.\"",
+      "reference": "Quran 29:46 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "This includes your own family"
+    },
+    {
+      "type": "text",
+      "text": "The Family in Islam lesson covers this in depth: kindness toward parents is commanded without a condition that they share your faith, and there's a specific, well-known instruction that even a parent actively pressuring their child away from Islam should still be treated with worldly kindness and companionship. Becoming Muslim is not framed as licence to distance yourself from non-Muslim family — if anything, it raises the expected standard of how you treat them."
+    },
+    {
+      "type": "heading",
+      "text": "Where genuine theological disagreement fits"
+    },
+    {
+      "type": "text",
+      "text": "None of this means Islam treats all religious truth claims as equally correct — Islamic teaching does hold specific theological positions (on the nature of God, the finality of prophethood, and so on) that differ from other faiths, and that's normal for any religion with genuine convictions. Respectful coexistence and honest theological disagreement are not contradictory; conflating \"we believe different things are true\" with \"we must be enemies\" is the actual misconception this lesson is addressing."
+    },
+    {
+      "type": "faq",
+      "question": "Can I still celebrate non-Muslim family holidays like Christmas dinner or Diwali with relatives?",
+      "answer": "This is a genuinely nuanced, personally variable question that many new Muslims navigate differently — attending as a show of family kindness while not participating in the specific religious elements is a common approach, but it's worth discussing your specific family situation with a knowledgeable local imam rather than assuming one universal answer."
+    },
+    {
+      "type": "faq",
+      "question": "What if a family member says my new faith means I now think they're going to hell?",
+      "answer": "This is a genuinely sensitive theological question worth answering honestly rather than avoiding, but it's also worth separating from the everyday relationship: whatever the theological position, it doesn't change the Quranic instruction to treat them with kindness and justice now — that's not conditional on shared belief about the afterlife."
+    },
+    {
+      "type": "reflection",
+      "question": "Is there a specific relationship with a non-Muslim family member or friend where this lesson's points might help you navigate a recent tension?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Family in Islam", "reference": "See Stage 3" },
+    { "label": "\"Was Islam Spread by the Sword?\"", "reference": "See Understanding Islam section" }
+  ]
+}

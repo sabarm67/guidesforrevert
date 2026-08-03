@@ -32,8 +32,25 @@ class LearningRepository {
 
   final AppDatabase _db;
 
+  /// The 4 linear Learning Journey stages specifically — excludes standalone
+  /// topic collections like Fiqh in Daily Life, which have their own
+  /// `collection_type` and are queried separately via
+  /// [watchStagesByCollection].
   Stream<List<LearningStage>> watchStages() {
-    return (_db.select(_db.learningStages)..orderBy([(t) => OrderingTerm.asc(t.order)])).watch();
+    return (_db.select(_db.learningStages)
+          ..where((t) => t.collectionType.equals('journey'))
+          ..orderBy([(t) => OrderingTerm.asc(t.order)]))
+        .watch();
+  }
+
+  /// Stages/collections outside the linear Learning Journey — e.g. 'fiqh'
+  /// or 'misconceptions' — each collection currently has a single stage
+  /// row, but this supports more than one per collection if that changes.
+  Stream<List<LearningStage>> watchStagesByCollection(String collectionType) {
+    return (_db.select(_db.learningStages)
+          ..where((t) => t.collectionType.equals(collectionType))
+          ..orderBy([(t) => OrderingTerm.asc(t.order)]))
+        .watch();
   }
 
   Stream<List<Lesson>> watchLessonsForStage(int stageId) {
@@ -93,7 +110,9 @@ class LearningRepository {
     final query = _db.select(_db.lessons).join([
       innerJoin(_db.learningStages, _db.learningStages.id.equalsExp(_db.lessons.learningStageId)),
       leftOuterJoin(_db.lessonProgressEntries, _db.lessonProgressEntries.lessonId.equalsExp(_db.lessons.id)),
-    ])..orderBy([OrderingTerm.asc(_db.learningStages.order), OrderingTerm.asc(_db.lessons.order)]);
+    ])
+      ..where(_db.learningStages.collectionType.equals('journey'))
+      ..orderBy([OrderingTerm.asc(_db.learningStages.order), OrderingTerm.asc(_db.lessons.order)]);
 
     return query.watch().map((rows) {
       if (rows.isEmpty) return null;

@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 4;
+  static const currentContentVersion = 5;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -62,6 +62,7 @@ class SeedImporter {
     for (final stageData in stages.cast<Map<String, dynamic>>()) {
       final companion = LearningStagesCompanion.insert(
         slug: stageData['slug'] as String,
+        collectionType: Value(stageData['collection_type'] as String? ?? 'journey'),
         order: stageData['order'] as int,
         title: stageData['title'] as String,
         description: Value(stageData['description'] as String?),
@@ -106,6 +107,24 @@ class SeedImporter {
       'assets/content/lessons/stage4-lesson7-marriage-in-islam.json',
       'assets/content/lessons/stage4-lesson8-islamic-finance.json',
       'assets/content/lessons/stage4-lesson9-building-community.json',
+      'assets/content/lessons/fiqh-lesson1-what-is-fiqh.json',
+      'assets/content/lessons/fiqh-lesson2-halal-earning-business-ethics.json',
+      'assets/content/lessons/fiqh-lesson3-marriage-divorce-fiqh.json',
+      'assets/content/lessons/fiqh-lesson4-inheritance-basics.json',
+      'assets/content/lessons/fiqh-lesson5-food-dress-in-depth.json',
+      'assets/content/lessons/fiqh-lesson6-social-dealings-and-rights.json',
+      'assets/content/lessons/fiqh-lesson7-living-under-secular-law.json',
+      'assets/content/lessons/fiqh-lesson8-contemporary-issues.json',
+      'assets/content/lessons/fiqh-lesson9-navigating-fiqh-differences.json',
+      'assets/content/lessons/misconceptions-lesson1-is-islam-violent.json',
+      'assets/content/lessons/misconceptions-lesson2-what-does-jihad-mean.json',
+      'assets/content/lessons/misconceptions-lesson3-does-islam-oppress-women.json',
+      'assets/content/lessons/misconceptions-lesson4-spread-by-the-sword.json',
+      'assets/content/lessons/misconceptions-lesson5-what-is-sharia-law.json',
+      'assets/content/lessons/misconceptions-lesson6-view-of-other-faiths.json',
+      'assets/content/lessons/misconceptions-lesson7-polygamy-context-rules.json',
+      'assets/content/lessons/misconceptions-lesson8-honor-killing-fgm-culture-vs-religion.json',
+      'assets/content/lessons/misconceptions-lesson9-secular-democracy.json',
     ];
 
     for (final path in lessonAssetPaths) {

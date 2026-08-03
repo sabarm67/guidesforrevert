@@ -35,6 +35,8 @@ class HomeScreen extends ConsumerWidget {
           _PrayerTimesCard(),
           SizedBox(height: AppSpacing.md),
           _TodaysDuaCard(),
+          SizedBox(height: AppSpacing.md),
+          _ExploreMoreCard(),
         ],
       ),
     );
@@ -173,6 +175,42 @@ class _PrayerTimesCard extends ConsumerWidget {
                   await ref.read(locationControllerProvider.notifier).selectCity(city);
                 },
               ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ExploreMoreCard extends StatelessWidget {
+  const _ExploreMoreCard();
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(AppSpacing.md),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Explore More', style: Theme.of(context).textTheme.titleMedium),
+            const SizedBox(height: AppSpacing.xs),
+            ListTile(
+              contentPadding: EdgeInsets.zero,
+              leading: const Icon(Icons.gavel_outlined),
+              title: const Text('Fiqh in Daily Life'),
+              subtitle: const Text('How Islamic jurisprudence applies to real decisions'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => context.push('/fiqh'),
+            ),
+            ListTile(
+              contentPadding: EdgeInsets.zero,
+              leading: const Icon(Icons.forum_outlined),
+              title: const Text('Understanding Islam'),
+              subtitle: const Text('Honest answers to common fears and misconceptions'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => context.push('/misconceptions'),
+            ),
           ],
         ),
       ),

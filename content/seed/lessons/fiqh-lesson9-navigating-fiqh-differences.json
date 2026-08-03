@@ -1,0 +1,74 @@
+{
+  "slug": "navigating-fiqh-differences-daily",
+  "stage_slug": "fiqh-in-daily-life",
+  "order": 9,
+  "title": "Navigating Fiqh Differences Day to Day",
+  "summary": "Practical guidance for when you encounter conflicting fiqh answers in real life — from two imams, two apps, or two well-meaning friends — and how to choose without anxiety.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "This will happen to you"
+    },
+    {
+      "type": "text",
+      "text": "At some point, you will ask two different, sincere, knowledgeable sources the same practical question and get two different answers — about a food ingredient, an investment product, a wudu detail, or something else entirely. This lesson, closing out the Fiqh in Daily Life collection, is about what to do when that happens, since it happens to every practising Muslim eventually, not just new ones."
+    },
+    {
+      "type": "heading",
+      "text": "First: is this actually a real disagreement?"
+    },
+    {
+      "type": "text",
+      "text": "Some apparent disagreements are really about different situations being described imprecisely — check whether both answers were really addressing the exact same scenario before assuming a genuine difference of opinion. A surprising number of \"conflicting fatwas\" turn out to be answers to slightly different questions."
+    },
+    {
+      "type": "heading",
+      "text": "If it is a real, recognised difference"
+    },
+    {
+      "type": "text",
+      "text": "Recall from the madhhab lesson: on genuinely disputed secondary matters, more than one position can be legitimately sound if reached through recognised scholarly method. Practical ways people navigate this: following the position of their chosen madhhab or local mosque consistently, rather than switching position-by-position to whichever answer is most convenient each time (a pattern scholars specifically caution against); asking their most trusted, qualified local source and going with that; or, for major decisions, seeking a second opinion specifically because the stakes are high."
+    },
+    {
+      "type": "quote",
+      "translation": "The difference of opinion among the scholars of my Ummah is a mercy.",
+      "reference": "Widely cited among scholars (authenticity as a specific hadith is debated, but the underlying principle is well established in fiqh literature)"
+    },
+    {
+      "type": "heading",
+      "text": "What to actually avoid"
+    },
+    {
+      "type": "text",
+      "text": "Two patterns worth naming directly: \"fatwa shopping\" (searching until you find whichever answer you already wanted, regardless of its scholarly weight), and the opposite extreme — becoming so anxious about getting every detail exactly right that ordinary religious practice becomes a source of constant stress rather than ease. Islamic teaching consistently favours ease and good faith over scrupulous, anxious perfectionism."
+    },
+    {
+      "type": "heading",
+      "text": "Where the AI Mentor fits in"
+    },
+    {
+      "type": "text",
+      "text": "This app's AI Mentor feature can point you toward relevant lessons and general information, but it is deliberately built to never issue a personal fatwa or resolve which scholarly opinion you should follow — that's a human, qualified role by design, not something meant to be automated."
+    },
+    {
+      "type": "faq",
+      "question": "Is it wrong to follow different madhhabs for different questions?",
+      "answer": "Scholars differ on how strict to be about this. Some prefer picking one madhhab and following it consistently; others allow more flexibility, especially where following one position would cause genuine hardship. What's generally discouraged is switching purely for convenience on a case-by-case basis — the concern is about motive and consistency, not about being religiously locked into one school forever."
+    },
+    {
+      "type": "faq",
+      "question": "How do I find a \"trusted, qualified local source\" if I don't know any imams personally yet?",
+      "answer": "Start by attending Jumu'ah regularly at a local mosque and asking the imam or staff directly, ideally in person rather than only online — this app's Community section can help you find nearby mosques. Reputation within the local community, and formal scholarly training/ijazah (certification), are the two things worth asking about if you're unsure who to trust."
+    },
+    {
+      "type": "reflection",
+      "question": "Think back to the last time you encountered two different answers to the same religious question. Looking back, how did you handle it — and would this lesson change that?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Understanding the Madhhabs (Schools of Thought)", "reference": "See Stage 4" },
+    { "label": "What Is Fiqh?", "reference": "See Fiqh in Daily Life" }
+  ]
+}

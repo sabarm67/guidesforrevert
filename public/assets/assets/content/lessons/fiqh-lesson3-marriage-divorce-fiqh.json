@@ -1,0 +1,74 @@
+{
+  "slug": "marriage-divorce-fiqh",
+  "stage_slug": "fiqh-in-daily-life",
+  "order": 3,
+  "title": "Marriage and Divorce: The Fiqh Details",
+  "summary": "A deeper, more practical look at the conditions that make a marriage valid, and how the fiqh of divorce actually works — including the waiting period and why it exists.",
+  "estimated_minutes": 9,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Building on the earlier marriage lesson"
+    },
+    {
+      "type": "text",
+      "text": "An earlier lesson covered marriage's purpose and basic structure. This one goes further into the fiqh specifics — the exact conditions that make a marriage contract valid, and, since it happens, how divorce actually works in fiqh terms."
+    },
+    {
+      "type": "heading",
+      "text": "What makes a nikah (marriage contract) valid"
+    },
+    {
+      "type": "text",
+      "text": "Beyond mutual consent, a mahr, and two witnesses (covered earlier), fiqh discussions typically require: both parties being legally and religiously eligible to marry each other (certain close relatives and, in most schools, marriage during another valid marriage's iddah are excluded); a clear offer and acceptance during the same contract session; and the marriage being publicly announced rather than deliberately secret. A guardian's (wali) involvement for the bride is required in most schools of thought, though the specifics of this role vary by school and by the woman's circumstances."
+    },
+    {
+      "type": "heading",
+      "text": "Divorce: talaq and khula"
+    },
+    {
+      "type": "text",
+      "text": "Talaq is divorce initiated by the husband — pronounced, and classically followed by a structured process rather than taking immediate, final effect. Khula is a process by which the wife can initiate ending the marriage, typically by returning her mahr, without needing to prove fault. Both processes exist precisely because Islamic teaching does not treat marriage as either indissoluble or trivially easy to exit — there's a deliberate structure on both sides."
+    },
+    {
+      "type": "quote",
+      "translation": "And if you fear dissension between the two, send an arbitrator from his people and an arbitrator from her people. If they both desire reconciliation, Allah will cause it between them.",
+      "reference": "Quran 4:35 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Why the waiting period (iddah) exists"
+    },
+    {
+      "type": "text",
+      "text": "After a divorce (or a husband's death), a woman observes a waiting period — commonly three menstrual cycles, or a set number of months in other circumstances — before remarrying. The most commonly cited reasons are practical and legal: confirming whether she is pregnant (relevant to the child's lineage and support), giving both spouses a structured cooling-off period in case of reconciliation, and providing a clear, unambiguous marker of when a marriage has genuinely ended. It is a legal safeguard, not a punishment."
+    },
+    {
+      "type": "heading",
+      "text": "A note on tone"
+    },
+    {
+      "type": "text",
+      "text": "Divorce is described in hadith as permissible but among the actions God dislikes most among permissible things — meaning it's treated as a genuine, sometimes necessary option, not a failure to be hidden in shame, while also not something to be entered into lightly. If you or someone close to you is navigating this, a knowledgeable local imam or Islamic family counsellor can walk through your specific situation far better than a general lesson can."
+    },
+    {
+      "type": "faq",
+      "question": "Can a Muslim woman initiate divorce, or only the husband?",
+      "answer": "Yes — khula (described above) is specifically the mechanism for a wife to initiate ending the marriage, and in some circumstances (e.g. certain conditions written into the marriage contract, or through a judge/qadi for cause such as harm or abandonment) she can seek a more direct dissolution. The idea that only husbands can end a marriage in Islam is a common misconception, not the actual fiqh position."
+    },
+    {
+      "type": "faq",
+      "question": "What happens to children and finances after an Islamic divorce, especially in a country like the US, UK, or Australia?",
+      "answer": "In practice, most Muslims in non-Muslim-majority countries go through their country's civil divorce and custody/financial process as the legally binding one, while also observing the religious dimension (iddah, talaq/khula process) as a matter of faith — the two run in parallel rather than one replacing the other. A local imam alongside a family law solicitor is the normal, sensible combination for this."
+    },
+    {
+      "type": "reflection",
+      "question": "Was anything about how divorce is structured in fiqh — the waiting period, khula, the emphasis on arbitration first — different from what you expected before this lesson?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Marriage in Islam", "reference": "See Stage 4" },
+    { "label": "Family in Islam", "reference": "See Stage 3" }
+  ]
+}

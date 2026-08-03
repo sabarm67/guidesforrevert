@@ -1,6 +1,7 @@
 [
   {
     "slug": "welcome-to-islam",
+    "collection_type": "journey",
     "order": 1,
     "title": "Welcome to Islam",
     "description": "The foundations: who Allah is, who Prophet Muhammad (peace be upon him) is, the purpose of life, the Shahadah, the Five Pillars, the Six Articles of Faith, and gently addressing common misconceptions.",
@@ -8,6 +9,7 @@
   },
   {
     "slug": "your-first-week",
+    "collection_type": "journey",
     "order": 2,
     "title": "Your First Week",
     "description": "Practical first steps: learning Wudu, learning Salah, simple Arabic pronunciation, basic duas, how to enter a mosque, Islamic greetings, and cleanliness.",
@@ -15,6 +17,7 @@
   },
   {
     "slug": "building-daily-habits",
+    "collection_type": "journey",
     "order": 3,
     "title": "Building Daily Habits",
     "description": "Making Islam part of daily life: the five daily prayers, the Quran, dhikr, good manners, family, food and halal, work, and charity.",
@@ -22,9 +25,26 @@
   },
   {
     "slug": "growing-in-knowledge",
+    "collection_type": "journey",
     "order": 4,
     "title": "Growing in Knowledge",
     "description": "Deeper study for those ready: the Seerah (life of the Prophet), the Companions, Islamic history, the madhhabs, Islamic civilisation, ethics, marriage, finance, and community.",
     "icon": "stage_knowledge"
+  },
+  {
+    "slug": "fiqh-in-daily-life",
+    "collection_type": "fiqh",
+    "order": 1,
+    "title": "Fiqh in Daily Life",
+    "description": "How Islamic jurisprudence (fiqh) actually applies to everyday decisions: earning and business, marriage and divorce, inheritance, food and dress, social dealings, living under secular law, and contemporary issues.",
+    "icon": "collection_fiqh"
+  },
+  {
+    "slug": "addressing-misconceptions",
+    "collection_type": "misconceptions",
+    "order": 1,
+    "title": "Understanding Islam: Addressing Misconceptions",
+    "description": "Clear, honest answers to the fears and stereotypes about Islam you're likely to meet from family, friends, and colleagues — written to help you understand and explain, not to argue.",
+    "icon": "collection_misconceptions"
   }
 ]

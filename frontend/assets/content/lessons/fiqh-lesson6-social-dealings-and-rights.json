@@ -1,0 +1,74 @@
+{
+  "slug": "social-dealings-and-rights",
+  "stage_slug": "fiqh-in-daily-life",
+  "order": 6,
+  "title": "Social Dealings: Neighbours, Employers, and Rights",
+  "summary": "The fiqh of everyday relationships outside the family — neighbours, employers and employees, business partners, and guests — and the specific rights Islamic teaching attaches to each.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Fiqh isn't only about worship and money"
+    },
+    {
+      "type": "text",
+      "text": "A large part of classical fiqh literature covers ordinary social relationships — not as vague moral advice, but as specific rights (huquq) owed to particular people in particular roles. This lesson covers a few of the most emphasised ones."
+    },
+    {
+      "type": "heading",
+      "text": "The rights of a neighbour"
+    },
+    {
+      "type": "text",
+      "text": "Neighbours are singled out repeatedly in hadith — sharing food, not causing them harm (noise, smell, disputes), checking on them, and forgiving minor annoyances. Notably, this is not limited to Muslim neighbours; the general instruction to treat neighbours well applies regardless of their faith."
+    },
+    {
+      "type": "quote",
+      "translation": "He is not a believer whose stomach is filled while the neighbor to his side goes hungry.",
+      "reference": "Al-Adab Al-Mufrad, Bukhari (commonly cited)"
+    },
+    {
+      "type": "heading",
+      "text": "Employer and employee obligations"
+    },
+    {
+      "type": "text",
+      "text": "A well-known hadith instructs paying a worker's wage before their sweat dries — commonly understood as promptness, not literal timing, but the point is unambiguous: withholding or delaying pay without good reason is treated seriously. In the other direction, an employee is expected to do the work honestly and competently, not just show up. Fiqh treats this as a genuine two-way contract with real obligations on both sides, not a favour granted downward."
+    },
+    {
+      "type": "heading",
+      "text": "Business partnerships"
+    },
+    {
+      "type": "text",
+      "text": "Islamic teaching encourages honest partnership (shirkah) — pooling capital, labour, or both toward a shared venture with agreed, proportional profit-and-loss sharing — as a preferred alternative to interest-based financing, since both partners share genuine risk rather than one party guaranteeing a fixed return regardless of outcome. Clear, written terms are encouraged specifically to prevent later disputes."
+    },
+    {
+      "type": "heading",
+      "text": "Hosting guests"
+    },
+    {
+      "type": "text",
+      "text": "Hospitality carries unusual weight in Islamic teaching — a guest is described as having a right to be honoured for up to three days, after which continued generosity becomes a voluntary kindness rather than an obligation. This cultural emphasis, common across many Muslim-majority societies, traces directly back to this teaching rather than being purely a regional custom."
+    },
+    {
+      "type": "faq",
+      "question": "Do these obligations toward neighbours and guests apply even if they're not Muslim?",
+      "answer": "Yes, generally — the language in the primary sources on neighbours and hospitality is not restricted to Muslims, and treating non-Muslim neighbours, colleagues, and guests with the same care is squarely within mainstream fiqh, not an exception to it."
+    },
+    {
+      "type": "faq",
+      "question": "What if a business partnership or job genuinely goes wrong — is there a fiqh process for resolving disputes?",
+      "answer": "Yes — mediation and arbitration (sulh) are strongly encouraged before more adversarial routes, and Islamic teaching generally prefers resolving disputes privately and amicably where possible. For serious or legally significant disputes, this exists alongside, not instead of, your country's normal legal process."
+    },
+    {
+      "type": "reflection",
+      "question": "Is there a neighbour, colleague, or acquaintance you could extend a small, concrete kindness to this week, in light of this lesson?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Islam at Work", "reference": "See Stage 3" },
+    { "label": "Halal Earning and Business Ethics", "reference": "See Fiqh in Daily Life" }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "what-is-fiqh",
+  "stage_slug": "fiqh-in-daily-life",
+  "order": 1,
+  "title": "What Is Fiqh?",
+  "summary": "The difference between Sharia, fiqh, and a fatwa, where fiqh's rulings actually come from, and why it's a living, reasoned discipline rather than a fixed rulebook.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Three words people mix up: Sharia, fiqh, and fatwa"
+    },
+    {
+      "type": "text",
+      "text": "Sharia refers broadly to God's guidance for life, as understood from revelation — a wide, somewhat abstract concept. Fiqh is the human discipline of deriving specific, practical rulings from that guidance through careful scholarly reasoning — it's Sharia worked out into actual answers to actual questions. A fatwa is a single scholarly opinion on a specific question, issued by a qualified scholar (a mufti), which may or may not be binding depending on context. This app's \"Fiqh in Daily Life\" lessons are about fiqh: the practical, reasoned application, not abstract theology."
+    },
+    {
+      "type": "heading",
+      "text": "Where fiqh's rulings come from"
+    },
+    {
+      "type": "text",
+      "text": "Classical Islamic scholarship recognises a small number of sources, roughly in this order of priority: the Quran; the Sunnah (the Prophet Muhammad's, peace be upon him, teachings and practice, preserved in hadith); ijma (scholarly consensus on a matter); and qiyas (analogical reasoning, extending a known ruling to a new, similar situation). Different schools of law also use additional secondary tools — public interest, local custom, and juristic preference among them — which is part of why reasoned differences exist between them."
+    },
+    {
+      "type": "quote",
+      "translation": "So ask the people of knowledge if you do not know.",
+      "reference": "Quran 16:43 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Fiqh is reasoned, not arbitrary — and not frozen"
+    },
+    {
+      "type": "text",
+      "text": "A common misunderstanding, inside and outside Muslim communities, is that fiqh is a fixed, ancient rulebook applied mechanically. In reality, it's a living discipline: scholars have always had to apply established principles to genuinely new situations — from coffee (was it permissible when first introduced?) to, today, cryptocurrency, IVF, and social media conduct. This is exactly why the later lessons in this section can meaningfully address modern questions like insurance and mortgages, not just questions that existed 1,400 years ago."
+    },
+    {
+      "type": "heading",
+      "text": "Why this section exists"
+    },
+    {
+      "type": "text",
+      "text": "The rest of this collection walks through how fiqh actually shows up in ordinary decisions: how you earn money, marry, divorce, dress, deal with neighbours and employers, and live under a legal system that isn't based on Islamic law. None of this replaces a knowledgeable local scholar for your specific situation — think of it as building the vocabulary and general map so those conversations are easier to have."
+    },
+    {
+      "type": "faq",
+      "question": "If scholars can differ, how do I know which answer is \"correct\" for me?",
+      "answer": "On core matters there's no real disagreement across schools; on secondary, genuinely debated questions, more than one position can be legitimately sound, since qualified scholars reached them through recognised methodology. Picking a position usually means following a trustworthy local scholar or the school most common in your community, rather than searching until you find the answer you already wanted."
+    },
+    {
+      "type": "faq",
+      "question": "Is fiqh the same as \"Islamic law\" being imposed by a government?",
+      "answer": "No — fiqh, as covered in this app, is a personal and communal framework for how an individual Muslim chooses to live, not a claim about state legislation. The lesson on Sharia in the \"Understanding Islam\" section covers this distinction in more depth, since it's a frequent source of confusion and fear."
+    },
+    {
+      "type": "reflection",
+      "question": "Before this lesson, how did you picture fiqh — closer to a fixed rulebook, or a reasoned, evolving discipline? Has that picture shifted?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Understanding the Madhhabs (Schools of Thought)", "reference": "See Stage 4" },
+    { "label": "What Is Sharia Law, Really?", "reference": "See Understanding Islam section" }
+  ]
+}

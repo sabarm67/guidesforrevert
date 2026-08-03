@@ -32,11 +32,20 @@ class LearningStageResource extends Resource
                     ->maxLength(255)
                     ->unique(ignoreRecord: true)
                     ->helperText('Used by the app/API to reference this stage, e.g. "welcome-to-islam".'),
+                Forms\Components\Select::make('collection_type')
+                    ->options([
+                        'journey' => 'Learning Journey (the 4 linear stages)',
+                        'fiqh' => 'Fiqh in Daily Life',
+                        'misconceptions' => 'Understanding Islam: Addressing Misconceptions',
+                    ])
+                    ->default('journey')
+                    ->required()
+                    ->helperText('Which section of the app this stage/collection belongs to.'),
                 Forms\Components\TextInput::make('order')
                     ->required()
                     ->numeric()
                     ->default(1)
-                    ->helperText('Controls the order stages appear in the learning journey.'),
+                    ->helperText('Controls the order stages appear within their collection.'),
                 Forms\Components\TextInput::make('icon')
                     ->maxLength(255)
                     ->helperText('Icon identifier used by the Flutter app, e.g. "stage_welcome".'),
@@ -51,6 +60,9 @@ class LearningStageResource extends Resource
         return $table
             ->defaultSort('order')
             ->columns([
+                Tables\Columns\TextColumn::make('collection_type')
+                    ->badge()
+                    ->sortable(),
                 Tables\Columns\TextColumn::make('order')->sortable(),
                 Tables\Columns\TextColumn::make('title')->searchable(),
                 Tables\Columns\TextColumn::make('slug')->searchable(),
@@ -59,7 +71,12 @@ class LearningStageResource extends Resource
                     ->label('Lessons'),
             ])
             ->filters([
-                //
+                Tables\Filters\SelectFilter::make('collection_type')
+                    ->options([
+                        'journey' => 'Learning Journey',
+                        'fiqh' => 'Fiqh in Daily Life',
+                        'misconceptions' => 'Addressing Misconceptions',
+                    ]),
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),

@@ -1,0 +1,83 @@
+{
+  "slug": "polygamy-context-and-rules",
+  "stage_slug": "addressing-misconceptions",
+  "order": 7,
+  "title": "Polygamy in Islam: Context and Rules",
+  "summary": "Why the Quran's polygamy verse was actually a restriction, not an invention, the strict conditions attached to it, and why it's the exception rather than the expectation.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A frequently misunderstood verse"
+    },
+    {
+      "type": "text",
+      "text": "Polygamy (specifically, a man having up to four wives) is real in Islamic teaching, and it's a common flashpoint in conversations about Islam and women. Understanding what the Quran actually says, and the historical context it responds to, changes the picture considerably."
+    },
+    {
+      "type": "heading",
+      "text": "A restriction, not an introduction"
+    },
+    {
+      "type": "text",
+      "text": "Polygamy already existed in pre-Islamic Arabia, without limit — some men had many more than four wives, with no requirement of fair treatment. The Quran's verse capped the number at four and, critically, attached a strict condition most people quoting the verse leave out."
+    },
+    {
+      "type": "quote",
+      "translation": "Then marry those that please you of [other] women, two or three or four. But if you fear that you will not be just, then [marry only] one.",
+      "reference": "Quran 4:3 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "The condition that changes everything"
+    },
+    {
+      "type": "text",
+      "text": "A later verse in the same surah adds a further, sobering point:"
+    },
+    {
+      "type": "quote",
+      "translation": "And you will never be able to be equal [in feeling] between wives, even if you should strive [to do so].",
+      "reference": "Quran 4:129 (Saheeh International, abridged)"
+    },
+    {
+      "type": "text",
+      "text": "Read together, many scholars conclude these verses function less as an encouragement toward polygamy and more as a serious caution against it — permitted under strict conditions of fairness that the Quran itself acknowledges are extremely difficult to fully meet. This is why the majority default in practice, across the Muslim world historically and today, is monogamy — polygamy is a permitted exception, not the norm or the ideal."
+    },
+    {
+      "type": "heading",
+      "text": "The historical context often left out"
+    },
+    {
+      "type": "text",
+      "text": "This verse was revealed in the specific context of the aftermath of a major early Islamic battle (Uhud) that left a significant number of war widows and orphans in the community, with no social safety net. Read in that light, the permission (with its fairness condition) is widely understood as addressing a real social welfare problem — care for widows and orphans — rather than existing purely for male preference."
+    },
+    {
+      "type": "heading",
+      "text": "Fiqh conditions and practical reality"
+    },
+    {
+      "type": "text",
+      "text": "Beyond the Quranic fairness requirement, many countries — including several Muslim-majority ones — have added legal conditions (court permission, proof of financial capacity, sometimes the first wife's consent) restricting polygamy further, or ban it outright. In Western countries, polygamous marriage is generally not legally recognised at all, regardless of religious permissibility, which is an important practical distinction for a new Muslim living there."
+    },
+    {
+      "type": "faq",
+      "question": "Does this mean Muslim men are expected or encouraged to have multiple wives?",
+      "answer": "No — as covered above, monogamy is the overwhelming practical norm, and the Quran's own fairness condition functions as a serious brake on the practice, not an encouragement. Most Muslim men, including deeply religious ones, have one wife."
+    },
+    {
+      "type": "faq",
+      "question": "Is polygamy legal where I live?",
+      "answer": "In most Western countries, no — civil law generally recognises only one legal marriage at a time, and a religious-only polygamous marriage carries no legal recognition or protections there. This is worth understanding clearly if it's ever personally relevant, rather than assuming religious permissibility overrides local civil law."
+    },
+    {
+      "type": "reflection",
+      "question": "Did the historical context (war widows and orphans) or the fairness condition in 4:129 change how you understood this verse compared to how it's often presented out of context?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Marriage in Islam", "reference": "See Stage 4" },
+    { "label": "\"Does Islam Oppress Women?\"", "reference": "See Understanding Islam section" }
+  ]
+}

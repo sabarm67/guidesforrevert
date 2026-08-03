@@ -89,6 +89,22 @@ and the full Juz 'Amma — surahs 1 and 78-114, 38 surahs / 571 ayahs).
   (dates, dynasties, named scholars) rather than religious rulings, so
   they carry lower sourcing risk but should still be spot-checked for
   factual accuracy before production use.
+- **Fiqh in Daily Life** (9 lessons) and **Understanding Islam: Addressing
+  Misconceptions** (9 lessons) are likewise original writing, following the
+  same Quranic-quotation sourcing caveat above. The misconceptions
+  collection in particular makes historical claims (e.g. Indonesia's
+  conversion via trade rather than conquest, the persistence of Coptic
+  Christians and other non-Muslim populations under centuries of Muslim
+  rule, mainstream fatwa councils' positions on honor killing/FGM/violent
+  extremism) that are widely documented in mainstream historical and
+  Islamic scholarship, but were not independently fact-checked
+  source-by-source in this writing pass — verify specific historical and
+  statistical claims before public release, the same as any other
+  factual content in this app. These lessons address sensitive,
+  high-stakes topics (violence, women's rights, honor killing, FGM) and
+  would particularly benefit from a qualified scholarly review pass before
+  production use, beyond the general verification note at the top of this
+  file.
 
 ## General principle for content going forward
 

@@ -1,0 +1,65 @@
+{
+  "slug": "inheritance-basics",
+  "stage_slug": "fiqh-in-daily-life",
+  "order": 4,
+  "title": "Inheritance in Islam: The Basics",
+  "summary": "Why Islamic inheritance is a fixed system rather than a will you write from scratch, the reasoning behind the well-known male/female share difference, and what a will (wasiyyah) can and can't do.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A fixed system, not a blank page"
+    },
+    {
+      "type": "text",
+      "text": "Unlike secular systems where a will can distribute an estate however its author wishes, Islamic inheritance (mirath, or faraid) largely follows a fixed set of shares laid out directly in the Quran for specific relatives — spouse, children, parents, and in some cases siblings and others, depending on who survives the deceased. The detailed calculations can get genuinely complex, which is why a qualified scholar or Islamic inheritance calculator is normally used for an actual estate, rather than working it out from a lesson like this."
+    },
+    {
+      "type": "quote",
+      "translation": "Allah instructs you concerning your children: for the male, what is equal to the share of two females.",
+      "reference": "Quran 4:11 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Addressing the male/female share question directly"
+    },
+    {
+      "type": "text",
+      "text": "This specific verse is one of the most frequently raised in \"is Islam unfair to women\" discussions, so it's worth addressing directly rather than skipping past it. The commonly cited reasoning: in the same Islamic financial framework, men carry the financial obligation of maintaining a household (spouse, children) from their own wealth, while a woman's wealth — including her share of inheritance — remains entirely hers to keep, invest, or spend, with no obligation to support anyone else with it. Looked at as a full financial system rather than a single isolated number, many scholars argue women are, in aggregate, financially protected rather than disadvantaged. It's also worth knowing this 2:1 split applies to a specific set of relationships (like siblings inheriting together), not universally — a mother and father, for instance, can receive equal shares in some inheritance scenarios."
+    },
+    {
+      "type": "heading",
+      "text": "The wasiyyah (will): what it can and can't do"
+    },
+    {
+      "type": "text",
+      "text": "A Muslim can write a will (wasiyyah) to direct up to one-third of their estate — commonly to charity, or to someone who wouldn't otherwise inherit (a non-Muslim spouse, a close friend, an orphaned grandchild in some situations). The remaining two-thirds generally follows the fixed Quranic shares and cannot be reassigned by personal preference. The one-third limit exists specifically to prevent someone from disinheriting their rightful heirs by giving everything away."
+    },
+    {
+      "type": "heading",
+      "text": "A practical note for Muslims living outside Muslim-majority countries"
+    },
+    {
+      "type": "text",
+      "text": "In most Western countries, Islamic inheritance shares have no automatic legal force — if you die without a legally valid local will, your country's default inheritance law applies, which may differ significantly from Islamic shares. Many Muslims in this situation write a legally binding will in their country of residence that specifically implements the Islamic shares (often with help from an Islamic estate-planning service or solicitor), rather than assuming Islamic law will apply automatically."
+    },
+    {
+      "type": "faq",
+      "question": "Can I just leave everything to my spouse, like many non-Muslim wills do by default?",
+      "answer": "Not entirely, under the fixed-share system — children and, depending on circumstances, parents also have fixed entitlements that can't simply be reassigned to the spouse alone. This is a good, specific question to raise with a scholar or Islamic estate-planning service when you actually write your will, since your exact family situation changes the calculation."
+    },
+    {
+      "type": "faq",
+      "question": "Do non-Muslim family members inherit under Islamic rules?",
+      "answer": "Under most classical fiqh positions, a non-Muslim relative does not inherit under the fixed Islamic shares — but the one-third wasiyyah allowance exists specifically so you can still provide for a non-Muslim spouse, parent, or friend by will. This is exactly the kind of situation worth discussing with a knowledgeable scholar given how common mixed-faith families are among new Muslims."
+    },
+    {
+      "type": "reflection",
+      "question": "If you haven't yet, is writing (or updating) a legally valid will in your country something worth adding to your to-do list after this lesson?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Marriage and Divorce: The Fiqh Details", "reference": "See Fiqh in Daily Life" }
+  ]
+}

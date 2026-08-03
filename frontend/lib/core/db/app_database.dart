@@ -9,6 +9,10 @@ part 'app_database.g.dart';
 class LearningStages extends Table {
   IntColumn get id => integer().autoIncrement()();
   TextColumn get slug => text().unique()();
+
+  /// 'journey' (the 4 linear stages) or a standalone topic collection like
+  /// 'fiqh'/'misconceptions' — see LearningRepository.watchStagesByCollection.
+  TextColumn get collectionType => text().withDefault(const Constant('journey'))();
   IntColumn get order => integer()();
   TextColumn get title => text()();
   TextColumn get description => text().nullable()();
@@ -133,7 +137,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase([QueryExecutor? executor]) : super(executor ?? _openConnection());
 
   @override
-  int get schemaVersion => 2;
+  int get schemaVersion => 3;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -141,6 +145,9 @@ class AppDatabase extends _$AppDatabase {
     onUpgrade: (m, from, to) async {
       if (from < 2) {
         await m.createTable(journalEntries);
+      }
+      if (from < 3) {
+        await m.addColumn(learningStages, learningStages.collectionType);
       }
     },
   );

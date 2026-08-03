@@ -55,6 +55,7 @@ erDiagram
   LEARNING_STAGES {
     bigint id PK
     string slug UK
+    string collection_type "journey (default) | fiqh | misconceptions"
     int order
     string title
     text description
@@ -248,7 +249,7 @@ erDiagram
 | Table | Status |
 |---|---|
 | `users`, `roles`, `permissions` (+ pivot tables) | **Implemented** — spatie/laravel-permission standard tables, published via Laravel's vendor:publish |
-| `learning_stages`, `lessons`, `lesson_progress` | **Implemented + seeded** — all 4 stages fully populated (4 Stage 1 + 7 Stage 2 + 8 Stage 3 + 9 Stage 4 = 28 lessons) |
+| `learning_stages`, `lessons`, `lesson_progress` | **Implemented + seeded** — 46 lessons total: the 4-stage linear Learning Journey (4+7+8+9=28 lessons) plus two standalone, non-linear topic collections distinguished by `learning_stages.collection_type` — Fiqh in Daily Life (9 lessons) and Understanding Islam: Addressing Misconceptions (9 lessons). Both collections reuse the exact same `lessons`/body-block structure, just outside the linear stage progression — see system-architecture.md |
 | `quizzes`, `quiz_questions`, `quiz_choices`, `quiz_attempts` | **Schema only** — migrations exist, no seed data or endpoints yet |
 | `dua_categories`, `duas` | **Implemented + seeded** (~5 duas) |
 | `surahs`, `ayahs`, `ayah_translations`, `ayah_tafsirs`, `ayah_words` | **Implemented + seeded** — Al-Fatihah + full Juz 'Amma (surahs 1, 78-114 = 38 surahs / 571 ayahs), real Tanzil Arabic + public-domain Pickthall translation via `php artisan quran:import`; word-by-word and tafsir only on Al-Fatihah ayah 1 |

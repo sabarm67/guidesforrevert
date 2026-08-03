@@ -32,6 +32,18 @@ class $LearningStagesTable extends LearningStages
     requiredDuringInsert: true,
     defaultConstraints: GeneratedColumn.constraintIsAlways('UNIQUE'),
   );
+  static const VerificationMeta _collectionTypeMeta = const VerificationMeta(
+    'collectionType',
+  );
+  @override
+  late final GeneratedColumn<String> collectionType = GeneratedColumn<String>(
+    'collection_type',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('journey'),
+  );
   static const VerificationMeta _orderMeta = const VerificationMeta('order');
   @override
   late final GeneratedColumn<int> order = GeneratedColumn<int>(
@@ -74,6 +86,7 @@ class $LearningStagesTable extends LearningStages
   List<GeneratedColumn> get $columns => [
     id,
     slug,
+    collectionType,
     order,
     title,
     description,
@@ -101,6 +114,15 @@ class $LearningStagesTable extends LearningStages
       );
     } else if (isInserting) {
       context.missing(_slugMeta);
+    }
+    if (data.containsKey('collection_type')) {
+      context.handle(
+        _collectionTypeMeta,
+        collectionType.isAcceptableOrUnknown(
+          data['collection_type']!,
+          _collectionTypeMeta,
+        ),
+      );
     }
     if (data.containsKey('order')) {
       context.handle(
@@ -150,6 +172,10 @@ class $LearningStagesTable extends LearningStages
         DriftSqlType.string,
         data['${effectivePrefix}slug'],
       )!,
+      collectionType: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}collection_type'],
+      )!,
       order: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
         data['${effectivePrefix}order'],
@@ -178,6 +204,10 @@ class $LearningStagesTable extends LearningStages
 class LearningStage extends DataClass implements Insertable<LearningStage> {
   final int id;
   final String slug;
+
+  /// 'journey' (the 4 linear stages) or a standalone topic collection like
+  /// 'fiqh'/'misconceptions' — see LearningRepository.watchStagesByCollection.
+  final String collectionType;
   final int order;
   final String title;
   final String? description;
@@ -185,6 +215,7 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
   const LearningStage({
     required this.id,
     required this.slug,
+    required this.collectionType,
     required this.order,
     required this.title,
     this.description,
@@ -195,6 +226,7 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
     final map = <String, Expression>{};
     map['id'] = Variable<int>(id);
     map['slug'] = Variable<String>(slug);
+    map['collection_type'] = Variable<String>(collectionType);
     map['order'] = Variable<int>(order);
     map['title'] = Variable<String>(title);
     if (!nullToAbsent || description != null) {
@@ -210,6 +242,7 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
     return LearningStagesCompanion(
       id: Value(id),
       slug: Value(slug),
+      collectionType: Value(collectionType),
       order: Value(order),
       title: Value(title),
       description: description == null && nullToAbsent
@@ -227,6 +260,7 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
     return LearningStage(
       id: serializer.fromJson<int>(json['id']),
       slug: serializer.fromJson<String>(json['slug']),
+      collectionType: serializer.fromJson<String>(json['collectionType']),
       order: serializer.fromJson<int>(json['order']),
       title: serializer.fromJson<String>(json['title']),
       description: serializer.fromJson<String?>(json['description']),
@@ -239,6 +273,7 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
     return <String, dynamic>{
       'id': serializer.toJson<int>(id),
       'slug': serializer.toJson<String>(slug),
+      'collectionType': serializer.toJson<String>(collectionType),
       'order': serializer.toJson<int>(order),
       'title': serializer.toJson<String>(title),
       'description': serializer.toJson<String?>(description),
@@ -249,6 +284,7 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
   LearningStage copyWith({
     int? id,
     String? slug,
+    String? collectionType,
     int? order,
     String? title,
     Value<String?> description = const Value.absent(),
@@ -256,6 +292,7 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
   }) => LearningStage(
     id: id ?? this.id,
     slug: slug ?? this.slug,
+    collectionType: collectionType ?? this.collectionType,
     order: order ?? this.order,
     title: title ?? this.title,
     description: description.present ? description.value : this.description,
@@ -265,6 +302,9 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
     return LearningStage(
       id: data.id.present ? data.id.value : this.id,
       slug: data.slug.present ? data.slug.value : this.slug,
+      collectionType: data.collectionType.present
+          ? data.collectionType.value
+          : this.collectionType,
       order: data.order.present ? data.order.value : this.order,
       title: data.title.present ? data.title.value : this.title,
       description: data.description.present
@@ -279,6 +319,7 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
     return (StringBuffer('LearningStage(')
           ..write('id: $id, ')
           ..write('slug: $slug, ')
+          ..write('collectionType: $collectionType, ')
           ..write('order: $order, ')
           ..write('title: $title, ')
           ..write('description: $description, ')
@@ -288,13 +329,15 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
   }
 
   @override
-  int get hashCode => Object.hash(id, slug, order, title, description, icon);
+  int get hashCode =>
+      Object.hash(id, slug, collectionType, order, title, description, icon);
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
       (other is LearningStage &&
           other.id == this.id &&
           other.slug == this.slug &&
+          other.collectionType == this.collectionType &&
           other.order == this.order &&
           other.title == this.title &&
           other.description == this.description &&
@@ -304,6 +347,7 @@ class LearningStage extends DataClass implements Insertable<LearningStage> {
 class LearningStagesCompanion extends UpdateCompanion<LearningStage> {
   final Value<int> id;
   final Value<String> slug;
+  final Value<String> collectionType;
   final Value<int> order;
   final Value<String> title;
   final Value<String?> description;
@@ -311,6 +355,7 @@ class LearningStagesCompanion extends UpdateCompanion<LearningStage> {
   const LearningStagesCompanion({
     this.id = const Value.absent(),
     this.slug = const Value.absent(),
+    this.collectionType = const Value.absent(),
     this.order = const Value.absent(),
     this.title = const Value.absent(),
     this.description = const Value.absent(),
@@ -319,6 +364,7 @@ class LearningStagesCompanion extends UpdateCompanion<LearningStage> {
   LearningStagesCompanion.insert({
     this.id = const Value.absent(),
     required String slug,
+    this.collectionType = const Value.absent(),
     required int order,
     required String title,
     this.description = const Value.absent(),
@@ -329,6 +375,7 @@ class LearningStagesCompanion extends UpdateCompanion<LearningStage> {
   static Insertable<LearningStage> custom({
     Expression<int>? id,
     Expression<String>? slug,
+    Expression<String>? collectionType,
     Expression<int>? order,
     Expression<String>? title,
     Expression<String>? description,
@@ -337,6 +384,7 @@ class LearningStagesCompanion extends UpdateCompanion<LearningStage> {
     return RawValuesInsertable({
       if (id != null) 'id': id,
       if (slug != null) 'slug': slug,
+      if (collectionType != null) 'collection_type': collectionType,
       if (order != null) 'order': order,
       if (title != null) 'title': title,
       if (description != null) 'description': description,
@@ -347,6 +395,7 @@ class LearningStagesCompanion extends UpdateCompanion<LearningStage> {
   LearningStagesCompanion copyWith({
     Value<int>? id,
     Value<String>? slug,
+    Value<String>? collectionType,
     Value<int>? order,
     Value<String>? title,
     Value<String?>? description,
@@ -355,6 +404,7 @@ class LearningStagesCompanion extends UpdateCompanion<LearningStage> {
     return LearningStagesCompanion(
       id: id ?? this.id,
       slug: slug ?? this.slug,
+      collectionType: collectionType ?? this.collectionType,
       order: order ?? this.order,
       title: title ?? this.title,
       description: description ?? this.description,
@@ -370,6 +420,9 @@ class LearningStagesCompanion extends UpdateCompanion<LearningStage> {
     }
     if (slug.present) {
       map['slug'] = Variable<String>(slug.value);
+    }
+    if (collectionType.present) {
+      map['collection_type'] = Variable<String>(collectionType.value);
     }
     if (order.present) {
       map['order'] = Variable<int>(order.value);
@@ -391,6 +444,7 @@ class LearningStagesCompanion extends UpdateCompanion<LearningStage> {
     return (StringBuffer('LearningStagesCompanion(')
           ..write('id: $id, ')
           ..write('slug: $slug, ')
+          ..write('collectionType: $collectionType, ')
           ..write('order: $order, ')
           ..write('title: $title, ')
           ..write('description: $description, ')
@@ -3815,6 +3869,7 @@ typedef $$LearningStagesTableCreateCompanionBuilder =
     LearningStagesCompanion Function({
       Value<int> id,
       required String slug,
+      Value<String> collectionType,
       required int order,
       required String title,
       Value<String?> description,
@@ -3824,6 +3879,7 @@ typedef $$LearningStagesTableUpdateCompanionBuilder =
     LearningStagesCompanion Function({
       Value<int> id,
       Value<String> slug,
+      Value<String> collectionType,
       Value<int> order,
       Value<String> title,
       Value<String?> description,
@@ -3846,6 +3902,11 @@ class $$LearningStagesTableFilterComposer
 
   ColumnFilters<String> get slug => $composableBuilder(
     column: $table.slug,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get collectionType => $composableBuilder(
+    column: $table.collectionType,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -3889,6 +3950,11 @@ class $$LearningStagesTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
+  ColumnOrderings<String> get collectionType => $composableBuilder(
+    column: $table.collectionType,
+    builder: (column) => ColumnOrderings(column),
+  );
+
   ColumnOrderings<int> get order => $composableBuilder(
     column: $table.order,
     builder: (column) => ColumnOrderings(column),
@@ -3924,6 +3990,11 @@ class $$LearningStagesTableAnnotationComposer
 
   GeneratedColumn<String> get slug =>
       $composableBuilder(column: $table.slug, builder: (column) => column);
+
+  GeneratedColumn<String> get collectionType => $composableBuilder(
+    column: $table.collectionType,
+    builder: (column) => column,
+  );
 
   GeneratedColumn<int> get order =>
       $composableBuilder(column: $table.order, builder: (column) => column);
@@ -3975,6 +4046,7 @@ class $$LearningStagesTableTableManager
               ({
                 Value<int> id = const Value.absent(),
                 Value<String> slug = const Value.absent(),
+                Value<String> collectionType = const Value.absent(),
                 Value<int> order = const Value.absent(),
                 Value<String> title = const Value.absent(),
                 Value<String?> description = const Value.absent(),
@@ -3982,6 +4054,7 @@ class $$LearningStagesTableTableManager
               }) => LearningStagesCompanion(
                 id: id,
                 slug: slug,
+                collectionType: collectionType,
                 order: order,
                 title: title,
                 description: description,
@@ -3991,6 +4064,7 @@ class $$LearningStagesTableTableManager
               ({
                 Value<int> id = const Value.absent(),
                 required String slug,
+                Value<String> collectionType = const Value.absent(),
                 required int order,
                 required String title,
                 Value<String?> description = const Value.absent(),
@@ -3998,6 +4072,7 @@ class $$LearningStagesTableTableManager
               }) => LearningStagesCompanion.insert(
                 id: id,
                 slug: slug,
+                collectionType: collectionType,
                 order: order,
                 title: title,
                 description: description,

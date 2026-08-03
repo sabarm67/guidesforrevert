@@ -1,0 +1,65 @@
+{
+  "slug": "food-dress-in-depth",
+  "stage_slug": "fiqh-in-daily-life",
+  "order": 5,
+  "title": "Food and Dress: The Fiqh in Depth",
+  "summary": "A closer look at the reasoning and edge cases behind halal food rules and modest dress (awrah), beyond the beginner basics covered earlier.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Food: beyond the basics"
+    },
+    {
+      "type": "text",
+      "text": "An earlier lesson covered the core food rules — no pork, no alcohol, zabihah meat. A few fiqh-level details that come up in practice: additives and gelatin (often pork- or alcohol-derived unless labelled otherwise, so worth checking), cross-contamination in shared kitchens or fryers (opinions vary on how strictly this must be avoided), and alcohol used only as a cooking ingredient that fully evaporates (also a point of genuine scholarly difference, not universally agreed). None of these are \"beginner mistakes\" — they're exactly the kind of grey areas fiqh exists to work through, and asking rather than guessing is the normal, expected approach."
+    },
+    {
+      "type": "heading",
+      "text": "Dress: the concept of awrah"
+    },
+    {
+      "type": "text",
+      "text": "Awrah refers to the parts of the body that must be covered in front of others, and it differs by context: in front of the same gender, in front of a spouse, and in front of the opposite gender who aren't close relatives (mahram) — the standard is strictest in that last context. For men, the widely held standard is covering from navel to knee at minimum. For women, standards vary somewhat by school and by context, generally covering the body except the face and hands in front of non-mahram men, though there are recognised differences of opinion on the face specifically."
+    },
+    {
+      "type": "quote",
+      "translation": "Say to the believing men that they should lower their gaze and guard their modesty... And say to the believing women that they should lower their gaze and guard their modesty.",
+      "reference": "Quran 24:30-31 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Modesty is mutual, not one-directional"
+    },
+    {
+      "type": "text",
+      "text": "It's worth noticing that the Quranic instruction on lowering the gaze and modest conduct is addressed to men first, then women — modesty in Islamic teaching is framed as a shared social value, not a rule aimed only at how women dress. Discussions that focus only on women's clothing, without the equally real expectations placed on men's conduct and dress, are missing half of what the sources actually say."
+    },
+    {
+      "type": "heading",
+      "text": "The hijab specifically"
+    },
+    {
+      "type": "text",
+      "text": "The head covering commonly called hijab is, for most scholars, part of the broader awrah requirement for women in front of non-mahram men, though — as with several fiqh topics — there are recognised minority scholarly positions that differ on some details. Whether and how a Muslim woman wears hijab is, in lived practice, shaped by personal conviction, family, country, and stage of practice; it is not something this app treats as a test of who counts as a \"real\" Muslim."
+    },
+    {
+      "type": "faq",
+      "question": "What should I do if I genuinely can't tell whether an ingredient is halal?",
+      "answer": "When in doubt, many scholars advise erring toward caution on ingredients, while also recognising this shouldn't tip into paralysing anxiety over every meal — Islamic teaching consistently balances caution with ease, especially for someone still learning. Halal-certification apps and labels, and simply asking, cover the vast majority of everyday situations."
+    },
+    {
+      "type": "faq",
+      "question": "Is a Muslim woman who doesn't (yet, or ever) wear hijab any less committed to her faith?",
+      "answer": "No — this app deliberately avoids treating any single visible marker as a measure of someone's faith or sincerity. Practice often develops gradually, and readiness for a particular step, including hijab, is a personal journey best discussed with a trusted, non-judgemental source rather than assumed from the outside."
+    },
+    {
+      "type": "reflection",
+      "question": "Was the point about modesty being addressed to men first in the Quran something you'd heard before? Does it change how you think about the topic?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Food and Halal", "reference": "See Stage 3" }
+  ]
+}

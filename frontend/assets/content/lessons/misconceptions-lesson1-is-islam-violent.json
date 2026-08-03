@@ -1,0 +1,83 @@
+{
+  "slug": "is-islam-a-violent-religion",
+  "stage_slug": "addressing-misconceptions",
+  "order": 1,
+  "title": "\"Is Islam a Violent Religion?\"",
+  "summary": "A calm, sourced answer to the most common fear new Muslims encounter from family and friends — what the Quran actually says about violence, and how to talk about it without getting defensive.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Why this lesson exists"
+    },
+    {
+      "type": "text",
+      "text": "If you've told family or friends you've become Muslim, there's a good chance someone has asked, directly or indirectly, some version of \"isn't Islam a violent religion?\" — usually shaped by news coverage of terrorism carried out by people claiming Islamic justification. This lesson isn't about winning an argument; it's about understanding the actual sources well enough to answer calmly and accurately when this comes up."
+    },
+    {
+      "type": "heading",
+      "text": "What the Quran actually says about killing"
+    },
+    {
+      "type": "text",
+      "text": "The single most directly relevant verse is one that explicitly equates killing an innocent person with killing all of humanity — about as strong a condemnation of unjustified violence as a text can make."
+    },
+    {
+      "type": "quote",
+      "translation": "Whoever kills a soul unless for a soul or for corruption [done] in the land - it is as if he had slain mankind entirely. And whoever saves one - it is as if he had saved mankind entirely.",
+      "reference": "Quran 5:32 (Saheeh International, abridged)"
+    },
+    {
+      "type": "text",
+      "text": "This verse is frequently cited by Muslim scholars specifically in response to terrorism, precisely because it's so unambiguous. It's genuinely one of the most quoted verses in interfaith and counter-extremism contexts for this reason."
+    },
+    {
+      "type": "heading",
+      "text": "Where verses about fighting fit"
+    },
+    {
+      "type": "text",
+      "text": "The Quran does contain verses permitting fighting — but read in context (a common critique is that these are quoted stripped of their surrounding text), they consistently describe a defensive response to being attacked or persecuted, with explicit conditions: no aggression, no targeting civilians, and stopping once the threat ends."
+    },
+    {
+      "type": "quote",
+      "translation": "Fight in the way of Allah those who fight you but do not transgress. Indeed, Allah does not like transgressors.",
+      "reference": "Quran 2:190 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "How the Prophet's own conduct is used as evidence"
+    },
+    {
+      "type": "text",
+      "text": "Scholars point beyond individual verses to the Prophet Muhammad's (peace be upon him) recorded conduct: instructions to his forces not to kill women, children, the elderly, or clergy, not to destroy crops or property, and his largely peaceful, non-vindictive return to Makkah after years of persecution against him and his followers — he pardoned many of the very people who had fought him. This pattern is treated in Islamic scholarship as authoritative guidance on how any permission to fight must be limited."
+    },
+    {
+      "type": "heading",
+      "text": "Naming the real issue: extremist groups don't represent mainstream Islam"
+    },
+    {
+      "type": "text",
+      "text": "Groups that commit violence in Islam's name are near-universally condemned by mainstream Islamic scholarship and institutions worldwide — major fatwa councils, the largest Muslim organisations, and the overwhelming majority of the 1.8+ billion Muslims globally reject them explicitly. It's fair to acknowledge directly that real violence has been committed by people claiming Islamic justification, while also being clear that mainstream Islamic teaching, and the vast majority of Muslims, reject that justification as a distortion, not an application, of the religion."
+    },
+    {
+      "type": "faq",
+      "question": "What's a short way to respond if someone brings this up casually, not looking for a long debate?",
+      "answer": "Something like: \"Actually the Quran says killing one innocent person is like killing all of humanity — the violence you see on the news is being done by a small number of extremists that mainstream Muslim scholars and organisations condemn, not something the religion itself teaches.\" You don't have to resolve someone's whole worldview in one conversation — a short, calm, accurate answer plants something honest, which is often enough."
+    },
+    {
+      "type": "faq",
+      "question": "What if the person pushes back with a specific violent verse they've seen quoted online?",
+      "answer": "Ask what the surrounding verses say, since out-of-context quotation is extremely common in anti-Islam material — most \"violent verse\" claims collapse once the historical context and full passage are read. If you don't know the specific verse's context, it's completely fine to say \"let me look into that properly and get back to you\" rather than guessing."
+    },
+    {
+      "type": "reflection",
+      "question": "Has someone in your life already raised this concern with you? How did that conversation go, and would anything in this lesson change how you'd approach it next time?"
+    }
+  ],
+  "further_reading": [
+    { "label": "What Does Jihad Really Mean?", "reference": "See Understanding Islam section" },
+    { "label": "Seerah: The Life of the Prophet", "reference": "See Stage 4" }
+  ]
+}

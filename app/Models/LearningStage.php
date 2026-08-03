@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-#[Fillable(['slug', 'order', 'title', 'description', 'icon'])]
+#[Fillable(['slug', 'collection_type', 'order', 'title', 'description', 'icon'])]
 class LearningStage extends Model
 {
     public function lessons(): HasMany

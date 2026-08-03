@@ -1,0 +1,71 @@
+{
+  "slug": "halal-earning-business-ethics",
+  "stage_slug": "fiqh-in-daily-life",
+  "order": 2,
+  "title": "Halal Earning and Business Ethics",
+  "summary": "The fiqh behind honest trade: what makes a transaction valid, the two things that invalidate most deals (riba and gharar), and everyday ethics at work.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Trade is the default; interest is the exception"
+    },
+    {
+      "type": "text",
+      "text": "Islamic teaching treats honest trade as a fundamentally good, encouraged activity — the Prophet Muhammad (peace be upon him) himself worked as a merchant. Riba (interest), covered in an earlier lesson, is the best-known prohibition, but it's one of several conditions that make a transaction fiqh-valid, not the only one."
+    },
+    {
+      "type": "quote",
+      "translation": "Allah has permitted trade and has forbidden interest.",
+      "reference": "Quran 2:275 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Gharar: excessive uncertainty"
+    },
+    {
+      "type": "text",
+      "text": "Alongside riba, gharar — excessive, avoidable uncertainty about what's actually being bought or sold — is the other major thing that can invalidate a contract in fiqh. Classic examples include selling fish still in the sea, or a contract so vague neither party really knows what they're agreeing to. The underlying concern is fairness: both parties should reasonably know what they're getting into. Ordinary, everyday commercial risk (a shop not knowing if a product will sell well) is not the kind of uncertainty this rule targets."
+    },
+    {
+      "type": "heading",
+      "text": "What makes a sale valid"
+    },
+    {
+      "type": "text",
+      "text": "Beyond avoiding riba and excessive gharar, a handful of conditions recur across fiqh discussions of trade: both parties must consent freely (no coercion), the item must actually be owned by the seller and be something permissible to sell, and the price and item must be reasonably clear. Selling something already known to be defective without disclosing the defect is considered a form of deception, not a clever deal."
+    },
+    {
+      "type": "heading",
+      "text": "Everyday work ethics, in fiqh terms"
+    },
+    {
+      "type": "text",
+      "text": "Much of this connects directly to the earlier \"Islam at Work\" lesson: honest advertising, accurate weights and measures, paying wages promptly, and not exploiting a position of power over a buyer, employee, or business partner. A hadith describes the Prophet warning a merchant found mixing spoiled produce underneath good produce for sale — the principle (no hiding defects, no misleading a buyer) generalises directly to modern commerce, from online listings to service contracts."
+    },
+    {
+      "type": "quote",
+      "translation": "Whoever cheats us is not one of us.",
+      "reference": "Sahih Muslim (commonly cited in this context)"
+    },
+    {
+      "type": "faq",
+      "question": "Is working in a normal, secular job with a standard employment contract a fiqh problem?",
+      "answer": "No — ordinary employment for permissible work, with a clear contract and fair wage, is squarely within the \"trade is the default, encouraged\" category. Concerns arise around the specific NATURE of the work (e.g. an industry built around something prohibited) rather than the fact of having a job and a contract."
+    },
+    {
+      "type": "faq",
+      "question": "What about buying something on credit, like a phone plan or a store card?",
+      "answer": "This depends heavily on the specific structure — whether interest is charged, how late fees work, and so on — which varies a lot by product and provider. It's worth checking the specific terms against the riba/gharar principles above, or asking a knowledgeable source, rather than assuming all credit arrangements are treated identically."
+    },
+    {
+      "type": "reflection",
+      "question": "Think about a recent purchase or work situation. Applying the fairness/disclosure principles above, was there anything about it you'd now look at differently?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Islam at Work", "reference": "See Stage 3" },
+    { "label": "Islamic Finance Basics", "reference": "See Stage 4" }
+  ]
+}

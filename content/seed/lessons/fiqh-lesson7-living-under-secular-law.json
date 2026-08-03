@@ -1,0 +1,66 @@
+{
+  "slug": "living-under-secular-law",
+  "stage_slug": "fiqh-in-daily-life",
+  "order": 7,
+  "title": "Living Under Secular Law",
+  "summary": "The fiqh framework for Muslims living as a minority under non-Islamic legal systems — obeying the law of the land, civic participation, and where genuine conflicts get resolved.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A whole branch of fiqh for exactly this situation"
+    },
+    {
+      "type": "text",
+      "text": "Most Muslims today live in countries where Islamic law isn't the governing legal system — including large, long-established Muslim minority communities in Europe, North America, Australia, and elsewhere. Scholars have developed a specific area of fiqh for this reality, often called fiqh al-aqalliyyat (the fiqh of minorities), which starts from a simple premise: this is a normal, legitimate way to live as a Muslim, not a compromised or lesser one."
+    },
+    {
+      "type": "heading",
+      "text": "Obeying the law of the land"
+    },
+    {
+      "type": "text",
+      "text": "The general fiqh position is that Muslims should follow the laws of the country they live in — traffic laws, tax law, contracts, employment law — as a matter of both religious obligation (honouring agreements and covenants is itself an Islamic value) and practical necessity. This holds even where a specific local law doesn't match Islamic preference, as long as it doesn't require directly disobeying a clear religious obligation or committing a clear sin."
+    },
+    {
+      "type": "quote",
+      "translation": "O you who have believed, fulfill [all] contracts.",
+      "reference": "Quran 5:1 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Civic participation is generally encouraged"
+    },
+    {
+      "type": "text",
+      "text": "Voting, community involvement, and engaging with local institutions are broadly supported by contemporary scholars as legitimate, often encouraged ways to protect community interests and contribute to the wider society — not something to withdraw from. This connects directly to the \"Living as a Muslim in a Secular Democracy\" lesson in the Understanding Islam section, which goes further into loyalty and belonging specifically."
+    },
+    {
+      "type": "heading",
+      "text": "When something genuinely conflicts"
+    },
+    {
+      "type": "text",
+      "text": "Real conflicts are rarer than they might seem, but they do happen — for example, a workplace requirement that directly clashes with a clear religious obligation. The general approach is: look first for a lawful accommodation (many countries have religious accommodation protections), and treat the situation as a specific fiqh question worth asking a knowledgeable local scholar, rather than assuming either \"the law always wins\" or \"religion always overrides the law.\""
+    },
+    {
+      "type": "faq",
+      "question": "Doesn't this whole topic feed into fears that Muslims want Sharia to eventually replace local law?",
+      "answer": "That fear, and why it's usually a misunderstanding, gets a full lesson of its own (\"What Is Sharia Law, Really?\" in the Understanding Islam section) — the short version relevant here is that fiqh al-aqalliyyat is specifically about how to live faithfully within existing local law, not a strategy for replacing it."
+    },
+    {
+      "type": "faq",
+      "question": "What about laws I personally disagree with but that don't require me to sin?",
+      "answer": "Disagreeing with a law and being religiously obligated to disobey it are different things — Islamic teaching supports peaceful, lawful means (voting, advocacy, civic engagement) to seek change you disagree with, the same as any other citizen, rather than unilateral disobedience."
+    },
+    {
+      "type": "reflection",
+      "question": "Has this lesson changed how you think about the relationship between being a practising Muslim and being an engaged citizen of your country?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Living as a Muslim in a Secular Democracy", "reference": "See Understanding Islam section" },
+    { "label": "What Is Sharia Law, Really?", "reference": "See Understanding Islam section" }
+  ]
+}

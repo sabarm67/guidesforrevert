@@ -7,6 +7,7 @@ import '../features/journal/journal_entry_screen.dart';
 import '../features/journal/journal_list_screen.dart';
 import '../features/learning/learning_roadmap_screen.dart';
 import '../features/learning/lesson_screen.dart';
+import '../features/learning/topic_collection_screen.dart';
 import '../features/onboarding/onboarding_screen.dart';
 import '../features/prayer/prayer_placeholder_screen.dart';
 import 'app_shell.dart';
@@ -32,6 +33,18 @@ GoRouter buildAppRouter({required bool onboardingComplete}) {
       GoRoute(
         path: '/journal/:id',
         builder: (context, state) => JournalEntryScreen(entryId: int.parse(state.pathParameters['id']!)),
+      ),
+      GoRoute(
+        path: '/fiqh',
+        builder: (context, state) =>
+            const TopicCollectionScreen(collectionType: 'fiqh', title: 'Fiqh in Daily Life'),
+      ),
+      GoRoute(
+        path: '/misconceptions',
+        builder: (context, state) => const TopicCollectionScreen(
+          collectionType: 'misconceptions',
+          title: 'Understanding Islam',
+        ),
       ),
       ShellRoute(
         builder: (context, state, child) {

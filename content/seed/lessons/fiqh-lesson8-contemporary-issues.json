@@ -1,0 +1,73 @@
+{
+  "slug": "contemporary-fiqh-issues",
+  "stage_slug": "fiqh-in-daily-life",
+  "order": 8,
+  "title": "Contemporary Fiqh Issues",
+  "summary": "How fiqh approaches genuinely modern questions — insurance, mortgages, vaccines and medical ethics, and organ donation — as an illustration of fiqh as a living discipline.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "New questions, established method"
+    },
+    {
+      "type": "text",
+      "text": "None of the topics in this lesson existed in their current form 1,400 years ago, yet contemporary scholars address them using the same established fiqh method described in the first lesson of this section — grounding new questions in the same core principles (avoiding riba and excessive gharar, preserving life, weighing genuine necessity) rather than inventing new rules from scratch."
+    },
+    {
+      "type": "heading",
+      "text": "Conventional insurance"
+    },
+    {
+      "type": "text",
+      "text": "Standard commercial insurance is problematic for many scholars specifically because of gharar (the uncertain, one-sided nature of the exchange) and sometimes riba, depending on how the insurer invests premiums. Takaful — a cooperative, mutual-insurance model where participants pool contributions to support each other, without a profit-driven insurer on the other side of the bet — is the widely recommended Islamic alternative, and is increasingly available in many countries. Where takaful genuinely isn't accessible, many scholars permit conventional insurance for things legally required (e.g. car insurance) or where the risk of going without would be severe, treating it as a matter of necessity rather than approval."
+    },
+    {
+      "type": "heading",
+      "text": "Mortgages and home financing"
+    },
+    {
+      "type": "text",
+      "text": "Building on the earlier Islamic Finance lesson: standard interest-bearing mortgages are the clearest case of riba discussed anywhere in fiqh. Islamic home finance alternatives (murabahah cost-plus sale, ijarah leasing, or musharakah mutanaqisah — diminishing partnership, where the bank and buyer jointly own the property and the buyer gradually buys out the bank's share) are increasingly available through dedicated Islamic finance providers, and are the preferred route where accessible."
+    },
+    {
+      "type": "heading",
+      "text": "Vaccines and medical ethics"
+    },
+    {
+      "type": "text",
+      "text": "The overwhelming majority of contemporary scholars, including major fatwa councils, permit and often actively encourage vaccination, on the principle that preserving life and health is one of Islam's highest priorities (one of the maqasid, or higher objectives, of Sharia). Concerns some raise about specific ingredients (e.g. gelatin) are generally addressed under the same necessity principle used elsewhere in fiqh — where a genuine health necessity exists and no equivalent alternative is available, the normal restriction is relaxed."
+    },
+    {
+      "type": "quote",
+      "translation": "And whoever saves one [a life] - it is as if he had saved mankind entirely.",
+      "reference": "Quran 5:32 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Organ donation"
+    },
+    {
+      "type": "text",
+      "text": "This remains an area with real scholarly diversity, but a significant and growing body of contemporary fatwa councils permit organ donation, both from the deceased and, in limited cases, living donors, again grounded in the principle of preserving life — provided it doesn't harm the donor unduly and is done with proper consent, not coercion or commercial exploitation."
+    },
+    {
+      "type": "faq",
+      "question": "If scholars still disagree on some of these, how do I decide for myself?",
+      "answer": "For genuinely necessity-driven, health-related questions like vaccines, the strong majority position combined with the clear \"preservation of life\" principle makes this a fairly settled area practically, even if not 100% unanimous. For more genuinely open questions (like specific organ donation scenarios), checking with a knowledgeable local scholar familiar with your exact situation is more useful than trying to resolve it alone from general principles."
+    },
+    {
+      "type": "faq",
+      "question": "Does using a conventional insurance product out of necessity make me a bad Muslim?",
+      "answer": "No — fiqh explicitly builds in room for necessity (darurah) precisely so people aren't stuck choosing between real hardship and a technical violation. Using it while continuing to seek out Islamic alternatives where they become available is the normal, expected approach, not something to feel guilty about."
+    },
+    {
+      "type": "reflection",
+      "question": "Of insurance, mortgages, vaccines, and organ donation, which one is most relevant to a decision you're facing right now — and does this lesson change how you'll approach it?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Islamic Finance Basics", "reference": "See Stage 4" }
+  ]
+}

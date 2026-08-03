@@ -1,0 +1,84 @@
+{
+  "slug": "does-islam-oppress-women",
+  "stage_slug": "addressing-misconceptions",
+  "order": 3,
+  "title": "\"Does Islam Oppress Women?\"",
+  "summary": "What Islamic teaching actually granted women 1,400 years ago, how to separate scripture from cultural practice, and how to talk about this honestly rather than defensively.",
+  "estimated_minutes": 9,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A fair question that deserves an honest answer, not a defensive one"
+    },
+    {
+      "type": "text",
+      "text": "This is one of the most common concerns raised with new Muslim women especially, often from genuine worry rather than hostility. It deserves a real answer, not a dismissive one — and a real answer has to acknowledge that treatment of women varies enormously across Muslim-majority countries and communities, shaped heavily by local culture, politics, and interpretation, not just scripture."
+    },
+    {
+      "type": "heading",
+      "text": "What the Quran granted women in 7th-century Arabia"
+    },
+    {
+      "type": "text",
+      "text": "Compared to the pre-Islamic Arabian context, the Quran was a significant expansion of women's rights: the right to own and independently control property and wealth (including keeping their own name and earnings after marriage), the right to inherit (covered in the Fiqh section, where the reasoning behind the well-known male/female share ratio is addressed directly), the right to consent to marriage, and the explicit prohibition of female infanticide, which was practised in parts of pre-Islamic Arabia."
+    },
+    {
+      "type": "quote",
+      "translation": "And when the girl [who was] buried alive is asked, for what sin she was killed.",
+      "reference": "Quran 81:8-9 (Saheeh International, abridged)"
+    },
+    {
+      "type": "text",
+      "text": "That verse, describing female infanticide as a sin that will be accounted for, is frequently cited specifically because of how starkly it condemns a real historical practice."
+    },
+    {
+      "type": "heading",
+      "text": "Spiritual equality is explicit"
+    },
+    {
+      "type": "text",
+      "text": "The Quran repeatedly affirms that men and women are equally capable of righteousness and equally accountable and rewarded for it — a point some other religious traditions of the same era did not state as directly."
+    },
+    {
+      "type": "quote",
+      "translation": "Indeed, the Muslim men and Muslim women, the believing men and believing women... for them Allah has prepared forgiveness and a great reward.",
+      "reference": "Quran 33:35 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Separating scripture from culture — honestly"
+    },
+    {
+      "type": "text",
+      "text": "Practices genuinely harmful to women that get associated with Islam — forced marriage, denying education, severe restrictions on movement or work, honor-based violence — are, in mainstream Islamic scholarship, cultural practices predating or existing alongside Islam in specific regions, not things Islamic teaching commands. The next lesson addresses honor killing and FGM specifically, since they come up often enough to deserve dedicated treatment. It's more honest, and ultimately more persuasive, to acknowledge that some self-identified Muslim societies genuinely do treat women badly, while being clear that this reflects local culture, politics, and selective interpretation — not a fair reading of the primary sources."
+    },
+    {
+      "type": "heading",
+      "text": "On covering (hijab) specifically"
+    },
+    {
+      "type": "text",
+      "text": "Hijab often comes up in this conversation as presumed evidence of oppression. The fiqh lesson on dress covers this in more depth, but the key point for this conversation: many Muslim women describe choosing to wear hijab as an active expression of faith and identity, not a garment forced on them — while it's also true that in some places, legal or social pressure does force it on women against their will. Both things can be true at once in different contexts; treating hijab as inherently one or the other oversimplifies a genuinely varied reality."
+    },
+    {
+      "type": "faq",
+      "question": "My family thinks I'm giving up freedom by converting. What's a good way to respond?",
+      "answer": "It can help to be concrete rather than abstract: name the specific rights (property, inheritance, consent to marriage, education is religiously encouraged for women too) and be honest that you're choosing this, not being forced into it — your own experience and voice will usually land better than reciting general arguments."
+    },
+    {
+      "type": "faq",
+      "question": "What about specific things like a husband being described as the \"head of the household,\" or needing a guardian's involvement in marriage?",
+      "answer": "These specific fiqh questions have real nuance and legitimate scholarly discussion behind them, more than fits in this lesson — they're worth exploring with a knowledgeable source (a female scholar or teacher, if that's more comfortable) rather than accepting either an overly simplified defensive answer or an overly simplified critical one."
+    },
+    {
+      "type": "reflection",
+      "question": "Has anyone close to you voiced this specific worry? What's one thing from this lesson you'd want them to actually hear?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Inheritance in Islam: The Basics", "reference": "See Fiqh in Daily Life" },
+    { "label": "Food and Dress: The Fiqh in Depth", "reference": "See Fiqh in Daily Life" },
+    { "label": "Honor Killing, FGM, and Culture vs Religion", "reference": "See Understanding Islam section" }
+  ]
+}
