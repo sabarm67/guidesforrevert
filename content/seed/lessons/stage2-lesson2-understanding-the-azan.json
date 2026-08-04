@@ -1,0 +1,122 @@
+{
+  "slug": "understanding-the-azan",
+  "stage_slug": "your-first-week",
+  "order": 2,
+  "title": "Understanding the Azan (Call to Prayer)",
+  "summary": "What the Azan actually is, a phrase-by-phrase breakdown of what it means, and why it's the natural starting point before learning Wudu and Salah.",
+  "estimated_minutes": 7,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "What the Azan is"
+    },
+    {
+      "type": "text",
+      "text": "The Azan is the call to prayer, recited aloud (traditionally by a muezzin, from a mosque) at the start of each of the five daily prayer windows. It serves two purposes at once: announcing that a prayer time has begun, and inviting anyone within earshot to come pray. It's the reason this lesson comes before Wudu and Salah in this app — the Azan is, in a real sense, the signal that starts the whole sequence you're about to learn."
+    },
+    {
+      "type": "heading",
+      "text": "The phrases, in order, with their meaning"
+    },
+    {
+      "type": "text",
+      "text": "The Azan is built from a small number of short, repeated Arabic phrases. Once you recognise them, you'll be able to follow along anywhere in the world, even before you speak any other Arabic."
+    },
+    {
+      "type": "quote",
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "transliteration": "Allahu Akbar (said 4 times)",
+      "translation": "Allah is the Greatest.",
+      "reference": "Opening of the Azan"
+    },
+    {
+      "type": "text",
+      "text": "This opens the Azan the same way it opens and threads through Salah itself — a declaration that nothing else competes with God's greatness, said before anything else."
+    },
+    {
+      "type": "quote",
+      "arabic": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ",
+      "transliteration": "Ash-hadu an la ilaha illallah (said 2 times)",
+      "translation": "I bear witness that there is no god but Allah.",
+      "reference": "The testimony of faith, part 1"
+    },
+    {
+      "type": "quote",
+      "arabic": "أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+      "transliteration": "Ash-hadu anna Muhammadan rasulullah (said 2 times)",
+      "translation": "I bear witness that Muhammad is the Messenger of Allah.",
+      "reference": "The testimony of faith, part 2"
+    },
+    {
+      "type": "text",
+      "text": "Together, these two lines are the Shahadah you met in Stage 1 — the Azan restates the core declaration of faith publicly, out loud, five times a day."
+    },
+    {
+      "type": "quote",
+      "arabic": "حَيَّ عَلَى الصَّلَاةِ",
+      "transliteration": "Hayya 'ala-s-salah (said 2 times)",
+      "translation": "Come to prayer.",
+      "reference": "The invitation, part 1"
+    },
+    {
+      "type": "quote",
+      "arabic": "حَيَّ عَلَى الْفَلَاحِ",
+      "transliteration": "Hayya 'ala-l-falah (said 2 times)",
+      "translation": "Come to success.",
+      "reference": "The invitation, part 2"
+    },
+    {
+      "type": "text",
+      "text": "This pair is the actual invitation — literally calling people toward prayer, and describing that prayer as a path toward \"falah,\" a word meaning success or flourishing in a deep, lasting sense, not just a worldly achievement."
+    },
+    {
+      "type": "text",
+      "text": "For the Fajr (dawn) prayer specifically, one extra line is inserted here, said twice: \"As-salatu khayrun minan nawm\" — \"Prayer is better than sleep.\" It's a gentle, practical reminder aimed at exactly the moment it's needed most."
+    },
+    {
+      "type": "quote",
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "transliteration": "Allahu Akbar (said 2 times)",
+      "translation": "Allah is the Greatest.",
+      "reference": "Closing, part 1"
+    },
+    {
+      "type": "quote",
+      "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ",
+      "transliteration": "La ilaha illallah (said once)",
+      "translation": "There is no god but Allah.",
+      "reference": "Closing, part 2"
+    },
+    {
+      "type": "text",
+      "text": "The Azan closes the way it began: with God's greatness and oneness, bookending the whole call."
+    },
+    {
+      "type": "heading",
+      "text": "What you're expected to do when you hear it"
+    },
+    {
+      "type": "text",
+      "text": "Simply hearing the Azan doesn't obligate you to drop everything that instant — the prayer window it announces typically lasts a few hours. Many Muslims pause briefly to quietly repeat the phrases along with the muezzin as a form of response, and it's traditional to recite a short dua afterward. Beyond that, it's simply your cue that it's time to plan for Wudu and Salah before the window closes — the very next two lessons."
+    },
+    {
+      "type": "faq",
+      "question": "Why does the Azan sound different in different countries or mosques?",
+      "answer": "The words are the same everywhere (with only the Fajr addition and minor regional repetition-count differences between schools of thought), but the melody, pacing, and the reciter's individual voice vary a lot — there's no single \"official\" musical rendition, which is part of why the Azan can sound quite different from one mosque or country to another while saying exactly the same thing."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to physically go to a mosque every time I hear the Azan?",
+      "answer": "No — praying at a mosque is especially encouraged and rewarded, particularly for men, but praying wherever you are (home, work, outdoors) is fully valid for each of the five daily prayers. The Azan is a reminder of the time, not a summons requiring your physical presence at a mosque every single time."
+    },
+    {
+      "type": "reflection",
+      "question": "Have you already heard the Azan — recorded, at a mosque, or in a video — before starting this lesson? Now that you know what each phrase means, do you think you'll hear it differently next time?"
+    }
+  ],
+  "further_reading": [
+    { "label": "The Shahadah: The Declaration of Faith", "reference": "See Stage 1" },
+    { "label": "Learning Wudu", "reference": "See Stage 2, next lesson" }
+  ]
+}

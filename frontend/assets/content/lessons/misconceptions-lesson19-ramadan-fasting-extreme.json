@@ -1,0 +1,70 @@
+{
+  "slug": "is-ramadan-fasting-extreme",
+  "stage_slug": "addressing-misconceptions",
+  "order": 19,
+  "title": "\"Isn't Fasting All Month Extreme or Dangerous?\"",
+  "summary": "Why Ramadan's fast is structured the way it is, the built-in exemptions for health and safety, and how to handle workplace or family concern about it.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A concern usually rooted in not knowing the actual structure"
+    },
+    {
+      "type": "text",
+      "text": "Family, friends, or colleagues sometimes react with real alarm to the idea of fasting for a month — picturing complete deprivation of food and water for 30 days straight. Understanding the actual daily structure, and the built-in safety exemptions, tends to resolve most of this concern quickly."
+    },
+    {
+      "type": "heading",
+      "text": "How the daily fast actually works"
+    },
+    {
+      "type": "text",
+      "text": "The fast runs from dawn (Fajr) to sunset (Maghrib) each day, not continuously for the whole month — food and water are fully permitted every night, including a pre-dawn meal (suhoor) and the sunset meal breaking the fast (iftar). Depending on location and season, the daylight fasting window ranges from roughly 10 to 18 hours; it is a genuine daily discipline, but with full nightly nutrition and hydration, not a month-long deprivation."
+    },
+    {
+      "type": "quote",
+      "translation": "And eat and drink until the white thread of dawn becomes distinct to you from the black thread [of night]. Then complete the fast until the sunset.",
+      "reference": "Quran 2:187 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Real, built-in exemptions — this is not \"no excuses\""
+    },
+    {
+      "type": "text",
+      "text": "The Quran explicitly exempts people who are ill, travelling, pregnant, breastfeeding, menstruating, elderly, or otherwise unable to fast safely — with missed days made up later or, where that's not possible, compensated through feeding those in need (fidyah). This is a structured, sources-based accommodation system, not an informal workaround Muslims invented to soften the practice."
+    },
+    {
+      "type": "quote",
+      "translation": "Allah intends for you ease and does not intend for you hardship.",
+      "reference": "Quran 2:185 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Medical research on time-restricted eating"
+    },
+    {
+      "type": "text",
+      "text": "It's worth knowing that structured daily fasting windows, similar in shape to Ramadan's pattern, have become a mainstream area of nutritional science research (often called time-restricted eating or intermittent fasting) with a range of studied metabolic effects — this doesn't mean Ramadan fasting is undertaken primarily for health reasons, but it's a useful, credible point to raise with someone assuming the practice is simply reckless."
+    },
+    {
+      "type": "faq",
+      "question": "How do I explain this to a worried employer or colleague?",
+      "answer": "Being upfront and specific tends to work well: \"I eat before dawn and after sunset, so it's not continuous — I might just need a bit more flexibility around energy levels some afternoons, especially in the first few days as my body adjusts.\" Most workplaces are accommodating once they understand the actual structure rather than picturing total deprivation."
+    },
+    {
+      "type": "faq",
+      "question": "Is it actually safe for someone new to fasting, especially in a long-daylight-hours country?",
+      "answer": "For most healthy adults, yes, though the adjustment period (especially the first few days) can involve real fatigue, headaches, or low energy as your body adapts — pacing yourself, staying well hydrated during the eating window, and using the built-in exemptions if you have a genuine health condition are all expected, sensible parts of the practice, not failures."
+    },
+    {
+      "type": "reflection",
+      "question": "If you haven't experienced a full Ramadan yet, is there a specific concern (about work, health, or family reaction) from this lesson you'd want to plan ahead for?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Making Daily Prayers a Habit", "reference": "See Stage 3" }
+  ]
+}

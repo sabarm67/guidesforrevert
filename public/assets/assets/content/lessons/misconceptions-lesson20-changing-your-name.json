@@ -1,0 +1,65 @@
+{
+  "slug": "did-you-change-your-name-reject-identity",
+  "stage_slug": "addressing-misconceptions",
+  "order": 20,
+  "title": "\"Did You Change Your Name Because You Reject Your Old Identity?\"",
+  "summary": "Why some new Muslims adopt an Arabic or Islamic name and others don't, what's actually required versus optional, and how to reassure family who take a name change personally.",
+  "estimated_minutes": 5,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A change that can feel personal to the people who named you"
+    },
+    {
+      "type": "text",
+      "text": "If you've taken or are considering a new name after becoming Muslim, family members — especially parents — can experience this as a rejection of the identity, heritage, or the name they specifically chose for you. This lesson is about what's actually required (very little) and how to navigate the choice thoughtfully."
+    },
+    {
+      "type": "heading",
+      "text": "There is no general requirement to change your name"
+    },
+    {
+      "type": "text",
+      "text": "Taking a new name upon becoming Muslim is a common cultural practice in many convert communities, but it is not a religious requirement in itself. Many Muslims — reverts and born Muslims alike — keep names with no Arabic or Islamic origin at all; a name's meaning and the character of the person carrying it matter far more in Islamic teaching than its linguistic origin."
+    },
+    {
+      "type": "heading",
+      "text": "The one real exception: names with prohibited meanings"
+    },
+    {
+      "type": "text",
+      "text": "The specific, narrow guidance on names concerns meaning, not origin: a name that means something explicitly linked to worshipping something other than God, or that carries a clearly negative or degrading meaning, is discouraged — this would apply regardless of whether the name is Arabic, English, or any other language. For the overwhelming majority of everyday names in any language, this simply doesn't apply."
+    },
+    {
+      "type": "quote",
+      "translation": "You will be called on the Day of Resurrection by your names and the names of your fathers, so make your names good.",
+      "reference": "Sunan Abi Dawud (commonly cited on this topic)"
+    },
+    {
+      "type": "heading",
+      "text": "Why some new Muslims choose to adopt a new name anyway"
+    },
+    {
+      "type": "text",
+      "text": "Reasons vary widely and are entirely personal: a symbolic marker of a significant life change, adopting the name of an admired Prophet or Companion, an existing name close in sound or meaning, or, less positively, feeling implicit community pressure to \"sound more Muslim.\" That last pattern is worth naming honestly — some converts describe pressure toward a name change that goes beyond anything actually required, and it's fine, and fully valid, to decline it if it doesn't feel right for you."
+    },
+    {
+      "type": "faq",
+      "question": "How can I reassure a parent who's taking my name change personally?",
+      "answer": "Being direct and concrete tends to help: explain clearly that it's a personal, optional choice, not a religious requirement, and that it doesn't erase or reject the name (and the love behind it) they gave you — if you're keeping your birth name, saying so plainly often resolves the worry immediately."
+    },
+    {
+      "type": "faq",
+      "question": "Can I legally change my name, and does that affect my birth name's meaning to my family?",
+      "answer": "Many converts choose to use a new name informally or as a middle name within the Muslim community while keeping their legal name unchanged, precisely to avoid unnecessary friction with family, employers, or official documents — a full legal change is a separate, bigger decision worth taking time over, not something expected immediately after converting."
+    },
+    {
+      "type": "reflection",
+      "question": "Have you thought about whether a name change is something you want? What's actually driving that decision for you — personal meaning, or a sense of external expectation?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Family in Islam", "reference": "See Stage 3" }
+  ]
+}

@@ -94,6 +94,13 @@ class _LessonBlock extends StatelessWidget {
                     textAlign: TextAlign.right,
                     style: AppTypography.arabic(colors),
                   ),
+                if (block['transliteration'] != null) ...[
+                  const SizedBox(height: AppSpacing.sm),
+                  Text(
+                    block['transliteration'] as String,
+                    style: textTheme.bodyMedium?.copyWith(fontStyle: FontStyle.italic),
+                  ),
+                ],
                 const SizedBox(height: AppSpacing.sm),
                 Text(block['translation'] as String? ?? '', style: textTheme.bodyLarge),
                 if (block['reference'] != null) ...[

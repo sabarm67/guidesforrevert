@@ -1,0 +1,74 @@
+{
+  "slug": "isnt-the-quran-a-dangerous-book",
+  "stage_slug": "addressing-misconceptions",
+  "order": 12,
+  "title": "\"Isn't the Quran a Dangerous, Extremist Book?\"",
+  "summary": "Addressing the fear that the Quran itself is inherently violent or dangerous — including the honest, non-defensive way to talk about verses that sound alarming out of context.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A fear aimed at the book itself, not just believers"
+    },
+    {
+      "type": "text",
+      "text": "Beyond fears about Muslims as people (covered in earlier lessons), some people fear the Quran specifically — a book they've heard described as inherently violent, censored in some countries, or associated with radicalisation material. As a new Muslim now reading it yourself, it's worth being able to speak to this directly and honestly."
+    },
+    {
+      "type": "heading",
+      "text": "The out-of-context quotation problem is real, and worth acknowledging"
+    },
+    {
+      "type": "text",
+      "text": "Anti-Islam material frequently circulates short verse fragments stripped of their surrounding context, historical occasion, and the qualifying conditions that appear nearby — a well-documented pattern also raised in the earlier violence lesson. This isn't a uniquely Islamic vulnerability: almost any lengthy religious text, quoted in fragments without context, can be made to sound alarming (this is regularly demonstrated with selectively-quoted passages from other scriptures too). Acknowledging that this tactic exists and is genuinely used against the Quran, rather than denying it happens, tends to land as more credible than a blanket dismissal."
+    },
+    {
+      "type": "heading",
+      "text": "What's actually in the Quran, in proportion"
+    },
+    {
+      "type": "text",
+      "text": "The overwhelming majority of the Quran's 6,000+ verses concern belief in God, worship, personal ethics, stories of earlier prophets, guidance on daily conduct, and description of the afterlife — not conflict. The handful of verses addressing fighting, discussed in the earlier violence lesson, are specific, conditioned, and historically situated, not a general theme running through the text."
+    },
+    {
+      "type": "quote",
+      "translation": "This is the Book about which there is no doubt, a guidance for those conscious of Allah.",
+      "reference": "Quran 2:2 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Being honest about genuinely difficult verses"
+    },
+    {
+      "type": "text",
+      "text": "It's more credible, not less, to acknowledge that some verses do require real historical and linguistic context to understand properly — that's true of the Quran the same way it's true of large parts of the Hebrew Bible or other ancient scripture. The honest response to a difficult verse is to actually look into its context (occasion of revelation, surrounding verses, classical tafsir) rather than either pretending no verse ever sounds difficult in isolation, or conceding the worst possible reading is the correct one."
+    },
+    {
+      "type": "heading",
+      "text": "Why some countries have restricted or banned it — briefly"
+    },
+    {
+      "type": "text",
+      "text": "Where the Quran or its distribution has been restricted in specific countries, this is generally a political or security-policy decision by that particular government, not evidence about the text's actual content — the same governments in question often restrict a range of religious or political material for reasons unrelated to what's actually written in any one of them."
+    },
+    {
+      "type": "faq",
+      "question": "What's a good way to respond if someone shows me a scary-sounding verse they found online?",
+      "answer": "Ask to see the surrounding verses and, ideally, look up the verse's historical context (many free tafsir resources online cover \"occasion of revelation\") together rather than arguing from memory — showing the fuller picture directly is far more convincing than asserting it exists."
+    },
+    {
+      "type": "faq",
+      "question": "Is it okay if I personally still find a specific verse difficult to understand, even as a Muslim?",
+      "answer": "Yes — sitting with a genuinely difficult verse, researching its context, and asking a knowledgeable teacher is a completely normal part of engaging seriously with scripture, not a sign of weak faith. Scholars themselves have written entire books wrestling with the proper understanding of specific verses."
+    },
+    {
+      "type": "reflection",
+      "question": "Has anyone shown you an out-of-context Quran verse before? Looking back, do you now know where you'd go to check its actual context?"
+    }
+  ],
+  "further_reading": [
+    { "label": "\"Is Islam a Violent Religion?\"", "reference": "See Understanding Islam section" },
+    { "label": "What Is the Quran?", "reference": "See Stage 1" }
+  ]
+}

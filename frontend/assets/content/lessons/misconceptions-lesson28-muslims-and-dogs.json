@@ -1,0 +1,60 @@
+{
+  "slug": "muslims-and-dogs",
+  "stage_slug": "addressing-misconceptions",
+  "order": 28,
+  "title": "Muslims and Dogs: Culture, Not Absolute Prohibition",
+  "summary": "Why some Muslims avoid contact with dogs, what fiqh actually says versus what's cultural habit, and how to navigate this if you (or your family) have a beloved pet dog.",
+  "estimated_minutes": 5,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A very concrete, personal question for many converts"
+    },
+    {
+      "type": "text",
+      "text": "If you or your family have a dog, this question can feel urgent and personal rather than abstract: does becoming Muslim mean giving up your pet? The short answer is generally no, though the actual fiqh picture has real nuance worth understanding."
+    },
+    {
+      "type": "heading",
+      "text": "There's no Quranic prohibition on owning or keeping dogs"
+    },
+    {
+      "type": "text",
+      "text": "Dogs are not described as prohibited animals in the Quran, and hadith literature explicitly permits keeping dogs for specific practical purposes — hunting, guarding property or livestock, and (in contemporary scholarly application) service and assistance roles. This is the basis mainstream scholars use to permit working and service dogs without dispute."
+    },
+    {
+      "type": "heading",
+      "text": "Where the actual fiqh caution comes from"
+    },
+    {
+      "type": "text",
+      "text": "The specific fiqh concern is about a dog's saliva, considered a source of ritual impurity (najasah, covered in the Stage 2 purity lesson) requiring a specific washing process if it touches skin, clothing, or prayer space — not about the animal's presence generally. Scholars differ on how far this extends: some hold it applies narrowly to saliva contact only, others take a broader precautionary view about dogs in the home generally, particularly around areas used for prayer."
+    },
+    {
+      "type": "heading",
+      "text": "Cultural habit has amplified this well beyond the narrow fiqh point"
+    },
+    {
+      "type": "text",
+      "text": "In much of the Muslim-majority world, keeping dogs as indoor companion pets is culturally uncommon for reasons that blend the fiqh caution above with independent regional custom — this has, over generations, hardened in some communities into an assumption that dogs are simply prohibited outright, which goes beyond what the actual textual sources say. It's a useful, honest example of how cultural practice and religious ruling can blur together over time, similar in structure to points raised elsewhere in this collection."
+    },
+    {
+      "type": "faq",
+      "question": "Do I have to give up my pet dog now that I'm Muslim?",
+      "answer": "Most contemporary scholars do not require this — many hold that keeping a dog as a pet is permissible, particularly if reasonable care is taken around prayer areas and washing after direct saliva contact when praying. If this matters to you personally, it's worth asking a knowledgeable local scholar directly, since positions do genuinely vary."
+    },
+    {
+      "type": "faq",
+      "question": "Is it true some Muslims believe angels won't enter a home with a dog in it?",
+      "answer": "This traces to a real hadith, but its precise scope (all dogs everywhere, or specifically certain historical contexts/purposes) is genuinely debated among scholars, similar to the broader question above — it's often cited to support caution around keeping dogs, though it isn't universally read as an outright ban."
+    },
+    {
+      "type": "reflection",
+      "question": "If this is personally relevant to you, has this lesson changed how you'll approach the question — either with your own pet or in a conversation with family?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Cleanliness and Purity (Taharah)", "reference": "See Stage 2" }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "entering-the-mosque",
+  "stage_slug": "your-first-week",
+  "order": 5,
+  "title": "How to Enter a Mosque",
+  "summary": "What to expect and how to behave on your first visit to a mosque, plus the simple dua said when entering.",
+  "estimated_minutes": 6,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "It's more welcoming than it might feel from the outside"
+    },
+    {
+      "type": "text",
+      "text": "Walking into a mosque for the first time can feel intimidating — new customs, an unfamiliar layout, and worry about doing something wrong. In practice, mosques are used to welcoming new Muslims and visitors, and small mistakes are met with patience, not judgment. This lesson covers the practical basics so the experience feels less unfamiliar."
+    },
+    {
+      "type": "heading",
+      "text": "Before you go in"
+    },
+    {
+      "type": "text",
+      "text": "Dress modestly — for men, covering at least from navel to knee at a minimum, though loose, modest clothing generally is the norm; for women, loose clothing and a headscarf are standard practice in the prayer hall. Shoes come off before entering the carpeted prayer area — there's almost always a shelf or rack near the entrance for this. It's traditional to enter with the right foot first, and to say a short dua on the way in."
+    },
+    {
+      "type": "quote",
+      "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "transliteration": "Allahumma-ftah li abwaba rahmatik",
+      "translation": "O Allah, open the gates of Your mercy for me.",
+      "reference": "Sahih Muslim"
+    },
+    {
+      "type": "heading",
+      "text": "What the space usually looks like"
+    },
+    {
+      "type": "text",
+      "text": "Most mosques have a main prayer hall facing the direction of the Kaaba in Makkah (the qiblah), often marked by a small niche in the wall (mihrab). Men and women typically pray in separate areas — sometimes side by side with a divider, sometimes on different floors — rather than in mixed rows. There's usually a separate area or room with taps for Wudu. During prayer times, people line up in straight rows shoulder-to-shoulder behind a prayer leader (imam); outside of prayer times, it's normal to see people sitting, reading Quran, or quietly talking."
+    },
+    {
+      "type": "heading",
+      "text": "General etiquette"
+    },
+    {
+      "type": "text",
+      "text": "Keep your voice low, silence your phone, and avoid walking directly in front of someone who is actively praying. If you arrive and a prayer is already happening, it's fine to quietly join the back of the row even partway through, or wait for it to finish. Most mosques are genuinely happy to have visitors ask questions — looking for someone at the entrance or after prayer is a normal, low-pressure way to introduce yourself."
+    },
+    {
+      "type": "faq",
+      "question": "Can non-Muslims or curious visitors enter a mosque?",
+      "answer": "In most of the world, yes — mosques generally welcome respectful visitors of any faith, and many even offer open days or tours. The two mosques in Makkah and Madinah in Saudi Arabia are a well-known exception, restricted to Muslims only; that restriction does not apply to mosques elsewhere."
+    },
+    {
+      "type": "faq",
+      "question": "What if I don't know anyone at the mosque yet?",
+      "answer": "This is one of the most common worries for new Muslims, and completely normal. Arriving a little before a prayer time and simply introducing yourself to whoever is nearby — or asking to speak to the imam or a mosque volunteer — is usually all it takes. Many mosques also run dedicated new-Muslim or convert support groups; this app's Community section (coming soon) is intended to help you find them."
+    },
+    {
+      "type": "reflection",
+      "question": "What's the one thing about visiting a mosque for the first time that feels most uncertain to you right now? Naming it can make it easier to ask about later."
+    }
+  ],
+  "further_reading": [
+    { "label": "Islamic Greetings", "reference": "See Stage 2, next lesson" },
+    { "label": "New Muslim Survival Guide: Finding Muslim Friends", "reference": "See Survival Guide section (future content)" }
+  ]
+}

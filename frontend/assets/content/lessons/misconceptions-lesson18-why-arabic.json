@@ -1,0 +1,66 @@
+{
+  "slug": "why-does-quran-have-to-be-arabic",
+  "stage_slug": "addressing-misconceptions",
+  "order": 18,
+  "title": "\"Why Does the Quran Have to Be in Arabic? Isn't That Exclusionary?\"",
+  "summary": "Why the Quran is recited in Arabic regardless of a Muslim's native language, and why this is treated as preserving meaning rather than gatekeeping access.",
+  "estimated_minutes": 5,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A fair question about a real practice"
+    },
+    {
+      "type": "text",
+      "text": "It's true that ritual recitation in Salah, and the Quran's own text, are specifically in Arabic — including for the roughly 80% of the world's Muslims who aren't native Arabic speakers. Understanding why helps answer the fair question of whether this creates an unfair barrier."
+    },
+    {
+      "type": "heading",
+      "text": "The Quran describes itself as revealed in Arabic"
+    },
+    {
+      "type": "quote",
+      "translation": "Indeed, We have sent it down as an Arabic Quran that you might understand.",
+      "reference": "Quran 12:2 (Saheeh International)"
+    },
+    {
+      "type": "text",
+      "text": "Islamic teaching holds that the Quran's specific Arabic wording — not just its general meaning — is part of the revelation itself, which is why a translation, however accurate, is considered an interpretation of the Quran's meaning rather than \"the Quran\" in the full technical sense. This is also why the version of the Fatihah and other Quran passages recited within Salah is specifically the Arabic, even for someone who doesn't yet understand it."
+    },
+    {
+      "type": "heading",
+      "text": "Preserving meaning across translation loss, not gatekeeping"
+    },
+    {
+      "type": "text",
+      "text": "Any translation between languages loses some nuance — this is a general linguistic reality, not unique to Arabic. Keeping the ritual recitation and the primary text anchored to one fixed language is understood as preserving a stable, unchanging core across 1,400 years and every culture Islam has spread to, rather than allowing meaning to drift across countless retranslations over centuries. It's the same underlying logic, in a different domain, that keeps a nation's founding legal documents in their original language even when most citizens read translations or summaries."
+    },
+    {
+      "type": "heading",
+      "text": "This doesn't mean understanding is optional or gatekept"
+    },
+    {
+      "type": "text",
+      "text": "Translations, transliterations, and tafsir (commentary) in virtually every major world language are extremely widely available and actively encouraged — as this app's own Quran section demonstrates. Understanding what you're reciting is considered genuinely important, which is exactly why learning at least the meaning (even before fluent Arabic) is such a common early goal for new Muslims, covered in the Stage 2 lesson on Arabic pronunciation."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to become fluent in Arabic to be a properly practising Muslim?",
+      "answer": "No — understanding the meaning of what you recite (via translation) and correctly pronouncing the specific fixed phrases used in Salah and short surahs is what's actually needed for valid practice; full fluency is a separate, admirable, optional goal many Muslims pursue over years, not a requirement to pray validly from day one."
+    },
+    {
+      "type": "faq",
+      "question": "Isn't it strange to recite words you don't yet fully understand?",
+      "answer": "It can feel that way at first, but it's a common early-stage experience most new Muslims describe moving through as they learn the meanings gradually — this app's transliteration and translation tools throughout the Quran and Dua sections exist specifically to close that gap over time rather than leave you reciting blindly forever."
+    },
+    {
+      "type": "reflection",
+      "question": "How is your own progress with Arabic pronunciation and understanding going so far? Is there a specific phrase you'd like to understand better?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Simple Arabic Pronunciation", "reference": "See Stage 2" },
+    { "label": "What Is the Quran?", "reference": "See Stage 1" }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "why-pray-facing-mecca",
+  "stage_slug": "addressing-misconceptions",
+  "order": 16,
+  "title": "\"Why Pray Facing Mecca? Isn't That Idol Worship?\"",
+  "summary": "What the Qibla (prayer direction) actually represents, and why facing a physical direction isn't the same as worshipping the thing you're facing.",
+  "estimated_minutes": 5,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A question that misunderstands what \"facing\" means here"
+    },
+    {
+      "type": "text",
+      "text": "Occasionally this comes up as a genuine, sincere confusion: if Muslims face the Kaaba in Mecca during prayer, doesn't that mean they're worshipping the building or the direction itself? The short answer is no, and the reasoning is worth understanding clearly."
+    },
+    {
+      "type": "heading",
+      "text": "The Kaaba is a direction marker, not an object of worship"
+    },
+    {
+      "type": "text",
+      "text": "The Qibla (prayer direction toward the Kaaba) functions the way a shared reference point functions for any group activity — it orients a global community toward a single, unified direction during a shared act, creating a sense of collective worship even though Muslims are praying simultaneously all over the world, in every possible physical direction relative to each other. Someone in Indonesia faces roughly west; someone in Morocco faces roughly east; someone in the US faces roughly northeast. The Kaaba itself is an empty, cube-shaped structure — there's no idol, image, or object inside it that's being venerated, and it hasn't contained one since the Prophet Muhammad (peace be upon him) removed the idols that were kept there before Islam."
+    },
+    {
+      "type": "quote",
+      "translation": "To Allah belong the east and the west. So wherever you turn, there is the Face of Allah.",
+      "reference": "Quran 2:115 (Saheeh International, abridged)"
+    },
+    {
+      "type": "text",
+      "text": "This verse is directly relevant: it explicitly states that God isn't confined to any direction, which is precisely why facing a specific direction during prayer isn't a claim about where God \"is.\""
+    },
+    {
+      "type": "heading",
+      "text": "A useful comparison"
+    },
+    {
+      "type": "text",
+      "text": "Standing to sing a national anthem while facing a flag doesn't mean the flag itself is being worshipped — it's a shared point of orientation during a collective, meaningful act. The Qibla functions similarly: a practical, unifying convention, not the target of worship itself, which remains directed at God alone throughout Salah."
+    },
+    {
+      "type": "faq",
+      "question": "Why Mecca specifically, rather than, say, Jerusalem?",
+      "answer": "Muslims did originally pray facing Jerusalem in the earliest period of Islam; the direction was later changed to Mecca, an event described directly in the Quran, tied to the Kaaba's significance as the structure Abraham and Ishmael are described as having built as the first house of worship dedicated to God alone."
+    },
+    {
+      "type": "faq",
+      "question": "What if I genuinely don't know which direction is Mecca from where I am?",
+      "answer": "Any reliable Qibla-direction app or compass tool (widely available, often built into prayer-time apps) solves this instantly using your location — and if you happen to be off by a few degrees despite a sincere effort to determine the direction, that's not something that invalidates the prayer."
+    },
+    {
+      "type": "reflection",
+      "question": "Did the flag/anthem comparison help clarify the difference between \"facing\" and \"worshipping\"? Can you think of another everyday comparison that might work as well?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Learning Salah (Getting Started)", "reference": "See Stage 2" }
+  ]
+}

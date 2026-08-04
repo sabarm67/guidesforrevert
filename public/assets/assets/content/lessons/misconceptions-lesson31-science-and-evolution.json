@@ -1,0 +1,65 @@
+{
+  "slug": "does-islam-reject-science-evolution",
+  "stage_slug": "addressing-misconceptions",
+  "order": 31,
+  "title": "Does Islam Reject Science and Evolution?",
+  "summary": "Islam's historical relationship with science, why it doesn't require rejecting the scientific method broadly, and an honest look at the genuinely mixed Muslim views specifically on evolution.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A stereotype at odds with Islamic history itself"
+    },
+    {
+      "type": "text",
+      "text": "The idea that Islam is broadly anti-science sits oddly next to the Islamic Golden Age, covered in Stage 4 — a period during which Muslim scholars made major, foundational contributions to mathematics, medicine, astronomy, and the scientific method itself. This lesson addresses the stereotype directly, and then honestly addresses the one area where it has some real basis: evolution specifically."
+    },
+    {
+      "type": "heading",
+      "text": "Faith and empirical inquiry are not generally in tension"
+    },
+    {
+      "type": "quote",
+      "translation": "Say, \"Travel through the land and observe how He began creation.\"",
+      "reference": "Quran 29:20 (Saheeh International, abridged)"
+    },
+    {
+      "type": "text",
+      "text": "Verses like this one are commonly cited by Muslim scientists and scholars as direct religious encouragement toward observation and empirical study of the natural world — a foundational religious motivation, historically, for exactly the kind of scientific inquiry that produced the Golden Age's achievements. The overwhelming majority of scientific fields — physics, chemistry, medicine, engineering, most of biology — present no theological tension for mainstream Islamic scholarship at all, and are actively pursued by religious and secular Muslims alike without controversy."
+    },
+    {
+      "type": "heading",
+      "text": "Evolution specifically: a genuinely mixed picture, honestly stated"
+    },
+    {
+      "type": "text",
+      "text": "This is the one area where the stereotype has real substance, and it deserves an honest answer rather than a simplified one. Muslim scholarly and popular opinion on evolution is genuinely diverse: some scholars and scientists accept evolutionary biology broadly while maintaining that the human soul and Adam's specific, direct creation are distinct theological matters outside science's scope; others reject aspects or all of evolutionary theory, particularly regarding human origins specifically, citing the Quran's account of Adam's direct creation; and a range of positions exist between these. Survey data on Muslim acceptance of evolution varies significantly by country and education level, similar to variation seen among adherents of other religious traditions on this same question."
+    },
+    {
+      "type": "heading",
+      "text": "Where the Quranic account and scientific theory specifically diverge"
+    },
+    {
+      "type": "text",
+      "text": "The Quran describes Adam as directly created by God, rather than descended through a gradual evolutionary process — this is the specific point of tension for scholars who reject human evolution, not a rejection of the broader scientific method or of evolution in non-human species, which draws far less controversy even among more conservative positions."
+    },
+    {
+      "type": "faq",
+      "question": "Is there one official Islamic position on evolution I should adopt?",
+      "answer": "No single, universally agreed position exists across mainstream Islamic scholarship — this is a genuine area of ongoing theological and scientific discussion, and different sincere, knowledgeable Muslims land in different places on it, similar to variation among Jews and Christians on the same question."
+    },
+    {
+      "type": "faq",
+      "question": "Can I study or work in evolutionary biology as a practising Muslim?",
+      "answer": "Yes — many Muslim scientists do exactly this, including some who hold the view that human origins specifically remain a distinct theological question while engaging fully and rigorously with evolutionary science professionally in every other respect."
+    },
+    {
+      "type": "reflection",
+      "question": "Where do you currently land on this question, and is it something you feel needs resolving right now, or comfortable sitting with as an open question for the time being?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Islamic Civilisation and Its Contributions", "reference": "See Stage 4" }
+  ]
+}

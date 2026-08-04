@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 5;
+  static const currentContentVersion = 6;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -84,12 +84,13 @@ class SeedImporter {
       'assets/content/lessons/stage1-lesson3-what-is-the-quran.json',
       'assets/content/lessons/stage1-lesson4-who-was-muhammad.json',
       'assets/content/lessons/stage2-lesson1-cleanliness-and-purity.json',
-      'assets/content/lessons/stage2-lesson2-learning-wudu.json',
-      'assets/content/lessons/stage2-lesson3-learning-salah.json',
-      'assets/content/lessons/stage2-lesson4-entering-the-mosque.json',
-      'assets/content/lessons/stage2-lesson5-islamic-greetings.json',
-      'assets/content/lessons/stage2-lesson6-arabic-pronunciation.json',
-      'assets/content/lessons/stage2-lesson7-basic-duas-for-daily-life.json',
+      'assets/content/lessons/stage2-lesson2-understanding-the-azan.json',
+      'assets/content/lessons/stage2-lesson3-learning-wudu.json',
+      'assets/content/lessons/stage2-lesson4-learning-salah.json',
+      'assets/content/lessons/stage2-lesson5-entering-the-mosque.json',
+      'assets/content/lessons/stage2-lesson6-islamic-greetings.json',
+      'assets/content/lessons/stage2-lesson7-arabic-pronunciation.json',
+      'assets/content/lessons/stage2-lesson8-basic-duas-for-daily-life.json',
       'assets/content/lessons/stage3-lesson1-making-daily-prayers-a-habit.json',
       'assets/content/lessons/stage3-lesson2-engaging-with-the-quran-daily.json',
       'assets/content/lessons/stage3-lesson3-dhikr-remembrance-of-allah.json',
@@ -125,6 +126,28 @@ class SeedImporter {
       'assets/content/lessons/misconceptions-lesson7-polygamy-context-rules.json',
       'assets/content/lessons/misconceptions-lesson8-honor-killing-fgm-culture-vs-religion.json',
       'assets/content/lessons/misconceptions-lesson9-secular-democracy.json',
+      'assets/content/lessons/misconceptions-lesson10-fear-of-hearing-azan.json',
+      'assets/content/lessons/misconceptions-lesson11-praying-in-public.json',
+      'assets/content/lessons/misconceptions-lesson12-fear-of-the-quran.json',
+      'assets/content/lessons/misconceptions-lesson13-halal-slaughter-cruelty.json',
+      'assets/content/lessons/misconceptions-lesson14-hijab-niqab-security-fears.json',
+      'assets/content/lessons/misconceptions-lesson15-why-beards.json',
+      'assets/content/lessons/misconceptions-lesson16-facing-mecca-idol-worship.json',
+      'assets/content/lessons/misconceptions-lesson17-mosques-recruiting-grounds.json',
+      'assets/content/lessons/misconceptions-lesson18-why-arabic.json',
+      'assets/content/lessons/misconceptions-lesson19-ramadan-fasting-extreme.json',
+      'assets/content/lessons/misconceptions-lesson20-changing-your-name.json',
+      'assets/content/lessons/misconceptions-lesson21-cutting-off-non-muslim-friends.json',
+      'assets/content/lessons/misconceptions-lesson22-islam-view-of-jesus.json',
+      'assets/content/lessons/misconceptions-lesson23-view-of-bible-torah.json',
+      'assets/content/lessons/misconceptions-lesson24-ummah-divided-loyalty.json',
+      'assets/content/lessons/misconceptions-lesson25-dawah-aggressive-proselytizing.json',
+      'assets/content/lessons/misconceptions-lesson26-apostasy-leaving-islam.json',
+      'assets/content/lessons/misconceptions-lesson27-child-marriage.json',
+      'assets/content/lessons/misconceptions-lesson28-muslims-and-dogs.json',
+      'assets/content/lessons/misconceptions-lesson29-art-and-images.json',
+      'assets/content/lessons/misconceptions-lesson30-slavery-in-islamic-history.json',
+      'assets/content/lessons/misconceptions-lesson31-science-and-evolution.json',
     ];
 
     for (final path in lessonAssetPaths) {

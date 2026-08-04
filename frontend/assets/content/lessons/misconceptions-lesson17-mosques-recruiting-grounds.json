@@ -1,0 +1,61 @@
+{
+  "slug": "are-mosques-recruiting-grounds",
+  "stage_slug": "addressing-misconceptions",
+  "order": 17,
+  "title": "\"Are Mosques Recruiting Grounds for Extremism?\"",
+  "summary": "What actually happens inside a mosque, why the \"secret recruitment\" narrative doesn't match ordinary mosque life, and why extremist groups actually tend to avoid mainstream mosques.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A serious fear worth a direct, factual answer"
+    },
+    {
+      "type": "text",
+      "text": "This is one of the more consequential misconceptions, since it can make family members genuinely afraid of you attending your local mosque. It deserves a clear, specific answer, not just reassurance."
+    },
+    {
+      "type": "heading",
+      "text": "What actually happens inside an ordinary mosque"
+    },
+    {
+      "type": "text",
+      "text": "Congregational prayer five times a day, a Friday sermon and prayer (Jumu'ah), Quran classes for children and adults, community events (Eid celebrations, food drives, interfaith open days), marriage ceremonies, funeral prayers, and general community gathering space — this is, overwhelmingly, what fills a mosque's actual weekly schedule, publicly visible and open to visitors in the vast majority of mosques in the West."
+    },
+    {
+      "type": "heading",
+      "text": "Mainstream mosques are, if anything, an obstacle to extremism"
+    },
+    {
+      "type": "text",
+      "text": "Established mosques, with accountable leadership, institutional oversight, and a broad congregation, are precisely the environment extremist recruitment struggles to operate in openly — real, documented cases of radicalisation far more often trace to online material, fringe unaffiliated study circles operating outside mosque oversight, or individual isolation, not organised activity inside a registered, mainstream mosque. Major Muslim organisations and mosque associations in the West have specifically developed anti-extremism safeguarding programmes and actively cooperate with law enforcement on this exact concern."
+    },
+    {
+      "type": "heading",
+      "text": "Why this narrative persists anyway"
+    },
+    {
+      "type": "text",
+      "text": "A small number of real historical cases, amplified heavily by media coverage and some political rhetoric, have outsized influence on public perception relative to their actual frequency out of tens of thousands of mosques operating without incident. It's fair to acknowledge that individual bad actors have, rarely, existed in specific real cases, while being clear that this doesn't describe mosque life as a general pattern, any more than isolated cases of harmful individuals in any other religious institution characterise that whole institution."
+    },
+    {
+      "type": "faq",
+      "question": "How can I reassure a worried family member about visiting my local mosque?",
+      "answer": "A very practical, concrete option: invite them to visit with you. Most mosques welcome visitors, and many run specific open days for exactly this purpose — seeing the actual, ordinary community activity in person tends to be more convincing than any explanation."
+    },
+    {
+      "type": "faq",
+      "question": "What if my specific mosque genuinely has a controversial imam or history?",
+      "answer": "This does happen occasionally and is worth taking seriously rather than dismissing — checking a mosque's reputation, leadership, and community standing (asking other local Muslims, checking for any credible news coverage) before committing to it is reasonable due diligence, the same as you'd apply to any institution you're joining."
+    },
+    {
+      "type": "reflection",
+      "question": "Has a family member expressed this specific worry to you? Would inviting them to visit your mosque with you be something worth trying?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Entering the Mosque", "reference": "See Stage 2" },
+    { "label": "Building Community", "reference": "See Stage 4" }
+  ]
+}

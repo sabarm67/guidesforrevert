@@ -1,0 +1,66 @@
+{
+  "slug": "what-does-islam-say-about-bible-torah",
+  "stage_slug": "addressing-misconceptions",
+  "order": 23,
+  "title": "What Does Islam Say About the Bible and Torah?",
+  "summary": "Why Islamic teaching treats the Torah and Gospel as genuine, honoured earlier revelation, and the specific, narrower reasoning behind why Muslims don't treat today's texts as unaltered originals.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Not dismissal — a claim about textual history specifically"
+    },
+    {
+      "type": "text",
+      "text": "A common assumption is that Muslims simply consider the Bible false or worthless. The actual Islamic position is more specific, and worth understanding precisely rather than in caricature."
+    },
+    {
+      "type": "heading",
+      "text": "The original revelations are affirmed as genuine"
+    },
+    {
+      "type": "text",
+      "text": "The Quran repeatedly affirms that the Tawrat (Torah, revealed to Moses) and the Injil (Gospel, revealed to Jesus) were genuine revelations from God — not human inventions from the start. Belief in earlier scriptures revealed to earlier prophets is, in fact, one of the six Articles of Faith covered in Stage 1."
+    },
+    {
+      "type": "quote",
+      "translation": "It is He who has sent down upon you the Book in truth, confirming what was before it. And He revealed the Torah and the Gospel before, as guidance for the people.",
+      "reference": "Quran 3:3-4 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "The specific Islamic position: transmission, not origin"
+    },
+    {
+      "type": "text",
+      "text": "The concept of tahrif (alteration) in Islamic theology refers to the belief that the texts available today have, over centuries of transmission, copying, and translation, diverged from their original revealed form — not that the original revelations were ever false. This is a claim about textual transmission history specifically, comparable in structure (though not in every detail) to how textual scholars of any ancient document discuss manuscript variants and transmission history — it isn't a uniquely hostile or dismissive Islamic invention."
+    },
+    {
+      "type": "heading",
+      "text": "The Quran's own claimed role in this"
+    },
+    {
+      "type": "text",
+      "text": "Islamic teaching holds that the Quran was revealed partly to confirm and restate the core original message shared across these revelations, and to serve as a final, textually preserved standard following the belief that earlier texts had drifted from their originals over time — this is the underlying logic for why Muslims recite and preserve the Quran with such intense textual precision, covered in the earlier lesson on the Quran's language."
+    },
+    {
+      "type": "faq",
+      "question": "Does this mean Muslims think Jews and Christians today are being deliberately dishonest about their scriptures?",
+      "answer": "No — the Islamic position is about the historical transmission process across many centuries and many hands, not an accusation of deliberate deception by any specific Jewish or Christian individual or community today. Most Jews and Christians today are engaging sincerely and in good faith with the texts as they've received them."
+    },
+    {
+      "type": "faq",
+      "question": "Do Muslims read the Bible?",
+      "answer": "There's no prohibition on reading it, and many Muslims, especially those with Christian or Jewish family, do read it for historical and comparative interest — it's simply not treated as a source of independent religious ruling or theology in the way the Quran and authentic hadith are."
+    },
+    {
+      "type": "reflection",
+      "question": "Has this lesson changed how you'd describe the Islamic view of the Bible to a Christian or Jewish family member — from \"rejected\" to something more specific?"
+    }
+  ],
+  "further_reading": [
+    { "label": "What Does Islam Really Say About Jesus?", "reference": "See Understanding Islam section" },
+    { "label": "Who is Allah?", "reference": "See Stage 1" }
+  ]
+}

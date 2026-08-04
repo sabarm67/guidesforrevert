@@ -23,7 +23,7 @@ void main() {
     final faqs = await db.select(db.aiFaqEntries).get();
 
     expect(stages, hasLength(6));
-    expect(lessons, hasLength(46));
+    expect(lessons, hasLength(69));
     expect(duas, isNotEmpty);
     expect(faqs, isNotEmpty);
   });
@@ -37,7 +37,7 @@ void main() {
     final lessons = await db.select(db.lessons).get();
     final faqs = await db.select(db.aiFaqEntries).get();
 
-    expect(lessons, hasLength(46));
+    expect(lessons, hasLength(69));
     expect(faqs, hasLength(11));
   });
 

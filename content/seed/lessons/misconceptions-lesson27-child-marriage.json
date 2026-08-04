@@ -1,0 +1,74 @@
+{
+  "slug": "child-marriage-what-islam-actually-says",
+  "stage_slug": "addressing-misconceptions",
+  "order": 27,
+  "title": "Child Marriage: What Islamic Teaching Actually Says",
+  "summary": "An honest look at a genuinely difficult topic — historical marriage-age norms across pre-modern societies generally, why nearly every Muslim-majority country legislates a minimum age today, and where child marriage still occurs and why mainstream scholarship opposes it.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A difficult, frequently-raised topic that deserves honesty, not deflection"
+    },
+    {
+      "type": "text",
+      "text": "This question often comes up specifically and can feel like an attack, but it deserves a genuinely honest, non-defensive answer rather than avoidance."
+    },
+    {
+      "type": "heading",
+      "text": "Historical context: not a uniquely Islamic practice"
+    },
+    {
+      "type": "text",
+      "text": "Marriage tied to physical maturity (puberty) rather than a fixed calendar age was the near-universal legal and social norm across ancient and medieval societies worldwide — Roman law, European civil and canon law, and most other pre-modern legal systems worked this way for most of history, only shifting toward fixed minimum-age laws in the last one to two centuries, and unevenly even then. This isn't offered as an excuse, but it matters for accuracy: this reflects a pre-modern global pattern, not something Islam specifically invented or was uniquely responsible for."
+    },
+    {
+      "type": "heading",
+      "text": "On the specific historical example often raised"
+    },
+    {
+      "type": "text",
+      "text": "The Prophet Muhammad's (peace be upon him) marriage to Aisha is the case most often raised in this conversation. Her age at marriage and at the marriage's consummation is a matter of real historical debate among scholars and historians — the commonly cited traditional ages come from specific hadith narrations, while some contemporary researchers, cross-referencing other biographical and chronological details in early Islamic sources, argue for an older age than the most commonly repeated figure. This is a genuinely contested historical detail, not something this lesson can resolve — what matters more for your own practice and for this conversation is the section below: what mainstream teaching and law actually require today."
+    },
+    {
+      "type": "heading",
+      "text": "What mainstream Islamic teaching and law say today"
+    },
+    {
+      "type": "text",
+      "text": "The overwhelming majority of Muslim-majority countries today have legislated minimum marriage ages, commonly 18, through their own national civil or family law — a modern legal position adopted precisely because contemporary understanding of child welfare, psychological development, and consent has evolved, and mainstream contemporary scholarship widely treats this as consistent with, not contrary to, core Islamic objectives of preventing harm (covered in the Fiqh section's lesson on contemporary issues). Major international Islamic scholarly bodies and virtually all mainstream Muslim organisations in the West explicitly oppose child marriage today."
+    },
+    {
+      "type": "quote",
+      "translation": "And do not approach the property of the orphan, except in the way that is best, until he reaches maturity.",
+      "reference": "Quran 6:152 (Saheeh International, abridged) — cited by contemporary scholars for its underlying maturity/capacity principle"
+    },
+    {
+      "type": "heading",
+      "text": "Where it still happens, and why mainstream scholarship rejects it"
+    },
+    {
+      "type": "text",
+      "text": "Child marriage does still occur in some communities, including some Muslim-majority regions — driven overwhelmingly by poverty, weak enforcement of national law, and local cultural custom, similar in pattern to the culture-versus-religion distinction covered in the earlier lesson on honor killing and FGM. Where it occurs, it draws sustained, explicit condemnation from mainstream Islamic scholars, child-welfare-focused Muslim organisations, and the national laws of the countries where it happens, not quiet acceptance."
+    },
+    {
+      "type": "faq",
+      "question": "Is it fair to compare this to how other religions or ancient legal systems historically treated marriage age?",
+      "answer": "It's a relevant, honest comparison for historical accuracy — the pattern was genuinely global and not unique to Islam — but it's not meant as a way to avoid the real question of what's right today. The more important, forward-looking answer is the modern legislated and scholarly consensus described above, not a historical comparison alone."
+    },
+    {
+      "type": "faq",
+      "question": "What's a direct way to respond if someone raises this as \"proof\" Islam endorses child marriage today?",
+      "answer": "Something like: \"Historical marriage-age norms were common across most ancient legal systems, not unique to Islam — but that's history, not today's teaching. Nearly every Muslim-majority country has a legal minimum marriage age now, and mainstream Islamic scholarship actively opposes child marriage as harmful.\""
+    },
+    {
+      "type": "reflection",
+      "question": "Did separating the historical question from the modern legal and scholarly position help you feel more equipped to discuss this honestly, without either dismissing the question or feeling you had to defend the indefensible?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Contemporary Fiqh Issues", "reference": "See Fiqh in Daily Life" },
+    { "label": "Honor Killing, FGM, and Culture vs. Religion", "reference": "See Understanding Islam section" }
+  ]
+}

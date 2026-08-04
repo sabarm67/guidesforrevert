@@ -1,0 +1,60 @@
+{
+  "slug": "basic-duas-for-daily-life",
+  "stage_slug": "your-first-week",
+  "order": 8,
+  "title": "Basic Duas for Daily Life",
+  "summary": "What a dua is, how it's different from Salah, and a gentle starting point for weaving short daily supplications into your day.",
+  "estimated_minutes": 5,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Dua vs. Salah — two different things"
+    },
+    {
+      "type": "text",
+      "text": "Salah, covered earlier this week, is the formal, structured prayer performed five times a day in Arabic, at fixed times. Dua is different: it's personal supplication — talking to God in your own words, in any language, at any moment, about anything. You can make dua while walking, cooking, or lying in bed before sleep. Salah is an obligation with a fixed form; dua is an open invitation, encouraged constantly rather than required at fixed times."
+    },
+    {
+      "type": "heading",
+      "text": "A few small, well-known duas to start with"
+    },
+    {
+      "type": "text",
+      "text": "Rather than trying to learn many duas at once, most new Muslims start with a handful tied to ordinary daily moments — waking up, eating, and leaving the house are three of the most common starting points, and all three already have their own entries in this app's Dua Library, with Arabic, transliteration, translation, and audio. The goal for this first week isn't to memorise dozens of duas — it's to pick one or two, say them consistently for a few days, and let them become a habit before adding more."
+    },
+    {
+      "type": "quote",
+      "arabic": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+      "transliteration": "Bismillah, tawakkaltu 'alallah, wa la hawla wa la quwwata illa billah",
+      "translation": "In the name of Allah, I place my trust in Allah, and there is no power nor might except with Allah.",
+      "reference": "The dua for leaving home — see the Dua Library"
+    },
+    {
+      "type": "heading",
+      "text": "Why bother with fixed wording at all?"
+    },
+    {
+      "type": "text",
+      "text": "You can absolutely speak to God in your own words, in English, about anything on your mind — that's real dua too, and encouraged. The value of also learning the Prophet's own recorded duas (peace be upon him) is that they're considered especially comprehensive and beautifully put — short phrases that capture a lot of meaning — and using them connects you to exactly what Muslims everywhere have said in the same moments for over 1,400 years."
+    },
+    {
+      "type": "faq",
+      "question": "Can I just make dua in English instead of memorising Arabic ones?",
+      "answer": "Yes, absolutely — personal dua in your own language is completely valid and encouraged at any time. Learning specific Arabic duas is a separate, additional practice, not a requirement that replaces speaking to God plainly and honestly in whatever language is natural to you."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need Wudu (ablution) to make dua?",
+      "answer": "No — unlike Salah, dua doesn't require Wudu, facing any particular direction, or any specific physical state. You can make dua at any moment, in any condition, anywhere."
+    },
+    {
+      "type": "reflection",
+      "question": "Which single dua from this week — waking up, eating, or leaving home — feels most natural to try building into your routine first?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Dua Library", "reference": "See Duas section of this app" },
+    { "label": "Simple Arabic Pronunciation", "reference": "See Stage 2, previous lesson" }
+  ]
+}

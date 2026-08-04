@@ -1,0 +1,65 @@
+{
+  "slug": "is-halal-slaughter-cruel",
+  "stage_slug": "addressing-misconceptions",
+  "order": 13,
+  "title": "\"Is Halal Slaughter Cruel to Animals?\"",
+  "summary": "What zabihah slaughter actually requires, the animal-welfare reasoning behind it, and an honest look at the genuine debate around stunning.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A concern that comes from a good place"
+    },
+    {
+      "type": "text",
+      "text": "Animal welfare concerns about halal slaughter are usually sincere, not hostile — this is worth engaging with genuinely rather than defensively, especially since Islamic teaching itself places real emphasis on animal welfare."
+    },
+    {
+      "type": "heading",
+      "text": "What zabihah actually requires"
+    },
+    {
+      "type": "text",
+      "text": "As covered in the earlier Food and Halal lesson, zabihah slaughter requires a swift cut to specific vessels in the neck by a sharp blade, God's name invoked, and the blood drained. Additional, less commonly known requirements: the animal must not see other animals being slaughtered, must not be shown the blade beforehand, must not be caused unnecessary distress, and the blade must be extremely sharp specifically to make the cut as quick as possible. These aren't incidental details — they're the actual point of the method."
+    },
+    {
+      "type": "quote",
+      "translation": "Allah has prescribed excellence in everything. So if you kill, kill well; and if you slaughter, slaughter well. Let one of you sharpen his blade and let him spare suffering to the animal he slaughters.",
+      "reference": "Sahih Muslim (commonly cited on this topic)"
+    },
+    {
+      "type": "heading",
+      "text": "The reasoning behind draining the blood"
+    },
+    {
+      "type": "text",
+      "text": "Blood retained in meat is a significant bacterial growth medium, and full drainage was, in the historical context this method developed in, a meaningful food-safety practice, alongside its religious significance (blood itself is separately prohibited as food, covered in the Food and Halal lesson). The swift cut to major vessels is specifically designed to cause rapid blood loss and, proponents argue, rapid loss of consciousness."
+    },
+    {
+      "type": "heading",
+      "text": "The genuine, ongoing debate: stunning"
+    },
+    {
+      "type": "text",
+      "text": "This is worth being honest about rather than glossing over: there is real, ongoing debate among Muslim scholars and halal-certification bodies about pre-slaughter stunning (a common practice in conventional Western slaughter, intended to render the animal unconscious before the cut). Some certifying bodies permit certain reversible stunning methods as compatible with zabihah; others reject stunning entirely as inconsistent with the requirement that the animal be alive at the moment of slaughter. Scientific studies on comparative animal welfare between stunned and non-stunned methods have produced genuinely mixed, contested findings — this isn't a settled question with an obvious right answer, and honest engagement acknowledges that."
+    },
+    {
+      "type": "faq",
+      "question": "So is halal meat where I live stunned or not?",
+      "answer": "It varies significantly by country, certifying body, and specific supplier — in many Western countries, a large proportion of \"halal\" certified meat is actually pre-stunned using methods the certifying body considers acceptable. If this matters to you personally, checking with the specific certifier or supplier is the only way to know for a given product."
+    },
+    {
+      "type": "faq",
+      "question": "What's a fair way to respond to someone who says halal slaughter is simply cruel?",
+      "answer": "Acknowledging the debate honestly tends to work better than a flat denial: \"There's real scholarly and scientific debate about specific methods like stunning, but the core requirements — a sharp blade, a swift cut, minimising the animal's distress and awareness of what's coming — are specifically there for animal welfare, not despite it.\""
+    },
+    {
+      "type": "reflection",
+      "question": "Did the specific welfare-focused requirements (not showing the animal the blade, not slaughtering in view of other animals) change how you understood this practice?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Food and Halal", "reference": "See Stage 3" }
+  ]
+}

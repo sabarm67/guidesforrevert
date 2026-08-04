@@ -89,6 +89,54 @@ and the full Juz 'Amma — surahs 1 and 78-114, 38 surahs / 571 ayahs).
   (dates, dynasties, named scholars) rather than religious rulings, so
   they carry lower sourcing risk but should still be spot-checked for
   factual accuracy before production use.
+- **Understanding the Azan** (Stage 2, inserted ahead of Wudu/Salah) breaks
+  the call to prayer down phrase-by-phrase via `quote` blocks with Arabic,
+  transliteration, and translation for each phrase. Wording follows the
+  standard, essentially universal Sunni Azan text; the Fajr-only "Prayer is
+  better than sleep" addition is described in the body text rather than as
+  a separate quote block. Same sourcing caveat as the rest of this section
+  applies — cross-check transliteration/translation wording before
+  production use.
+- **Fiqh in Daily Life** (9 lessons) and **Understanding Islam: Addressing
+  Misconceptions** (31 lessons, expanded from an initial 9) are likewise
+  original writing, following the same Quranic-quotation sourcing caveat
+  above. The misconceptions collection in particular makes historical
+  claims (e.g. Indonesia's conversion via trade rather than conquest, the
+  persistence of Coptic Christians and other non-Muslim populations under
+  centuries of Muslim rule, mainstream fatwa councils' positions on honor
+  killing/FGM/violent extremism) that are widely documented in mainstream
+  historical and Islamic scholarship, but were not independently
+  fact-checked source-by-source in this writing pass — verify specific
+  historical and statistical claims before public release, the same as any
+  other factual content in this app. These lessons address sensitive,
+  high-stakes topics (violence, women's rights, honor killing, FGM) and
+  would particularly benefit from a qualified scholarly review pass before
+  production use, beyond the general verification note at the top of this
+  file.
+  - The 22-lesson expansion (`misconceptions-lesson10` through
+    `misconceptions-lesson31`) adds several topics that raise this need
+    further rather than reducing it: **apostasy**
+    (`misconceptions-lesson26-apostasy-leaving-islam.json`) was written to
+    honestly represent genuine classical-vs-contemporary scholarly
+    diversity and the real-world legal picture (Western countries vs. some
+    Muslim-majority countries) rather than asserting one settled view;
+    **child marriage**
+    (`misconceptions-lesson27-child-marriage.json`) deliberately avoids
+    asserting a specific age for Aisha given genuine historian debate, and
+    frames the topic through historical context and modern legislated
+    minimum-age consensus; **slavery in Islamic history**
+    (`misconceptions-lesson30-slavery-in-islamic-history.json`) is
+    intentionally direct that classical Islamic law regulated and
+    incentivised manumission but did not categorically abolish slavery,
+    distinct from the modern legal-abolition claim; **evolution**
+    (`misconceptions-lesson31-science-and-evolution.json`) is honest that
+    Muslim scholarly/popular opinion on evolution specifically (as opposed
+    to science generally) is genuinely mixed rather than presenting one
+    resolved position. None of these four lessons' claims have been
+    independently fact-checked source-by-source, and given the
+    reputational/pastoral sensitivity of apostasy, child marriage, and
+    slavery specifically, a qualified scholarly review pass is strongly
+    recommended before any public release of this expanded collection.
 
 ## General principle for content going forward
 
