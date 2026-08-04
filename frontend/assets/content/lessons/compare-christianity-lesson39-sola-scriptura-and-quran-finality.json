@@ -1,0 +1,66 @@
+{
+  "slug": "sola-scriptura-and-the-qurans-finality",
+  "stage_slug": "comparison-christianity",
+  "order": 39,
+  "title": "Sola Scriptura and the Quran's Finality: An Interesting Parallel",
+  "summary": "A genuinely interesting structural parallel between the Protestant sola scriptura principle and how the Quran functions as a final, sufficient authority in Islam.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A parallel worth noticing, especially for Protestant reverts"
+    },
+    {
+      "type": "text",
+      "text": "Sola scriptura — \"scripture alone\" — is a defining Protestant Reformation principle: that the Bible alone, without the added authority of church tradition or a magisterium, is the ultimate authority for Christian belief and practice. Reverts from Protestant backgrounds, especially evangelical ones, sometimes find an interesting structural echo of this instinct in how the Quran functions in Islam."
+    },
+    {
+      "type": "heading",
+      "text": "The Quran's own claim to completeness"
+    },
+    {
+      "type": "text",
+      "text": "The Quran describes itself as a complete, clarifying revelation, and Islamic theology holds it as God's final word to humanity, with Muhammad as the last prophet — no further scripture is expected or needed."
+    },
+    {
+      "type": "quote",
+      "translation": "This day I have perfected for you your religion and completed My favor upon you and have approved for you Islam as religion.",
+      "reference": "Quran 5:3 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Where the parallel is real — and where it breaks down"
+    },
+    {
+      "type": "text",
+      "text": "Both traditions share the idea of a sufficient, authoritative, finalised text requiring no further addition. But the parallel has real limits worth stating honestly: Islamic legal and theological practice draws heavily and explicitly on hadith (the Prophet's recorded sayings and actions) and centuries of scholarly interpretation (fiqh) alongside the Quran — much closer, structurally, to how Catholic and Orthodox Christianity use scripture plus tradition together, than to a strict sola scriptura model that minimises non-biblical authority. \"Scripture alone\" in the strict Protestant sense doesn't have a true Islamic equivalent; the Quran is final and complete as revelation, but its practical application draws on substantial additional authoritative material."
+    },
+    {
+      "type": "heading",
+      "text": "A more precise way to state the actual parallel"
+    },
+    {
+      "type": "text",
+      "text": "The more accurate parallel is narrower: both traditions affirm a closed, final, sufficient core revelation — no new scripture is coming in either case — even though Islam integrates substantial additional authoritative material (hadith, scholarly consensus) into ongoing religious practice in a way sola scriptura Protestantism generally resists doing with non-biblical sources."
+    },
+    {
+      "type": "faq",
+      "question": "Doesn't relying on hadith contradict the idea of the Quran being sufficient on its own?",
+      "answer": "Mainstream Islamic scholarship doesn't see it that way — the Quran itself instructs believers to follow the Prophet's example, so hadith is understood as necessary, Quran-sanctioned elaboration and clarification of the Quran's own guidance, not a rival or supplementary source of independent revelation."
+    },
+    {
+      "type": "faq",
+      "question": "Would this comparison resonate with a Catholic or Orthodox family member the same way?",
+      "answer": "Less directly — Catholic and Orthodox reverts might find a more natural parallel in Islam's use of hadith and scholarly tradition alongside the Quran, similar to how their own traditions use church tradition and magisterial teaching alongside scripture; this specific lesson's parallel is aimed more at Protestant, especially evangelical, family."
+    },
+    {
+      "type": "reflection",
+      "question": "If you came from a sola scriptura Protestant background, does this parallel (and its real limits) help you locate the Quran's role in Islam more precisely?"
+    }
+  ],
+  "further_reading": [
+    { "label": "What Is the Quran?", "reference": "See Stage 1" },
+    { "label": "Catholic, Protestant, Orthodox", "reference": "See this collection, previous lesson" }
+  ]
+}

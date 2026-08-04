@@ -1,0 +1,74 @@
+{
+  "slug": "why-muslims-believe-tahrif",
+  "stage_slug": "comparison-christianity",
+  "order": 19,
+  "title": "Why Muslims Believe Earlier Scriptures Were Altered (Tahrif), Explained",
+  "summary": "The Islamic doctrine that earlier scriptures were changed over time, what it does and doesn't claim, and how it relates to genuine textual scholarship on the Bible.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A doctrine that needs unpacking, not just naming"
+    },
+    {
+      "type": "text",
+      "text": "Muslims often say earlier scriptures, including the Bible, were \"changed\" or \"corrupted\" (tahrif) — a claim that can sound sweeping and dismissive if left unexplained. This lesson breaks down what the doctrine actually claims, and where it does and doesn't line up with what textual scholars of the Bible themselves have documented."
+    },
+    {
+      "type": "heading",
+      "text": "Two different kinds of tahrif in Islamic scholarship"
+    },
+    {
+      "type": "text",
+      "text": "Islamic scholarship traditionally distinguishes between tahrif al-lafz (alteration of the actual text/wording) and tahrif al-ma'na (alteration of meaning or interpretation, without necessarily changing the words themselves). Different scholars, historically and today, have leaned differently on which kind of tahrif they believe occurred and to what extent — this isn't a single, monolithic claim, and it's worth knowing that internal Islamic diversity exists here too."
+    },
+    {
+      "type": "quote",
+      "translation": "So woe to those who write the scripture with their own hands, then say, \"This is from Allah,\" in order to exchange it for a small price.",
+      "reference": "Quran 2:79 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "What mainstream biblical scholarship actually documents"
+    },
+    {
+      "type": "text",
+      "text": "Separately from the Islamic doctrine, mainstream biblical textual criticism — practiced by Christian, Jewish, and secular scholars alike — does document real textual variants across surviving biblical manuscripts, later additions to some texts (a well-known example is the ending of Mark's Gospel), and a real, studied history of translation, compilation, and canon formation across many centuries. This is genuine, mainstream, non-Muslim academic scholarship, not a Muslim claim being read into the field from outside."
+    },
+    {
+      "type": "heading",
+      "text": "Where the Islamic doctrine goes further than that scholarship supports"
+    },
+    {
+      "type": "text",
+      "text": "Being honest here matters: mainstream biblical scholars, even while documenting real manuscript variants, generally conclude the New Testament text is highly stable in its core content and don't describe the wholesale, meaning-altering corruption that some popular (not all) presentations of tahrif imply. The gap between \"real, documented textual variants exist and are actively studied\" and \"the Bible was deliberately and substantially corrupted\" is significant, and it's more accurate — and more respectful of genuine biblical scholarship — to describe the Islamic position with that gap acknowledged rather than glossed over."
+    },
+    {
+      "type": "heading",
+      "text": "A more precise way to frame this with family"
+    },
+    {
+      "type": "text",
+      "text": "A fair, accurate framing sounds more like: \"Islamic teaching holds that the message and, in Muslim belief, some of the wording of earlier scripture was altered over the long history of transmission and translation before being finally, precisely preserved in the Quran\" — rather than a blanket claim that the Bible as it exists today is simply false throughout. This more precise framing is both more accurate to mainstream Islamic scholarship and considerably less likely to provoke a defensive reaction."
+    },
+    {
+      "type": "faq",
+      "question": "Does this mean nothing in the Bible is trustworthy, from an Islamic point of view?",
+      "answer": "No — Islamic scholarship has never taken the position that the Bible is worthless or entirely false; the Quran itself instructs Muslims to believe in the scriptures given to earlier prophets, and Islamic tradition frequently references biblical narratives and figures with respect. The doctrine of tahrif concerns specific claims about alteration over time, not a rejection of the Bible's value or historical significance as a whole."
+    },
+    {
+      "type": "faq",
+      "question": "How do I avoid sounding dismissive when this topic comes up with Christian family?",
+      "answer": "Naming the real, documented textual scholarship on the Bible's own transmission history — rather than implying it's never been studied — tends to be received as more informed and more respectful, and it accurately reflects that this is a genuine, studied academic field, not something Islam is uniquely pointing out."
+    },
+    {
+      "type": "reflection",
+      "question": "Having read this more precise version of the tahrif doctrine, would you frame it differently than you might have before this lesson?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Bible and Quran: Two Different Claims About Preservation", "reference": "See this collection" },
+    { "label": "The Gospel (Injil) in Islam", "reference": "See this collection, next lesson" }
+  ]
+}

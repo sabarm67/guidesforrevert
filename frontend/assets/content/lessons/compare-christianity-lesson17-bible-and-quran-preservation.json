@@ -1,0 +1,74 @@
+{
+  "slug": "bible-and-quran-preservation",
+  "stage_slug": "comparison-christianity",
+  "order": 17,
+  "title": "Bible and Quran: Two Different Claims About Preservation",
+  "summary": "How the Christian and Islamic understanding of their own scripture's transmission and preservation genuinely differ, stated fairly for both sides.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Two different claims, not just two different books"
+    },
+    {
+      "type": "text",
+      "text": "Beyond content, Christianity and Islam make genuinely different claims about how their scripture came to be and how reliably it's been preserved — understanding this distinction matters more than most reverts expect, since it underlies many other disagreements in this collection."
+    },
+    {
+      "type": "heading",
+      "text": "The Christian claim: many human authors, compiled over centuries"
+    },
+    {
+      "type": "text",
+      "text": "Mainstream Christian scholarship describes the Bible as written by many human authors across roughly 1,500 years, divinely inspired but expressed through each author's own voice, language, and historical context, later compiled into a recognised canon through a real historical process involving councils and communal discernment over the first few centuries of the church."
+    },
+    {
+      "type": "heading",
+      "text": "The Islamic claim about the Quran: one source, one recipient, over 23 years"
+    },
+    {
+      "type": "text",
+      "text": "The Quran, by contrast, is held by Muslims to be the direct word of God, revealed to a single prophet (Muhammad) over about 23 years, memorised immediately by companions as each portion was revealed and also recorded in writing during the Prophet's own lifetime, with the full memorisation of the entire text by hundreds of thousands of people (huffaz) continuing as a living practice today — a very different transmission model than the Bible's."
+    },
+    {
+      "type": "quote",
+      "translation": "Indeed, it is We who sent down the Quran, and indeed, We will be its guardian.",
+      "reference": "Quran 15:9 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "What Muslims mean by \"unaltered\" specifically"
+    },
+    {
+      "type": "text",
+      "text": "When Muslims describe the Quran as unaltered, the specific claim is textual: that the Arabic wording available today matches what was recited and recorded during the Prophet's lifetime, supported by the parallel processes of written manuscripts and mass, continuous oral memorisation acting as a cross-check on each other. This is a strong, specific historical claim that has also received serious academic and textual-critical study, including from non-Muslim scholars — the consensus among most scholars, Muslim and non-Muslim, is that the Quran's text has indeed been remarkably stable since the mid-7th century, though scholarly discussion continues on some detailed questions of early textual history."
+    },
+    {
+      "type": "heading",
+      "text": "A fair note on the Bible's own preservation"
+    },
+    {
+      "type": "text",
+      "text": "It would be inaccurate and unfair to imply Christians have paid no attention to textual preservation — biblical textual criticism is itself a serious, longstanding academic field, and the sheer number of surviving ancient manuscripts of the New Testament (far more than most other ancient texts) is something biblical scholars point to as a genuine strength. The real, substantive difference between the two traditions isn't \"one cares about accuracy and the other doesn't\" — it's the transmission model itself (many human authors over centuries versus one reciting prophet over 23 years with immediate parallel memorisation), and Muslims and Christians draw different conclusions from those different starting points about how confident to be in each text's exact wording today."
+    },
+    {
+      "type": "faq",
+      "question": "Doesn't the existence of different Quran reading traditions (qira'at) undermine the claim of perfect preservation?",
+      "answer": "The recognised qira'at are a documented, deliberately preserved set of authentic variant pronunciations and minor recitation differences, traced back to the Prophet's own teaching to different companions, not competing or contradictory manuscript traditions — Islamic scholarship treats them as a feature of the Quran's transmission, not evidence against it, though it's a fair and common question worth understanding rather than dismissing."
+    },
+    {
+      "type": "faq",
+      "question": "How should I talk about this with a Christian family member who's studied biblical textual criticism themselves?",
+      "answer": "Engaging with genuine respect for the seriousness of Christian textual scholarship, while explaining that Islam makes a different and more specific preservation claim rooted in a different transmission model, tends to be a far more productive conversation than implying Christian scholars haven't taken the question seriously, which isn't accurate."
+    },
+    {
+      "type": "reflection",
+      "question": "Did you already understand the difference between the Bible's and the Quran's claimed transmission histories before this lesson, or is this a new distinction for you?"
+    }
+  ],
+  "further_reading": [
+    { "label": "What Is the Quran?", "reference": "See Stage 1" },
+    { "label": "Did the Bible Predict Muhammad?", "reference": "See this collection, next lesson" }
+  ]
+}

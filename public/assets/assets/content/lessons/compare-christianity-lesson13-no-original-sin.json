@@ -1,0 +1,71 @@
+{
+  "slug": "no-original-sin",
+  "stage_slug": "comparison-christianity",
+  "order": 13,
+  "title": "No Original Sin: How Islam's View of Human Nature Differs from Christianity's",
+  "summary": "The Islamic doctrine of fitrah — humans born spiritually pure — compared honestly with the Christian doctrine of original sin.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A foundational difference in how each faith sees a newborn child"
+    },
+    {
+      "type": "text",
+      "text": "Much of Christian theology, especially in Western traditions, rests on original sin: the belief that all humans inherit a sinful, fallen nature from Adam's disobedience, requiring redemption. Islam teaches something meaningfully different — that every human is born in a state of fitrah, natural spiritual purity and an inborn inclination toward recognising God, with no inherited guilt from Adam's sin."
+    },
+    {
+      "type": "quote",
+      "translation": "Every child is born upon the fitrah, and it is his parents who make him a Jew, a Christian, or a Magian.",
+      "reference": "Sahih al-Bukhari and Sahih Muslim"
+    },
+    {
+      "type": "heading",
+      "text": "Adam's sin: forgiven, not inherited"
+    },
+    {
+      "type": "text",
+      "text": "The Quran does narrate Adam and Eve's disobedience in the garden — but describes Adam repenting and God forgiving him directly, ending the matter for Adam personally rather than passing guilt down through all of humanity. Each person, in Islamic theology, is held accountable only for their own sins, not for a debt inherited from Adam's original mistake."
+    },
+    {
+      "type": "quote",
+      "translation": "Then Adam received from his Lord [some] words, and He accepted his repentance. Indeed, it is He who is the Accepting of repentance, the Merciful.",
+      "reference": "Quran 2:37 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Why this connects directly to the crucifixion and atonement"
+    },
+    {
+      "type": "text",
+      "text": "This difference isn't a stand-alone detail — it's the theological foundation underneath Islam's rejection of the need for Jesus' sacrificial death, covered in the next lesson. If there's no inherited guilt requiring a sacrificial atonement in the first place, the entire theological structure built on original sin in much of Christian doctrine doesn't carry over into Islam. Understanding fitrah first makes the following lesson on atonement make much more sense."
+    },
+    {
+      "type": "heading",
+      "text": "What this means for how sin is handled day to day"
+    },
+    {
+      "type": "text",
+      "text": "Practically, this shapes Islamic teaching on repentance (tawbah): a direct, ongoing relationship between an individual and God, where sincere repentance for one's own sins is met with forgiveness, without the need for a mediator, a sacrament, or someone else's atoning death. It's a more individually accountable framework in one sense, but also one that many converts describe as freeing — there's no inherited burden to carry before you've even done anything yourself."
+    },
+    {
+      "type": "faq",
+      "question": "Does rejecting original sin mean Islam thinks humans are naturally good and never sin?",
+      "answer": "No — Islam fully acknowledges that humans sin, often and seriously, and takes sin very seriously. What it rejects specifically is the idea of an inherited, guilt-bearing sinful nature passed down from Adam; each person is understood to start from a pure, God-inclined state and then makes their own choices, for which they are personally accountable."
+    },
+    {
+      "type": "faq",
+      "question": "How do I explain fitrah to a Christian family member who was taught original sin their whole life?",
+      "answer": "It can help to frame it as a difference in starting point rather than a claim that people never do wrong: Christianity generally starts the story with inherited guilt needing to be resolved, while Islam starts with inborn purity and personal accountability for one's own later choices — both traditions agree people sin and need God's mercy, they differ on the starting condition and on how forgiveness is obtained."
+    },
+    {
+      "type": "reflection",
+      "question": "Does the idea of being born in a state of fitrah — spiritual purity, not inherited guilt — feel different to you than how you understood human nature growing up? How so?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Salvation Without a Savior's Sacrifice", "reference": "See this collection, next lesson" },
+    { "label": "The Six Articles of Faith", "reference": "See Stage 1" }
+  ]
+}

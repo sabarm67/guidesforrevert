@@ -1,0 +1,69 @@
+{
+  "slug": "church-and-mosque",
+  "stage_slug": "comparison-christianity",
+  "order": 23,
+  "title": "Church and Mosque: Comparing How Christians and Muslims Worship",
+  "summary": "Opening this section on worship and practice with a broad comparison of the weekly and daily rhythms of Christian church life and Muslim mosque life.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Two different rhythms of communal worship"
+    },
+    {
+      "type": "text",
+      "text": "This section moves from theology into practice — how the two faiths actually structure worship day to day and week to week. For many reverts, this practical, lived difference is felt more immediately than any of the theological distinctions covered earlier in this collection."
+    },
+    {
+      "type": "heading",
+      "text": "Frequency: once a week vs. five times a day"
+    },
+    {
+      "type": "text",
+      "text": "Most Christian traditions center communal worship on a single weekly gathering (Sunday service, or Saturday for some traditions), often lasting an hour or more with music, sermon, and often communion. Islamic worship is structured around five shorter daily prayers, individually valid anywhere, with Friday Jumu'ah as the one specifically congregational, mosque-based weekly gathering — a fundamentally different rhythm: frequent and brief on a daily basis, versus concentrated into one longer weekly event."
+    },
+    {
+      "type": "heading",
+      "text": "The physical space itself"
+    },
+    {
+      "type": "text",
+      "text": "Churches typically feature pews or seating facing an altar or pulpit, religious art and often depictions of Jesus, Mary, or saints, and instruments for musical worship. Mosques, consistent with the emphasis on divine transcendence covered earlier in this collection, are typically open, carpeted spaces without seating (since Salah involves standing, bowing, and prostrating), no imagery of God or the prophets, and no musical instruments used during the prayer itself — visual and architectural focus goes to geometric pattern and calligraphy rather than representational art."
+    },
+    {
+      "type": "heading",
+      "text": "Music and singing"
+    },
+    {
+      "type": "text",
+      "text": "Congregational singing and instrumental music are often central to Christian worship. Islamic prayer itself involves no singing or instruments — recitation of the Quran follows its own melodic tradition (tajweed) but isn't accompanied by instruments, and while some cultural Islamic traditions include devotional song (nasheed) outside formal prayer, it isn't part of Salah itself."
+    },
+    {
+      "type": "heading",
+      "text": "Leadership during worship"
+    },
+    {
+      "type": "text",
+      "text": "A pastor, priest, or minister typically leads a Christian service with a defined clergical role, often including ordination and theological training as a formal, recognised office. An imam leading Salah is functioning primarily as a knowledgeable prayer leader for that specific prayer — a role covered in more depth in the next lesson on why Islam has no clergy in the Christian sense."
+    },
+    {
+      "type": "faq",
+      "question": "Do Muslims have to go to a mosque to pray, the way many Christians feel obligated to attend church?",
+      "answer": "No — as covered in the Prayer Guide, each of the five daily prayers is fully valid wherever you are; only Friday Jumu'ah specifically calls for congregational attendance at a mosque, primarily for adult men, though attending any prayer at a mosque is encouraged and rewarded for anyone."
+    },
+    {
+      "type": "faq",
+      "question": "Is it disrespectful to compare a mosque visit to attending church, when talking with Christian family?",
+      "answer": "Not at all — this comparison is often one of the more approachable ways to help family understand Islamic worship, since it starts from something they already have a frame of reference for, even while the actual rhythm and structure differ significantly."
+    },
+    {
+      "type": "reflection",
+      "question": "Which difference in this lesson — the frequency, the physical space, or the lack of music — has felt like the biggest practical adjustment for you personally?"
+    }
+  ],
+  "further_reading": [
+    { "label": "How to Enter a Mosque", "reference": "See Stage 2" },
+    { "label": "Why Islam Has No Clergy", "reference": "See this collection, next lesson" }
+  ]
+}

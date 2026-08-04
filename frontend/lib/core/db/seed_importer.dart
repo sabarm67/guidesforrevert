@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 8;
+  static const currentContentVersion = 9;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -153,6 +153,54 @@ class SeedImporter {
       'assets/content/lessons/misconceptions-lesson29-art-and-images.json',
       'assets/content/lessons/misconceptions-lesson30-slavery-in-islamic-history.json',
       'assets/content/lessons/misconceptions-lesson31-science-and-evolution.json',
+      'assets/content/lessons/compare-christianity-lesson1-shared-prophets.json',
+      'assets/content/lessons/compare-christianity-lesson2-one-creator-god.json',
+      'assets/content/lessons/compare-christianity-lesson3-jesus-in-the-quran.json',
+      'assets/content/lessons/compare-christianity-lesson4-mary-in-islam.json',
+      'assets/content/lessons/compare-christianity-lesson5-shared-moral-ground.json',
+      'assets/content/lessons/compare-christianity-lesson6-tawhid-vs-trinity.json',
+      'assets/content/lessons/compare-christianity-lesson7-is-jesus-son-of-god.json',
+      'assets/content/lessons/compare-christianity-lesson8-holy-spirit-in-islam.json',
+      'assets/content/lessons/compare-christianity-lesson9-history-of-the-trinity.json',
+      'assets/content/lessons/compare-christianity-lesson10-divine-transcendence.json',
+      'assets/content/lessons/compare-christianity-lesson11-did-jesus-die-on-cross.json',
+      'assets/content/lessons/compare-christianity-lesson12-jesus-alive-and-will-return.json',
+      'assets/content/lessons/compare-christianity-lesson13-no-original-sin.json',
+      'assets/content/lessons/compare-christianity-lesson14-salvation-without-atonement.json',
+      'assets/content/lessons/compare-christianity-lesson15-faith-works-and-grace.json',
+      'assets/content/lessons/compare-christianity-lesson16-is-islam-works-based.json',
+      'assets/content/lessons/compare-christianity-lesson17-bible-and-quran-preservation.json',
+      'assets/content/lessons/compare-christianity-lesson18-did-bible-predict-muhammad.json',
+      'assets/content/lessons/compare-christianity-lesson19-why-muslims-believe-tahrif.json',
+      'assets/content/lessons/compare-christianity-lesson20-old-testament-law-and-sharia.json',
+      'assets/content/lessons/compare-christianity-lesson21-injil-vs-new-testament.json',
+      'assets/content/lessons/compare-christianity-lesson22-how-each-faith-reads-scripture.json',
+      'assets/content/lessons/compare-christianity-lesson23-church-and-mosque.json',
+      'assets/content/lessons/compare-christianity-lesson24-why-no-clergy.json',
+      'assets/content/lessons/compare-christianity-lesson25-confession-and-repentance.json',
+      'assets/content/lessons/compare-christianity-lesson26-baptism-and-communion.json',
+      'assets/content/lessons/compare-christianity-lesson27-sunday-vs-jumuah.json',
+      'assets/content/lessons/compare-christianity-lesson28-lent-and-ramadan.json',
+      'assets/content/lessons/compare-christianity-lesson29-tithing-and-zakat.json',
+      'assets/content/lessons/compare-christianity-lesson30-no-rites-of-passage.json',
+      'assets/content/lessons/compare-christianity-lesson31-alcohol.json',
+      'assets/content/lessons/compare-christianity-lesson32-modesty-compared.json',
+      'assets/content/lessons/compare-christianity-lesson33-marriage-divorce-family.json',
+      'assets/content/lessons/compare-christianity-lesson34-monasticism.json',
+      'assets/content/lessons/compare-christianity-lesson35-sabbath-rest.json',
+      'assets/content/lessons/compare-christianity-lesson36-clergy-celibacy.json',
+      'assets/content/lessons/compare-christianity-lesson37-evangelism-and-dawah.json',
+      'assets/content/lessons/compare-christianity-lesson38-christianity-isnt-one-thing.json',
+      'assets/content/lessons/compare-christianity-lesson39-sola-scriptura-and-quran-finality.json',
+      'assets/content/lessons/compare-christianity-lesson40-purgatory.json',
+      'assets/content/lessons/compare-christianity-lesson41-predestination.json',
+      'assets/content/lessons/compare-christianity-lesson42-new-testament-only-confusions.json',
+      'assets/content/lessons/compare-christianity-lesson43-telling-christian-family.json',
+      'assets/content/lessons/compare-christianity-lesson44-dont-you-believe-in-jesus.json',
+      'assets/content/lessons/compare-christianity-lesson45-christmas-easter-holidays.json',
+      'assets/content/lessons/compare-christianity-lesson46-grief-guilt-and-growth.json',
+      'assets/content/lessons/compare-christianity-lesson47-common-questions-family-will-ask.json',
+      'assets/content/lessons/compare-christianity-lesson48-finding-common-ground.json',
     ];
 
     for (final path in lessonAssetPaths) {

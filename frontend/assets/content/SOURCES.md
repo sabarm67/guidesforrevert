@@ -98,7 +98,10 @@ and the full Juz 'Amma — surahs 1 and 78-114, 38 surahs / 571 ayahs).
   applies — cross-check transliteration/translation wording before
   production use.
 - **The Five Pillars of Islam** and **The Six Articles of Faith** (Stage 1,
-  lessons 5-6) both quote the Hadith of Gabriel (Sahih al-Bukhari / Sahih
+  now lessons 3-4 — moved up from 5-6 so the two frameworks are
+  introduced early, with Who is Allah/Shahadah/Quran/Muhammad reframed as
+  supporting deep-dives into specific pillars/articles rather than
+  free-standing topics) both quote the Hadith of Gabriel (Sahih al-Bukhari / Sahih
   Muslim) — the well-known hadith in which the Angel Gabriel asks the
   Prophet to define Islam (the five pillars) and Iman (the six articles)
   in turn. Wording is a commonly-published English rendering, same caveat
@@ -117,9 +120,20 @@ and the full Juz 'Amma — surahs 1 and 78-114, 38 surahs / 571 ayahs).
   describing Fard/Sunnah/Nafl/Witr/Tarawih/Eid/Janazah/Istikhara/Qasr
   &amp; Jama — original writing summarising mainstream, uncontroversial
   fiqh categories with no direct scriptural quotations, so it carries
-  comparatively low sourcing risk, but exact rak'ah counts and rulings
-  should still be spot-checked before production use, as minor details
-  (e.g. which Sunnah prayers are Mu'akkadah) vary slightly by madhhab.
+  comparatively low sourcing risk. "How to Pray Salah" also gained a
+  Qiblah-facing section and expanded posture detail per rak'ah step (hand
+  position during Qiyam, elbow position in Sujud, foot position while
+  sitting, etc.) — commonly taught beginner-level detail with no new
+  scriptural quotations, though exact hand-position convention is noted
+  as varying slightly by madhhab, consistent with the Wudu lesson's
+  existing head-wiping caveat. The Prayer tab's live Qibla bearing chip
+  uses `adhan_dart`'s built-in `Qibla.qibla()` spherical-trigonometry
+  calculation (already a dependency, no new package), not a citation, so
+  it carries no sourcing risk beyond the underlying math being correct.
+  "Types of Prayer" and the rest of the Prayer Guide should still have
+  exact rak'ah counts and rulings spot-checked before production use, as
+  minor details (e.g. which Sunnah prayers are Mu'akkadah) vary slightly
+  by madhhab.
 - **Fiqh in Daily Life** (9 lessons) and **Understanding Islam: Addressing
   Misconceptions** (31 lessons, expanded from an initial 9) are likewise
   original writing, following the same Quranic-quotation sourcing caveat

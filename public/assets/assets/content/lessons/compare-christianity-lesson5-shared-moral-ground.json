@@ -1,0 +1,66 @@
+{
+  "slug": "shared-moral-ground",
+  "stage_slug": "comparison-christianity",
+  "order": 5,
+  "title": "Shared Moral Ground: The Ten Commandments, the Golden Rule, and Islamic Ethics",
+  "summary": "Closing out the shared-ground section of this collection with the everyday ethical common ground between Christian and Islamic teaching.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Ethics as another point of real overlap"
+    },
+    {
+      "type": "text",
+      "text": "Beyond shared prophets and a shared basic description of God, the actual moral instruction in Christian and Islamic teaching overlaps heavily — honesty, kindness, care for the poor, honoring parents, avoiding murder and theft, sexual faithfulness, and humility all appear as core values in both traditions. This lesson closes out the \"shared ground\" section of this collection before the next section turns to real theological differences."
+    },
+    {
+      "type": "heading",
+      "text": "The Ten Commandments, largely mirrored"
+    },
+    {
+      "type": "text",
+      "text": "Most of the Ten Commandments have direct or close parallels in Islamic teaching: worship God alone, don't take His name in vain, honor your parents, don't murder, don't commit adultery, don't steal, don't bear false witness, don't covet. Islamic teaching doesn't organise its ethics around this specific list, but the substance of nearly all ten shows up clearly and repeatedly across the Quran and hadith."
+    },
+    {
+      "type": "heading",
+      "text": "The Golden Rule, in the Prophet's own words"
+    },
+    {
+      "type": "text",
+      "text": "The principle Christians know as the Golden Rule (\"do unto others as you would have them do unto you,\" Matthew 7:12) has a direct parallel attributed to the Prophet Muhammad (peace be upon him)."
+    },
+    {
+      "type": "quote",
+      "translation": "None of you truly believes until he loves for his brother what he loves for himself.",
+      "reference": "Sahih al-Bukhari and Sahih Muslim"
+    },
+    {
+      "type": "heading",
+      "text": "Where the ethical frameworks are built differently"
+    },
+    {
+      "type": "text",
+      "text": "The overlap in specific values doesn't mean the two ethical systems are built the same way underneath. Christian ethics, especially in Protestant traditions, often centers on love and grace as the motivating force; Islamic ethics centers on submission to God's revealed law (Sharia) as an integrated whole covering worship, personal conduct, and social life together, with love for God and gratitude as the underlying motivation rather than a replacement for structured obligation. Neither framework is simply \"stricter\" or \"looser\" than the other — they're organised around different core concepts even where the resulting behavior looks similar."
+    },
+    {
+      "type": "faq",
+      "question": "If the morals are so similar, why does it matter which religion someone follows?",
+      "answer": "Shared ethics is genuinely significant common ground, but religion isn't only about ethics — it's also about the nature of God, how salvation works, what happens after death, and how a person relates to their Creator, all covered later in this collection, where the two faiths diverge substantially even while agreeing on many day-to-day moral questions."
+    },
+    {
+      "type": "faq",
+      "question": "Can I point to this shared ethical ground when talking with Christian family?",
+      "answer": "Yes — it's often one of the most productive places to start a conversation, since it lets you show that becoming Muslim didn't mean abandoning the values you were raised with; for many reverts, it means finding a structured framework that reinforces and extends values already instilled by a Christian upbringing."
+    },
+    {
+      "type": "reflection",
+      "question": "Which specific shared value — honesty, care for the poor, honoring parents, or another — feels like the strongest bridge between your Christian upbringing and your life as a Muslim now?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Fiqh in Daily Life", "reference": "See Explore More" },
+    { "label": "Tawhid vs. the Trinity", "reference": "See this collection, next section" }
+  ]
+}

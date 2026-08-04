@@ -54,5 +54,13 @@
     "title": "Understanding Islam: Addressing Misconceptions",
     "description": "Clear, honest answers to the fears and stereotypes about Islam you're likely to meet from family, friends, and colleagues — written to help you understand and explain, not to argue.",
     "icon": "collection_misconceptions"
+  },
+  {
+    "slug": "comparison-christianity",
+    "collection_type": "comparative_religion",
+    "order": 1,
+    "title": "Christianity and Islam",
+    "description": "For reverts who came from a Christian background: shared ground, honest differences, and how to talk about your journey with Christian family and friends — written to help you understand and explain, not to argue.",
+    "icon": "collection_comparison_christianity"
   }
 ]

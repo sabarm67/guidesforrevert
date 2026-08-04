@@ -1,0 +1,69 @@
+{
+  "slug": "did-the-bible-predict-muhammad",
+  "stage_slug": "comparison-christianity",
+  "order": 18,
+  "title": "Did the Bible Predict Muhammad? A Careful, Honest Look at a Contested Claim",
+  "summary": "A direct, honest look at a common Muslim apologetic argument — presented as a traditional Islamic interpretation genuinely contested by mainstream biblical scholarship, not a settled fact.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A claim worth handling with real care"
+    },
+    {
+      "type": "text",
+      "text": "You may encounter the claim, in Muslim apologetic material, that the Bible itself predicts the coming of Prophet Muhammad. This is a genuinely contested argument, not a settled or widely accepted fact — and presenting it as though it were certain is likely to undermine your credibility with any Christian family member who has even a little background in biblical studies. This lesson explains the argument honestly, alongside the equally honest case against it."
+    },
+    {
+      "type": "heading",
+      "text": "The most common version of the argument: the \"Paraclete\""
+    },
+    {
+      "type": "text",
+      "text": "The most frequently cited argument centers on John 14:16 and related verses, where Jesus promises a \"Comforter\" or \"Advocate\" (Greek: parakletos, \"Paraclete\") who will come after him. Some Muslim commentators have argued this refers to Muhammad, sometimes suggesting the original Greek word may have been periklytos (\"the praised one,\" close in meaning to \"Muhammad,\" which itself means \"the praised one\" in Arabic) rather than parakletos, and that this was altered in later manuscripts."
+    },
+    {
+      "type": "heading",
+      "text": "The honest case against this reading"
+    },
+    {
+      "type": "text",
+      "text": "Mainstream Christian and secular biblical scholarship rejects this interpretation, for reasons worth understanding rather than dismissing: the surrounding text in John's Gospel explicitly identifies the Paraclete as the Holy Spirit, describes this figure as already present with the disciples and being sent \"in Jesus' name,\" and there is no manuscript evidence supporting the periklytos-was-changed-to-parakletos theory — it isn't found in any surviving Greek manuscript of John's Gospel, ancient or otherwise. This is a real, documented textual-critical objection, not merely a dismissive Christian counter-argument."
+    },
+    {
+      "type": "heading",
+      "text": "Other, more general arguments — also contested"
+    },
+    {
+      "type": "text",
+      "text": "Deuteronomy 18:18 (\"a prophet like Moses\") and other Old Testament passages are also sometimes cited by Muslim apologists as referring to Muhammad. Mainstream Jewish and Christian scholarship generally reads these passages in their own historical context, differently — Deuteronomy 18:18, for instance, is widely read by biblical scholars as referring to the ongoing line of Israelite prophets, or in Christian tradition to Jesus himself, not to a prophet arising centuries later outside that lineage. As with the Paraclete argument, this is a genuine point of interpretive disagreement, not a claim with broad scholarly consensus behind it."
+    },
+    {
+      "type": "heading",
+      "text": "Why this lesson exists, and how to use this information"
+    },
+    {
+      "type": "text",
+      "text": "This app's editorial approach throughout has been to present contested claims honestly, including when the claim is a popular one within Muslim apologetics. If you encounter this argument, presenting it with appropriate honesty — as a traditional Islamic reading that mainstream biblical scholarship disputes on real textual and contextual grounds — is both more accurate and, in practice, far more persuasive and credible with Christian family than presenting it as an established, hidden truth."
+    },
+    {
+      "type": "faq",
+      "question": "Should I avoid bringing this argument up with Christian family at all?",
+      "answer": "That's a reasonable choice, and many Muslims do avoid it specifically because of how contested and easily challenged it is — if you do bring it up, presenting it with the honest caveats in this lesson, rather than as settled proof, will serve you and the conversation far better."
+    },
+    {
+      "type": "faq",
+      "question": "Does Islam's own claim to authenticity depend on this argument being true?",
+      "answer": "No — Islam's core claims rest on the Quran being God's revelation to Muhammad and on the extensively documented historical transmission of that revelation, not on finding predictions of Muhammad within the Bible. This argument is a secondary, popular apologetic point, not a load-bearing pillar of Islamic belief."
+    },
+    {
+      "type": "reflection",
+      "question": "Does knowing the honest, contested status of this argument change whether or how you'd use it in a conversation with family?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Bible and Quran: Two Different Claims About Preservation", "reference": "See this collection, previous lesson" },
+    { "label": "Who Was Prophet Muhammad?", "reference": "See Stage 1" }
+  ]
+}

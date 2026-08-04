@@ -1,0 +1,79 @@
+{
+  "slug": "marriage-divorce-and-family",
+  "stage_slug": "comparison-christianity",
+  "order": 33,
+  "title": "Marriage, Divorce, and Family: Where Christian and Islamic Teachings Align and Differ",
+  "summary": "A balanced comparison of marriage and divorce theology and practice across the two faiths, including honest differences on polygamy and divorce.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Shared core values, different specific structures"
+    },
+    {
+      "type": "text",
+      "text": "Both faiths treat marriage as a sacred, foundational institution, and both emphasise fidelity, mutual responsibility, and raising children within it — real shared ground worth naming before the genuine differences."
+    },
+    {
+      "type": "heading",
+      "text": "Marriage as covenant vs. marriage as contract"
+    },
+    {
+      "type": "text",
+      "text": "Christian marriage, especially in Catholic and Orthodox theology, is often understood as a sacramental covenant, permanent and, in Catholic teaching, indissoluble except through annulment rather than true divorce. Islamic marriage (nikah) is structured as a legal contract between two consenting parties, including a mahr (a mandatory gift from the husband to the wife) — sacred and taken seriously, but not sacramental in the Christian sense, and explicitly dissolvable through divorce when a marriage genuinely fails."
+    },
+    {
+      "type": "heading",
+      "text": "Divorce: permitted but discouraged in both, to different degrees"
+    },
+    {
+      "type": "text",
+      "text": "Divorce is generally more straightforwardly permitted in Islam than in Catholic teaching specifically (which doesn't recognise true divorce at all, only annulment under specific conditions), though Islamic teaching still describes divorce as deeply disliked even while permitted."
+    },
+    {
+      "type": "quote",
+      "translation": "Of all the lawful acts, the most detestable to Allah is divorce.",
+      "reference": "Sunan Abi Dawud (a widely cited hadith regarding divorce)"
+    },
+    {
+      "type": "text",
+      "text": "Protestant traditions vary considerably on divorce, with many permitting it under specific biblical grounds (commonly infidelity or abandonment) while still treating it seriously and as a last resort — closer, in practical structure, to the Islamic approach than to Catholic teaching."
+    },
+    {
+      "type": "heading",
+      "text": "Polygamy: an honest difference worth addressing directly"
+    },
+    {
+      "type": "text",
+      "text": "Islam permits, under specific conditions (including a strict requirement of equal treatment and, for many scholars, a genuine practical justification such as widow or orphan care), a man marrying up to four wives — a real, structural difference from mainstream Christian teaching, which holds to monogamy as the only sanctioned form of marriage. This is covered in full depth, including its historical and Quranic context, in the Understanding Islam collection; this lesson simply names it honestly here as a genuine point of difference rather than avoiding it."
+    },
+    {
+      "type": "heading",
+      "text": "Interfaith marriage: a genuinely complex area for reverts"
+    },
+    {
+      "type": "text",
+      "text": "If you're navigating marriage to, or an existing marriage with, a Christian spouse, Islamic teaching does address this directly — historically permitting Muslim men to marry Christian or Jewish women under certain conditions, while the majority scholarly position does not permit Muslim women to marry non-Muslim men, a genuinely difficult and personal area worth discussing with a knowledgeable local imam given real individual circumstances, rather than relying on a general summary alone."
+    },
+    {
+      "type": "faq",
+      "question": "Is polygamy common or expected of Muslim men?",
+      "answer": "No — the large majority of Muslim marriages worldwide are monogamous, and polygamy is neither expected nor common in most Muslim communities today; where practiced, it remains subject to the strict conditions of equal treatment the Quran requires."
+    },
+    {
+      "type": "faq",
+      "question": "How do I talk with Christian family about the differences in divorce and marriage structure without it sounding like Islam takes marriage less seriously?",
+      "answer": "Emphasising the shared core commitment to marriage as sacred and to family stability, before explaining the structural differences in how each faith handles the difficult reality of marriages that fail, tends to land better than leading with the differences alone."
+    },
+    {
+      "type": "reflection",
+      "question": "Which aspect of Islamic marriage and family teaching from this lesson would be hardest to explain to your own family, and how would you approach that conversation?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Family in Islam", "reference": "See Stage 3" },
+    { "label": "Polygamy in Islam: Context and Rules", "reference": "See Understanding Islam" },
+    { "label": "Marriage-Divorce Fiqh", "reference": "See Fiqh in Daily Life" }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "tawhid-vs-trinity",
+  "stage_slug": "comparison-christianity",
+  "order": 6,
+  "title": "Tawhid vs. the Trinity: Where the Two Faiths Diverge",
+  "summary": "The single biggest theological difference between Christianity and Islam, explained honestly and without caricaturing either side.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "The real disagreement, stated plainly"
+    },
+    {
+      "type": "text",
+      "text": "After the shared ground covered so far in this collection, this is the lesson that gets to the heart of the actual theological split: Christianity's doctrine of the Trinity — one God existing as three persons, Father, Son, and Holy Spirit — versus Islam's absolute insistence on Tawhid, God's undivided, unpartnered Oneness. This isn't a minor detail; it's the central dividing line between the two faiths, and it deserves an honest, careful explanation rather than a simplified slogan on either side."
+    },
+    {
+      "type": "heading",
+      "text": "What Tawhid specifically rules out"
+    },
+    {
+      "type": "text",
+      "text": "As covered in Stage 1, Tawhid means Allah is one without partner, without division, without a co-equal or a begotten offspring sharing His divine nature. From an Islamic standpoint, describing God as existing in three persons — even when Christian theology insists this doesn't mean three gods — still introduces a plurality within God's essence that Tawhid rules out entirely. This is the Quran's central objection, stated directly."
+    },
+    {
+      "type": "quote",
+      "arabic": "لَّقَدْ كَفَرَ الَّذِينَ قَالُوا إِنَّ اللَّهَ ثَالِثُ ثَلَاثَةٍ ۘ وَمَا مِنْ إِلَٰهٍ إِلَّا إِلَٰهٌ وَاحِدٌ",
+      "translation": "They have certainly disbelieved who say, \"Allah is the third of three.\" And there is no god except one God.",
+      "reference": "Quran 5:73 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "A fair note on what Trinitarian Christians actually believe"
+    },
+    {
+      "type": "text",
+      "text": "It's worth stating clearly, out of fairness: mainstream Trinitarian Christianity does not believe in three gods. Christian doctrine describes one divine essence in three persons, a distinction Christian theologians have spent centuries carefully defining specifically to avoid the charge of tritheism (belief in three gods). Muslims responding to Christian family are on stronger, more respectful ground engaging with what Trinitarian doctrine actually claims, rather than a flattened \"Christians worship three gods\" caricature that most informed Christians would themselves reject as inaccurate."
+    },
+    {
+      "type": "heading",
+      "text": "Why the Islamic objection still stands even so"
+    },
+    {
+      "type": "text",
+      "text": "Even granting that careful Trinitarian formulation, the Islamic objection remains: any internal distinction within God's own being — three persons sharing one essence — is, from an Islamic theological standpoint, still a form of division that pure Tawhid does not allow. This is a genuine, substantive philosophical and theological disagreement between two carefully developed doctrines, not a case of one side simply misunderstanding the other. Reasonable, sincere theologians on both sides have engaged with this question for over a thousand years without reaching agreement — which is itself worth knowing, since it means you're not failing to find an easy resolution that actually exists."
+    },
+    {
+      "type": "faq",
+      "question": "Is it accurate to tell Christian family that Christianity is polytheistic?",
+      "answer": "Most Christian theologians would strongly reject that framing, and using it is likely to shut a conversation down rather than open it — a more accurate and more persuasive way to describe the Islamic objection is that Tawhid requires a stricter, undivided oneness than the Trinity's \"one essence, three persons\" formulation allows, not that Christians worship multiple separate gods."
+    },
+    {
+      "type": "faq",
+      "question": "Can this disagreement ever be fully resolved in a conversation?",
+      "answer": "Probably not in a single conversation, and that's fine — this is one of the oldest, most carefully studied theological disagreements between the two faiths. The realistic goal with family is usually mutual understanding and respect for why each side holds its position, not persuading the other person on the spot."
+    },
+    {
+      "type": "reflection",
+      "question": "Having read both sides stated fairly here, can you articulate the Trinity in a way a Trinitarian Christian would recognise as accurate, before explaining why Tawhid rejects it?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Who Is Allah?", "reference": "See Stage 1" },
+    { "label": "Is Jesus the \"Son of God\"?", "reference": "See this collection, next lesson" }
+  ]
+}

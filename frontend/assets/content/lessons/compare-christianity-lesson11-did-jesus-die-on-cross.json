@@ -1,0 +1,74 @@
+{
+  "slug": "did-jesus-die-on-the-cross",
+  "stage_slug": "comparison-christianity",
+  "order": 11,
+  "title": "Did Jesus Die on the Cross? The Islamic Position",
+  "summary": "The Quran's account of the crucifixion, why Islam denies it happened the way the Gospels describe, and the honest scholarly uncertainty about exactly what Islam claims happened instead.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "The single biggest historical disagreement between the two faiths"
+    },
+    {
+      "type": "text",
+      "text": "If the Trinity is the biggest disagreement about God's nature, the crucifixion is the biggest disagreement about a historical event — and for many Christian family members, it may be the hardest part of this collection to hear, since the crucifixion sits at the very center of Christian faith. This lesson explains the Islamic position honestly, including where Islamic scholarship itself is uncertain."
+    },
+    {
+      "type": "heading",
+      "text": "What the Quran actually says"
+    },
+    {
+      "type": "text",
+      "text": "The Quran states that Jesus was not killed or crucified, but that it was made to appear so to those responsible — and that God raised him up to Himself."
+    },
+    {
+      "type": "quote",
+      "translation": "And [for] their saying, \"Indeed, we have killed the Messiah, Jesus, the son of Mary, the messenger of Allah.\" And they did not kill him, nor did they crucify him; but [another] was made to resemble him to them... And they did not kill him, for certain. Rather, Allah raised him to Himself.",
+      "reference": "Quran 4:157-158 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Honest uncertainty: what exactly happened instead"
+    },
+    {
+      "type": "text",
+      "text": "This is a point worth being direct about: Islamic scholarship does not have one single, agreed account of what happened on the cross if not Jesus' own crucifixion. The most common traditional view holds that someone else was made to resemble Jesus and was crucified in his place (sometimes identified with Judas, or a volunteer disciple, though the Quran itself doesn't name anyone) — but this specific detail comes from later commentary and hadith material, not the Quran's own text, and there is real, acknowledged diversity of opinion among classical and modern Muslim scholars about the exact mechanics of what occurred."
+    },
+    {
+      "type": "heading",
+      "text": "Why Islam denies it in the first place"
+    },
+    {
+      "type": "text",
+      "text": "The underlying theological reason connects back to earlier lessons in this collection: Islam holds that God ultimately vindicates and protects His prophets rather than allowing their enemies a final, humiliating victory over them — and Islamic theology rejects the idea that Jesus' death was necessary as a sacrificial atonement for human sin, a concept covered in the next lesson. The denial of the crucifixion and the denial of substitutionary atonement are closely connected, not two unrelated claims."
+    },
+    {
+      "type": "heading",
+      "text": "A note on how to hold this conversation with family"
+    },
+    {
+      "type": "text",
+      "text": "This is very likely the single hardest topic in this entire collection to raise with Christian family, since the crucifixion isn't a peripheral detail for most Christians — it's the emotional and theological core of their faith. It's worth preparing for this conversation to be painful for them to hear, regardless of how gently it's presented, and worth choosing your moment rather than leading with it."
+    },
+    {
+      "type": "faq",
+      "question": "Do Muslims believe the crucifixion simply didn't happen at all, to anyone?",
+      "answer": "The mainstream Islamic position is that the crucifixion event itself happened, but that Jesus specifically was not the one who died on the cross — God is understood to have removed him from that fate and raised him up, with someone or something else appearing to observers to be Jesus. The historical event isn't denied outright; who actually died is what's disputed."
+    },
+    {
+      "type": "faq",
+      "question": "How do I bring this up with Christian family without it feeling like an attack on their core beliefs?",
+      "answer": "Leading with genuine acknowledgment that this is likely the hardest part of your new beliefs for them to hear, rather than presenting it matter-of-factly, tends to go better — and it's completely reasonable to let this be a topic you return to over time rather than resolve in one conversation."
+    },
+    {
+      "type": "reflection",
+      "question": "How do you feel, personally, about the honest uncertainty within Islamic scholarship on exactly what happened at the crucifixion — does it change how confidently you'd present this topic to others?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Jesus (Isa) in the Quran", "reference": "See this collection" },
+    { "label": "Why Muslims Believe Jesus Is Alive and Will Return", "reference": "See this collection, next lesson" }
+  ]
+}

@@ -175,6 +175,71 @@ and the full Juz 'Amma — surahs 1 and 78-114, 38 surahs / 571 ayahs).
     slavery specifically, a qualified scholarly review pass is strongly
     recommended before any public release of this expanded collection.
 
+## Comparative Religion: Christianity and Islam
+
+The 48-lesson "Christianity and Islam" collection
+(`content/seed/lessons/compare-christianity-lesson1..48.json`,
+`stage_slug: "comparison-christianity"`, `collection_type:
+"comparative_religion"`) is original writing intended to help reverts
+from a Christian background understand and explain their journey to
+Christian family, "not to argue" — the same explicit framing used for the
+misconceptions collection. This is, by a clear margin, the most
+theologically and pastorally sensitive content batch in this app to date,
+for reasons worth stating plainly rather than glossing over:
+
+- It makes direct claims about Christian doctrine (the Trinity, the
+  crucifixion, atonement, sacraments, salvation) that Christian readers —
+  including reverts' own family members, who this content is explicitly
+  written to be shown to or paraphrased for — may read directly. Every
+  lesson was written with an explicit editorial instruction to represent
+  mainstream Christian positions fairly and accurately alongside the
+  Islamic position, and to avoid caricature (e.g. lesson 6 explicitly
+  states Trinitarian Christians do not believe in three gods before
+  explaining the Islamic objection to the doctrine) — but this content
+  has **not** been reviewed by a Christian theologian or comparative
+  religion scholar, only written with that fairness goal in mind.
+- **Lesson 18 ("Did the Bible Predict Muhammad?")** covers the Paraclete
+  and Deuteronomy 18:18 apologetic arguments and states directly that
+  mainstream Christian and secular biblical scholarship rejects both
+  readings, including the specific textual-critical objection (no
+  manuscript evidence for the periklytos/parakletos substitution theory).
+  This lesson is a deliberate exception to how confidently this
+  collection otherwise presents Islamic positions — it was written to
+  actively discourage presenting a contested apologetic argument as
+  settled fact, precisely because this specific claim is easy to fact-check
+  and, if presented over-confidently, is likely to damage a revert's
+  credibility with their own family.
+- **Lessons 11-12 (crucifixion, Jesus' return)** and **lesson 19
+  (tahrif)** are explicit about real, acknowledged diversity and
+  uncertainty *within* Islamic scholarship itself (e.g. lesson 11 states
+  plainly that classical and modern Muslim scholars do not agree on the
+  specific mechanics of who was crucified in Jesus' place) — this
+  honesty is deliberate, not an oversight, but means these lessons
+  should not be read as presenting a single, uncontested Islamic
+  position.
+- Historical claims (the Council of Nicaea and the Arian controversy in
+  lesson 9, the Great Schism in lesson 38, textual criticism claims in
+  lessons 17 and 19) are standard, mainstream church history and biblical
+  scholarship as commonly summarised, but — consistent with every other
+  historical claim in this app — were not independently fact-checked
+  source-by-source against primary historical scholarship in this
+  writing pass.
+- Quranic quotations follow the same Saheeh International sourcing
+  caveat as the rest of this file; the two hadith quotations without a
+  specific collection citation (lesson 5's Golden Rule hadith, lesson
+  24's clergy hadith) follow the same commonly-published-English-wording
+  caveat as the rest of this app's hadith citations.
+
+Given all of the above, **this collection should be treated as needing a
+qualified scholarly review pass — ideally including someone with real
+familiarity with mainstream Christian theology, not only Islamic
+scholarship — before any public release**, more so than any other
+content batch in this app to date. The editorial approach throughout
+(shared ground first, honest acknowledgment of contested claims, fair
+representation of the other side, practical/pastoral guidance for actual
+family conversations) is a deliberate design choice suited to this app's
+audience, not a substitute for that review.
+
 ## General principle for content going forward
 
 Only mainstream Sunni sources should be used (see the product brief's

@@ -46,6 +46,13 @@ GoRouter buildAppRouter({required bool onboardingComplete}) {
           title: 'Understanding Islam',
         ),
       ),
+      GoRoute(
+        path: '/comparisons',
+        builder: (context, state) => const TopicCollectionScreen(
+          collectionType: 'comparative_religion',
+          title: 'Comparing Faiths',
+        ),
+      ),
       ShellRoute(
         builder: (context, state, child) {
           final index = _tabPaths.indexWhere((p) => state.matchedLocation.startsWith(p));

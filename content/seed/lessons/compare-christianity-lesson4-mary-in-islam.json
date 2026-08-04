@@ -1,0 +1,66 @@
+{
+  "slug": "mary-in-islam",
+  "stage_slug": "comparison-christianity",
+  "order": 4,
+  "title": "Mary (Maryam) in Islam: A Quran Chapter Bears Her Name",
+  "summary": "The Quran's account of Mary's own story, and why she holds an unusually elevated status in Islam compared to most other faiths outside Christianity.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "The only woman named in the Quran"
+    },
+    {
+      "type": "text",
+      "text": "Mary (Maryam) is the only woman mentioned by name in the Quran, and Surah Maryam (Chapter 19) is named directly after her — a level of textual prominence many reverts from a Christian background don't expect from Islam. Her family (Surah Al-Imran, Chapter 3, is named after her father's family line) and her story receive sustained, detailed narrative attention across multiple chapters."
+    },
+    {
+      "type": "heading",
+      "text": "Her own story before Jesus"
+    },
+    {
+      "type": "text",
+      "text": "The Quran describes Mary's mother dedicating her to God's service before she was even born, her upbringing in the Temple under the care of the prophet Zechariah (Zakariya), and God providing for her needs miraculously during that time — a narrative largely unfamiliar to most Christians, since it isn't part of the New Testament's own account and draws instead on material closer to certain early Christian traditions outside the biblical canon."
+    },
+    {
+      "type": "quote",
+      "translation": "And [mention] when the angels said, \"O Mary, indeed Allah has chosen you and purified you and chosen you above the women of the worlds.\"",
+      "reference": "Quran 3:42 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "A model of righteousness, not a divine figure"
+    },
+    {
+      "type": "text",
+      "text": "Islamic tradition holds Mary up as one of the greatest women in human history — some scholarly opinions place her among the very highest examples of righteousness of any human being. What Islam does not do is regard her as divine, as a mediator between believers and God, or as an object of devotional prayer the way she is honored in Catholic and Orthodox Christian practice specifically. Muslims respect and admire her; they do not pray to her."
+    },
+    {
+      "type": "heading",
+      "text": "A note for reverts from Catholic or Orthodox backgrounds"
+    },
+    {
+      "type": "text",
+      "text": "If Marian devotion (the rosary, Marian feast days, prayers asking for her intercession) was part of your Christian practice, it's worth naming clearly: Islam's high regard for Mary doesn't carry over into asking her for intercession, since Islamic teaching directs all prayer and request for help to God alone, without intermediaries. This is a genuine, practical shift, not a subtle one — and it's fine to grieve the loss of a devotional practice that was meaningful to you while still recognising why Islam approaches it differently."
+    },
+    {
+      "type": "faq",
+      "question": "Why does the Quran tell parts of Mary's story that aren't in the Bible?",
+      "answer": "The Quran draws on a broader body of tradition circulating in the region at the time of its revelation, including material found in early Christian apocryphal texts (like the Protoevangelium of James) that weren't included in the New Testament canon — this is a matter of historical record, not a claim this app is taking a position on beyond noting where the material likely originates."
+    },
+    {
+      "type": "faq",
+      "question": "Is it true Mary is sometimes called the most honored woman in Islam?",
+      "answer": "This is a commonly cited position among many scholars, based on hadith describing her among the best women of her time, though Islamic scholarship doesn't universally rank the great women of religious history in a single fixed order — the point most agree on is that she is honored at the very highest level available to any human being."
+    },
+    {
+      "type": "reflection",
+      "question": "If Marian devotion was part of your Christian upbringing, how does it feel to learn that Mary is deeply honored in Islam too, even though the practice around her differs?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Jesus (Isa) in the Quran", "reference": "See this collection, previous lesson" },
+    { "label": "Tawhid vs. the Trinity", "reference": "See this collection" }
+  ]
+}

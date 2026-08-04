@@ -1,0 +1,61 @@
+{
+  "slug": "catholic-protestant-orthodox",
+  "stage_slug": "comparison-christianity",
+  "order": 38,
+  "title": "Catholic, Protestant, Orthodox: Why \"Christianity\" Isn't Just One Thing",
+  "summary": "Opening this section on denominational nuance with a reminder that most of this collection's comparisons involve real internal Christian diversity worth naming precisely.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Why this section exists"
+    },
+    {
+      "type": "text",
+      "text": "Throughout this collection, phrases like \"Christian teaching\" or \"mainstream Christianity\" have been used carefully, but Christianity itself is far from a single, uniform belief system — this section names that internal diversity directly, since your own family's specific tradition shapes which parts of this collection will feel most and least familiar to them."
+    },
+    {
+      "type": "heading",
+      "text": "The three broad families, briefly"
+    },
+    {
+      "type": "text",
+      "text": "Catholicism (the largest single Christian body worldwide, centered on the Pope and Vatican, with a strong sacramental and hierarchical structure), Eastern Orthodoxy (historically centered on Constantinople and other ancient patriarchates, sharing much of Catholic sacramental theology but organisationally independent since the Great Schism of 1054), and Protestantism (a broad, internally diverse family originating in the 16th-century Reformation, spanning everything from Anglican and Lutheran traditions closer to Catholic practice, to Baptist, Pentecostal, and non-denominational churches emphasising scripture alone and minimal ritual) — each with genuinely different emphases on many of the topics covered in this collection."
+    },
+    {
+      "type": "heading",
+      "text": "Why this matters for how you use this collection"
+    },
+    {
+      "type": "text",
+      "text": "Lessons on sacraments, clergy, and confession will resonate most directly with reverts from Catholic or Orthodox backgrounds; lessons on grace, faith alone, and biblical authority will resonate most with reverts from Protestant, especially evangelical, backgrounds. When talking with your own family, knowing which tradition they belong to — and not assuming their beliefs match a different Christian tradition's positions — will make your explanations land far more accurately and respectfully."
+    },
+    {
+      "type": "heading",
+      "text": "A useful parallel: Islam has real internal diversity too"
+    },
+    {
+      "type": "text",
+      "text": "This is a genuinely useful parallel to draw with family: Islam similarly has real internal diversity — Sunni and Shia branches, and within Sunni Islam, four major schools of law (madhhabs) with real differences on many practical questions, covered in Stage 4. Neither faith is a perfect monolith, and naming that honestly on both sides tends to build more accurate mutual understanding than either faith being flattened into one imagined uniform position."
+    },
+    {
+      "type": "faq",
+      "question": "Which Christian tradition is closest to Islam theologically?",
+      "answer": "There's no single answer — Catholic and Orthodox traditions share more structural similarity with Islam on sacramental practice and religious authority structures in some respects, while some Protestant traditions' strict monotheistic emphasis and rejection of religious imagery share more with Islamic Tawhid in other respects; it genuinely depends which specific point of comparison you're looking at."
+    },
+    {
+      "type": "faq",
+      "question": "Is it rude to ask my family exactly what denomination or tradition they belong to, if I'm not sure?",
+      "answer": "Not at all — most people appreciate being asked accurately about their own beliefs rather than assumed into a category that doesn't fit, and it shows genuine care in how you're approaching the conversation."
+    },
+    {
+      "type": "reflection",
+      "question": "Which Christian tradition did you grow up in, and which lessons in this collection have felt most directly relevant to that specific background?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Understanding Madhhabs", "reference": "See Stage 4" },
+    { "label": "Evangelism and Da'wah", "reference": "See this collection" }
+  ]
+}

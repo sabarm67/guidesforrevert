@@ -1,0 +1,66 @@
+{
+  "slug": "baptism-and-communion",
+  "stage_slug": "comparison-christianity",
+  "order": 26,
+  "title": "Baptism and Communion: Why Islam Has No Sacraments",
+  "summary": "How Islam handles the milestones and meanings that baptism and communion carry in Christian life, without a sacramental system of its own.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Sacraments as a structuring feature of Christian life"
+    },
+    {
+      "type": "text",
+      "text": "Baptism and communion (the Eucharist) sit at the center of Christian sacramental life across most traditions — rites believed to convey real spiritual grace, not merely symbolic gestures. Islam has nothing structurally equivalent, which can leave a noticeable gap for reverts used to marking their faith through these specific rites."
+    },
+    {
+      "type": "heading",
+      "text": "What replaces baptism: the Shahadah, not a ritual washing"
+    },
+    {
+      "type": "text",
+      "text": "As covered in Stage 1, entry into Islam happens through sincere belief and declaration of the Shahadah — a verbal, witnessed testimony of faith — not through a water ritual understood to remove sin or confer grace. Wudu and Ghusl (the greater ritual washing) exist in Islam, but as ongoing practices of physical and ritual purity before worship, not as a one-time rite of religious initiation."
+    },
+    {
+      "type": "quote",
+      "translation": "I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah.",
+      "reference": "The Shahadah (Declaration of Faith)"
+    },
+    {
+      "type": "heading",
+      "text": "What replaces communion: nothing sacramental, by design"
+    },
+    {
+      "type": "text",
+      "text": "There is no Islamic equivalent to communion at all — no ritual meal understood to involve the real or symbolic presence of the divine. This follows directly from Islam's rejection of the crucifixion as an atoning sacrifice, covered earlier in this collection: without that theological foundation, there's no equivalent rite reenacting it. Islamic communal meals (breaking the Ramadan fast together, Eid gatherings) carry real social and spiritual significance, but not sacramental significance in the Christian sense."
+    },
+    {
+      "type": "heading",
+      "text": "How Islam marks major life moments instead"
+    },
+    {
+      "type": "text",
+      "text": "Islam does mark significant life moments — a child's first fast during Ramadan, memorising portions of the Quran, marriage (nikah), and more — but through community celebration and personal milestones rather than a formal sacramental system administered by clergy. For a revert, formally saying the Shahadah (ideally in front of witnesses, though not strictly required) is often treated, informally, as the most significant marker of the new chapter — even though Islamic theology doesn't frame it as a sacrament in the technical sense."
+    },
+    {
+      "type": "faq",
+      "question": "Is there any Islamic equivalent to infant baptism or dedication?",
+      "answer": "Many Muslim families perform a naming ceremony (aqiqah) shortly after a child's birth, including a symbolic sacrifice whose meat is shared with family and the poor, along with shaving the infant's head — a meaningful cultural and religious milestone, though it isn't considered to confer salvation or remove sin the way infant baptism is understood to in some Christian traditions."
+    },
+    {
+      "type": "faq",
+      "question": "I miss the physical, ritual feeling of communion — is that a normal thing to grieve?",
+      "answer": "Yes, completely — many converts describe genuinely missing specific rituals that carried deep personal meaning, even while being confident in their new faith overall; acknowledging that grief honestly, rather than suppressing it, tends to make the broader transition healthier."
+    },
+    {
+      "type": "reflection",
+      "question": "Of baptism and communion, which one — if either — do you find yourself missing more, and why do you think that is?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Confession and Repentance", "reference": "See this collection, previous lesson" },
+    { "label": "The Shahadah: The Declaration of Faith", "reference": "See Stage 1" }
+  ]
+}

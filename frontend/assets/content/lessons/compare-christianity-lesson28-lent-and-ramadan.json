@@ -1,0 +1,75 @@
+{
+  "slug": "lent-and-ramadan",
+  "stage_slug": "comparison-christianity",
+  "order": 28,
+  "title": "Lent and Ramadan: Comparing Christian and Islamic Fasting",
+  "summary": "How Lent's fasting practices and Ramadan's obligatory month-long fast compare in structure, intensity, and purpose.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Fasting in both traditions, structured very differently"
+    },
+    {
+      "type": "text",
+      "text": "Fasting exists in both faiths, but the specifics — what's given up, for how long, and how strictly — differ substantially, and Ramadan is typically a significantly more intensive practice than most Christians' experience of Lent."
+    },
+    {
+      "type": "heading",
+      "text": "Lent: 40 days, typically partial abstinence"
+    },
+    {
+      "type": "text",
+      "text": "Lent runs about 40 days before Easter, and its observance varies widely by denomination and individual — commonly involving giving up a specific food, habit, or luxury (chocolate, alcohol, social media) rather than complete daily fasting, alongside increased prayer and charitable giving. Catholic tradition includes specific stricter fasting and abstinence days (Ash Wednesday, Good Friday, Fridays generally), but full-day fasting throughout the entire 40-day period isn't the typical Lenten practice for most Christians today."
+    },
+    {
+      "type": "heading",
+      "text": "Ramadan: complete abstinence, dawn to sunset, for a full month"
+    },
+    {
+      "type": "text",
+      "text": "Ramadan, one of the Five Pillars, requires complete abstinence from all food and drink (including water) from dawn to sunset, every single day for the full lunar month — a considerably more physically demanding practice than most Lenten observance, obligatory on all healthy adult Muslims rather than an optional or partial personal commitment."
+    },
+    {
+      "type": "quote",
+      "translation": "O you who have believed, decreed upon you is fasting as it was decreed upon those before you, that you may become righteous.",
+      "reference": "Quran 2:183 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "A notable point of continuity"
+    },
+    {
+      "type": "text",
+      "text": "This verse is worth highlighting specifically: the Quran itself frames Ramadan's fasting as a continuation of a practice already familiar to earlier faith communities, not something invented from nothing — fasting traditions do appear across Jewish and Christian history (extended fasts in the Old Testament, Jesus' own 40-day fast, historical Christian fasting practices stricter than most modern observance). Ramadan can be understood as an intensified, formally structured continuation of a shared religious instinct, not an unrelated new demand."
+    },
+    {
+      "type": "heading",
+      "text": "Purpose: broadly similar, even where practice differs"
+    },
+    {
+      "type": "text",
+      "text": "Both practices share real underlying goals — spiritual discipline, increased focus on God, solidarity with those who go hungry, and detachment from worldly comfort — even though Ramadan's obligatory, complete, communal nature makes it feel structurally quite different from most contemporary Lenten practice."
+    },
+    {
+      "type": "faq",
+      "question": "Is Ramadan harder than Lent?",
+      "answer": "In terms of daily physical demand, generally yes — complete abstinence from food and water during daylight hours every day for a month is a significantly more intensive practice than most Lenten observance today, though historical Christian fasting practices were often considerably stricter than typical modern Lent, so this comparison depends somewhat on which era of Christian practice you're comparing against."
+    },
+    {
+      "type": "faq",
+      "question": "Can I draw on my experience observing Lent to help with Ramadan?",
+      "answer": "Yes, in a limited but real way — the discipline of intentional restraint and refocused spiritual attention translates conceptually, even though Ramadan's specific physical demands and communal structure (pre-dawn suhoor meals, breaking the fast together at iftar, increased Quran recitation) will likely feel like a substantially bigger commitment than Lent did."
+    },
+    {
+      "type": "reflection",
+      "question": "If you observed Lent growing up, how does your first Ramadan (or your experience of it so far) compare to what you expected based on that background?"
+    }
+  ],
+  "further_reading": [
+    { "label": "The Five Pillars of Islam", "reference": "See Stage 1" },
+    { "label": "Sunday Worship vs. Friday Jumu'ah", "reference": "See this collection, previous lesson" },
+    { "label": "Tithing and Zakat", "reference": "See this collection, next lesson" }
+  ]
+}

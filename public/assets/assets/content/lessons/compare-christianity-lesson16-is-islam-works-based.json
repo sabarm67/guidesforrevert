@@ -1,0 +1,66 @@
+{
+  "slug": "is-islam-works-based",
+  "stage_slug": "comparison-christianity",
+  "order": 16,
+  "title": "Is Islam a \"Works-Based\" Religion? Addressing a Common Misunderstanding",
+  "summary": "Directly addressing the common Christian framing of Islam as a religion of earning salvation through works, and why it doesn't accurately describe Islamic theology.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A question you'll likely hear directly"
+    },
+    {
+      "type": "text",
+      "text": "Closing out this section on salvation: many Christians, especially from Protestant backgrounds emphasising grace through faith alone, describe Islam as a religion where you \"earn your way to heaven\" through good deeds — a fairly common framing you're likely to hear from family. This lesson addresses it head-on."
+    },
+    {
+      "type": "heading",
+      "text": "Why the framing doesn't accurately describe Islamic theology"
+    },
+    {
+      "type": "text",
+      "text": "As the previous two lessons covered, mainstream Islamic teaching does not describe salvation as a transaction where enough good deeds purchase Paradise outright. God's mercy is the stated basis for salvation throughout the Quran and hadith; righteous deeds are the expected, natural expression of genuine faith, not a separate earning mechanism operating independently of God's grace."
+    },
+    {
+      "type": "quote",
+      "translation": "None of you will enter Paradise by his deeds alone.\" They said, \"Not even you, O Messenger of Allah?\" He said, \"Not even me, unless Allah covers me with His grace and mercy.\"",
+      "reference": "Sahih al-Bukhari and Sahih Muslim (abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Where the misunderstanding likely comes from"
+    },
+    {
+      "type": "text",
+      "text": "The confusion is understandable: Islam does have visible, structured practices (the Five Pillars, dietary rules, dress) that can look, from the outside, like a checklist for earning favor — especially when compared with a Protestant tradition that has deliberately minimized ritual practice to emphasise faith alone. But structured practice and works-based salvation are not the same thing; Catholic and Orthodox Christianity also maintain extensive ritual practice (sacraments, confession, fasting seasons) without those traditions typically being described as \"works-based\" religions either."
+    },
+    {
+      "type": "heading",
+      "text": "A more accurate way to describe the Islamic position"
+    },
+    {
+      "type": "text",
+      "text": "A fairer, more accurate summary: Islam holds that sincere faith naturally produces righteous action, and God's mercy — not a tally of deeds — is what ultimately saves, while genuine faith without any corresponding action isn't considered credible, living faith. This is closer to the Catholic/Orthodox position described in the previous lesson than to a pure works-earn-salvation model, and it's worth stating this precisely rather than accepting the \"works-based\" label uncritically, even in casual conversation."
+    },
+    {
+      "type": "faq",
+      "question": "If a Muslim sins seriously, do their good deeds still \"cancel it out\"?",
+      "answer": "Islamic teaching does describe good deeds as capable of erasing some sins, and sincere repentance as capable of erasing others entirely — but this operates within a framework of God's mercy responding to sincerity, not a mechanical points system where a fixed quota of deeds is required before forgiveness becomes available."
+    },
+    {
+      "type": "faq",
+      "question": "How should I respond if a family member insists Islam is works-based despite this explanation?",
+      "answer": "It can help to point to the hadith quoted in this lesson directly — even the Prophet Muhammad himself is reported to have said he wouldn't enter Paradise by his own deeds alone, without God's mercy — since it's a clear, authoritative Islamic source stating exactly the opposite of the \"earning your way in\" framing."
+    },
+    {
+      "type": "reflection",
+      "question": "Having read this whole section on salvation, how would you now summarise, in one or two sentences, the real difference between the Christian and Islamic paths to forgiveness?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Faith, Works, and Grace", "reference": "See this collection, previous lesson" },
+    { "label": "Bible and Quran: Two Different Claims About Preservation", "reference": "See this collection, next section" }
+  ]
+}

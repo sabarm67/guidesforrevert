@@ -1,0 +1,66 @@
+{
+  "slug": "purgatory-and-the-islamic-afterlife",
+  "stage_slug": "comparison-christianity",
+  "order": 40,
+  "title": "Purgatory and the Islamic View of the Afterlife",
+  "summary": "How the Catholic doctrine of purgatory compares with Islamic teaching on the afterlife, including the closer Islamic concept of Barzakh.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A specifically Catholic doctrine, not shared across all Christianity"
+    },
+    {
+      "type": "text",
+      "text": "Purgatory — a state of purification after death for those who die in God's grace but still need cleansing before entering heaven — is Catholic doctrine specifically, not shared by Orthodox Christianity in the same form or by most Protestant traditions, many of which reject it outright as unbiblical. Worth knowing before assuming it's relevant to any given Christian family member."
+    },
+    {
+      "type": "heading",
+      "text": "Islamic afterlife structure: no purgatory, but a related waiting stage"
+    },
+    {
+      "type": "text",
+      "text": "Islam has no direct equivalent to purgatory as a place of purification before Paradise — the basic Islamic framework is more binary: Paradise (Jannah) or Hellfire (Jahannam), determined by God's judgment based on faith and deeds. There is, however, a related concept worth knowing: Barzakh, a waiting period or state between death and the Day of Judgment, sometimes described in hadith as including a foretaste of one's ultimate fate (comfort or punishment in the grave), though it functions as a waiting state rather than a purification process leading to an eventual upgrade to Paradise."
+    },
+    {
+      "type": "quote",
+      "translation": "And behind them is a barrier until the Day they are resurrected.",
+      "reference": "Quran 23:100 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Where a real, if partial, parallel does exist"
+    },
+    {
+      "type": "text",
+      "text": "Islamic tradition does include some concepts with looser resemblance to purgatory's purifying function — for instance, hadith describing sinners who are punished in Hell for a period proportional to their sins but who are not condemned there eternally, eventually being admitted to Paradise through God's mercy, provided they died believers. This isn't purgatory in the Catholic technical sense (a temporary state before Paradise for the already-saved), but it does share the broader idea that Hellfire's punishment for a believer isn't necessarily eternal or without possibility of eventual mercy."
+    },
+    {
+      "type": "heading",
+      "text": "The role of prayer for the deceased"
+    },
+    {
+      "type": "text",
+      "text": "Catholic and Orthodox practice includes prayer for the dead specifically intended to help their purification in purgatory. Islam also includes prayer for the deceased — the Janazah (funeral) prayer, and ongoing dua for a deceased person's forgiveness — genuinely believed to benefit the deceased, even without the specific purgatorial framework Catholic theology attaches to it."
+    },
+    {
+      "type": "faq",
+      "question": "Is it accurate to say Islam has \"no purgatory at all\"?",
+      "answer": "It's accurate to say Islam has no formal doctrine of purgatory in the specific Catholic sense, but it would be an oversimplification to say Islamic eschatology has nothing resembling an intermediate or purifying process at all — Barzakh and the hadith on temporary Hellfire punishment for believers both show some conceptual overlap, even though the theological framework differs."
+    },
+    {
+      "type": "faq",
+      "question": "Does praying for a deceased Christian relative make sense within Islamic practice?",
+      "answer": "Islamic teaching generally holds that dua and prayer specifically for forgiveness benefits a deceased Muslim; the question of praying for a deceased non-Muslim relative is a sensitive, genuinely debated area worth discussing with a knowledgeable local scholar given real personal circumstances, rather than assuming a single simple answer."
+    },
+    {
+      "type": "reflection",
+      "question": "If purgatory was part of your Catholic upbringing, does Barzakh feel like a meaningful echo of that concept, or does the difference feel more significant to you?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Sola Scriptura and the Quran's Finality", "reference": "See this collection, previous lesson" },
+    { "label": "The Six Articles of Faith", "reference": "See Stage 1" }
+  ]
+}

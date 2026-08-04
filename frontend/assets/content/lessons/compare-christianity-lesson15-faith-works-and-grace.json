@@ -1,0 +1,74 @@
+{
+  "slug": "faith-works-and-grace",
+  "stage_slug": "comparison-christianity",
+  "order": 15,
+  "title": "Faith, Works, and Grace: Comparing Christian and Islamic Views on \"Being Saved\"",
+  "summary": "A careful comparison of how Protestant, Catholic, and Islamic teaching each weigh faith, works, and grace in salvation — more nuanced than the usual \"faith vs. works\" summary.",
+  "estimated_minutes": 8,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A comparison that's more nuanced than it first appears"
+    },
+    {
+      "type": "text",
+      "text": "It's tempting to summarise this whole area as \"Christianity is saved by grace through faith, Islam is saved by works\" — but that oversimplifies both sides, and Christian denominations themselves don't agree with each other on this question either. This lesson tries to represent all the positions fairly."
+    },
+    {
+      "type": "heading",
+      "text": "The Protestant position: grace through faith"
+    },
+    {
+      "type": "text",
+      "text": "Many Protestant traditions, especially those shaped by the Reformation, emphasise salvation by grace through faith alone (sola fide) — good works are understood as the natural fruit and evidence of genuine saving faith, not the means of earning salvation itself. This is a specific, historically significant theological position, not simply \"what all Christians believe.\""
+    },
+    {
+      "type": "heading",
+      "text": "The Catholic and Orthodox position: grace working through faith and deeds together"
+    },
+    {
+      "type": "text",
+      "text": "Catholic and Orthodox theology generally holds a different balance: salvation begins with God's grace, but genuine faith is understood to necessarily express itself through good works and participation in the sacraments, which are understood as real means of grace, not merely evidence after the fact — closer, in structure, to the Islamic position than the strict Protestant sola fide formulation, even though the theological details differ substantially."
+    },
+    {
+      "type": "heading",
+      "text": "The Islamic position, stated fairly"
+    },
+    {
+      "type": "text",
+      "text": "Islamic teaching holds that salvation ultimately comes through God's mercy, not as something earned or purchased by deeds — but that sincere faith (iman) that doesn't express itself through righteous action isn't considered genuine, living faith. The Five Pillars and the wider framework of Islamic practice are understood as the natural, expected expression of real faith, not a separate transaction that buys entry to Paradise independently of God's mercy."
+    },
+    {
+      "type": "quote",
+      "translation": "And whoever does righteous deeds, whether male or female, while being a believer — those will enter Paradise.",
+      "reference": "Quran 4:124 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Where the real difference actually lies"
+    },
+    {
+      "type": "text",
+      "text": "The genuine theological difference isn't \"grace versus works\" as a clean binary — it's more precisely located in whether a substitutionary atoning sacrifice is the necessary basis for that grace (the Christian position, in every major tradition) or whether God's mercy is extended directly, without that specific mechanism, in response to sincere faith and repentance (the Islamic position). That's a real, substantive disagreement — just a more specific and more accurate one than \"faith versus works.\""
+    },
+    {
+      "type": "faq",
+      "question": "So does a Muslim ever feel certain they're \"saved,\" the way some Christians describe assurance of salvation?",
+      "answer": "This varies among Muslims and across theological schools, but mainstream Sunni teaching generally holds that certainty of one's own final salvation isn't something a person can presumptuously claim in this life — a posture of hope in God's mercy combined with continued sincere effort, rather than either despair or complacent certainty, is the commonly taught middle ground."
+    },
+    {
+      "type": "faq",
+      "question": "Is it fair to say Islam is a \"works-based\" religion, then?",
+      "answer": "Not accurately, no — this common misunderstanding is significant enough that the next lesson in this collection addresses it directly and in full."
+    },
+    {
+      "type": "reflection",
+      "question": "Which of the three positions described here — Protestant, Catholic/Orthodox, or Islamic — most closely matches how you personally understood salvation before reverting?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Salvation Without a Savior's Sacrifice", "reference": "See this collection, previous lesson" },
+    { "label": "Is Islam a \"Works-Based\" Religion?", "reference": "See this collection, next lesson" }
+  ]
+}

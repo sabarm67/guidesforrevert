@@ -1,0 +1,70 @@
+{
+  "slug": "how-each-faith-reads-scripture",
+  "stage_slug": "comparison-christianity",
+  "order": 22,
+  "title": "How Muslims Read the Quran vs. How Christians Read the Bible",
+  "summary": "Closing out this section on scripture with the different postures each faith brings to reading its own sacred text — a practical difference reverts often notice quickly.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A practical difference you'll likely notice yourself"
+    },
+    {
+      "type": "text",
+      "text": "Closing out this section on scripture: beyond the content and claims already covered, Muslims and Christians approach the physical and spiritual experience of reading their scripture somewhat differently — a difference many reverts notice in their own changing habits before they ever articulate it."
+    },
+    {
+      "type": "heading",
+      "text": "Language and recitation"
+    },
+    {
+      "type": "text",
+      "text": "As covered in Stage 1, the Quran's Arabic wording is treated as the actual revealed text — reading it in Arabic, even before fully understanding it, is considered an act of worship in itself (each letter recited is described in hadith as bringing reward), and formal recitation follows precise rules (tajweed) for correct pronunciation. Bible reading, in most Christian traditions, centers primarily on understanding the meaning in one's own language, without a comparable emphasis on the devotional value of vocalising the original Hebrew or Greek specifically."
+    },
+    {
+      "type": "heading",
+      "text": "One book vs. a library of books"
+    },
+    {
+      "type": "text",
+      "text": "The Quran is approached as a single, unified text from one source, revealed to one prophet — while the Bible is approached, even by Christians, as a collected library of many books, by many authors, across many centuries and genres (law, history, poetry, prophecy, letters, and more), requiring different reading approaches for different books within it. This shapes very different habits of study: a systematic Quran study plan looks structurally different from a \"read through the Bible in a year\" plan moving across such varied material."
+    },
+    {
+      "type": "heading",
+      "text": "Memorisation as a living practice"
+    },
+    {
+      "type": "text",
+      "text": "Full memorisation of the Quran (hifz) remains an actively pursued, honored practice among hundreds of thousands of Muslims worldwide today, including many children, supported by structured, centuries-old memorisation methods. While memorising scripture passages or even whole books is valued in various Christian traditions too, full memorisation of an entire testament as a widespread, ongoing communal practice isn't a close parallel in most contemporary Christian communities."
+    },
+    {
+      "type": "heading",
+      "text": "What this might mean for you personally"
+    },
+    {
+      "type": "text",
+      "text": "If you're used to Bible study focused primarily on personal application and meaning, adjusting to Quran engagement that also values Arabic recitation, tajweed, and memorisation as spiritually significant in their own right can take real time — this is a normal adjustment, not a sign you're doing something wrong, and this app's Quran section is built to support exactly this gradual shift."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to learn Arabic to properly engage with the Quran?",
+      "answer": "No — as covered elsewhere in this app, understanding the meaning through translation is valuable and encouraged, and Arabic recitation skill builds gradually over time; you don't need fluency to begin meaningfully engaging with the Quran."
+    },
+    {
+      "type": "faq",
+      "question": "Is it wrong to keep reading the Bible for historical or literary interest after reverting?",
+      "answer": "There's no blanket Islamic prohibition on reading the Bible — Islamic teaching does encourage caution about treating it as a source of religious rulings for a Muslim's own practice, given the tahrif concerns covered earlier in this collection, but reading it for understanding, history, or maintaining connection with your family's tradition isn't itself prohibited."
+    },
+    {
+      "type": "reflection",
+      "question": "Having finished this section on scripture, has your own sense of how to approach reading the Quran changed compared to when you first started?"
+    }
+  ],
+  "further_reading": [
+    { "label": "The Gospel (Injil) in Islam", "reference": "See this collection, previous lesson" },
+    { "label": "What Is the Quran?", "reference": "See Stage 1" },
+    { "label": "Simple Arabic Pronunciation", "reference": "See Stage 2" }
+  ]
+}

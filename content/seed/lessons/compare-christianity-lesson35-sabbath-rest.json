@@ -1,0 +1,66 @@
+{
+  "slug": "sabbath-rest-and-islamic-work-worship-balance",
+  "stage_slug": "comparison-christianity",
+  "order": 35,
+  "title": "Sabbath Rest and the Islamic View of Work and Worship",
+  "summary": "How the biblical Sabbath compares to Islam's different approach to balancing rest, work, and worship across the week.",
+  "estimated_minutes": 5,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A commandment without a direct Islamic parallel"
+    },
+    {
+      "type": "text",
+      "text": "The Sabbath — a full day of rest from work, rooted in the Fourth Commandment and God's own rest after creation — is a significant biblical concept, observed to varying degrees across Christian traditions (mostly shifted to Sunday) and, for Jews, on Saturday. Islam has no equivalent single day of mandated rest from work."
+    },
+    {
+      "type": "heading",
+      "text": "Why Islam doesn't have a Sabbath equivalent"
+    },
+    {
+      "type": "text",
+      "text": "The Quran directly addresses this, instructing Muslims to attend Jumu'ah prayer on Friday and then explicitly return to normal activity, including work, afterward — a notably different instruction than a full day of rest."
+    },
+    {
+      "type": "quote",
+      "translation": "And when the prayer has been concluded, disperse within the land and seek from the bounty of Allah, and remember Allah often that you may succeed.",
+      "reference": "Quran 62:10 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Rest and worship woven throughout the week instead"
+    },
+    {
+      "type": "text",
+      "text": "Rather than concentrating worship and rest into one designated day, Islam structures spiritual life around five daily prayers distributed across every day of the week — a different model of work-worship balance: frequent, brief interruptions for God throughout every working day, rather than one full day set apart from ordinary labor. Some Islamic scholars and cultures have still developed practical weekend patterns influenced by this Friday emphasis, but this reflects modern social/economic organisation rather than a specific religious Sabbath requirement."
+    },
+    {
+      "type": "heading",
+      "text": "A fair comparison of the underlying goals"
+    },
+    {
+      "type": "text",
+      "text": "Both approaches aim at keeping God central amid the demands of ordinary life and preventing work from becoming all-consuming — they simply structure that goal differently: concentrated rest on one day, versus regular, distributed reorientation toward God throughout every day."
+    },
+    {
+      "type": "faq",
+      "question": "Is it acceptable in Islam to work on Fridays?",
+      "answer": "Yes — aside from the specific window needed to attend Jumu'ah prayer for those obligated to attend, working on Fridays, including afterward, is entirely normal and even explicitly encouraged by the Quranic verse quoted above."
+    },
+    {
+      "type": "faq",
+      "question": "Do Muslims ever take a full rest day, similar to a Sabbath?",
+      "answer": "There's no religious requirement to, though many Muslims, like people generally, do take regular rest days for practical and health reasons — this is a matter of personal and cultural practice rather than an Islamic religious obligation."
+    },
+    {
+      "type": "reflection",
+      "question": "Do you miss having one full designated rest day, or has the daily-prayer rhythm come to serve a similar centering purpose for you?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Islam at Work", "reference": "See Stage 3" },
+    { "label": "Sunday Worship vs. Friday Jumu'ah", "reference": "See this collection" }
+  ]
+}

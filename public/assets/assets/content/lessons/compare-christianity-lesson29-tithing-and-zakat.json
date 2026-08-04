@@ -1,0 +1,66 @@
+{
+  "slug": "tithing-and-zakat",
+  "stage_slug": "comparison-christianity",
+  "order": 29,
+  "title": "Tithing and Zakat: Comparing Giving in Both Faiths",
+  "summary": "How Christian tithing and Islamic zakat compare in structure, calculation, and where the money actually goes.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Structured giving in both traditions"
+    },
+    {
+      "type": "text",
+      "text": "Many Christian traditions teach tithing — giving roughly 10% of income to the church — as a biblical expectation, rooted in Old Testament practice. Islam has its own structured, obligatory giving in zakat, one of the Five Pillars, but the two systems differ in calculation, obligation, and where the money is directed."
+    },
+    {
+      "type": "heading",
+      "text": "How the amounts and rules differ"
+    },
+    {
+      "type": "text",
+      "text": "Tithing is typically calculated as roughly 10% of income, given regularly (often weekly or monthly), primarily to support the local church and its ministries; specific expectations and enforcement vary considerably across denominations, with many contemporary churches treating it as a strong encouragement rather than a strictly enforced requirement. Zakat is calculated differently: roughly 2.5% annually, not of income directly, but of qualifying accumulated wealth and savings above a minimum threshold (nisab) — meaning someone with little or no savings, even with decent income, may owe little or no zakat in a given year, while someone with substantial savings owes based on that wealth regardless of current income."
+    },
+    {
+      "type": "quote",
+      "translation": "Take, [O Muhammad], from their wealth a charity by which you purify them and cause them increase.",
+      "reference": "Quran 9:103 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Where the money goes: a genuinely different destination"
+    },
+    {
+      "type": "text",
+      "text": "Tithes generally support the local church itself — clergy salaries, building maintenance, ministries, and programs. Zakat, by contrast, is directed by the Quran toward eight specific categories of recipients (the poor, the needy, debtors, travelers in need, and several other named groups), with the emphasis on direct transfer of wealth to those in need rather than institutional operating costs — there's no equivalent to a mosque's own operating budget being the default destination for zakat funds specifically, though mosques are commonly supported through separate voluntary donations (sadaqah)."
+    },
+    {
+      "type": "heading",
+      "text": "Voluntary giving exists in both faiths too"
+    },
+    {
+      "type": "text",
+      "text": "Beyond the obligatory zakat, Islam also strongly encourages voluntary charity (sadaqah) without a fixed amount — closer in spirit to how many Christians think of additional giving beyond a formal tithe. Both faiths, in other words, combine a structured, somewhat obligatory baseline of giving with open-ended encouragement toward additional generosity."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to keep tithing to my old church after becoming Muslim?",
+      "answer": "No — zakat and sadaqah are the Islamic frameworks for structured and voluntary giving going forward; continuing to financially support a specific church isn't part of Islamic practice, though supporting family members generally, including non-Muslim family, remains an encouraged Islamic value in its own right, covered elsewhere in this app."
+    },
+    {
+      "type": "faq",
+      "question": "Is 2.5% really enough compared to a 10% tithe?",
+      "answer": "The comparison isn't quite apples-to-apples since zakat is calculated on accumulated wealth rather than income — in practice, zakat obligations for someone with substantial savings can meaningfully exceed what a 10%-of-income tithe would amount to, even though the headline percentage looks smaller; it depends heavily on an individual's specific financial situation."
+    },
+    {
+      "type": "reflection",
+      "question": "Does the shift from tithing-on-income to zakat-on-savings change how you think about your own giving and saving habits?"
+    }
+  ],
+  "further_reading": [
+    { "label": "The Five Pillars of Islam", "reference": "See Stage 1" },
+    { "label": "Lent and Ramadan", "reference": "See this collection, previous lesson" }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "confession-and-repentance",
+  "stage_slug": "comparison-christianity",
+  "order": 25,
+  "title": "Confession and Repentance: Going Straight to God in Islam",
+  "summary": "How Islamic repentance (tawbah) compares practically to Christian confession, including sacramental confession in Catholic and Orthodox practice.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A practice many Catholic and Orthodox reverts feel the absence of"
+    },
+    {
+      "type": "text",
+      "text": "If you came from a Catholic or Orthodox background, formal confession to a priest — a structured sacrament with real spiritual weight in your upbringing — is one of the more concretely felt losses in becoming Muslim, worth naming directly rather than glossing over."
+    },
+    {
+      "type": "heading",
+      "text": "How Islamic repentance (tawbah) works instead"
+    },
+    {
+      "type": "text",
+      "text": "As covered earlier in this collection, tawbah is a direct process between the individual and God: genuine remorse, ceasing the sinful behavior, sincere intention not to return to it, and — where another person was wronged — making amends with them directly, not through a religious intermediary. There's no confession booth, no priest pronouncing absolution, and no formal sacrament — but there is a real, structured spiritual process, not simply \"feel bad and move on.\""
+    },
+    {
+      "type": "quote",
+      "translation": "And it is He who accepts repentance from His servants and pardons misdeeds, and He knows what you do.",
+      "reference": "Quran 42:25 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "What replaces the felt experience of absolution"
+    },
+    {
+      "type": "text",
+      "text": "Many converts describe a specific prayer, Salat al-Tawbah (the prayer of repentance) — two voluntary rak'ahs followed by sincere supplication asking for forgiveness — as filling some of the emotional and ritual space that confession once occupied, giving repentance a concrete physical and spiritual action rather than leaving it purely internal. This isn't a sacrament in the Catholic sense, but it does provide real structure and a tangible moment of turning back to God."
+    },
+    {
+      "type": "heading",
+      "text": "A note on private struggle without a confessor"
+    },
+    {
+      "type": "text",
+      "text": "Some converts miss having a specific, trusted person to voice their struggles to — this is a legitimate need, and Islam doesn't discourage seeking counsel from a trusted imam, mentor, or knowledgeable friend about a struggle you're facing; what it removes is that person's role as a required, sacramentally authoritative channel for God's forgiveness. Seeking wise counsel and confessing sin directly to God are both fully compatible within Islamic practice."
+    },
+    {
+      "type": "faq",
+      "question": "Is it acceptable in Islam to tell another person about a sin you've committed, for support?",
+      "answer": "Generally, Islamic teaching actually discourages publicising your own sins even to close friends, out of a principle of covering one's own faults rather than parading them — but privately seeking guidance or support from a trusted person about a struggle, without detailing the sin itself, is different and is not discouraged."
+    },
+    {
+      "type": "faq",
+      "question": "Does repenting directly to God feel less \"official\" or less certain than a priest's absolution?",
+      "answer": "This is a genuinely common feeling among converts from confession-practicing traditions, and it's worth sitting with rather than dismissing — many describe it eventually feeling more immediate and personal once the adjustment period passes, but the adjustment itself is real and takes time for most people."
+    },
+    {
+      "type": "reflection",
+      "question": "If confession was part of your upbringing, what specifically about it do you find yourself missing, and has Salat al-Tawbah or another practice started to fill that space for you?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Salvation Without a Savior's Sacrifice", "reference": "See this collection" },
+    { "label": "Priests, Pastors, and Imams", "reference": "See this collection, previous lesson" },
+    { "label": "Baptism and Communion", "reference": "See this collection, next lesson" }
+  ]
+}

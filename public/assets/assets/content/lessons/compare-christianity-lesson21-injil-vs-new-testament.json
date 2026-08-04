@@ -1,0 +1,66 @@
+{
+  "slug": "the-injil-vs-new-testament",
+  "stage_slug": "comparison-christianity",
+  "order": 21,
+  "title": "The Gospel (Injil) in Islam: Not the Same as the New Testament",
+  "summary": "A common point of confusion for reverts: the Injil mentioned in the Quran is not simply another name for the New Testament as Christians know it.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A word that sounds familiar but means something different"
+    },
+    {
+      "type": "text",
+      "text": "The Quran refers to the Injil (Gospel) as scripture given to Jesus by God — and many reverts naturally assume this simply means the New Testament, or at least the four Gospels (Matthew, Mark, Luke, John). It doesn't, and understanding why matters for how you talk about scripture with Christian family."
+    },
+    {
+      "type": "heading",
+      "text": "What the Quran actually means by Injil"
+    },
+    {
+      "type": "text",
+      "text": "In Islamic understanding, the Injil refers to a single, specific revelation given directly to Jesus by God — comparable in category to the Torah given to Moses or the Quran given to Muhammad — rather than to the four separate, later-written Gospel accounts of Jesus' life composed by different authors (Matthew, Mark, Luke, and John) decades after Jesus, which is what \"Gospel\" or \"New Testament\" refers to in Christian usage."
+    },
+    {
+      "type": "quote",
+      "translation": "And We sent, following in their footsteps, Jesus, the son of Mary, confirming that which came before him in the Torah; and We gave him the Gospel, in which was guidance and light.",
+      "reference": "Quran 5:46 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Why this distinction matters"
+    },
+    {
+      "type": "text",
+      "text": "This means the Islamic claim isn't that the New Testament Gospels are simply a corrupted version of a book Jesus personally wrote or dictated — the categories don't match up that way. The Quran describes the Injil as revelation given to Jesus himself, similar to how the Quran was given to Muhammad; the four New Testament Gospels are, even by mainstream Christian scholarship's own account, later written narratives about Jesus by different authors, not first-person revelation given directly to Jesus in the way Islam describes the Injil."
+    },
+    {
+      "type": "heading",
+      "text": "A more precise way to talk about this"
+    },
+    {
+      "type": "text",
+      "text": "Rather than saying \"the Gospel was corrupted into the New Testament,\" a more accurate statement is: \"Islam holds that Jesus received a specific revelation from God, and that the material available in the New Testament Gospels today — while containing real historical information about Jesus and his teaching — isn't identical to that original revelation.\" This is a real difference in claim, worth stating precisely rather than collapsing into a vaguer, less accurate version."
+    },
+    {
+      "type": "faq",
+      "question": "Does Islam think the New Testament Gospels are worthless, then?",
+      "answer": "No — as covered in the tahrif lesson, Islamic teaching doesn't dismiss earlier scripture as worthless, and Muslims are taught to hold the Gospels given to Jesus in high regard as genuine prior revelation, even while holding that the New Testament texts available today have been shaped, over time, by human authorship and transmission in ways that don't make them identical to that original revelation."
+    },
+    {
+      "type": "faq",
+      "question": "Is there any lost \"original Gospel\" Muslims are looking for?",
+      "answer": "There's no consensus Islamic claim that a physical lost document will be recovered — the Injil, in Islamic theology, is understood more as the revealed message given to Jesus than a specific missing manuscript, similar to how \"the Torah\" in Islamic thought refers primarily to God's revealed message to Moses rather than one identifiable ancient scroll."
+    },
+    {
+      "type": "reflection",
+      "question": "Did you previously assume the Injil and the New Testament were simply the same thing under two names? Does this distinction change how you'd explain your beliefs about scripture to family?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Why Muslims Believe Earlier Scriptures Were Altered (Tahrif)", "reference": "See this collection" },
+    { "label": "How Muslims Read the Quran vs. How Christians Read the Bible", "reference": "See this collection, next lesson" }
+  ]
+}

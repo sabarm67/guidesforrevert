@@ -1,0 +1,66 @@
+{
+  "slug": "sunday-worship-vs-friday-jumuah",
+  "stage_slug": "comparison-christianity",
+  "order": 27,
+  "title": "Sunday Worship vs. Friday Jumu'ah: Comparing the Weekly Gathering",
+  "summary": "A practical comparison of the one weekly congregational gathering each faith centers its communal worship around.",
+  "estimated_minutes": 5,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "The one shared structural feature: a weekly gathering"
+    },
+    {
+      "type": "text",
+      "text": "Despite the very different daily rhythms covered earlier in this section, both faiths do converge on one weekly congregational gathering — Sunday for most Christians, Friday Jumu'ah for Muslims — making this one of the more directly comparable practices between the two faiths."
+    },
+    {
+      "type": "heading",
+      "text": "Why Friday, specifically"
+    },
+    {
+      "type": "text",
+      "text": "Friday's significance in Islam isn't tied to a specific historical event the way Sunday relates to the resurrection in Christianity — it's simply the day the Quran designates for the special communal prayer, without an extensively elaborated theological reason beyond God's command."
+    },
+    {
+      "type": "quote",
+      "translation": "O you who have believed, when [the adhan] is called for the prayer on the day of Jumu'ah, then proceed to the remembrance of Allah and leave trade. That is better for you, if you only knew.",
+      "reference": "Quran 62:9 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Structure of the gathering itself"
+    },
+    {
+      "type": "text",
+      "text": "Jumu'ah replaces the Dhuhr (midday) prayer on Fridays specifically, and follows a fairly compact structure: a khutbah (sermon, generally in two parts) followed by a short, two-rak'ah congregational prayer — typically a shorter overall time commitment than a full Sunday Christian service including music, extended preaching, and communion."
+    },
+    {
+      "type": "heading",
+      "text": "Who is obligated to attend"
+    },
+    {
+      "type": "text",
+      "text": "Jumu'ah attendance is obligatory specifically for adult men who are physically able and not travelling; it isn't obligatory for women, though women are welcome and many do attend. This differs from typical Christian expectations, where Sunday attendance is generally expected of the whole congregation regardless of gender — a genuine structural difference worth understanding rather than assuming symmetry."
+    },
+    {
+      "type": "faq",
+      "question": "What happens if I can't get to Friday prayer because of work?",
+      "answer": "If attending is genuinely not possible due to a real obligation, the missed Jumu'ah prayer is simply prayed as an ordinary Dhuhr prayer instead — there's flexibility built in, though making a real effort to prioritise attendance when possible is strongly encouraged given its emphasis in the Quran."
+    },
+    {
+      "type": "faq",
+      "question": "Is missing Sunday church a bigger deal in Christianity than missing Jumu'ah is in Islam?",
+      "answer": "This varies significantly across Christian denominations and individual belief, so it's hard to generalise — some traditions treat regular attendance as very serious, others more flexibly; it's a reasonable, respectful question to explore with Christian family rather than assume an answer for them."
+    },
+    {
+      "type": "reflection",
+      "question": "How has the shift from a Sunday-centered week to a Friday-centered one changed the rhythm of your week, if at all?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Church and Mosque", "reference": "See this collection" },
+    { "label": "Lent and Ramadan", "reference": "See this collection, next lesson" }
+  ]
+}
