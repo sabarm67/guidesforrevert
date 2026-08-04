@@ -1,7 +1,7 @@
 {
   "slug": "the-six-articles-of-faith",
   "stage_slug": "welcome-to-islam",
-  "order": 6,
+  "order": 4,
   "title": "The Six Articles of Faith",
   "summary": "The six core beliefs that make up Islamic faith (iman), broken down one by one.",
   "estimated_minutes": 9,
@@ -42,7 +42,7 @@
     },
     {
       "type": "text",
-      "text": "Muslims believe Allah has sent down revealed scripture to various prophets throughout history — including the Tawrat (given to Musa/Moses), the Zabur (given to Dawud/David), and the Injil (given to Isa/Jesus) — alongside the Quran, given to Muhammad (peace be upon him). The Quran is held to be the final revelation, and the only one preserved in its original form; earlier scriptures are believed to have been altered or lost over time in ways the Quran was specifically protected from."
+      "text": "Muslims believe Allah has sent down revealed scripture to various prophets throughout history — including the Tawrat (given to Musa/Moses), the Zabur (given to Dawud/David), and the Injil (given to Isa/Jesus) — alongside the Quran, given to Muhammad (peace be upon him). The Quran is held to be the final revelation, and the only one preserved in its original form; earlier scriptures are believed to have been altered or lost over time in ways the Quran was specifically protected from. The next lesson is a deep-dive into the Quran specifically, since it's the book every Muslim engages with directly and often."
     },
     {
       "type": "heading",
@@ -50,7 +50,7 @@
     },
     {
       "type": "text",
-      "text": "Islamic tradition describes a long line of prophets sent to different peoples throughout history — including figures shared with Judaism and Christianity such as Adam, Ibrahim (Abraham), Musa (Moses), and Isa (Jesus) — all conveying fundamentally the same core message: worship God alone. Muhammad (peace be upon him) is believed to be the last in this line, the \"Seal of the Prophets,\" with no prophet to follow him."
+      "text": "Islamic tradition describes a long line of prophets sent to different peoples throughout history — including figures shared with Judaism and Christianity such as Adam, Ibrahim (Abraham), Musa (Moses), and Isa (Jesus) — all conveying fundamentally the same core message: worship God alone. Muhammad (peace be upon him) is believed to be the last in this line, the \"Seal of the Prophets,\" with no prophet to follow him. The lesson after next is a deep-dive into his life specifically."
     },
     {
       "type": "heading",
@@ -86,6 +86,7 @@
   "further_reading": [
     { "label": "The Five Pillars of Islam", "reference": "See Stage 1, previous lesson" },
     { "label": "Who Is Allah?", "reference": "See Stage 1, first lesson" },
-    { "label": "What Is the Quran?", "reference": "See Stage 1" }
+    { "label": "What Is the Quran?", "reference": "See Stage 1, next lesson" },
+    { "label": "Who Was Prophet Muhammad?", "reference": "See Stage 1, later lesson" }
   ]
 }

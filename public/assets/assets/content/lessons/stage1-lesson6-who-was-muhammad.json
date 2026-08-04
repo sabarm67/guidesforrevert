@@ -1,0 +1,68 @@
+{
+  "slug": "who-was-muhammad",
+  "stage_slug": "welcome-to-islam",
+  "order": 6,
+  "title": "Who was Prophet Muhammad (peace be upon him)?",
+  "summary": "A brief, respectful introduction to the life and character of the final Prophet, and why Muslims honour him without worshipping him.",
+  "estimated_minutes": 7,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A man, a messenger, not divine"
+    },
+    {
+      "type": "text",
+      "text": "The Six Articles of Faith lesson named belief in Allah's prophets and messengers as one of the six core beliefs, closing with Muhammad as the last of them — this lesson is that promised deep-dive. Muhammad ibn Abdullah (peace be upon him) was born in Makkah, in present-day Saudi Arabia, around the year 570 CE. Muslims believe he was chosen by God at around age 40 to receive the Quran and deliver God's final message to humanity. He is deeply loved and respected by Muslims, but Islamic teaching is firm and clear on one point: he was a human being, not divine, and he is never to be worshipped. Muslims worship Allah alone, and honour Muhammad as His final messenger — the same category Islam places Moses, Jesus, and other prophets in."
+    },
+    {
+      "type": "heading",
+      "text": "The world he was born into"
+    },
+    {
+      "type": "text",
+      "text": "Pre-Islamic Arabia (a period Muslims call Jahiliyyah, \"the time of ignorance\") had many tribes worshipping numerous idols, alongside real social problems: tribal warfare, extreme inequality, and practices such as the burial of infant daughters in some communities. Muhammad was known even before his prophethood for his honesty and trustworthiness — he was called Al-Amin, \"the trustworthy one,\" by his own community, including people who did not accept his later message."
+    },
+    {
+      "type": "heading",
+      "text": "Character before doctrine"
+    },
+    {
+      "type": "text",
+      "text": "Islamic tradition places enormous weight on his character, not just his teachings: he was known for patience under persecution, gentleness with children, fairness even to opponents, and simplicity in how he lived despite eventually leading a large community. When his wife Aisha was asked to describe his character, she is reported to have said that his character was the Quran itself — meaning he lived out its teachings in daily life, not just recited them."
+    },
+    {
+      "type": "quote",
+      "arabic": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ",
+      "translation": "And We have not sent you, [O Muhammad], except as a mercy to the worlds.",
+      "reference": "Quran 21:107 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Why Muslims say \"peace be upon him\""
+    },
+    {
+      "type": "text",
+      "text": "You'll notice this phrase (or its abbreviation, ﷺ or \"pbuh\") after his name throughout this app. It's a short prayer of respect Muslims say whenever mentioning him, and is extended to other prophets too. It's a habit worth adopting, though there's no expectation to say it perfectly from day one — it becomes natural over time."
+    },
+    {
+      "type": "faq",
+      "question": "Do Muslims believe Muhammad performed miracles like other prophets?",
+      "answer": "The main miracle Muslims point to is the Quran itself — its content, preservation, and the fact that it was revealed through an unlettered man in a specific historical context. Islamic tradition also narrates other events, but the Quran's revelation is considered the central, ongoing miracle, since it can still be read and examined today."
+    },
+    {
+      "type": "faq",
+      "question": "Is it true Muhammad couldn't read or write — does that matter?",
+      "answer": "Yes, tradition holds he was unlettered (ummi). Muslims see this as significant: it makes the depth, consistency, and literary quality of the Quran harder to attribute to ordinary human authorship of the time, reinforcing the belief that its source was divine revelation rather than his own composition."
+    },
+    {
+      "type": "reflection",
+      "question": "The description \"a mercy to the worlds\" is a broad claim. What would you want to learn more about, to understand why Muslims describe him that way?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Seerah (biography of the Prophet)", "reference": "See Stage 4: Growing in Knowledge (future content)" },
+    { "label": "The Five Pillars of Islam", "reference": "See Stage 1, earlier lesson" },
+    { "label": "The Six Articles of Faith", "reference": "See Stage 1, earlier lesson" }
+  ]
+}

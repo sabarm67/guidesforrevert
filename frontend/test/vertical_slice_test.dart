@@ -4,8 +4,21 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:new_muslim_companion/core/db/app_database.dart';
 import 'package:new_muslim_companion/core/db/providers.dart';
+import 'package:new_muslim_companion/features/prayer/location_providers.dart';
 import 'package:new_muslim_companion/main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+/// Widget tests shouldn't depend on the real `geolocator` plugin — there's
+/// no platform channel handler registered in this test environment, and
+/// unlike a simple missing-plugin exception, some desktop geolocator
+/// backends make a genuine OS-level call that can hang indefinitely rather
+/// than failing fast. Overriding the provider with a fixed location keeps
+/// this test fast and deterministic without touching production code paths.
+class _FixedLocationController extends LocationController {
+  @override
+  Future<SelectedLocation> build() async =>
+      const SelectedLocation(label: 'Test City', latitude: 51.5072, longitude: -0.1276);
+}
 
 /// Widget-test version of the Foundation Package's required vertical
 /// slice (see docs/testing/testing-plan.md). A true on-device/browser
@@ -32,7 +45,10 @@ void main() {
 
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [appDatabaseProvider.overrideWith((ref) => AppDatabase(NativeDatabase.memory()))],
+        overrides: [
+          appDatabaseProvider.overrideWith((ref) => AppDatabase(NativeDatabase.memory())),
+          locationControllerProvider.overrideWith(_FixedLocationController.new),
+        ],
         child: const NewMuslimCompanionApp(),
       ),
     );

@@ -47,9 +47,18 @@ class LocationController extends AsyncNotifier<SelectedLocation> {
       return SelectedLocation(label: label, latitude: lat, longitude: lng);
     }
 
-    // Default to the first known city until the user picks one or grants
-    // device location — keeps the Home dashboard's prayer-times card
-    // meaningful on first launch with zero setup.
+    // No saved preference yet — try the device's real location first, for
+    // accurate prayer times with zero setup. Falls back to the first known
+    // city, silently, if permission is denied or location services are
+    // unavailable (e.g. the user hasn't responded to a browser permission
+    // prompt) — this is always an optional enhancement, never required to
+    // use the app.
+    final detected = await _detectDeviceLocation();
+    if (detected != null) {
+      await _persist(detected.label, detected.latitude, detected.longitude);
+      return detected;
+    }
+
     final defaultCity = knownCities.first;
     return SelectedLocation(
       label: defaultCity.name,
@@ -68,28 +77,47 @@ class LocationController extends AsyncNotifier<SelectedLocation> {
   /// is denied or location services are unavailable — this is always an
   /// optional enhancement, never required to use the app.
   Future<bool> useDeviceLocation() async {
+    final detected = await _detectDeviceLocation();
+    if (detected == null) return false;
+
+    await _persist(detected.label, detected.latitude, detected.longitude);
+    state = AsyncData(detected);
+    return true;
+  }
+
+  /// Shared by [build]'s automatic first-launch attempt and
+  /// [useDeviceLocation]'s manual picker action. Returns null on any
+  /// failure — disabled location services, denied permission, or an error
+  /// from the platform — never throws.
+  Future<SelectedLocation?> _detectDeviceLocation() async {
+    try {
+      // The .timeout() guards against a plugin call that never completes at
+      // all (e.g. no method-channel handler registered in a widget test, or
+      // a browser permission prompt the user never responds to) — a plain
+      // try/catch alone only covers calls that *throw*, not ones that hang.
+      return await _attemptDeviceLocation().timeout(const Duration(seconds: 5));
+    } catch (_) {
+      // Covers a missing platform plugin, a timeout, or a genuine runtime
+      // failure — either way, this is always an optional enhancement,
+      // never required.
+      return null;
+    }
+  }
+
+  Future<SelectedLocation> _attemptDeviceLocation() async {
     final serviceEnabled = await Geolocator.isLocationServiceEnabled();
-    if (!serviceEnabled) return false;
+    if (!serviceEnabled) throw StateError('Location services disabled');
 
     var permission = await Geolocator.checkPermission();
     if (permission == LocationPermission.denied) {
       permission = await Geolocator.requestPermission();
     }
     if (permission == LocationPermission.denied || permission == LocationPermission.deniedForever) {
-      return false;
+      throw StateError('Location permission denied');
     }
 
-    try {
-      final position = await Geolocator.getCurrentPosition();
-      const label = 'My location';
-      await _persist(label, position.latitude, position.longitude);
-      state = AsyncData(
-        SelectedLocation(label: label, latitude: position.latitude, longitude: position.longitude),
-      );
-      return true;
-    } catch (_) {
-      return false;
-    }
+    final position = await Geolocator.getCurrentPosition();
+    return SelectedLocation(label: 'My location', latitude: position.latitude, longitude: position.longitude);
   }
 
   Future<void> _persist(String label, double lat, double lng) async {

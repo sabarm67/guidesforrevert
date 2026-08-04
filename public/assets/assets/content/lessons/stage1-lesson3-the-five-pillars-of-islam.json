@@ -1,0 +1,83 @@
+{
+  "slug": "the-five-pillars-of-islam",
+  "stage_slug": "welcome-to-islam",
+  "order": 3,
+  "title": "The Five Pillars of Islam",
+  "summary": "The five acts of worship that form the practical framework of Islamic life, broken down one by one.",
+  "estimated_minutes": 8,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "What the Five Pillars are"
+    },
+    {
+      "type": "text",
+      "text": "The Five Pillars (Arkan al-Islam) are the five core acts of worship every Muslim is expected to establish — the practical framework of what it means to live as a Muslim day to day, month to month, and across a lifetime. They're called \"pillars\" because, like the pillars of a building, they're what everything else in Islamic practice is built on and around. You've already met the first one, the Shahadah, in the previous lesson — everything from here in this app, including the rest of this Stage, is best understood as either one of these five pillars in more depth, or something that directly supports living one of them out."
+    },
+    {
+      "type": "quote",
+      "translation": "Islam is built upon five [pillars]: testifying that there is no god but Allah and that Muhammad is the Messenger of Allah, establishing the prayer, giving zakat, making pilgrimage to the House, and fasting Ramadan.",
+      "reference": "Sahih al-Bukhari and Sahih Muslim (the Hadith of Gabriel)"
+    },
+    {
+      "type": "heading",
+      "text": "1. Shahadah — the Declaration of Faith"
+    },
+    {
+      "type": "text",
+      "text": "Bearing witness that there is no god but Allah and that Muhammad is His Messenger — the doorway into Islam, covered in full in the previous lesson. Every other pillar is an outworking of this one declaration."
+    },
+    {
+      "type": "heading",
+      "text": "2. Salah — the Five Daily Prayers"
+    },
+    {
+      "type": "text",
+      "text": "Ritual prayer performed five times a day at set times (Fajr, Dhuhr, Asr, Maghrib, Isha), covered in Stage 2 and the Prayer tab's full guides. Salah is the pillar most woven into daily life — a repeated, structured connection with Allah throughout the day rather than a once-a-week event."
+    },
+    {
+      "type": "heading",
+      "text": "3. Zakat — Obligatory Charity"
+    },
+    {
+      "type": "text",
+      "text": "A fixed portion (commonly calculated as 2.5%) of a Muslim's savings and qualifying wealth above a minimum threshold (nisab), given annually to specific categories of people in need — the poor, the needy, and several other groups named in the Quran. Zakat is not optional charity; it's treated as a right the poor have over the wealth of those who can afford it, distinct from voluntary giving (sadaqah), which is encouraged separately and without a fixed amount."
+    },
+    {
+      "type": "heading",
+      "text": "4. Sawm — Fasting in Ramadan"
+    },
+    {
+      "type": "text",
+      "text": "Abstaining from food, drink, and marital relations from dawn to sunset every day during the lunar month of Ramadan. It's obligatory on healthy adult Muslims, with clear exemptions — illness, travel, pregnancy, breastfeeding, menstruation, and prepubescent children are all excused, with missed days made up later or, in some cases, compensated for in other ways. Beyond the physical discipline, fasting is taught as building self-restraint, empathy for those who go hungry involuntarily, and heightened spiritual focus."
+    },
+    {
+      "type": "heading",
+      "text": "5. Hajj — Pilgrimage to Mecca"
+    },
+    {
+      "type": "text",
+      "text": "A pilgrimage to the Kaaba in Mecca, performed during a specific period in the Islamic calendar, obligatory once in a lifetime for any Muslim who is both physically able and can afford it without going into debt or neglecting dependents — it is explicitly not required of those who can't meet these conditions. Hajj involves a set sequence of rites over several days, commemorating events in the lives of the Prophets Ibrahim (Abraham) and his family, and draws Muslims from every part of the world to the same place at the same time each year."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to complete all five pillars right away as a new Muslim?",
+      "answer": "No. The Shahadah is what makes you Muslim, and Salah is worth starting to learn immediately — but Zakat only applies once you have qualifying wealth, Sawm follows the yearly Ramadan calendar, and Hajj is something to plan for once you're financially and physically able. Islamic practice is built for gradual growth, not instant completion of everything at once."
+    },
+    {
+      "type": "faq",
+      "question": "What if I can't currently do one of the pillars, like Hajj, for financial or health reasons?",
+      "answer": "Then it isn't obligatory on you for as long as that's the case — the conditions attached to Hajj and Zakat specifically exist to prevent hardship. Sincerely intending to fulfil it if your circumstances change is what matters; there's no guilt attached to a genuine inability."
+    },
+    {
+      "type": "reflection",
+      "question": "Which of the Five Pillars feels most immediately relevant to where you are right now, and which feels furthest off? Both are normal starting points."
+    }
+  ],
+  "further_reading": [
+    { "label": "The Shahadah: The Declaration of Faith", "reference": "See Stage 1, previous lesson" },
+    { "label": "The Six Articles of Faith", "reference": "See Stage 1, next lesson" },
+    { "label": "How to Pray Salah", "reference": "See the Prayer tab" }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "the-six-articles-of-faith",
+  "stage_slug": "welcome-to-islam",
+  "order": 4,
+  "title": "The Six Articles of Faith",
+  "summary": "The six core beliefs that make up Islamic faith (iman), broken down one by one.",
+  "estimated_minutes": 9,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Belief and practice, side by side"
+    },
+    {
+      "type": "text",
+      "text": "Where the Five Pillars are what a Muslim does, the Six Articles of Faith (Arkan al-Iman) are what a Muslim believes — the internal counterpart to the previous lesson's external framework. Both halves come from the same well-known hadith, in which the Angel Gabriel, appearing in human form, asked the Prophet Muhammad (peace be upon him) to define both Islam (practice) and Iman (faith) in turn."
+    },
+    {
+      "type": "quote",
+      "translation": "Faith is to believe in Allah, His angels, His Books, His Messengers, the Last Day, and to believe in divine destiny, both the good and the bad of it.",
+      "reference": "Sahih Muslim (the Hadith of Gabriel)"
+    },
+    {
+      "type": "heading",
+      "text": "1. Belief in Allah"
+    },
+    {
+      "type": "text",
+      "text": "Belief in the One God — Tawhid — covered in the very first lesson of this app: that Allah alone is deserving of worship, without partner, equal, or offspring. This is the foundation the other five articles rest on."
+    },
+    {
+      "type": "heading",
+      "text": "2. Belief in the Angels"
+    },
+    {
+      "type": "text",
+      "text": "Angels (malaikah) are believed to be beings created by Allah from light, without free will, who carry out His commands exactly. Named angels mentioned in Islamic tradition include Jibril (Gabriel), who delivered revelation to the Prophets; Mika'il (Michael); and Israfil, associated with the trumpet blast of the Day of Judgment. Angels are also described as recording each person's deeds — a detail that shapes how many Muslims think about accountability day to day."
+    },
+    {
+      "type": "heading",
+      "text": "3. Belief in the Revealed Books"
+    },
+    {
+      "type": "text",
+      "text": "Muslims believe Allah has sent down revealed scripture to various prophets throughout history — including the Tawrat (given to Musa/Moses), the Zabur (given to Dawud/David), and the Injil (given to Isa/Jesus) — alongside the Quran, given to Muhammad (peace be upon him). The Quran is held to be the final revelation, and the only one preserved in its original form; earlier scriptures are believed to have been altered or lost over time in ways the Quran was specifically protected from. The next lesson is a deep-dive into the Quran specifically, since it's the book every Muslim engages with directly and often."
+    },
+    {
+      "type": "heading",
+      "text": "4. Belief in the Prophets and Messengers"
+    },
+    {
+      "type": "text",
+      "text": "Islamic tradition describes a long line of prophets sent to different peoples throughout history — including figures shared with Judaism and Christianity such as Adam, Ibrahim (Abraham), Musa (Moses), and Isa (Jesus) — all conveying fundamentally the same core message: worship God alone. Muhammad (peace be upon him) is believed to be the last in this line, the \"Seal of the Prophets,\" with no prophet to follow him. The lesson after next is a deep-dive into his life specifically."
+    },
+    {
+      "type": "heading",
+      "text": "5. Belief in the Day of Judgment"
+    },
+    {
+      "type": "text",
+      "text": "Belief that this life ends, followed by resurrection and a Day of Judgment on which every person is held accountable for their beliefs and deeds, leading to Paradise (Jannah) or the Hellfire (Jahannam). This belief frames life itself as a test with real, lasting consequences, rather than an end in itself — a recurring theme across many of this app's lessons."
+    },
+    {
+      "type": "heading",
+      "text": "6. Belief in Divine Decree (Qadar)"
+    },
+    {
+      "type": "text",
+      "text": "Belief that Allah has full knowledge and ultimate authority over everything that happens, including what will occur before it does. This is often the hardest article to sit comfortably with, because it can sound like it removes human choice — but mainstream Islamic theology holds both together: Allah's knowledge and decree are real, and so is genuine human free will and responsibility for one's own choices. You are taught to make sincere effort and real decisions, not treat outcomes as already fixed in a way that excuses inaction — the two ideas are understood as compatible, not contradictory, even though exactly how remains, in classical scholarship, something ultimately beyond full human comprehension."
+    },
+    {
+      "type": "faq",
+      "question": "If Allah already knows what I'll choose, do my choices actually matter?",
+      "answer": "Mainstream Islamic teaching says yes — Allah's prior knowledge of your choice doesn't cause the choice or remove your genuine freedom in making it, similar to how a teacher who knows a strong student will pass an exam isn't the reason the student studies and passes. This is a genuinely subtle point that has occupied theologians for centuries; it's fine to sit with it as an open question rather than needing full resolution immediately."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to have this all fully worked out intellectually to be a good Muslim?",
+      "answer": "No. Sincere belief in these six articles, held with an open and growing understanding, is what's asked for — not a finished philosophical proof of each one. Many lifelong scholars continue studying these questions their whole lives; a new Muslim isn't expected to arrive with all the answers."
+    },
+    {
+      "type": "reflection",
+      "question": "Of the six articles above, which one do you find easiest to hold with confidence right now, and which one would you like to understand more deeply?"
+    }
+  ],
+  "further_reading": [
+    { "label": "The Five Pillars of Islam", "reference": "See Stage 1, previous lesson" },
+    { "label": "Who Is Allah?", "reference": "See Stage 1, first lesson" },
+    { "label": "What Is the Quran?", "reference": "See Stage 1, next lesson" },
+    { "label": "Who Was Prophet Muhammad?", "reference": "See Stage 1, later lesson" }
+  ]
+}

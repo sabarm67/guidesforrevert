@@ -1,7 +1,7 @@
 {
   "slug": "the-five-pillars-of-islam",
   "stage_slug": "welcome-to-islam",
-  "order": 5,
+  "order": 3,
   "title": "The Five Pillars of Islam",
   "summary": "The five acts of worship that form the practical framework of Islamic life, broken down one by one.",
   "estimated_minutes": 8,
@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "text": "The Five Pillars (Arkan al-Islam) are the five core acts of worship every Muslim is expected to establish — the practical framework of what it means to live as a Muslim day to day, month to month, and across a lifetime. They're called \"pillars\" because, like the pillars of a building, they're what everything else in Islamic practice is built on and around."
+      "text": "The Five Pillars (Arkan al-Islam) are the five core acts of worship every Muslim is expected to establish — the practical framework of what it means to live as a Muslim day to day, month to month, and across a lifetime. They're called \"pillars\" because, like the pillars of a building, they're what everything else in Islamic practice is built on and around. You've already met the first one, the Shahadah, in the previous lesson — everything from here in this app, including the rest of this Stage, is best understood as either one of these five pillars in more depth, or something that directly supports living one of them out."
     },
     {
       "type": "quote",

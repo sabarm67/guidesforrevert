@@ -1,7 +1,7 @@
 {
   "slug": "what-is-the-quran",
   "stage_slug": "welcome-to-islam",
-  "order": 3,
+  "order": 5,
   "title": "What is the Quran?",
   "summary": "A gentle first introduction to the Quran: what it is, how it came to Prophet Muhammad, and how it's organised.",
   "estimated_minutes": 6,
@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "text": "Muslims believe the Quran is the literal word of God, revealed to Prophet Muhammad (peace be upon him) over about 23 years, through the angel Gabriel (Jibril). It is regarded as the final revelation in a line that Islamic teaching says includes earlier scriptures given to earlier prophets, such as the Torah given to Moses and the Gospel given to Jesus."
+      "text": "The previous lesson's Six Articles of Faith named belief in Allah's revealed books as one of the six core beliefs — this lesson is that promised deep-dive, focused specifically on the Quran, the book every Muslim engages with directly. Muslims believe the Quran is the literal word of God, revealed to Prophet Muhammad (peace be upon him) over about 23 years, through the angel Gabriel (Jibril). It is regarded as the final revelation in a line that Islamic teaching says includes earlier scriptures given to earlier prophets, such as the Torah given to Moses and the Gospel given to Jesus."
     },
     {
       "type": "heading",

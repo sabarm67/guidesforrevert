@@ -97,6 +97,29 @@ and the full Juz 'Amma — surahs 1 and 78-114, 38 surahs / 571 ayahs).
   a separate quote block. Same sourcing caveat as the rest of this section
   applies — cross-check transliteration/translation wording before
   production use.
+- **The Five Pillars of Islam** and **The Six Articles of Faith** (Stage 1,
+  lessons 5-6) both quote the Hadith of Gabriel (Sahih al-Bukhari / Sahih
+  Muslim) — the well-known hadith in which the Angel Gabriel asks the
+  Prophet to define Islam (the five pillars) and Iman (the six articles)
+  in turn. Wording is a commonly-published English rendering, same caveat
+  as the rest of this section — cross-check against sunnah.com before
+  production use. The Six Articles lesson's treatment of Qadar (divine
+  decree) versus human free will reflects mainstream Sunni theological
+  consensus (both are held to be true and compatible) rather than staking
+  out a position in the deeper classical Ash'ari/Maturidi/Mu'tazila
+  debate on exactly how — this simplification is appropriate for a
+  beginner-level lesson but is worth flagging for a scholarly review pass.
+- **Prayer Guide** (3 lessons, surfaced on the Prayer tab rather than the
+  Learning tab): "How to Perform Wudu" and "How to Pray Salah" are the
+  full step-by-step guides moved unchanged from the former Stage 2
+  Wudu/Salah lessons (same sourcing notes as those apply — see the Wudu
+  hadith and Quran 2:153 citations). "Types of Prayer" is new content
+  describing Fard/Sunnah/Nafl/Witr/Tarawih/Eid/Janazah/Istikhara/Qasr
+  &amp; Jama — original writing summarising mainstream, uncontroversial
+  fiqh categories with no direct scriptural quotations, so it carries
+  comparatively low sourcing risk, but exact rak'ah counts and rulings
+  should still be spot-checked before production use, as minor details
+  (e.g. which Sunnah prayers are Mu'akkadah) vary slightly by madhhab.
 - **Fiqh in Daily Life** (9 lessons) and **Understanding Islam: Addressing
   Misconceptions** (31 lessons, expanded from an initial 9) are likewise
   original writing, following the same Quranic-quotation sourcing caveat

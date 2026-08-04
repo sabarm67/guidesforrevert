@@ -1,9 +1,19 @@
+import 'package:adhan_dart/adhan_dart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../theme/app_spacing.dart';
 import 'location_providers.dart';
 import 'prayer_times_service.dart';
+
+/// The 8-point compass points, used to turn a raw Qibla bearing (degrees
+/// from true north) into a readable label like "SE" alongside the number.
+const _compassPoints = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
+
+String _compassLabel(double bearingDegrees) {
+  final index = ((bearingDegrees % 360) / 45).round() % 8;
+  return _compassPoints[index];
+}
 
 /// Today's prayer times for the user's current location, with a location
 /// picker. Shared by the Home dashboard and the Prayer tab.
@@ -24,6 +34,7 @@ class PrayerTimesCard extends ConsumerWidget {
             const service = PrayerTimesService();
             final times = service.calculate(latitude: location.latitude, longitude: location.longitude);
             final next = times.next(DateTime.now());
+            final qiblaBearing = Qibla.qibla(Coordinates(location.latitude, location.longitude));
 
             return Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -53,6 +64,10 @@ class PrayerTimesCard extends ConsumerWidget {
                       Chip(
                         label: Text('${entry.key} ${TimeOfDay.fromDateTime(entry.value).format(context)}'),
                       ),
+                    Chip(
+                      avatar: const Icon(Icons.explore_outlined, size: 18),
+                      label: Text('Qibla ${qiblaBearing.round()}° ${_compassLabel(qiblaBearing)}'),
+                    ),
                   ],
                 ),
               ],

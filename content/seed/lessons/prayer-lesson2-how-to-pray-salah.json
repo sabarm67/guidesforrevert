@@ -3,8 +3,8 @@
   "stage_slug": "prayer-guide",
   "order": 2,
   "title": "How to Pray Salah",
-  "summary": "An illustrated, step-by-step walkthrough of a single rak'ah, plus the five daily prayers and the history behind why there are five.",
-  "estimated_minutes": 12,
+  "summary": "An illustrated, step-by-step walkthrough of a single rak'ah with clear posture detail, facing the Qiblah, the five daily prayers, and the history behind why there are five.",
+  "estimated_minutes": 13,
   "need_to_know": false,
   "body": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "text": "The step-by-step walkthrough below covers the physical movements and short recitations of a single rak'ah, illustrated. It's enough to follow along and start practising — but reading it is not a substitute for having someone show you in person at least once, ideally at a mosque, since small physical details (exact hand position, pacing) come across far better shown than described. Don't worry about performing it perfectly from day one; that comes with practice."
+      "text": "The step-by-step walkthrough below covers the physical movements, posture, and short recitations of a single rak'ah, illustrated. It's enough to follow along and start practising — but reading it is not a substitute for having someone show you in person at least once, ideally at a mosque, since small physical details (exact hand position, pacing) come across far better shown than described. Don't worry about performing it perfectly from day one; that comes with practice."
     },
     {
       "type": "heading",
@@ -25,41 +25,49 @@
     },
     {
       "type": "heading",
+      "text": "Step 0: Facing the Qiblah"
+    },
+    {
+      "type": "text",
+      "text": "Before starting, Salah must be prayed facing the Qiblah — the direction of the Kaaba in Makkah. Inside a mosque this is easy: the whole prayer hall faces it, often marked by a small niche in the wall called a mihrab, so you simply line up with everyone else. Praying elsewhere — at home, at work, while travelling — means working the direction out yourself. This app's Prayer tab shows a computed Qiblah bearing for your current location right alongside today's prayer times; a phone's built-in compass or a dedicated qiblah-finder app works just as well. If you genuinely can't determine it exactly in the moment, praying your best good-faith estimate of the direction is accepted — the goal is sincere effort, not perfect geometry."
+    },
+    {
+      "type": "heading",
       "text": "Walking through a single rak'ah"
     },
     {
       "type": "text",
-      "text": "1. Niyyah (Intention). Before starting, form the intention in your heart for which prayer you're about to perform — this is a mental intention, not something you have to say aloud."
+      "text": "1. Niyyah (Intention). Stand upright facing the Qiblah, feet roughly shoulder-width apart, and form the intention in your heart for which prayer you're about to perform — this is a mental intention, not something you have to say aloud."
     },
     { "type": "image", "image_ref": "assets/images/salah/01-niyyah.png", "caption": "1. Niyyah — intend in your heart which prayer you're performing" },
     {
       "type": "text",
-      "text": "2. Takbiratul Ihram (Opening Takbir). Raise your hands and say \"Allahu Akbar\" (Allah is the Greatest) to formally begin the prayer — from this point on you don't speak, eat, or do anything unrelated to the prayer until it ends."
+      "text": "2. Takbiratul Ihram (Opening Takbir). Raise both hands to shoulder or ear level, palms facing forward, and say \"Allahu Akbar\" (Allah is the Greatest) to formally begin the prayer — from this point on you don't speak, eat, or do anything unrelated to the prayer until it ends."
     },
     { "type": "image", "image_ref": "assets/images/salah/02-takbiratul-ihram.png", "caption": "2. Takbiratul Ihram — \"Allahu Akbar\"" },
     {
       "type": "text",
-      "text": "3. Qiyam (Standing). Recite Al-Fatihah, followed by another short surah or a few verses (in the first two rak'ahs of a prayer; in later rak'ahs, Al-Fatihah alone is usually recited)."
+      "text": "3. Qiyam (Standing). Fold your hands on your chest, right hand over left, and direct your gaze downward toward the place where your forehead will touch the ground in prostration, rather than looking up or around. Recite Al-Fatihah, followed by another short surah or a few verses (in the first two rak'ahs of a prayer; in later rak'ahs, Al-Fatihah alone is usually recited)."
     },
     { "type": "image", "image_ref": "assets/images/salah/03-qiyam-standing.png", "caption": "3. Qiyam — standing, reciting Al-Fatihah" },
     {
       "type": "text",
-      "text": "4. Ruku (Bowing). Bow at the waist, back roughly parallel to the floor, hands resting on the knees, saying \"Subhana Rabbiyal 'Azim\" (Glory be to my Lord, the Most Great) three times."
+      "text": "4. Ruku (Bowing). Bend forward from the waist until your back is flat and roughly parallel to the floor, keeping your head level with your back rather than raised or dropped. Grip your knees firmly with your hands, fingers spread, and say \"Subhana Rabbiyal 'Azim\" (Glory be to my Lord, the Most Great) three times."
     },
     { "type": "image", "image_ref": "assets/images/salah/04-ruku-bowing.png", "caption": "4. Ruku — bowing, \"Subhana Rabbiyal 'Azim\" x3" },
     {
       "type": "text",
-      "text": "5. I'tidal (Rising). Stand back up straight, saying \"Sami' Allahu liman hamidah, Rabbana lakal hamd\" (Allah hears those who praise Him; Our Lord, to You belongs all praise)."
+      "text": "5. I'tidal (Rising). Rise back to a fully upright standing posture, arms returning to your sides, saying \"Sami' Allahu liman hamidah, Rabbana lakal hamd\" (Allah hears those who praise Him; Our Lord, to You belongs all praise)."
     },
     { "type": "image", "image_ref": "assets/images/salah/05-itidal-rising.png", "caption": "5. I'tidal — rising, \"Sami' Allahu liman hamidah...\"" },
     {
       "type": "text",
-      "text": "6. Sujud (Prostration). Lower to the ground so the forehead, nose, both palms, both knees, and toes all touch the floor, saying \"Subhana Rabbiyal A'la\" (Glory be to my Lord, the Most High) three times."
+      "text": "6. Sujud (Prostration). Lower to the ground so the forehead, nose, both palms, both knees, and toes all touch the floor, with your elbows raised off the ground rather than resting flat against your sides, fingers together and pointing toward the Qiblah. Say \"Subhana Rabbiyal A'la\" (Glory be to my Lord, the Most High) three times."
     },
     { "type": "image", "image_ref": "assets/images/salah/06-sujud-prostration.png", "caption": "6. Sujud — prostration, \"Subhana Rabbiyal A'la\" x3" },
     {
       "type": "text",
-      "text": "7. Sitting between the two prostrations. Sit back briefly, saying \"Rabbighfir li, warhamni, wajburni, warfa'ni, warzuqni, wahdini, wa'afini, wa'fu anni\" (My Lord, forgive me, have mercy on me, elevate me, grant me sustenance, guide me, protect me and pardon me)."
+      "text": "7. Sitting between the two prostrations. Sit back into the common \"iftirash\" posture: your left foot folded flat and tucked underneath you, your right foot upright with the toes curled and pointing toward the Qiblah, hands resting on your thighs near the knees. Say \"Rabbighfir li, warhamni, wajburni, warfa'ni, warzuqni, wahdini, wa'afini, wa'fu anni\" (My Lord, forgive me, have mercy on me, elevate me, grant me sustenance, guide me, protect me and pardon me)."
     },
     { "type": "image", "image_ref": "assets/images/salah/07-duduk-between-sujud.png", "caption": "7. Sitting between the two prostrations" },
     {
@@ -73,22 +81,22 @@
     },
     {
       "type": "text",
-      "text": "9. Tashahhud (First sitting). After the second rak'ah of a prayer with more than two rak'ahs, sit and recite the Tashahhud — a testimony of faith and greeting of peace — before standing again for the remaining rak'ahs."
+      "text": "9. Tashahhud (First sitting). After the second rak'ah of a prayer with more than two rak'ahs, sit again in the iftirash posture described in step 7 and recite the Tashahhud — a testimony of faith and greeting of peace — raising the right index finger during the testimony portion, a commonly taught detail. Then stand again for the remaining rak'ahs."
     },
     { "type": "image", "image_ref": "assets/images/salah/09-tasyahhud-awal.png", "caption": "9. Tashahhud — first sitting (skipped if the prayer is only 2 rak'ahs, since the final sitting follows directly)" },
     {
       "type": "text",
-      "text": "10. Final Tashahhud. After the last rak'ah of the prayer, sit again and recite the Tashahhud in full, followed by sending blessings on the Prophet Muhammad (peace be upon him) and his family."
+      "text": "10. Final Tashahhud. After the last rak'ah of the prayer, sit again in the same posture and recite the Tashahhud in full, followed by sending blessings on the Prophet Muhammad (peace be upon him) and his family."
     },
     { "type": "image", "image_ref": "assets/images/salah/10-tasyahhud-akhir.png", "caption": "10. Final Tashahhud, with blessings on the Prophet" },
     {
       "type": "text",
-      "text": "11. Salam (Ending). Turn your head to the right, saying \"Assalamu alaikum wa rahmatullah\" (Peace and mercy of Allah be upon you), then turn to the left and repeat — this ends the prayer."
+      "text": "11. Salam (Ending). Turn your head fully to the right, until your right cheek is visible to someone behind you, saying \"Assalamu alaikum wa rahmatullah\" (Peace and mercy of Allah be upon you), then turn your head fully to the left and repeat — this ends the prayer."
     },
     { "type": "image", "image_ref": "assets/images/salah/11-salam-ending.png", "caption": "11. Salam — turning right, then left, ending the prayer" },
     {
       "type": "text",
-      "text": "That full sequence (steps 2-8) is one rak'ah. For a two-rak'ah prayer (like Fajr), you do it twice, with the Tashahhud in step 9 skipped the first time and only recited in full at the end (step 10). For three- or four-rak'ah prayers, steps 2-8 repeat for each rak'ah, with the first Tashahhud (step 9) recited after the second rak'ah only."
+      "text": "That full sequence (steps 2-8) is one rak'ah. For a two-rak'ah prayer (like Fajr), you do it twice, with the Tashahhud in step 9 skipped the first time and only recited in full at the end (step 10). For three- or four-rak'ah prayers, steps 2-8 repeat for each rak'ah, with the first Tashahhud (step 9) recited after the second rak'ah only. Exact hand position during Qiyam (chest, below the navel, or at the sides) and a few other small physical details vary slightly between the Sunni schools of law — the same kind of legitimate difference of opinion already noted for Wudu's head-wiping method; any of them is valid."
     },
     {
       "type": "quote",
@@ -108,6 +116,11 @@
       "type": "faq",
       "question": "Do I need to know Arabic before I can start praying?",
       "answer": "The recitations within Salah are in Arabic, but you're not expected to already know them — you learn this small, fixed set of short, frequently repeated phrases gradually. Transliteration and translation are available throughout this app's Quran and Dua sections precisely so you can start learning them at your own pace rather than waiting until you feel \"ready.\""
+    },
+    {
+      "type": "faq",
+      "question": "What if I don't have a compass or this app handy to find the Qiblah?",
+      "answer": "Do your best with what you know — the general direction toward Makkah from where you are — and pray. Islamic teaching is clear that a sincere, good-faith effort to face the right direction is what's asked for; it isn't invalidated by a small, honest margin of error."
     },
     {
       "type": "faq",
