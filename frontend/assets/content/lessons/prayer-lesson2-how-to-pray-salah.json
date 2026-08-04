@@ -1,0 +1,127 @@
+{
+  "slug": "how-to-pray-salah",
+  "stage_slug": "prayer-guide",
+  "order": 2,
+  "title": "How to Pray Salah",
+  "summary": "An illustrated, step-by-step walkthrough of a single rak'ah, plus the five daily prayers and the history behind why there are five.",
+  "estimated_minutes": 12,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A starting point for practice, not a replacement for learning in person"
+    },
+    {
+      "type": "text",
+      "text": "The step-by-step walkthrough below covers the physical movements and short recitations of a single rak'ah, illustrated. It's enough to follow along and start practising — but reading it is not a substitute for having someone show you in person at least once, ideally at a mosque, since small physical details (exact hand position, pacing) come across far better shown than described. Don't worry about performing it perfectly from day one; that comes with practice."
+    },
+    {
+      "type": "heading",
+      "text": "The five daily prayers"
+    },
+    {
+      "type": "text",
+      "text": "Fajr (dawn, before sunrise), Dhuhr (midday), Asr (mid-afternoon), Maghrib (just after sunset), and Isha (night). Each one has a valid time window, shown on this app's Home dashboard and Prayer tab based on your location. Each prayer consists of a set number of units called rak'ahs — the sequence below repeated — ranging from two rak'ahs (Fajr) to four (Dhuhr, Asr, Isha), with Maghrib at three."
+    },
+    {
+      "type": "heading",
+      "text": "Walking through a single rak'ah"
+    },
+    {
+      "type": "text",
+      "text": "1. Niyyah (Intention). Before starting, form the intention in your heart for which prayer you're about to perform — this is a mental intention, not something you have to say aloud."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/01-niyyah.png", "caption": "1. Niyyah — intend in your heart which prayer you're performing" },
+    {
+      "type": "text",
+      "text": "2. Takbiratul Ihram (Opening Takbir). Raise your hands and say \"Allahu Akbar\" (Allah is the Greatest) to formally begin the prayer — from this point on you don't speak, eat, or do anything unrelated to the prayer until it ends."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/02-takbiratul-ihram.png", "caption": "2. Takbiratul Ihram — \"Allahu Akbar\"" },
+    {
+      "type": "text",
+      "text": "3. Qiyam (Standing). Recite Al-Fatihah, followed by another short surah or a few verses (in the first two rak'ahs of a prayer; in later rak'ahs, Al-Fatihah alone is usually recited)."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/03-qiyam-standing.png", "caption": "3. Qiyam — standing, reciting Al-Fatihah" },
+    {
+      "type": "text",
+      "text": "4. Ruku (Bowing). Bow at the waist, back roughly parallel to the floor, hands resting on the knees, saying \"Subhana Rabbiyal 'Azim\" (Glory be to my Lord, the Most Great) three times."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/04-ruku-bowing.png", "caption": "4. Ruku — bowing, \"Subhana Rabbiyal 'Azim\" x3" },
+    {
+      "type": "text",
+      "text": "5. I'tidal (Rising). Stand back up straight, saying \"Sami' Allahu liman hamidah, Rabbana lakal hamd\" (Allah hears those who praise Him; Our Lord, to You belongs all praise)."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/05-itidal-rising.png", "caption": "5. I'tidal — rising, \"Sami' Allahu liman hamidah...\"" },
+    {
+      "type": "text",
+      "text": "6. Sujud (Prostration). Lower to the ground so the forehead, nose, both palms, both knees, and toes all touch the floor, saying \"Subhana Rabbiyal A'la\" (Glory be to my Lord, the Most High) three times."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/06-sujud-prostration.png", "caption": "6. Sujud — prostration, \"Subhana Rabbiyal A'la\" x3" },
+    {
+      "type": "text",
+      "text": "7. Sitting between the two prostrations. Sit back briefly, saying \"Rabbighfir li, warhamni, wajburni, warfa'ni, warzuqni, wahdini, wa'afini, wa'fu anni\" (My Lord, forgive me, have mercy on me, elevate me, grant me sustenance, guide me, protect me and pardon me)."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/07-duduk-between-sujud.png", "caption": "7. Sitting between the two prostrations" },
+    {
+      "type": "text",
+      "text": "8. Second prostration. Repeat the prostration exactly as in step 6. This completes one rak'ah — you then either stand for the next rak'ah, or, if this was the last one, move to the closing sitting below."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/08-sujud-second.png", "caption": "8. Second prostration — same as step 6" },
+    {
+      "type": "heading",
+      "text": "Closing the prayer"
+    },
+    {
+      "type": "text",
+      "text": "9. Tashahhud (First sitting). After the second rak'ah of a prayer with more than two rak'ahs, sit and recite the Tashahhud — a testimony of faith and greeting of peace — before standing again for the remaining rak'ahs."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/09-tasyahhud-awal.png", "caption": "9. Tashahhud — first sitting (skipped if the prayer is only 2 rak'ahs, since the final sitting follows directly)" },
+    {
+      "type": "text",
+      "text": "10. Final Tashahhud. After the last rak'ah of the prayer, sit again and recite the Tashahhud in full, followed by sending blessings on the Prophet Muhammad (peace be upon him) and his family."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/10-tasyahhud-akhir.png", "caption": "10. Final Tashahhud, with blessings on the Prophet" },
+    {
+      "type": "text",
+      "text": "11. Salam (Ending). Turn your head to the right, saying \"Assalamu alaikum wa rahmatullah\" (Peace and mercy of Allah be upon you), then turn to the left and repeat — this ends the prayer."
+    },
+    { "type": "image", "image_ref": "assets/images/salah/11-salam-ending.png", "caption": "11. Salam — turning right, then left, ending the prayer" },
+    {
+      "type": "text",
+      "text": "That full sequence (steps 2-8) is one rak'ah. For a two-rak'ah prayer (like Fajr), you do it twice, with the Tashahhud in step 9 skipped the first time and only recited in full at the end (step 10). For three- or four-rak'ah prayers, steps 2-8 repeat for each rak'ah, with the first Tashahhud (step 9) recited after the second rak'ah only."
+    },
+    {
+      "type": "quote",
+      "arabic": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+      "translation": "And seek help through patience and prayer.",
+      "reference": "Quran 2:153 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "Why five times a day? A brief history"
+    },
+    {
+      "type": "text",
+      "text": "Islamic tradition traces the five daily prayers to a specific event: the Isra and Mi'raj, a night journey and ascension the Prophet Muhammad (peace be upon him) is described as undertaking, during which he is said to have been instructed to establish fifty daily prayers. According to the narration, on his way back he passed Moses, who advised him to ask for a reduction, believing his own community had struggled with less. After repeated requests, the number was reduced to five — while the spiritual reward is described as remaining equivalent to fifty. Whatever one makes of the details, the story is told specifically to make a point: five daily prayers is presented as a mercy and a reduction, not a maximum demand."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to know Arabic before I can start praying?",
+      "answer": "The recitations within Salah are in Arabic, but you're not expected to already know them — you learn this small, fixed set of short, frequently repeated phrases gradually. Transliteration and translation are available throughout this app's Quran and Dua sections precisely so you can start learning them at your own pace rather than waiting until you feel \"ready.\""
+    },
+    {
+      "type": "faq",
+      "question": "What happens if I miss a prayer or pray late?",
+      "answer": "It happens to every Muslim at some point, especially early on. The general teaching is to pray it as soon as you remember (called making it up, or \"qada\"), without excessive guilt — Islamic teaching consistently emphasises God's mercy and gradual improvement over harsh self-judgment. A dedicated lesson on missed prayers is planned; for now, the short version is: catch up when you can, and keep going."
+    },
+    {
+      "type": "reflection",
+      "question": "The story behind the number five is framed as a reduction and a mercy, not a burden. Does hearing that context change how the number \"five times a day\" feels to you?"
+    }
+  ],
+  "further_reading": [
+    { "label": "How to Perform Wudu", "reference": "See Prayer tab, previous guide" },
+    { "label": "Types of Prayer", "reference": "See Prayer tab, next guide" },
+    { "label": "Surah Al-Fatihah", "reference": "See Quran section of this app" }
+  ]
+}

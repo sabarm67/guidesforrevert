@@ -1,0 +1,108 @@
+{
+  "slug": "types-of-prayer",
+  "stage_slug": "prayer-guide",
+  "order": 3,
+  "title": "Types of Prayer",
+  "summary": "Beyond the five daily prayers: obligatory versus voluntary prayer, Friday, Eid, funeral, travel, and other prayers you'll encounter in Muslim life.",
+  "estimated_minutes": 9,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "More than one kind of Salah"
+    },
+    {
+      "type": "text",
+      "text": "\"Prayer\" in Islam isn't just the five daily obligations covered in the previous guide — there's a whole family of related prayers with different rulings, occasions, and even different physical forms. This guide is a map of the main ones you're likely to encounter or hear mentioned, from obligatory to purely voluntary."
+    },
+    {
+      "type": "heading",
+      "text": "Fard (obligatory) prayer"
+    },
+    {
+      "type": "text",
+      "text": "The five daily prayers — Fajr, Dhuhr, Asr, Maghrib, and Isha — are Fard al-'Ayn: obligatory on every individual adult Muslim. On Fridays, adult men pray Jumu'ah (the Friday congregational prayer) at a mosque in place of Dhuhr — a shortened two-rak'ah prayer preceded by a sermon (khutbah); women may attend but it isn't obligatory on them, and Dhuhr is prayed as usual if not attending."
+    },
+    {
+      "type": "heading",
+      "text": "Sunnah prayer: following the Prophet's regular practice"
+    },
+    {
+      "type": "text",
+      "text": "Sunnah prayers are voluntary units regularly prayed alongside the five daily prayers, following the Prophet Muhammad's (peace be upon him) own consistent practice. Sunnah Mu'akkadah (\"emphasised\" Sunnah) are the ones he essentially never left — for example two rak'ahs before Fajr — and are strongly encouraged. Other Sunnah prayers around the daily prayers are recommended but held more lightly. None of these are obligatory the way the five daily prayers are, but they're a normal, common part of daily practice for many Muslims."
+    },
+    {
+      "type": "heading",
+      "text": "Nafl (voluntary) prayer"
+    },
+    {
+      "type": "text",
+      "text": "Nafl covers voluntary prayer more broadly, prayed for extra reward outside any fixed pattern. Two well-known examples: Tahajjud, prayed in the last part of the night after waking from sleep, often described as spiritually powerful precisely because it takes real effort; and Duha, a short voluntary prayer in the forenoon. Both are optional and flexible in length — there's no obligation or fixed minimum."
+    },
+    {
+      "type": "heading",
+      "text": "Witr: the night's closing prayer"
+    },
+    {
+      "type": "text",
+      "text": "Witr (meaning \"odd\") is an odd-numbered prayer — commonly one or three rak'ahs — prayed after Isha and before Fajr, closing out the night's voluntary prayer. It's very strongly recommended (some scholars hold it obligatory, others strongly Sunnah) and is often prayed directly after Tarawih during Ramadan or on its own the rest of the year."
+    },
+    {
+      "type": "heading",
+      "text": "Tarawih: Ramadan's nightly congregational prayer"
+    },
+    {
+      "type": "text",
+      "text": "Tarawih is a lengthy voluntary night prayer specific to Ramadan, usually prayed in congregation at the mosque after Isha, during which large portions of the Quran are often recited over the course of the month — for many communities it's a central, look-forward-to part of Ramadan's rhythm, though it can also be prayed at home."
+    },
+    {
+      "type": "heading",
+      "text": "Eid prayers: two mornings a year"
+    },
+    {
+      "type": "text",
+      "text": "Eid al-Fitr (marking the end of Ramadan) and Eid al-Adha (during the Hajj season) each have a distinct communal morning prayer — two rak'ahs with extra takbirs (declarations of \"Allahu Akbar\") woven in, followed by a khutbah, prayed once a year for each occasion. There's no adhan or iqamah beforehand, and the prayer is usually held in a large open space or mosque to accommodate a big community gathering."
+    },
+    {
+      "type": "heading",
+      "text": "Janazah: the funeral prayer"
+    },
+    {
+      "type": "text",
+      "text": "Salat al-Janazah, the funeral prayer, looks very different from the others: it's performed standing throughout, with no bowing or prostration, consisting instead of a series of four takbirs interspersed with specific supplications for the deceased. It's Fard Kifayah — a communal obligation, meaning the community as a whole must ensure it's performed, but not every individual Muslim is required to attend as long as enough people do."
+    },
+    {
+      "type": "heading",
+      "text": "Istikhara: praying for guidance"
+    },
+    {
+      "type": "text",
+      "text": "Salat al-Istikhara is a short two-rak'ah voluntary prayer, followed by a specific dua, prayed when facing a decision — asking Allah to guide you toward whichever choice is genuinely better for you, and away from what isn't, even if your own initial preference points elsewhere. It doesn't produce a dream or a sign in every case; the guidance is often understood to come through a growing sense of ease or difficulty about the choice over time."
+    },
+    {
+      "type": "heading",
+      "text": "Qasr and Jama: prayer while travelling"
+    },
+    {
+      "type": "text",
+      "text": "Travellers are given real, textually grounded relief: Qasr allows shortening the four-rak'ah prayers (Dhuhr, Asr, Isha) to two rak'ahs each, and Jama allows combining Dhuhr with Asr, and Maghrib with Isha, praying them back-to-back at either prayer's time — useful during a journey or when circumstances make praying each at its separate time genuinely difficult. Fajr and Maghrib are never shortened, and the exact distance/duration thresholds for \"travelling\" vary slightly between the schools of law."
+    },
+    {
+      "type": "faq",
+      "question": "If Sunnah and Nafl prayers are optional, is it wrong to skip them?",
+      "answer": "No — only the five daily prayers are obligatory. Sunnah and Nafl prayers are opportunities for extra reward and closeness to Allah, not requirements, and skipping them isn't sinful. Many Muslims build up to praying them regularly over time rather than all at once."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to learn all of these right away?",
+      "answer": "Not at all — focus on the five daily prayers first, covered in the previous guide. This overview exists so that terms like Jumu'ah, Tarawih, or Janazah aren't a mystery when you hear them mentioned; the rest can be learned gradually, as they come up in your life."
+    },
+    {
+      "type": "reflection",
+      "question": "Which of these prayers, if any, have you already seen or heard about before reading this? Did anything here change how you understood it?"
+    }
+  ],
+  "further_reading": [
+    { "label": "How to Pray Salah", "reference": "See Prayer tab, previous guide" }
+  ]
+}

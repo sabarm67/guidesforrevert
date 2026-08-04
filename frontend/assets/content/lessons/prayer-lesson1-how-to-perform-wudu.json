@@ -1,0 +1,122 @@
+{
+  "slug": "how-to-perform-wudu",
+  "stage_slug": "prayer-guide",
+  "order": 1,
+  "title": "How to Perform Wudu (Ablution)",
+  "summary": "A step-by-step, illustrated walkthrough of the ablution Muslims perform before prayer, and what it means beyond the physical steps.",
+  "estimated_minutes": 9,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "What Wudu is for"
+    },
+    {
+      "type": "text",
+      "text": "Wudu is the ritual washing that puts a Muslim into the state of purity needed for Salah (the five daily prayers) and for touching the Quran's Arabic text. It's required again after anything that \"breaks\" it — most commonly using the toilet, passing wind, deep sleep, or bleeding. It does not need to be repeated before every single prayer if it hasn't been broken since the last one; many people simply keep their Wudu through the day."
+    },
+    {
+      "type": "heading",
+      "text": "The 12 steps, in order"
+    },
+    {
+      "type": "text",
+      "text": "1. Begin with the intention (niyyah) to purify yourself for prayer — this is a mental intention, not something you have to say aloud. Many people say \"Bismillah\" (in the name of Allah) as they start."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/01-niyyah.png", "caption": "Step 1: Niyyah — intend in your heart to perform Wudu for Allah" },
+    {
+      "type": "text",
+      "text": "2. Wash both hands up to the wrists, three times, making sure water reaches between the fingers."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/02-wash-hands.png", "caption": "Step 2: wash both hands to the wrists, 3 times" },
+    {
+      "type": "text",
+      "text": "3. Rinse the mouth with water, three times, making sure the water reaches every part of the mouth."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/03-rinse-mouth.png", "caption": "Step 3: rinse the mouth, 3 times" },
+    {
+      "type": "text",
+      "text": "4. Sniff water into the nostrils and blow it out, three times."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/04-rinse-nose.png", "caption": "Step 4: sniff water into the nostrils, 3 times" },
+    {
+      "type": "text",
+      "text": "5. Wash the whole face, from the hairline to the chin and ear to ear, three times."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/05-wash-face.png", "caption": "Step 5: wash the whole face, 3 times" },
+    {
+      "type": "text",
+      "text": "6. Wash the right arm from the fingertips to the elbow, three times."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/06-wash-right-arm.png", "caption": "Step 6: wash the right arm to the elbow, 3 times" },
+    {
+      "type": "text",
+      "text": "7. Wash the left arm from the fingertips to the elbow, three times."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/07-wash-left-arm.png", "caption": "Step 7: wash the left arm to the elbow, 3 times" },
+    {
+      "type": "text",
+      "text": "8. Wipe part of the head with a wet hand, from the forehead toward the nape and back, once (the exact motion varies slightly by school of thought — see below)."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/08-wipe-head.png", "caption": "Step 8: wipe the head, once" },
+    {
+      "type": "text",
+      "text": "9. Wipe both ears, inside and outside, with water, once."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/09-wipe-ears.png", "caption": "Step 9: wipe both ears, once" },
+    {
+      "type": "text",
+      "text": "10. Wash the right foot from the toes to the ankle, three times."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/10-wash-right-foot.png", "caption": "Step 10: wash the right foot to the ankle, 3 times" },
+    {
+      "type": "text",
+      "text": "11. Wash the left foot from the toes to the ankle, three times, making sure water reaches between the toes."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/11-wash-left-foot.png", "caption": "Step 11: wash the left foot to the ankle, 3 times" },
+    {
+      "type": "text",
+      "text": "12. Tertib — make sure all the steps above were done, in this order, without skipping any. This last \"step\" is really a check, not a physical action: it's what makes the previous eleven count as one valid Wudu rather than a disconnected set of washes."
+    },
+    { "type": "image", "image_ref": "assets/images/wudu/12-tertib-order.png", "caption": "Step 12: Tertib — confirm every step was done in order" },
+    {
+      "type": "text",
+      "text": "Minor details of exactly how the head is wiped, or whether some steps are done once versus three times, vary slightly between the Sunni schools of law (madhhabs) — these are legitimate differences of scholarly opinion, not contradictions, and any of them is valid. The sequence above reflects the commonly taught general practice."
+    },
+    {
+      "type": "quote",
+      "translation": "Whoever performs Wudu well, his sins depart from his body, even from beneath his nails.",
+      "reference": "Sahih Muslim"
+    },
+    {
+      "type": "text",
+      "text": "Hadiths like this one are why Wudu is described as more than hygiene — it's taught as a small, repeated act of spiritual renewal, not just a practical prerequisite to prayer."
+    },
+    {
+      "type": "heading",
+      "text": "What breaks Wudu"
+    },
+    {
+      "type": "text",
+      "text": "Common things that require you to repeat Wudu before your next prayer: using the toilet, passing gas, deep sleep, and bleeding or discharge. Simply touching someone, or minor tiredness, does not break it — scholars differ on a few edge cases, but the core list above covers what a beginner needs to know."
+    },
+    {
+      "type": "faq",
+      "question": "What if I make a mistake in the order, or forget a step?",
+      "answer": "If you realise partway through, just go back and do the missed step and continue in order — there's no need to start completely over unless you've moved on and finished. Early on, mistakes are completely normal; the goal is steady improvement, not instant perfection."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to say anything in Arabic during Wudu?",
+      "answer": "No specific Arabic recitation is required during the washing itself — the intention is a matter of the heart, not a spoken formula. Many people say \"Bismillah\" at the start and a short dua afterward, but these are recommended additions (Sunnah), not conditions for the Wudu to count."
+    },
+    {
+      "type": "reflection",
+      "question": "Try doing Wudu once today, slowly, following the 12 steps above without rushing. What did you notice — was any step less intuitive than you expected?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Cleanliness and Purity (Taharah)", "reference": "See Stage 2, Your First Week" },
+    { "label": "How to Pray Salah", "reference": "See Prayer tab, next guide" }
+  ]
+}

@@ -32,6 +32,14 @@
     "icon": "stage_knowledge"
   },
   {
+    "slug": "prayer-guide",
+    "collection_type": "prayer_guide",
+    "order": 1,
+    "title": "Prayer Guide",
+    "description": "Step-by-step guides to Wudu and Salah, and an overview of the different kinds of prayer in Islamic practice.",
+    "icon": "collection_prayer"
+  },
+  {
     "slug": "fiqh-in-daily-life",
     "collection_type": "fiqh",
     "order": 1,

@@ -9,7 +9,7 @@ import '../features/learning/learning_roadmap_screen.dart';
 import '../features/learning/lesson_screen.dart';
 import '../features/learning/topic_collection_screen.dart';
 import '../features/onboarding/onboarding_screen.dart';
-import '../features/prayer/prayer_placeholder_screen.dart';
+import '../features/prayer/prayer_screen.dart';
 import 'app_shell.dart';
 
 const _tabPaths = ['/home', '/roadmap', '/prayer', '/duas', '/community', '/journal'];
@@ -58,7 +58,7 @@ GoRouter buildAppRouter({required bool onboardingComplete}) {
         routes: [
           GoRoute(path: '/home', builder: (context, state) => const HomeScreen()),
           GoRoute(path: '/roadmap', builder: (context, state) => const LearningRoadmapScreen()),
-          GoRoute(path: '/prayer', builder: (context, state) => const PrayerPlaceholderScreen()),
+          GoRoute(path: '/prayer', builder: (context, state) => const PrayerScreen()),
           GoRoute(path: '/duas', builder: (context, state) => const DuaLibraryPlaceholderScreen()),
           GoRoute(path: '/community', builder: (context, state) => const CommunityScreen()),
           GoRoute(path: '/journal', builder: (context, state) => const JournalListScreen()),
