@@ -4,13 +4,13 @@
     "name_english": "The Overthrowing",
     "name_transliteration": "At-Takwir",
     "revelation_type": "meccan",
-    "beginner_intro": "At-Takwir (\"The Overthrowing\") is a Meccan surah of 29 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "At-Takwir (\"The Overthrowing\") is a Meccan surah of 29 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 586,
-            "arabic_text": "إِذَا ٱلشَّمْسُ كُوِّرَتْ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا ٱلشَّمْسُ كُوِّرَتْ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -106,7 +106,7 @@
             "number_in_surah": 9,
             "juz": 30,
             "page": 586,
-            "arabic_text": "بِأَىِّ ذَنۢبٍ قُتِلَتْ",
+            "arabic_text": "بِأَىِّ ذَنۢبٍۢ قُتِلَتْ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -166,7 +166,7 @@
             "number_in_surah": 14,
             "juz": 30,
             "page": 586,
-            "arabic_text": "عَلِمَتْ نَفْسٌ مَّآ أَحْضَرَتْ",
+            "arabic_text": "عَلِمَتْ نَفْسٌۭ مَّآ أَحْضَرَتْ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -226,7 +226,7 @@
             "number_in_surah": 19,
             "juz": 30,
             "page": 586,
-            "arabic_text": "إِنَّهُۥ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+            "arabic_text": "إِنَّهُۥ لَقَوْلُ رَسُولٍۢ كَرِيمٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -238,7 +238,7 @@
             "number_in_surah": 20,
             "juz": 30,
             "page": 586,
-            "arabic_text": "ذِى قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍ",
+            "arabic_text": "ذِى قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -250,7 +250,7 @@
             "number_in_surah": 21,
             "juz": 30,
             "page": 586,
-            "arabic_text": "مُّطَاعٍ ثَمَّ أَمِينٍ",
+            "arabic_text": "مُّطَاعٍۢ ثَمَّ أَمِينٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -262,7 +262,7 @@
             "number_in_surah": 22,
             "juz": 30,
             "page": 586,
-            "arabic_text": "وَمَا صَاحِبُكُم بِمَجْنُونٍ",
+            "arabic_text": "وَمَا صَاحِبُكُم بِمَجْنُونٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -286,7 +286,7 @@
             "number_in_surah": 24,
             "juz": 30,
             "page": 586,
-            "arabic_text": "وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍ",
+            "arabic_text": "وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -298,7 +298,7 @@
             "number_in_surah": 25,
             "juz": 30,
             "page": 586,
-            "arabic_text": "وَمَا هُوَ بِقَوْلِ شَيْطَـٰنٍ رَّجِيمٍ",
+            "arabic_text": "وَمَا هُوَ بِقَوْلِ شَيْطَٰنٍۢ رَّجِيمٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -322,7 +322,7 @@
             "number_in_surah": 27,
             "juz": 30,
             "page": 586,
-            "arabic_text": "إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَـٰلَمِينَ",
+            "arabic_text": "إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -346,7 +346,7 @@
             "number_in_surah": 29,
             "juz": 30,
             "page": 586,
-            "arabic_text": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَـٰلَمِينَ",
+            "arabic_text": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",

@@ -4,13 +4,13 @@
     "name_english": "The Morning Hours",
     "name_transliteration": "Ad-Duhaa",
     "revelation_type": "meccan",
-    "beginner_intro": "Ad-Duhaa (\"The Morning Hours\") is a Meccan surah of 11 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Ad-Duhaa (\"The Morning Hours\") is a Meccan surah of 11 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 596,
-            "arabic_text": "وَٱلضُّحَىٰ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 596,
-            "arabic_text": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",
+            "arabic_text": "وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -70,7 +70,7 @@
             "number_in_surah": 6,
             "juz": 30,
             "page": 596,
-            "arabic_text": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ",
+            "arabic_text": "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -82,7 +82,7 @@
             "number_in_surah": 7,
             "juz": 30,
             "page": 596,
-            "arabic_text": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
+            "arabic_text": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -94,7 +94,7 @@
             "number_in_surah": 8,
             "juz": 30,
             "page": 596,
-            "arabic_text": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
+            "arabic_text": "وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",

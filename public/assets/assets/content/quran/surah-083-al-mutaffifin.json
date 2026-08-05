@@ -4,13 +4,13 @@
     "name_english": "The Defrauding",
     "name_transliteration": "Al-Mutaffifin",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Mutaffifin (\"The Defrauding\") is a Meccan surah of 36 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Mutaffifin (\"The Defrauding\") is a Meccan surah of 36 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 587,
-            "arabic_text": "وَيْلٌ لِّلْمُطَفِّفِينَ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّلْمُطَفِّفِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 587,
-            "arabic_text": "أَلَا يَظُنُّ أُو۟لَـٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
+            "arabic_text": "أَلَا يَظُنُّ أُو۟لَٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 587,
-            "arabic_text": "لِيَوْمٍ عَظِيمٍ",
+            "arabic_text": "لِيَوْمٍ عَظِيمٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -70,7 +70,7 @@
             "number_in_surah": 6,
             "juz": 30,
             "page": 587,
-            "arabic_text": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَـٰلَمِينَ",
+            "arabic_text": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -82,7 +82,7 @@
             "number_in_surah": 7,
             "juz": 30,
             "page": 588,
-            "arabic_text": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍ",
+            "arabic_text": "كَلَّآ إِنَّ كِتَٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -94,7 +94,7 @@
             "number_in_surah": 8,
             "juz": 30,
             "page": 588,
-            "arabic_text": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌ",
+            "arabic_text": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -106,7 +106,7 @@
             "number_in_surah": 9,
             "juz": 30,
             "page": 588,
-            "arabic_text": "كِتَـٰبٌ مَّرْقُومٌ",
+            "arabic_text": "كِتَٰبٌۭ مَّرْقُومٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -118,7 +118,7 @@
             "number_in_surah": 10,
             "juz": 30,
             "page": 588,
-            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "arabic_text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -154,7 +154,7 @@
             "number_in_surah": 13,
             "juz": 30,
             "page": 588,
-            "arabic_text": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا قَالَ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
+            "arabic_text": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَٰتُنَا قَالَ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -178,7 +178,7 @@
             "number_in_surah": 15,
             "juz": 30,
             "page": 588,
-            "arabic_text": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍ لَّمَحْجُوبُونَ",
+            "arabic_text": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍۢ لَّمَحْجُوبُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -202,7 +202,7 @@
             "number_in_surah": 17,
             "juz": 30,
             "page": 588,
-            "arabic_text": "ثُمَّ يُقَالُ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+            "arabic_text": "ثُمَّ يُقَالُ هَٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -214,7 +214,7 @@
             "number_in_surah": 18,
             "juz": 30,
             "page": 588,
-            "arabic_text": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+            "arabic_text": "كَلَّآ إِنَّ كِتَٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -238,7 +238,7 @@
             "number_in_surah": 20,
             "juz": 30,
             "page": 588,
-            "arabic_text": "كِتَـٰبٌ مَّرْقُومٌ",
+            "arabic_text": "كِتَٰبٌۭ مَّرْقُومٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -298,7 +298,7 @@
             "number_in_surah": 25,
             "juz": 30,
             "page": 588,
-            "arabic_text": "يُسْقَوْنَ مِن رَّحِيقٍ مَّخْتُومٍ",
+            "arabic_text": "يُسْقَوْنَ مِن رَّحِيقٍۢ مَّخْتُومٍ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -310,7 +310,7 @@
             "number_in_surah": 26,
             "juz": 30,
             "page": 588,
-            "arabic_text": "خِتَـٰمُهُۥ مِسْكٌ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَـٰفِسُونَ",
+            "arabic_text": "خِتَٰمُهُۥ مِسْكٌۭ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -334,7 +334,7 @@
             "number_in_surah": 28,
             "juz": 30,
             "page": 588,
-            "arabic_text": "عَيْنًا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
+            "arabic_text": "عَيْنًۭا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -382,7 +382,7 @@
             "number_in_surah": 32,
             "juz": 30,
             "page": 588,
-            "arabic_text": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَـٰٓؤُلَآءِ لَضَآلُّونَ",
+            "arabic_text": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَٰٓؤُلَآءِ لَضَآلُّونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -394,7 +394,7 @@
             "number_in_surah": 33,
             "juz": 30,
             "page": 588,
-            "arabic_text": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَـٰفِظِينَ",
+            "arabic_text": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَٰفِظِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",

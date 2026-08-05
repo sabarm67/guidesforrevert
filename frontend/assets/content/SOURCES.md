@@ -11,8 +11,15 @@ authored with care but has not had that independent verification pass yet.
 
 ## Quran text and translation
 
-**Status: verified and safely sourced** (as of 2026-08, covering Al-Fatihah
-and the full Juz 'Amma — surahs 1 and 78-114, 38 surahs / 571 ayahs).
+**Status: verified and safely sourced — full Quran** (as of 2026-08, all
+114 surahs / 6,236 ayahs, expanded from the earlier 38-surah / 571-ayah
+Al-Fatihah + Juz 'Amma subset using the exact same import pipeline and
+sourcing described below — no new sourcing risk introduced by completing
+the import, since it's the same verified API, same Arabic text source,
+same public-domain translation). Now fully mirrored client-side into the
+Flutter app's local Drift database (`Surahs`/`Ayahs` tables) and
+browsable offline via the app's "Quran" tab — previously this content
+existed only in the Laravel backend/CMS with no client-side path at all.
 
 - **Arabic text**: `text_uthmani` pulled directly from the official
   `api.quran.com` API, which mirrors the Tanzil Project's Uthmani Quran

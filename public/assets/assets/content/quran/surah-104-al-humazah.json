@@ -4,13 +4,13 @@
     "name_english": "The Traducer",
     "name_transliteration": "Al-Humazah",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Humazah (\"The Traducer\") is a Meccan surah of 9 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Humazah (\"The Traducer\") is a Meccan surah of 9 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 601,
-            "arabic_text": "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -22,7 +22,7 @@
             "number_in_surah": 2,
             "juz": 30,
             "page": 601,
-            "arabic_text": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ",
+            "arabic_text": "ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -94,7 +94,7 @@
             "number_in_surah": 8,
             "juz": 30,
             "page": 601,
-            "arabic_text": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
+            "arabic_text": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -106,7 +106,7 @@
             "number_in_surah": 9,
             "juz": 30,
             "page": 601,
-            "arabic_text": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
+            "arabic_text": "فِى عَمَدٍۢ مُّمَدَّدَةٍۭ",
             "translations": [
                 {
                     "translator": "Pickthall",

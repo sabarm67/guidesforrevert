@@ -4,13 +4,13 @@
     "name_english": "The Sun",
     "name_transliteration": "Ash-Shams",
     "revelation_type": "meccan",
-    "beginner_intro": "Ash-Shams (\"The Sun\") is a Meccan surah of 15 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Ash-Shams (\"The Sun\") is a Meccan surah of 15 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 595,
-            "arabic_text": "وَٱلشَّمْسِ وَضُحَىٰهَا",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلشَّمْسِ وَضُحَىٰهَا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -82,7 +82,7 @@
             "number_in_surah": 7,
             "juz": 30,
             "page": 595,
-            "arabic_text": "وَنَفْسٍ وَمَا سَوَّىٰهَا",
+            "arabic_text": "وَنَفْسٍۢ وَمَا سَوَّىٰهَا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -154,7 +154,7 @@
             "number_in_surah": 13,
             "juz": 30,
             "page": 595,
-            "arabic_text": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا",
+            "arabic_text": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -178,7 +178,7 @@
             "number_in_surah": 15,
             "juz": 30,
             "page": 595,
-            "arabic_text": "وَلَا يَخَافُ عُقْبَـٰهَا",
+            "arabic_text": "وَلَا يَخَافُ عُقْبَٰهَا",
             "translations": [
                 {
                     "translator": "Pickthall",

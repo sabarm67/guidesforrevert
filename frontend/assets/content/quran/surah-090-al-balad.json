@@ -4,13 +4,13 @@
     "name_english": "The City",
     "name_transliteration": "Al-Balad",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Balad (\"The City\") is a Meccan surah of 20 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Balad (\"The City\") is a Meccan surah of 20 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 594,
-            "arabic_text": "لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لَآ أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -22,7 +22,7 @@
             "number_in_surah": 2,
             "juz": 30,
             "page": 594,
-            "arabic_text": "وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ",
+            "arabic_text": "وَأَنتَ حِلٌّۢ بِهَٰذَا ٱلْبَلَدِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -34,7 +34,7 @@
             "number_in_surah": 3,
             "juz": 30,
             "page": 594,
-            "arabic_text": "وَوَالِدٍ وَمَا وَلَدَ",
+            "arabic_text": "وَوَالِدٍۢ وَمَا وَلَدَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 594,
-            "arabic_text": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ",
+            "arabic_text": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 594,
-            "arabic_text": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ",
+            "arabic_text": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -70,7 +70,7 @@
             "number_in_surah": 6,
             "juz": 30,
             "page": 594,
-            "arabic_text": "يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا",
+            "arabic_text": "يَقُولُ أَهْلَكْتُ مَالًۭا لُّبَدًا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -106,7 +106,7 @@
             "number_in_surah": 9,
             "juz": 30,
             "page": 594,
-            "arabic_text": "وَلِسَانًا وَشَفَتَيْنِ",
+            "arabic_text": "وَلِسَانًۭا وَشَفَتَيْنِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -118,7 +118,7 @@
             "number_in_surah": 10,
             "juz": 30,
             "page": 594,
-            "arabic_text": "وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ",
+            "arabic_text": "وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -166,7 +166,7 @@
             "number_in_surah": 14,
             "juz": 30,
             "page": 594,
-            "arabic_text": "أَوْ إِطْعَـٰمٌ فِى يَوْمٍ ذِى مَسْغَبَةٍ",
+            "arabic_text": "أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -178,7 +178,7 @@
             "number_in_surah": 15,
             "juz": 30,
             "page": 594,
-            "arabic_text": "يَتِيمًا ذَا مَقْرَبَةٍ",
+            "arabic_text": "يَتِيمًۭا ذَا مَقْرَبَةٍ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -190,7 +190,7 @@
             "number_in_surah": 16,
             "juz": 30,
             "page": 594,
-            "arabic_text": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
+            "arabic_text": "أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -214,7 +214,7 @@
             "number_in_surah": 18,
             "juz": 30,
             "page": 594,
-            "arabic_text": "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
+            "arabic_text": "أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْمَيْمَنَةِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -226,7 +226,7 @@
             "number_in_surah": 19,
             "juz": 30,
             "page": 594,
-            "arabic_text": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
+            "arabic_text": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا هُمْ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -238,7 +238,7 @@
             "number_in_surah": 20,
             "juz": 30,
             "page": 594,
-            "arabic_text": "عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌۢ",
+            "arabic_text": "عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ",
             "translations": [
                 {
                     "translator": "Pickthall",

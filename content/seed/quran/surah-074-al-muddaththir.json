@@ -4,13 +4,13 @@
     "name_english": "The Cloaked One",
     "name_transliteration": "Al-Muddaththir",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Muddaththir (\"The Cloaked One\") is a Meccan surah of 56 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Muddaththir (\"The Cloaked One\") is a Meccan surah of 56 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 29,
             "page": 575,
-            "arabic_text": "يَـٰٓأَيُّهَا ٱلْمُدَّثِّرُ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ يَٰٓأَيُّهَا ٱلْمُدَّثِّرُ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -106,7 +106,7 @@
             "number_in_surah": 9,
             "juz": 29,
             "page": 575,
-            "arabic_text": "فَذَٰلِكَ يَوْمَئِذٍ يَوْمٌ عَسِيرٌ",
+            "arabic_text": "فَذَٰلِكَ يَوْمَئِذٍۢ يَوْمٌ عَسِيرٌ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -118,7 +118,7 @@
             "number_in_surah": 10,
             "juz": 29,
             "page": 575,
-            "arabic_text": "عَلَى ٱلْكَـٰفِرِينَ غَيْرُ يَسِيرٍ",
+            "arabic_text": "عَلَى ٱلْكَٰفِرِينَ غَيْرُ يَسِيرٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -130,7 +130,7 @@
             "number_in_surah": 11,
             "juz": 29,
             "page": 575,
-            "arabic_text": "ذَرْنِى وَمَنْ خَلَقْتُ وَحِيدًا",
+            "arabic_text": "ذَرْنِى وَمَنْ خَلَقْتُ وَحِيدًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -142,7 +142,7 @@
             "number_in_surah": 12,
             "juz": 29,
             "page": 575,
-            "arabic_text": "وَجَعَلْتُ لَهُۥ مَالًا مَّمْدُودًا",
+            "arabic_text": "وَجَعَلْتُ لَهُۥ مَالًۭا مَّمْدُودًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -154,7 +154,7 @@
             "number_in_surah": 13,
             "juz": 29,
             "page": 575,
-            "arabic_text": "وَبَنِينَ شُهُودًا",
+            "arabic_text": "وَبَنِينَ شُهُودًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -166,7 +166,7 @@
             "number_in_surah": 14,
             "juz": 29,
             "page": 575,
-            "arabic_text": "وَمَهَّدتُّ لَهُۥ تَمْهِيدًا",
+            "arabic_text": "وَمَهَّدتُّ لَهُۥ تَمْهِيدًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -190,7 +190,7 @@
             "number_in_surah": 16,
             "juz": 29,
             "page": 575,
-            "arabic_text": "كَلَّآ ۖ إِنَّهُۥ كَانَ لِـَٔايَـٰتِنَا عَنِيدًا",
+            "arabic_text": "كَلَّآ ۖ إِنَّهُۥ كَانَ لِءَايَٰتِنَا عَنِيدًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -286,7 +286,7 @@
             "number_in_surah": 24,
             "juz": 29,
             "page": 576,
-            "arabic_text": "فَقَالَ إِنْ هَـٰذَآ إِلَّا سِحْرٌ يُؤْثَرُ",
+            "arabic_text": "فَقَالَ إِنْ هَٰذَآ إِلَّا سِحْرٌۭ يُؤْثَرُ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -298,7 +298,7 @@
             "number_in_surah": 25,
             "juz": 29,
             "page": 576,
-            "arabic_text": "إِنْ هَـٰذَآ إِلَّا قَوْلُ ٱلْبَشَرِ",
+            "arabic_text": "إِنْ هَٰذَآ إِلَّا قَوْلُ ٱلْبَشَرِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -346,7 +346,7 @@
             "number_in_surah": 29,
             "juz": 29,
             "page": 576,
-            "arabic_text": "لَوَّاحَةٌ لِّلْبَشَرِ",
+            "arabic_text": "لَوَّاحَةٌۭ لِّلْبَشَرِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -370,7 +370,7 @@
             "number_in_surah": 31,
             "juz": 29,
             "page": 576,
-            "arabic_text": "وَمَا جَعَلْنَآ أَصْحَـٰبَ ٱلنَّارِ إِلَّا مَلَـٰٓئِكَةً ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةً لِّلَّذِينَ كَفَرُوا۟ لِيَسْتَيْقِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ وَيَزْدَادَ ٱلَّذِينَ ءَامَنُوٓا۟ إِيمَـٰنًا ۙ وَلَا يَرْتَابَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ وَٱلْمُؤْمِنُونَ ۙ وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْكَـٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَـٰذَا مَثَلًا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِىَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ",
+            "arabic_text": "وَمَا جَعَلْنَآ أَصْحَٰبَ ٱلنَّارِ إِلَّا مَلَٰٓئِكَةًۭ ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةًۭ لِّلَّذِينَ كَفَرُوا۟ لِيَسْتَيْقِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَيَزْدَادَ ٱلَّذِينَ ءَامَنُوٓا۟ إِيمَٰنًۭا ۙ وَلَا يَرْتَابَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَٱلْمُؤْمِنُونَ ۙ وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ وَٱلْكَٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًۭا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِىَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -430,7 +430,7 @@
             "number_in_surah": 36,
             "juz": 29,
             "page": 576,
-            "arabic_text": "نَذِيرًا لِّلْبَشَرِ",
+            "arabic_text": "نَذِيرًۭا لِّلْبَشَرِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -466,7 +466,7 @@
             "number_in_surah": 39,
             "juz": 29,
             "page": 576,
-            "arabic_text": "إِلَّآ أَصْحَـٰبَ ٱلْيَمِينِ",
+            "arabic_text": "إِلَّآ أَصْحَٰبَ ٱلْيَمِينِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -478,7 +478,7 @@
             "number_in_surah": 40,
             "juz": 29,
             "page": 576,
-            "arabic_text": "فِى جَنَّـٰتٍ يَتَسَآءَلُونَ",
+            "arabic_text": "فِى جَنَّٰتٍۢ يَتَسَآءَلُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -574,7 +574,7 @@
             "number_in_surah": 48,
             "juz": 29,
             "page": 577,
-            "arabic_text": "فَمَا تَنفَعُهُمْ شَفَـٰعَةُ ٱلشَّـٰفِعِينَ",
+            "arabic_text": "فَمَا تَنفَعُهُمْ شَفَٰعَةُ ٱلشَّٰفِعِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -598,7 +598,7 @@
             "number_in_surah": 50,
             "juz": 29,
             "page": 577,
-            "arabic_text": "كَأَنَّهُمْ حُمُرٌ مُّسْتَنفِرَةٌ",
+            "arabic_text": "كَأَنَّهُمْ حُمُرٌۭ مُّسْتَنفِرَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -622,7 +622,7 @@
             "number_in_surah": 52,
             "juz": 29,
             "page": 577,
-            "arabic_text": "بَلْ يُرِيدُ كُلُّ ٱمْرِئٍ مِّنْهُمْ أَن يُؤْتَىٰ صُحُفًا مُّنَشَّرَةً",
+            "arabic_text": "بَلْ يُرِيدُ كُلُّ ٱمْرِئٍۢ مِّنْهُمْ أَن يُؤْتَىٰ صُحُفًۭا مُّنَشَّرَةًۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -634,7 +634,7 @@
             "number_in_surah": 53,
             "juz": 29,
             "page": 577,
-            "arabic_text": "كَلَّا ۖ بَل لَّا يَخَافُونَ ٱلْـَٔاخِرَةَ",
+            "arabic_text": "كَلَّا ۖ بَل لَّا يَخَافُونَ ٱلْءَاخِرَةَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -646,7 +646,7 @@
             "number_in_surah": 54,
             "juz": 29,
             "page": 577,
-            "arabic_text": "كَلَّآ إِنَّهُۥ تَذْكِرَةٌ",
+            "arabic_text": "كَلَّآ إِنَّهُۥ تَذْكِرَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",

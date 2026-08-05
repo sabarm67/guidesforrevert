@@ -4,13 +4,13 @@
     "name_english": "The Courser",
     "name_transliteration": "Al-'Adiyat",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-'Adiyat (\"The Courser\") is a Meccan surah of 11 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-'Adiyat (\"The Courser\") is a Meccan surah of 11 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 599,
-            "arabic_text": "وَٱلْعَـٰدِيَـٰتِ ضَبْحًا",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -22,7 +22,7 @@
             "number_in_surah": 2,
             "juz": 30,
             "page": 599,
-            "arabic_text": "فَٱلْمُورِيَـٰتِ قَدْحًا",
+            "arabic_text": "فَٱلْمُورِيَٰتِ قَدْحًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -34,7 +34,7 @@
             "number_in_surah": 3,
             "juz": 30,
             "page": 599,
-            "arabic_text": "فَٱلْمُغِيرَٰتِ صُبْحًا",
+            "arabic_text": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 599,
-            "arabic_text": "فَأَثَرْنَ بِهِۦ نَقْعًا",
+            "arabic_text": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -70,7 +70,7 @@
             "number_in_surah": 6,
             "juz": 30,
             "page": 599,
-            "arabic_text": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ",
+            "arabic_text": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -82,7 +82,7 @@
             "number_in_surah": 7,
             "juz": 30,
             "page": 599,
-            "arabic_text": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ",
+            "arabic_text": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -130,7 +130,7 @@
             "number_in_surah": 11,
             "juz": 30,
             "page": 600,
-            "arabic_text": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ",
+            "arabic_text": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ",
             "translations": [
                 {
                     "translator": "Pickthall",

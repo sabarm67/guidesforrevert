@@ -4,13 +4,13 @@
     "name_english": "Quraysh",
     "name_transliteration": "Quraysh",
     "revelation_type": "meccan",
-    "beginner_intro": "Quraysh (\"Quraysh\") is a Meccan surah of 4 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Quraysh (\"Quraysh\") is a Meccan surah of 4 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 602,
-            "arabic_text": "لِإِيلَـٰفِ قُرَيْشٍ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -22,7 +22,7 @@
             "number_in_surah": 2,
             "juz": 30,
             "page": 602,
-            "arabic_text": "إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+            "arabic_text": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -34,7 +34,7 @@
             "number_in_surah": 3,
             "juz": 30,
             "page": 602,
-            "arabic_text": "فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ",
+            "arabic_text": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 602,
-            "arabic_text": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+            "arabic_text": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
             "translations": [
                 {
                     "translator": "Pickthall",

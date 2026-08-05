@@ -12,14 +12,37 @@ authored with care but has not had that independent verification pass yet.
 ## Quran text and translation
 
 **Status: verified and safely sourced — full Quran** (as of 2026-08, all
-114 surahs / 6,236 ayahs, expanded from the earlier 38-surah / 571-ayah
-Al-Fatihah + Juz 'Amma subset using the exact same import pipeline and
-sourcing described below — no new sourcing risk introduced by completing
-the import, since it's the same verified API, same Arabic text source,
-same public-domain translation). Now fully mirrored client-side into the
-Flutter app's local Drift database (`Surahs`/`Ayahs` tables) and
-browsable offline via the app's "Quran" tab — previously this content
-existed only in the Laravel backend/CMS with no client-side path at all.
+114 surahs / 6,236 ayahs). Fully mirrored client-side into the Flutter
+app's local Drift database (`Surahs`/`Ayahs` tables) and browsable
+offline via the app's "Quran" tab.
+
+- **Arabic text (as of 2026-08, updated from the original Tanzil-mirrored
+  source)**: pulled from the project owner's own **Al-Quran Hafazan
+  System** (`hafazan.rcaquacycle.com/api/v1/surahs/{n}/ayat`), a separate
+  project the owner also runs and directly authorized this app to use.
+  The text is standard Uthmani Hafs script (same script convention as
+  the previous Tanzil-sourced text — Hafazan renders it with the KFGQPC
+  "Uthmanic Script Hafs" font, a widely-used, freely-distributed font
+  from Saudi Arabia's King Fahd Complex for the Printing of the Holy
+  Quran, the same complex whose digital Mushaf underlies most major
+  Quran apps). Juz and page numbers now also come from this source. This
+  is a first-party source (owner-authorized, owner-controlled), not a
+  third-party licensing question the way the previous Tanzil-mirror
+  source was — no separate attribution requirement applies the way
+  Tanzil's terms required. `php artisan quran:import` (see
+  `app/Console/Commands/ImportQuranContent.php`) now fetches Arabic text
+  from Hafazan and combines it with the translation fetched from
+  quran.com, per ayah, matched by `number_in_surah` — the two sources
+  are never blended for a single ayah from different offset positions.
+- **Translation**: unchanged — still **Pickthall** (public domain,
+  pre-1964 US publication, copyright not renewed) via `api.quran.com`,
+  translation resource id 19. Hafazan's own translation is Malay
+  (`translation_ms`), not applicable to this English-speaking app, so
+  translation sourcing was deliberately left untouched.
+- **Reproducing/expanding**: `php artisan quran:import {surah_numbers*}`
+  regenerates seed files from both live APIs — a content-authoring tool
+  run locally, never called by the shipped app at runtime. Accepts
+  `--hafazan-base` to point at a different Hafazan deployment if needed.
 
 - **Arabic text**: `text_uthmani` pulled directly from the official
   `api.quran.com` API, which mirrors the Tanzil Project's Uthmani Quran

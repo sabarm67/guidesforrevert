@@ -4,13 +4,13 @@
     "name_english": "Mankind",
     "name_transliteration": "An-Nas",
     "revelation_type": "meccan",
-    "beginner_intro": "An-Nas (\"Mankind\") is a Meccan surah of 6 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "An-Nas (\"Mankind\") is a Meccan surah of 6 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 604,
-            "arabic_text": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -34,7 +34,7 @@
             "number_in_surah": 3,
             "juz": 30,
             "page": 604,
-            "arabic_text": "إِلَـٰهِ ٱلنَّاسِ",
+            "arabic_text": "إِلَٰهِ ٱلنَّاسِ",
             "translations": [
                 {
                     "translator": "Pickthall",

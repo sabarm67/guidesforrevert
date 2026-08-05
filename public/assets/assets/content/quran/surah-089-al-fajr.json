@@ -4,13 +4,13 @@
     "name_english": "The Dawn",
     "name_transliteration": "Al-Fajr",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Fajr (\"The Dawn\") is a Meccan surah of 30 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Fajr (\"The Dawn\") is a Meccan surah of 30 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 593,
-            "arabic_text": "وَٱلْفَجْرِ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -22,7 +22,7 @@
             "number_in_surah": 2,
             "juz": 30,
             "page": 593,
-            "arabic_text": "وَلَيَالٍ عَشْرٍ",
+            "arabic_text": "وَلَيَالٍ عَشْرٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 593,
-            "arabic_text": "هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى حِجْرٍ",
+            "arabic_text": "هَلْ فِى ذَٰلِكَ قَسَمٌۭ لِّذِى حِجْرٍ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -94,7 +94,7 @@
             "number_in_surah": 8,
             "juz": 30,
             "page": 593,
-            "arabic_text": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَـٰدِ",
+            "arabic_text": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -130,7 +130,7 @@
             "number_in_surah": 11,
             "juz": 30,
             "page": 593,
-            "arabic_text": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَـٰدِ",
+            "arabic_text": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -178,7 +178,7 @@
             "number_in_surah": 15,
             "juz": 30,
             "page": 593,
-            "arabic_text": "فَأَمَّا ٱلْإِنسَـٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
+            "arabic_text": "فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -190,7 +190,7 @@
             "number_in_surah": 16,
             "juz": 30,
             "page": 593,
-            "arabic_text": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَـٰنَنِ",
+            "arabic_text": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَٰنَنِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -214,7 +214,7 @@
             "number_in_surah": 18,
             "juz": 30,
             "page": 593,
-            "arabic_text": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+            "arabic_text": "وَلَا تَحَٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -226,7 +226,7 @@
             "number_in_surah": 19,
             "juz": 30,
             "page": 593,
-            "arabic_text": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًا لَّمًّا",
+            "arabic_text": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًۭا لَّمًّۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -238,7 +238,7 @@
             "number_in_surah": 20,
             "juz": 30,
             "page": 593,
-            "arabic_text": "وَتُحِبُّونَ ٱلْمَالَ حُبًّا جَمًّا",
+            "arabic_text": "وَتُحِبُّونَ ٱلْمَالَ حُبًّۭا جَمًّۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -250,7 +250,7 @@
             "number_in_surah": 21,
             "juz": 30,
             "page": 593,
-            "arabic_text": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا",
+            "arabic_text": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّۭا دَكًّۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -262,7 +262,7 @@
             "number_in_surah": 22,
             "juz": 30,
             "page": 593,
-            "arabic_text": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا",
+            "arabic_text": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّۭا صَفًّۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -274,7 +274,7 @@
             "number_in_surah": 23,
             "juz": 30,
             "page": 593,
-            "arabic_text": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
+            "arabic_text": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍۢ يَتَذَكَّرُ ٱلْإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -286,7 +286,7 @@
             "number_in_surah": 24,
             "juz": 30,
             "page": 594,
-            "arabic_text": "يَقُولُ يَـٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
+            "arabic_text": "يَقُولُ يَٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -298,7 +298,7 @@
             "number_in_surah": 25,
             "juz": 30,
             "page": 594,
-            "arabic_text": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌ",
+            "arabic_text": "فَيَوْمَئِذٍۢ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -310,7 +310,7 @@
             "number_in_surah": 26,
             "juz": 30,
             "page": 594,
-            "arabic_text": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌ",
+            "arabic_text": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -322,7 +322,7 @@
             "number_in_surah": 27,
             "juz": 30,
             "page": 594,
-            "arabic_text": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
+            "arabic_text": "يَٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -334,7 +334,7 @@
             "number_in_surah": 28,
             "juz": 30,
             "page": 594,
-            "arabic_text": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
+            "arabic_text": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةًۭ مَّرْضِيَّةًۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -346,7 +346,7 @@
             "number_in_surah": 29,
             "juz": 30,
             "page": 594,
-            "arabic_text": "فَٱدْخُلِى فِى عِبَـٰدِى",
+            "arabic_text": "فَٱدْخُلِى فِى عِبَٰدِى",
             "translations": [
                 {
                     "translator": "Pickthall",

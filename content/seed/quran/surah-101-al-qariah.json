@@ -4,13 +4,13 @@
     "name_english": "The Calamity",
     "name_transliteration": "Al-Qari'ah",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Qari'ah (\"The Calamity\") is a Meccan surah of 11 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Qari'ah (\"The Calamity\") is a Meccan surah of 11 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 600,
-            "arabic_text": "ٱلْقَارِعَةُ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -82,7 +82,7 @@
             "number_in_surah": 7,
             "juz": 30,
             "page": 600,
-            "arabic_text": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
+            "arabic_text": "فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -106,7 +106,7 @@
             "number_in_surah": 9,
             "juz": 30,
             "page": 600,
-            "arabic_text": "فَأُمُّهُۥ هَاوِيَةٌ",
+            "arabic_text": "فَأُمُّهُۥ هَاوِيَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",

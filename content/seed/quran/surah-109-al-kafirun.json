@@ -4,13 +4,13 @@
     "name_english": "The Disbelievers",
     "name_transliteration": "Al-Kafirun",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Kafirun (\"The Disbelievers\") is a Meccan surah of 6 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Kafirun (\"The Disbelievers\") is a Meccan surah of 6 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 603,
-            "arabic_text": "قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -34,7 +34,7 @@
             "number_in_surah": 3,
             "juz": 30,
             "page": 603,
-            "arabic_text": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+            "arabic_text": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 603,
-            "arabic_text": "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ",
+            "arabic_text": "وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 603,
-            "arabic_text": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+            "arabic_text": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
             "translations": [
                 {
                     "translator": "Pickthall",

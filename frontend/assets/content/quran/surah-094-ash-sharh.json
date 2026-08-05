@@ -4,13 +4,13 @@
     "name_english": "The Relief",
     "name_transliteration": "Ash-Sharh",
     "revelation_type": "meccan",
-    "beginner_intro": "Ash-Sharh (\"The Relief\") is a Meccan surah of 8 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Ash-Sharh (\"The Relief\") is a Meccan surah of 8 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 596,
-            "arabic_text": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -70,7 +70,7 @@
             "number_in_surah": 6,
             "juz": 30,
             "page": 596,
-            "arabic_text": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+            "arabic_text": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",

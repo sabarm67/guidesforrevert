@@ -4,13 +4,13 @@
     "name_english": "The Night",
     "name_transliteration": "Al-Layl",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Layl (\"The Night\") is a Meccan surah of 21 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Layl (\"The Night\") is a Meccan surah of 21 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 595,
-            "arabic_text": "وَٱلَّيْلِ إِذَا يَغْشَىٰ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلَّيْلِ إِذَا يَغْشَىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -154,7 +154,7 @@
             "number_in_surah": 13,
             "juz": 30,
             "page": 595,
-            "arabic_text": "وَإِنَّ لَنَا لَلْـَٔاخِرَةَ وَٱلْأُولَىٰ",
+            "arabic_text": "وَإِنَّ لَنَا لَلْءَاخِرَةَ وَٱلْأُولَىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -166,7 +166,7 @@
             "number_in_surah": 14,
             "juz": 30,
             "page": 595,
-            "arabic_text": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
+            "arabic_text": "فَأَنذَرْتُكُمْ نَارًۭا تَلَظَّىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -226,7 +226,7 @@
             "number_in_surah": 19,
             "juz": 30,
             "page": 596,
-            "arabic_text": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ",
+            "arabic_text": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ",
             "translations": [
                 {
                     "translator": "Pickthall",

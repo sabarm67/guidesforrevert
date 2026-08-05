@@ -4,13 +4,13 @@
     "name_english": "The Clot",
     "name_transliteration": "Al-'Alaq",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-'Alaq (\"The Clot\") is a Meccan surah of 19 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-'Alaq (\"The Clot\") is a Meccan surah of 19 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 597,
-            "arabic_text": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -22,7 +22,7 @@
             "number_in_surah": 2,
             "juz": 30,
             "page": 597,
-            "arabic_text": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
+            "arabic_text": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 597,
-            "arabic_text": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
+            "arabic_text": "عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -70,7 +70,7 @@
             "number_in_surah": 6,
             "juz": 30,
             "page": 597,
-            "arabic_text": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
+            "arabic_text": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -190,7 +190,7 @@
             "number_in_surah": 16,
             "juz": 30,
             "page": 597,
-            "arabic_text": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ",
+            "arabic_text": "نَاصِيَةٍۢ كَٰذِبَةٍ خَاطِئَةٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",

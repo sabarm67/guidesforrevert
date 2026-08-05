@@ -4,13 +4,13 @@
     "name_english": "The Inevitable",
     "name_transliteration": "Al-Waqi'ah",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Waqi'ah (\"The Inevitable\") is a Meccan surah of 96 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Waqi'ah (\"The Inevitable\") is a Meccan surah of 96 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 27,
             "page": 534,
-            "arabic_text": "إِذَا وَقَعَتِ ٱلْوَاقِعَةُ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا وَقَعَتِ ٱلْوَاقِعَةُ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -34,7 +34,7 @@
             "number_in_surah": 3,
             "juz": 27,
             "page": 534,
-            "arabic_text": "خَافِضَةٌ رَّافِعَةٌ",
+            "arabic_text": "خَافِضَةٌۭ رَّافِعَةٌ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 27,
             "page": 534,
-            "arabic_text": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّا",
+            "arabic_text": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 27,
             "page": 534,
-            "arabic_text": "وَبُسَّتِ ٱلْجِبَالُ بَسًّا",
+            "arabic_text": "وَبُسَّتِ ٱلْجِبَالُ بَسًّۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -70,7 +70,7 @@
             "number_in_surah": 6,
             "juz": 27,
             "page": 534,
-            "arabic_text": "فَكَانَتْ هَبَآءً مُّنۢبَثًّا",
+            "arabic_text": "فَكَانَتْ هَبَآءًۭ مُّنۢبَثًّۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -82,7 +82,7 @@
             "number_in_surah": 7,
             "juz": 27,
             "page": 534,
-            "arabic_text": "وَكُنتُمْ أَزْوَٰجًا ثَلَـٰثَةً",
+            "arabic_text": "وَكُنتُمْ أَزْوَٰجًۭا ثَلَٰثَةًۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -94,7 +94,7 @@
             "number_in_surah": 8,
             "juz": 27,
             "page": 534,
-            "arabic_text": "فَأَصْحَـٰبُ ٱلْمَيْمَنَةِ مَآ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
+            "arabic_text": "فَأَصْحَٰبُ ٱلْمَيْمَنَةِ مَآ أَصْحَٰبُ ٱلْمَيْمَنَةِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -106,7 +106,7 @@
             "number_in_surah": 9,
             "juz": 27,
             "page": 534,
-            "arabic_text": "وَأَصْحَـٰبُ ٱلْمَشْـَٔمَةِ مَآ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
+            "arabic_text": "وَأَصْحَٰبُ ٱلْمَشْـَٔمَةِ مَآ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -118,7 +118,7 @@
             "number_in_surah": 10,
             "juz": 27,
             "page": 534,
-            "arabic_text": "وَٱلسَّـٰبِقُونَ ٱلسَّـٰبِقُونَ",
+            "arabic_text": "وَٱلسَّٰبِقُونَ ٱلسَّٰبِقُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -130,7 +130,7 @@
             "number_in_surah": 11,
             "juz": 27,
             "page": 534,
-            "arabic_text": "أُو۟لَـٰٓئِكَ ٱلْمُقَرَّبُونَ",
+            "arabic_text": "أُو۟لَٰٓئِكَ ٱلْمُقَرَّبُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -142,7 +142,7 @@
             "number_in_surah": 12,
             "juz": 27,
             "page": 534,
-            "arabic_text": "فِى جَنَّـٰتِ ٱلنَّعِيمِ",
+            "arabic_text": "فِى جَنَّٰتِ ٱلنَّعِيمِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -154,7 +154,7 @@
             "number_in_surah": 13,
             "juz": 27,
             "page": 534,
-            "arabic_text": "ثُلَّةٌ مِّنَ ٱلْأَوَّلِينَ",
+            "arabic_text": "ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -166,7 +166,7 @@
             "number_in_surah": 14,
             "juz": 27,
             "page": 534,
-            "arabic_text": "وَقَلِيلٌ مِّنَ ٱلْـَٔاخِرِينَ",
+            "arabic_text": "وَقَلِيلٌۭ مِّنَ ٱلْءَاخِرِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -178,7 +178,7 @@
             "number_in_surah": 15,
             "juz": 27,
             "page": 534,
-            "arabic_text": "عَلَىٰ سُرُرٍ مَّوْضُونَةٍ",
+            "arabic_text": "عَلَىٰ سُرُرٍۢ مَّوْضُونَةٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -190,7 +190,7 @@
             "number_in_surah": 16,
             "juz": 27,
             "page": 534,
-            "arabic_text": "مُّتَّكِـِٔينَ عَلَيْهَا مُتَقَـٰبِلِينَ",
+            "arabic_text": "مُّتَّكِـِٔينَ عَلَيْهَا مُتَقَٰبِلِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -202,7 +202,7 @@
             "number_in_surah": 17,
             "juz": 27,
             "page": 535,
-            "arabic_text": "يَطُوفُ عَلَيْهِمْ وِلْدَٰنٌ مُّخَلَّدُونَ",
+            "arabic_text": "يَطُوفُ عَلَيْهِمْ وِلْدَٰنٌۭ مُّخَلَّدُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -214,7 +214,7 @@
             "number_in_surah": 18,
             "juz": 27,
             "page": 535,
-            "arabic_text": "بِأَكْوَابٍ وَأَبَارِيقَ وَكَأْسٍ مِّن مَّعِينٍ",
+            "arabic_text": "بِأَكْوَابٍۢ وَأَبَارِيقَ وَكَأْسٍۢ مِّن مَّعِينٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -238,7 +238,7 @@
             "number_in_surah": 20,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَفَـٰكِهَةٍ مِّمَّا يَتَخَيَّرُونَ",
+            "arabic_text": "وَفَٰكِهَةٍۢ مِّمَّا يَتَخَيَّرُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -250,7 +250,7 @@
             "number_in_surah": 21,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَلَحْمِ طَيْرٍ مِّمَّا يَشْتَهُونَ",
+            "arabic_text": "وَلَحْمِ طَيْرٍۢ مِّمَّا يَشْتَهُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -262,7 +262,7 @@
             "number_in_surah": 22,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَحُورٌ عِينٌ",
+            "arabic_text": "وَحُورٌ عِينٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -274,7 +274,7 @@
             "number_in_surah": 23,
             "juz": 27,
             "page": 535,
-            "arabic_text": "كَأَمْثَـٰلِ ٱللُّؤْلُؤِ ٱلْمَكْنُونِ",
+            "arabic_text": "كَأَمْثَٰلِ ٱللُّؤْلُؤِ ٱلْمَكْنُونِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -298,7 +298,7 @@
             "number_in_surah": 25,
             "juz": 27,
             "page": 535,
-            "arabic_text": "لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا",
+            "arabic_text": "لَا يَسْمَعُونَ فِيهَا لَغْوًۭا وَلَا تَأْثِيمًا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -310,7 +310,7 @@
             "number_in_surah": 26,
             "juz": 27,
             "page": 535,
-            "arabic_text": "إِلَّا قِيلًا سَلَـٰمًا سَلَـٰمًا",
+            "arabic_text": "إِلَّا قِيلًۭا سَلَٰمًۭا سَلَٰمًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -322,7 +322,7 @@
             "number_in_surah": 27,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَأَصْحَـٰبُ ٱلْيَمِينِ مَآ أَصْحَـٰبُ ٱلْيَمِينِ",
+            "arabic_text": "وَأَصْحَٰبُ ٱلْيَمِينِ مَآ أَصْحَٰبُ ٱلْيَمِينِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -334,7 +334,7 @@
             "number_in_surah": 28,
             "juz": 27,
             "page": 535,
-            "arabic_text": "فِى سِدْرٍ مَّخْضُودٍ",
+            "arabic_text": "فِى سِدْرٍۢ مَّخْضُودٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -346,7 +346,7 @@
             "number_in_surah": 29,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَطَلْحٍ مَّنضُودٍ",
+            "arabic_text": "وَطَلْحٍۢ مَّنضُودٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -358,7 +358,7 @@
             "number_in_surah": 30,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَظِلٍّ مَّمْدُودٍ",
+            "arabic_text": "وَظِلٍّۢ مَّمْدُودٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -370,7 +370,7 @@
             "number_in_surah": 31,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَمَآءٍ مَّسْكُوبٍ",
+            "arabic_text": "وَمَآءٍۢ مَّسْكُوبٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -382,7 +382,7 @@
             "number_in_surah": 32,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَفَـٰكِهَةٍ كَثِيرَةٍ",
+            "arabic_text": "وَفَٰكِهَةٍۢ كَثِيرَةٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -394,7 +394,7 @@
             "number_in_surah": 33,
             "juz": 27,
             "page": 535,
-            "arabic_text": "لَّا مَقْطُوعَةٍ وَلَا مَمْنُوعَةٍ",
+            "arabic_text": "لَّا مَقْطُوعَةٍۢ وَلَا مَمْنُوعَةٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -406,7 +406,7 @@
             "number_in_surah": 34,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَفُرُشٍ مَّرْفُوعَةٍ",
+            "arabic_text": "وَفُرُشٍۢ مَّرْفُوعَةٍ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -418,7 +418,7 @@
             "number_in_surah": 35,
             "juz": 27,
             "page": 535,
-            "arabic_text": "إِنَّآ أَنشَأْنَـٰهُنَّ إِنشَآءً",
+            "arabic_text": "إِنَّآ أَنشَأْنَٰهُنَّ إِنشَآءًۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -430,7 +430,7 @@
             "number_in_surah": 36,
             "juz": 27,
             "page": 535,
-            "arabic_text": "فَجَعَلْنَـٰهُنَّ أَبْكَارًا",
+            "arabic_text": "فَجَعَلْنَٰهُنَّ أَبْكَارًا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -442,7 +442,7 @@
             "number_in_surah": 37,
             "juz": 27,
             "page": 535,
-            "arabic_text": "عُرُبًا أَتْرَابًا",
+            "arabic_text": "عُرُبًا أَتْرَابًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -454,7 +454,7 @@
             "number_in_surah": 38,
             "juz": 27,
             "page": 535,
-            "arabic_text": "لِّأَصْحَـٰبِ ٱلْيَمِينِ",
+            "arabic_text": "لِّأَصْحَٰبِ ٱلْيَمِينِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -466,7 +466,7 @@
             "number_in_surah": 39,
             "juz": 27,
             "page": 535,
-            "arabic_text": "ثُلَّةٌ مِّنَ ٱلْأَوَّلِينَ",
+            "arabic_text": "ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -478,7 +478,7 @@
             "number_in_surah": 40,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَثُلَّةٌ مِّنَ ٱلْـَٔاخِرِينَ",
+            "arabic_text": "وَثُلَّةٌۭ مِّنَ ٱلْءَاخِرِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -490,7 +490,7 @@
             "number_in_surah": 41,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَأَصْحَـٰبُ ٱلشِّمَالِ مَآ أَصْحَـٰبُ ٱلشِّمَالِ",
+            "arabic_text": "وَأَصْحَٰبُ ٱلشِّمَالِ مَآ أَصْحَٰبُ ٱلشِّمَالِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -502,7 +502,7 @@
             "number_in_surah": 42,
             "juz": 27,
             "page": 535,
-            "arabic_text": "فِى سَمُومٍ وَحَمِيمٍ",
+            "arabic_text": "فِى سَمُومٍۢ وَحَمِيمٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -514,7 +514,7 @@
             "number_in_surah": 43,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَظِلٍّ مِّن يَحْمُومٍ",
+            "arabic_text": "وَظِلٍّۢ مِّن يَحْمُومٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -526,7 +526,7 @@
             "number_in_surah": 44,
             "juz": 27,
             "page": 535,
-            "arabic_text": "لَّا بَارِدٍ وَلَا كَرِيمٍ",
+            "arabic_text": "لَّا بَارِدٍۢ وَلَا كَرِيمٍ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -562,7 +562,7 @@
             "number_in_surah": 47,
             "juz": 27,
             "page": 535,
-            "arabic_text": "وَكَانُوا۟ يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَبْعُوثُونَ",
+            "arabic_text": "وَكَانُوا۟ يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَبْعُوثُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -586,7 +586,7 @@
             "number_in_surah": 49,
             "juz": 27,
             "page": 535,
-            "arabic_text": "قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْـَٔاخِرِينَ",
+            "arabic_text": "قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْءَاخِرِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -598,7 +598,7 @@
             "number_in_surah": 50,
             "juz": 27,
             "page": 535,
-            "arabic_text": "لَمَجْمُوعُونَ إِلَىٰ مِيقَـٰتِ يَوْمٍ مَّعْلُومٍ",
+            "arabic_text": "لَمَجْمُوعُونَ إِلَىٰ مِيقَٰتِ يَوْمٍۢ مَّعْلُومٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -622,7 +622,7 @@
             "number_in_surah": 52,
             "juz": 27,
             "page": 536,
-            "arabic_text": "لَـَٔاكِلُونَ مِن شَجَرٍ مِّن زَقُّومٍ",
+            "arabic_text": "لَءَاكِلُونَ مِن شَجَرٍۢ مِّن زَقُّومٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -646,7 +646,7 @@
             "number_in_surah": 54,
             "juz": 27,
             "page": 536,
-            "arabic_text": "فَشَـٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ",
+            "arabic_text": "فَشَٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -658,7 +658,7 @@
             "number_in_surah": 55,
             "juz": 27,
             "page": 536,
-            "arabic_text": "فَشَـٰرِبُونَ شُرْبَ ٱلْهِيمِ",
+            "arabic_text": "فَشَٰرِبُونَ شُرْبَ ٱلْهِيمِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -670,7 +670,7 @@
             "number_in_surah": 56,
             "juz": 27,
             "page": 536,
-            "arabic_text": "هَـٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ",
+            "arabic_text": "هَٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -682,7 +682,7 @@
             "number_in_surah": 57,
             "juz": 27,
             "page": 536,
-            "arabic_text": "نَحْنُ خَلَقْنَـٰكُمْ فَلَوْلَا تُصَدِّقُونَ",
+            "arabic_text": "نَحْنُ خَلَقْنَٰكُمْ فَلَوْلَا تُصَدِّقُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -706,7 +706,7 @@
             "number_in_surah": 59,
             "juz": 27,
             "page": 536,
-            "arabic_text": "ءَأَنتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَـٰلِقُونَ",
+            "arabic_text": "ءَأَنتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَٰلِقُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -730,7 +730,7 @@
             "number_in_surah": 61,
             "juz": 27,
             "page": 536,
-            "arabic_text": "عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَـٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ",
+            "arabic_text": "عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -778,7 +778,7 @@
             "number_in_surah": 65,
             "juz": 27,
             "page": 536,
-            "arabic_text": "لَوْ نَشَآءُ لَجَعَلْنَـٰهُ حُطَـٰمًا فَظَلْتُمْ تَفَكَّهُونَ",
+            "arabic_text": "لَوْ نَشَآءُ لَجَعَلْنَٰهُ حُطَٰمًۭا فَظَلْتُمْ تَفَكَّهُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -838,7 +838,7 @@
             "number_in_surah": 70,
             "juz": 27,
             "page": 536,
-            "arabic_text": "لَوْ نَشَآءُ جَعَلْنَـٰهُ أُجَاجًا فَلَوْلَا تَشْكُرُونَ",
+            "arabic_text": "لَوْ نَشَآءُ جَعَلْنَٰهُ أُجَاجًۭا فَلَوْلَا تَشْكُرُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -874,7 +874,7 @@
             "number_in_surah": 73,
             "juz": 27,
             "page": 536,
-            "arabic_text": "نَحْنُ جَعَلْنَـٰهَا تَذْكِرَةً وَمَتَـٰعًا لِّلْمُقْوِينَ",
+            "arabic_text": "نَحْنُ جَعَلْنَٰهَا تَذْكِرَةًۭ وَمَتَٰعًۭا لِّلْمُقْوِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -910,7 +910,7 @@
             "number_in_surah": 76,
             "juz": 27,
             "page": 536,
-            "arabic_text": "وَإِنَّهُۥ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+            "arabic_text": "وَإِنَّهُۥ لَقَسَمٌۭ لَّوْ تَعْلَمُونَ عَظِيمٌ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -922,7 +922,7 @@
             "number_in_surah": 77,
             "juz": 27,
             "page": 537,
-            "arabic_text": "إِنَّهُۥ لَقُرْءَانٌ كَرِيمٌ",
+            "arabic_text": "إِنَّهُۥ لَقُرْءَانٌۭ كَرِيمٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -934,7 +934,7 @@
             "number_in_surah": 78,
             "juz": 27,
             "page": 537,
-            "arabic_text": "فِى كِتَـٰبٍ مَّكْنُونٍ",
+            "arabic_text": "فِى كِتَٰبٍۢ مَّكْنُونٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -958,7 +958,7 @@
             "number_in_surah": 80,
             "juz": 27,
             "page": 537,
-            "arabic_text": "تَنزِيلٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
+            "arabic_text": "تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -970,7 +970,7 @@
             "number_in_surah": 81,
             "juz": 27,
             "page": 537,
-            "arabic_text": "أَفَبِهَـٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+            "arabic_text": "أَفَبِهَٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -1006,7 +1006,7 @@
             "number_in_surah": 84,
             "juz": 27,
             "page": 537,
-            "arabic_text": "وَأَنتُمْ حِينَئِذٍ تَنظُرُونَ",
+            "arabic_text": "وَأَنتُمْ حِينَئِذٍۢ تَنظُرُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -1018,7 +1018,7 @@
             "number_in_surah": 85,
             "juz": 27,
             "page": 537,
-            "arabic_text": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَـٰكِن لَّا تُبْصِرُونَ",
+            "arabic_text": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَٰكِن لَّا تُبْصِرُونَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -1042,7 +1042,7 @@
             "number_in_surah": 87,
             "juz": 27,
             "page": 537,
-            "arabic_text": "تَرْجِعُونَهَآ إِن كُنتُمْ صَـٰدِقِينَ",
+            "arabic_text": "تَرْجِعُونَهَآ إِن كُنتُمْ صَٰدِقِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -1066,7 +1066,7 @@
             "number_in_surah": 89,
             "juz": 27,
             "page": 537,
-            "arabic_text": "فَرَوْحٌ وَرَيْحَانٌ وَجَنَّتُ نَعِيمٍ",
+            "arabic_text": "فَرَوْحٌۭ وَرَيْحَانٌۭ وَجَنَّتُ نَعِيمٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -1078,7 +1078,7 @@
             "number_in_surah": 90,
             "juz": 27,
             "page": 537,
-            "arabic_text": "وَأَمَّآ إِن كَانَ مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
+            "arabic_text": "وَأَمَّآ إِن كَانَ مِنْ أَصْحَٰبِ ٱلْيَمِينِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -1090,7 +1090,7 @@
             "number_in_surah": 91,
             "juz": 27,
             "page": 537,
-            "arabic_text": "فَسَلَـٰمٌ لَّكَ مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
+            "arabic_text": "فَسَلَٰمٌۭ لَّكَ مِنْ أَصْحَٰبِ ٱلْيَمِينِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -1114,7 +1114,7 @@
             "number_in_surah": 93,
             "juz": 27,
             "page": 537,
-            "arabic_text": "فَنُزُلٌ مِّنْ حَمِيمٍ",
+            "arabic_text": "فَنُزُلٌۭ مِّنْ حَمِيمٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -1138,7 +1138,7 @@
             "number_in_surah": 95,
             "juz": 27,
             "page": 537,
-            "arabic_text": "إِنَّ هَـٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ",
+            "arabic_text": "إِنَّ هَٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ",
             "translations": [
                 {
                     "translator": "Pickthall",

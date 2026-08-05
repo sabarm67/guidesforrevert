@@ -4,13 +4,13 @@
     "name_english": "The Overwhelming",
     "name_transliteration": "Al-Ghashiyah",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Ghashiyah (\"The Overwhelming\") is a Meccan surah of 26 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Ghashiyah (\"The Overwhelming\") is a Meccan surah of 26 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 592,
-            "arabic_text": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -22,7 +22,7 @@
             "number_in_surah": 2,
             "juz": 30,
             "page": 592,
-            "arabic_text": "وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ",
+            "arabic_text": "وُجُوهٌۭ يَوْمَئِذٍ خَٰشِعَةٌ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -34,7 +34,7 @@
             "number_in_surah": 3,
             "juz": 30,
             "page": 592,
-            "arabic_text": "عَامِلَةٌ نَّاصِبَةٌ",
+            "arabic_text": "عَامِلَةٌۭ نَّاصِبَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 592,
-            "arabic_text": "تَصْلَىٰ نَارًا حَامِيَةً",
+            "arabic_text": "تَصْلَىٰ نَارًا حَامِيَةًۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 592,
-            "arabic_text": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ",
+            "arabic_text": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -70,7 +70,7 @@
             "number_in_surah": 6,
             "juz": 30,
             "page": 592,
-            "arabic_text": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
+            "arabic_text": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -82,7 +82,7 @@
             "number_in_surah": 7,
             "juz": 30,
             "page": 592,
-            "arabic_text": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ",
+            "arabic_text": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -94,7 +94,7 @@
             "number_in_surah": 8,
             "juz": 30,
             "page": 592,
-            "arabic_text": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
+            "arabic_text": "وُجُوهٌۭ يَوْمَئِذٍۢ نَّاعِمَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -106,7 +106,7 @@
             "number_in_surah": 9,
             "juz": 30,
             "page": 592,
-            "arabic_text": "لِّسَعْيِهَا رَاضِيَةٌ",
+            "arabic_text": "لِّسَعْيِهَا رَاضِيَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -118,7 +118,7 @@
             "number_in_surah": 10,
             "juz": 30,
             "page": 592,
-            "arabic_text": "فِى جَنَّةٍ عَالِيَةٍ",
+            "arabic_text": "فِى جَنَّةٍ عَالِيَةٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -130,7 +130,7 @@
             "number_in_surah": 11,
             "juz": 30,
             "page": 592,
-            "arabic_text": "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً",
+            "arabic_text": "لَّا تَسْمَعُ فِيهَا لَٰغِيَةًۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -142,7 +142,7 @@
             "number_in_surah": 12,
             "juz": 30,
             "page": 592,
-            "arabic_text": "فِيهَا عَيْنٌ جَارِيَةٌ",
+            "arabic_text": "فِيهَا عَيْنٌۭ جَارِيَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -154,7 +154,7 @@
             "number_in_surah": 13,
             "juz": 30,
             "page": 592,
-            "arabic_text": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
+            "arabic_text": "فِيهَا سُرُرٌۭ مَّرْفُوعَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -166,7 +166,7 @@
             "number_in_surah": 14,
             "juz": 30,
             "page": 592,
-            "arabic_text": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
+            "arabic_text": "وَأَكْوَابٌۭ مَّوْضُوعَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -178,7 +178,7 @@
             "number_in_surah": 15,
             "juz": 30,
             "page": 592,
-            "arabic_text": "وَنَمَارِقُ مَصْفُوفَةٌ",
+            "arabic_text": "وَنَمَارِقُ مَصْفُوفَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -250,7 +250,7 @@
             "number_in_surah": 21,
             "juz": 30,
             "page": 592,
-            "arabic_text": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌ",
+            "arabic_text": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",

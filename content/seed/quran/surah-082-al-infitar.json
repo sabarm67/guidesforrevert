@@ -4,13 +4,13 @@
     "name_english": "The Cleaving",
     "name_transliteration": "Al-Infitar",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Infitar (\"The Cleaving\") is a Meccan surah of 19 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Infitar (\"The Cleaving\") is a Meccan surah of 19 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 587,
-            "arabic_text": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 587,
-            "arabic_text": "عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ وَأَخَّرَتْ",
+            "arabic_text": "عَلِمَتْ نَفْسٌۭ مَّا قَدَّمَتْ وَأَخَّرَتْ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -70,7 +70,7 @@
             "number_in_surah": 6,
             "juz": 30,
             "page": 587,
-            "arabic_text": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ",
+            "arabic_text": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -94,7 +94,7 @@
             "number_in_surah": 8,
             "juz": 30,
             "page": 587,
-            "arabic_text": "فِىٓ أَىِّ صُورَةٍ مَّا شَآءَ رَكَّبَكَ",
+            "arabic_text": "فِىٓ أَىِّ صُورَةٍۢ مَّا شَآءَ رَكَّبَكَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -118,7 +118,7 @@
             "number_in_surah": 10,
             "juz": 30,
             "page": 587,
-            "arabic_text": "وَإِنَّ عَلَيْكُمْ لَحَـٰفِظِينَ",
+            "arabic_text": "وَإِنَّ عَلَيْكُمْ لَحَٰفِظِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -130,7 +130,7 @@
             "number_in_surah": 11,
             "juz": 30,
             "page": 587,
-            "arabic_text": "كِرَامًا كَـٰتِبِينَ",
+            "arabic_text": "كِرَامًۭا كَٰتِبِينَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -154,7 +154,7 @@
             "number_in_surah": 13,
             "juz": 30,
             "page": 587,
-            "arabic_text": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+            "arabic_text": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -166,7 +166,7 @@
             "number_in_surah": 14,
             "juz": 30,
             "page": 587,
-            "arabic_text": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍ",
+            "arabic_text": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -226,7 +226,7 @@
             "number_in_surah": 19,
             "juz": 30,
             "page": 587,
-            "arabic_text": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْـًٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍ لِّلَّهِ",
+            "arabic_text": "يَوْمَ لَا تَمْلِكُ نَفْسٌۭ لِّنَفْسٍۢ شَيْـًۭٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍۢ لِّلَّهِ",
             "translations": [
                 {
                     "translator": "Pickthall",

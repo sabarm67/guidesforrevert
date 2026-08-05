@@ -4,13 +4,13 @@
     "name_english": "The Elephant",
     "name_transliteration": "Al-Fil",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Fil (\"The Elephant\") is a Meccan surah of 5 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Fil (\"The Elephant\") is a Meccan surah of 5 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 601,
-            "arabic_text": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -22,7 +22,7 @@
             "number_in_surah": 2,
             "juz": 30,
             "page": 601,
-            "arabic_text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
+            "arabic_text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 601,
-            "arabic_text": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+            "arabic_text": "تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 601,
-            "arabic_text": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+            "arabic_text": "فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
             "translations": [
                 {
                     "translator": "Pickthall",

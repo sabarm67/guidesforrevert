@@ -4,13 +4,13 @@
     "name_english": "The Nightcommer",
     "name_transliteration": "At-Tariq",
     "revelation_type": "meccan",
-    "beginner_intro": "At-Tariq (\"The Nightcommer\") is a Meccan surah of 17 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "At-Tariq (\"The Nightcommer\") is a Meccan surah of 17 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 591,
-            "arabic_text": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ وَٱلطَّارِقِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 591,
-            "arabic_text": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ",
+            "arabic_text": "إِن كُلُّ نَفْسٍۢ لَّمَّا عَلَيْهَا حَافِظٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 591,
-            "arabic_text": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ مِمَّ خُلِقَ",
+            "arabic_text": "فَلْيَنظُرِ ٱلْإِنسَٰنُ مِمَّ خُلِقَ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -70,7 +70,7 @@
             "number_in_surah": 6,
             "juz": 30,
             "page": 591,
-            "arabic_text": "خُلِقَ مِن مَّآءٍ دَافِقٍ",
+            "arabic_text": "خُلِقَ مِن مَّآءٍۢ دَافِقٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -94,7 +94,7 @@
             "number_in_surah": 8,
             "juz": 30,
             "page": 591,
-            "arabic_text": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌ",
+            "arabic_text": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -118,7 +118,7 @@
             "number_in_surah": 10,
             "juz": 30,
             "page": 591,
-            "arabic_text": "فَمَا لَهُۥ مِن قُوَّةٍ وَلَا نَاصِرٍ",
+            "arabic_text": "فَمَا لَهُۥ مِن قُوَّةٍۢ وَلَا نَاصِرٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -154,7 +154,7 @@
             "number_in_surah": 13,
             "juz": 30,
             "page": 591,
-            "arabic_text": "إِنَّهُۥ لَقَوْلٌ فَصْلٌ",
+            "arabic_text": "إِنَّهُۥ لَقَوْلٌۭ فَصْلٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -178,7 +178,7 @@
             "number_in_surah": 15,
             "juz": 30,
             "page": 591,
-            "arabic_text": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
+            "arabic_text": "إِنَّهُمْ يَكِيدُونَ كَيْدًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -190,7 +190,7 @@
             "number_in_surah": 16,
             "juz": 30,
             "page": 591,
-            "arabic_text": "وَأَكِيدُ كَيْدًا",
+            "arabic_text": "وَأَكِيدُ كَيْدًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -202,7 +202,7 @@
             "number_in_surah": 17,
             "juz": 30,
             "page": 591,
-            "arabic_text": "فَمَهِّلِ ٱلْكَـٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
+            "arabic_text": "فَمَهِّلِ ٱلْكَٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
             "translations": [
                 {
                     "translator": "Pickthall",

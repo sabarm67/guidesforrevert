@@ -4,13 +4,13 @@
     "name_english": "The Daybreak",
     "name_transliteration": "Al-Falaq",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Falaq (\"The Daybreak\") is a Meccan surah of 5 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Falaq (\"The Daybreak\") is a Meccan surah of 5 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 604,
-            "arabic_text": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 604,
-            "arabic_text": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ",
+            "arabic_text": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
             "translations": [
                 {
                     "translator": "Pickthall",

@@ -4,13 +4,13 @@
     "name_english": "The Palm Fiber",
     "name_transliteration": "Al-Masad",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Masad (\"The Palm Fiber\") is a Meccan surah of 5 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Masad (\"The Palm Fiber\") is a Meccan surah of 5 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 603,
-            "arabic_text": "تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -34,7 +34,7 @@
             "number_in_surah": 3,
             "juz": 30,
             "page": 603,
-            "arabic_text": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+            "arabic_text": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 603,
-            "arabic_text": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ",
+            "arabic_text": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
             "translations": [
                 {
                     "translator": "Pickthall",

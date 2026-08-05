@@ -1,58 +1,58 @@
 {
-  "number": 112,
-  "name_arabic": "الإخلاص",
-  "name_english": "Sincerity",
-  "name_transliteration": "Al-Ikhlas",
-  "revelation_type": "meccan",
-  "beginner_intro": "Al-Ikhlas is only four short verses, but the Prophet Muhammad (peace be upon him) described it as equal in meaning to a third of the Quran, because it summarises the entire Islamic concept of God's Oneness (Tawhid) — see Lesson 1, \"Who is Allah?\". Many Muslims recite it daily; it is short enough for a beginner to memorise in one sitting.",
-  "ayahs": [
-    {
-      "number_in_surah": 1,
-      "juz": 30,
-      "page": 604,
-      "arabic_text": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
-      "translations": [
-        { "translator": "Pickthall", "text": "Say: He is Allah, the One!" }
-      ],
-      "tafsirs": [
-        { "source": "ibn_kathir", "text_summary": "The surah opens as an instruction to Muhammad (peace be upon him) to declare God's absolute Oneness in response to those who asked him to describe God — a direct, unambiguous answer rather than a comparison to anything already known." }
-      ]
-    },
-    {
-      "number_in_surah": 2,
-      "juz": 30,
-      "page": 604,
-      "arabic_text": "ٱللَّهُ ٱلصَّمَدُ",
-      "translations": [
-        { "translator": "Pickthall", "text": "Allah, the eternally Besought of all!" }
-      ],
-      "tafsirs": [
-        { "source": "al_sadi", "text_summary": "\"As-Samad\" describes God as the One all creation depends on and turns to in need, while He depends on nothing and no one — the reverse of every other relationship a person experiences." }
-      ]
-    },
-    {
-      "number_in_surah": 3,
-      "juz": 30,
-      "page": 604,
-      "arabic_text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
-      "translations": [
-        { "translator": "Pickthall", "text": "He begetteth not nor was begotten." }
-      ],
-      "tafsirs": [
-        { "source": "ibn_kathir", "text_summary": "A direct statement that God has no offspring and was not born of anything — addressing, among other things, the divine sonship claimed for other figures in some other traditions, and affirming instead that God is uncreated and without succession." }
-      ]
-    },
-    {
-      "number_in_surah": 4,
-      "juz": 30,
-      "page": 604,
-      "arabic_text": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
-      "translations": [
-        { "translator": "Pickthall", "text": "And there is none comparable unto Him." }
-      ],
-      "tafsirs": [
-        { "source": "al_sadi", "text_summary": "Closes the surah with the widest possible statement: nothing at all is comparable or equal to God — in essence, in attributes, or in right to be worshipped." }
-      ]
-    }
-  ]
+    "number": 112,
+    "name_arabic": "الإخلاص",
+    "name_english": "The Sincerity",
+    "name_transliteration": "Al-Ikhlas",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Ikhlas (\"The Sincerity\") is a Meccan surah of 4 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 30,
+            "page": 604,
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Say: He is Allah, the One!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 30,
+            "page": 604,
+            "arabic_text": "ٱللَّهُ ٱلصَّمَدُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Allah, the eternally Besought of all!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 30,
+            "page": 604,
+            "arabic_text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "He begetteth not nor was begotten."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 30,
+            "page": 604,
+            "arabic_text": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And there is none comparable unto Him."
+                }
+            ]
+        }
+    ]
 }

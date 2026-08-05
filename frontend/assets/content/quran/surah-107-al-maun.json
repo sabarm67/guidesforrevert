@@ -4,13 +4,13 @@
     "name_english": "The Small kindnesses",
     "name_transliteration": "Al-Ma'un",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Ma'un (\"The Small kindnesses\") is a Meccan surah of 7 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Ma'un (\"The Small kindnesses\") is a Meccan surah of 7 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 602,
-            "arabic_text": "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 602,
-            "arabic_text": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+            "arabic_text": "فَوَيْلٌۭ لِّلْمُصَلِّينَ",
             "translations": [
                 {
                     "translator": "Pickthall",

@@ -4,13 +4,13 @@
     "name_english": "The Abundance",
     "name_transliteration": "Al-Kawthar",
     "revelation_type": "meccan",
-    "beginner_intro": "Al-Kawthar (\"The Abundance\") is a Meccan surah of 3 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "Al-Kawthar (\"The Abundance\") is a Meccan surah of 3 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 602,
-            "arabic_text": "إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
             "translations": [
                 {
                     "translator": "Pickthall",

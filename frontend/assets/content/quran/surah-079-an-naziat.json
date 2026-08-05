@@ -4,13 +4,13 @@
     "name_english": "Those who drag forth",
     "name_transliteration": "An-Nazi'at",
     "revelation_type": "meccan",
-    "beginner_intro": "An-Nazi'at (\"Those who drag forth\") is a Meccan surah of 46 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "beginner_intro": "An-Nazi'at (\"Those who drag forth\") is a Meccan surah of 46 ayahs. Arabic text: Al-Quran Hafazan System (Uthmani Hafs script). Translation: Pickthall (public domain).",
     "ayahs": [
         {
             "number_in_surah": 1,
             "juz": 30,
             "page": 583,
-            "arabic_text": "وَٱلنَّـٰزِعَـٰتِ غَرْقًا",
+            "arabic_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلنَّٰزِعَٰتِ غَرْقًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -22,7 +22,7 @@
             "number_in_surah": 2,
             "juz": 30,
             "page": 583,
-            "arabic_text": "وَٱلنَّـٰشِطَـٰتِ نَشْطًا",
+            "arabic_text": "وَٱلنَّٰشِطَٰتِ نَشْطًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -34,7 +34,7 @@
             "number_in_surah": 3,
             "juz": 30,
             "page": 583,
-            "arabic_text": "وَٱلسَّـٰبِحَـٰتِ سَبْحًا",
+            "arabic_text": "وَٱلسَّٰبِحَٰتِ سَبْحًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -46,7 +46,7 @@
             "number_in_surah": 4,
             "juz": 30,
             "page": 583,
-            "arabic_text": "فَٱلسَّـٰبِقَـٰتِ سَبْقًا",
+            "arabic_text": "فَٱلسَّٰبِقَٰتِ سَبْقًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -58,7 +58,7 @@
             "number_in_surah": 5,
             "juz": 30,
             "page": 583,
-            "arabic_text": "فَٱلْمُدَبِّرَٰتِ أَمْرًا",
+            "arabic_text": "فَٱلْمُدَبِّرَٰتِ أَمْرًۭا",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -94,7 +94,7 @@
             "number_in_surah": 8,
             "juz": 30,
             "page": 583,
-            "arabic_text": "قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ",
+            "arabic_text": "قُلُوبٌۭ يَوْمَئِذٍۢ وَاجِفَةٌ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -106,7 +106,7 @@
             "number_in_surah": 9,
             "juz": 30,
             "page": 583,
-            "arabic_text": "أَبْصَـٰرُهَا خَـٰشِعَةٌ",
+            "arabic_text": "أَبْصَٰرُهَا خَٰشِعَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -130,7 +130,7 @@
             "number_in_surah": 11,
             "juz": 30,
             "page": 583,
-            "arabic_text": "أَءِذَا كُنَّا عِظَـٰمًا نَّخِرَةً",
+            "arabic_text": "أَءِذَا كُنَّا عِظَٰمًۭا نَّخِرَةًۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -142,7 +142,7 @@
             "number_in_surah": 12,
             "juz": 30,
             "page": 583,
-            "arabic_text": "قَالُوا۟ تِلْكَ إِذًا كَرَّةٌ خَاسِرَةٌ",
+            "arabic_text": "قَالُوا۟ تِلْكَ إِذًۭا كَرَّةٌ خَاسِرَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -154,7 +154,7 @@
             "number_in_surah": 13,
             "juz": 30,
             "page": 583,
-            "arabic_text": "فَإِنَّمَا هِىَ زَجْرَةٌ وَٰحِدَةٌ",
+            "arabic_text": "فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -238,7 +238,7 @@
             "number_in_surah": 20,
             "juz": 30,
             "page": 584,
-            "arabic_text": "فَأَرَىٰهُ ٱلْـَٔايَةَ ٱلْكُبْرَىٰ",
+            "arabic_text": "فَأَرَىٰهُ ٱلْءَايَةَ ٱلْكُبْرَىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -298,7 +298,7 @@
             "number_in_surah": 25,
             "juz": 30,
             "page": 584,
-            "arabic_text": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْـَٔاخِرَةِ وَٱلْأُولَىٰٓ",
+            "arabic_text": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْءَاخِرَةِ وَٱلْأُولَىٰٓ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -310,7 +310,7 @@
             "number_in_surah": 26,
             "juz": 30,
             "page": 584,
-            "arabic_text": "إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّمَن يَخْشَىٰٓ",
+            "arabic_text": "إِنَّ فِى ذَٰلِكَ لَعِبْرَةًۭ لِّمَن يَخْشَىٰٓ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -394,7 +394,7 @@
             "number_in_surah": 33,
             "juz": 30,
             "page": 584,
-            "arabic_text": "مَتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ",
+            "arabic_text": "مَتَٰعًۭا لَّكُمْ وَلِأَنْعَٰمِكُمْ",
             "translations": [
                 {
                     "translator": "Pickthall",
@@ -418,7 +418,7 @@
             "number_in_surah": 35,
             "juz": 30,
             "page": 584,
-            "arabic_text": "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَـٰنُ مَا سَعَىٰ",
+            "arabic_text": "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَٰنُ مَا سَعَىٰ",
             "translations": [
                 {
                     "translator": "Pickthall",
