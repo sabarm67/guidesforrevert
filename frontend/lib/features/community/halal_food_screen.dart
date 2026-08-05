@@ -5,6 +5,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../theme/app_spacing.dart';
 import '../prayer/location_providers.dart';
 import 'community_repository.dart';
+import 'place_map.dart';
 
 /// Finds nearby halal restaurants, shops, and butchers via a live
 /// OpenStreetMap Overpass query, centred on the same location used for
@@ -78,9 +79,29 @@ class _HalalFoodList extends ConsumerWidget {
 
         return ListView.builder(
           padding: const EdgeInsets.all(AppSpacing.md),
-          itemCount: places.length,
+          itemCount: places.length + 1,
           itemBuilder: (context, index) {
-            final place = places[index];
+            if (index == 0) {
+              return Padding(
+                padding: const EdgeInsets.only(bottom: AppSpacing.md),
+                child: PlaceMap(
+                  userLatitude: latitude,
+                  userLongitude: longitude,
+                  pinIcon: Icons.restaurant,
+                  pins: [
+                    for (final place in places)
+                      PlaceMapPin(
+                        latitude: place.latitude,
+                        longitude: place.longitude,
+                        label: place.name,
+                        onTap: () => _openInMaps(place),
+                      ),
+                  ],
+                ),
+              );
+            }
+
+            final place = places[index - 1];
             final distanceKm = place.distanceKmFrom(latitude, longitude);
 
             return Card(
