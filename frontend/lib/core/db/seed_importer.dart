@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 9;
+  static const currentContentVersion = 11;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -34,6 +34,7 @@ class SeedImporter {
       await _importStagesAndLessons();
       await _importDuas();
       await _importAiFaq();
+      await _importQuran();
 
       await _db
           .into(_db.contentVersionMeta)
@@ -239,6 +240,19 @@ class SeedImporter {
       'entering-leaving-home': 'Entering & Leaving Home',
     };
 
+    // Duas has no natural unique key to upsert against (unlike lessons'
+    // slug or learningStages' slug), so `insertOnConflictUpdate()` — which
+    // only ever targets the primary key — could never actually find a
+    // conflict on a fresh autoincrement id. That silently turned every
+    // re-import (each content-version bump) into an append rather than an
+    // update, leaving duplicate rows behind. Clearing both tables first
+    // sidesteps the missing-unique-key problem entirely: duas are fully
+    // bundled, read-only content with no user data attached, so a clean
+    // delete-then-reinsert is safe and simpler than retrofitting a unique
+    // constraint via a schema migration.
+    await _db.delete(_db.duas).go();
+    await _db.delete(_db.duaCategories).go();
+
     final categoryOrder = <String, int>{};
 
     for (final duaData in duas.cast<Map<String, dynamic>>()) {
@@ -262,7 +276,7 @@ class SeedImporter {
 
       await _db
           .into(_db.duas)
-          .insertOnConflictUpdate(
+          .insert(
             DuasCompanion.insert(
               duaCategoryId: category.id,
               title: duaData['title'] as String,
@@ -299,5 +313,239 @@ class SeedImporter {
           .into(_db.aiFaqEntries)
           .insert(companion, onConflict: DoUpdate((_) => companion, target: [_db.aiFaqEntries.faqKey]));
     }
+  }
+
+  /// The full 114-surah Quran (Tanzil Arabic text, Pickthall public-domain
+  /// English translation — see content/seed/SOURCES.md), authored via
+  /// `php artisan quran:import` into `content/seed/quran/*.json`.
+  static const _surahAssetPaths = [
+    'assets/content/quran/surah-001-al-fatihah.json',
+    'assets/content/quran/surah-002-al-baqarah.json',
+    'assets/content/quran/surah-003-ali-imran.json',
+    'assets/content/quran/surah-004-an-nisa.json',
+    'assets/content/quran/surah-005-al-maidah.json',
+    'assets/content/quran/surah-006-al-anam.json',
+    'assets/content/quran/surah-007-al-araf.json',
+    'assets/content/quran/surah-008-al-anfal.json',
+    'assets/content/quran/surah-009-at-tawbah.json',
+    'assets/content/quran/surah-010-yunus.json',
+    'assets/content/quran/surah-011-hud.json',
+    'assets/content/quran/surah-012-yusuf.json',
+    'assets/content/quran/surah-013-ar-rad.json',
+    'assets/content/quran/surah-014-ibrahim.json',
+    'assets/content/quran/surah-015-al-hijr.json',
+    'assets/content/quran/surah-016-an-nahl.json',
+    'assets/content/quran/surah-017-al-isra.json',
+    'assets/content/quran/surah-018-al-kahf.json',
+    'assets/content/quran/surah-019-maryam.json',
+    'assets/content/quran/surah-020-taha.json',
+    'assets/content/quran/surah-021-al-anbya.json',
+    'assets/content/quran/surah-022-al-hajj.json',
+    'assets/content/quran/surah-023-al-muminun.json',
+    'assets/content/quran/surah-024-an-nur.json',
+    'assets/content/quran/surah-025-al-furqan.json',
+    'assets/content/quran/surah-026-ash-shuara.json',
+    'assets/content/quran/surah-027-an-naml.json',
+    'assets/content/quran/surah-028-al-qasas.json',
+    'assets/content/quran/surah-029-al-ankabut.json',
+    'assets/content/quran/surah-030-ar-rum.json',
+    'assets/content/quran/surah-031-luqman.json',
+    'assets/content/quran/surah-032-as-sajdah.json',
+    'assets/content/quran/surah-033-al-ahzab.json',
+    'assets/content/quran/surah-034-saba.json',
+    'assets/content/quran/surah-035-fatir.json',
+    'assets/content/quran/surah-036-ya-sin.json',
+    'assets/content/quran/surah-037-as-saffat.json',
+    'assets/content/quran/surah-038-sad.json',
+    'assets/content/quran/surah-039-az-zumar.json',
+    'assets/content/quran/surah-040-ghafir.json',
+    'assets/content/quran/surah-041-fussilat.json',
+    'assets/content/quran/surah-042-ash-shuraa.json',
+    'assets/content/quran/surah-043-az-zukhruf.json',
+    'assets/content/quran/surah-044-ad-dukhan.json',
+    'assets/content/quran/surah-045-al-jathiyah.json',
+    'assets/content/quran/surah-046-al-ahqaf.json',
+    'assets/content/quran/surah-047-muhammad.json',
+    'assets/content/quran/surah-048-al-fath.json',
+    'assets/content/quran/surah-049-al-hujurat.json',
+    'assets/content/quran/surah-050-qaf.json',
+    'assets/content/quran/surah-051-adh-dhariyat.json',
+    'assets/content/quran/surah-052-at-tur.json',
+    'assets/content/quran/surah-053-an-najm.json',
+    'assets/content/quran/surah-054-al-qamar.json',
+    'assets/content/quran/surah-055-ar-rahman.json',
+    'assets/content/quran/surah-056-al-waqiah.json',
+    'assets/content/quran/surah-057-al-hadid.json',
+    'assets/content/quran/surah-058-al-mujadila.json',
+    'assets/content/quran/surah-059-al-hashr.json',
+    'assets/content/quran/surah-060-al-mumtahanah.json',
+    'assets/content/quran/surah-061-as-saf.json',
+    'assets/content/quran/surah-062-al-jumuah.json',
+    'assets/content/quran/surah-063-al-munafiqun.json',
+    'assets/content/quran/surah-064-at-taghabun.json',
+    'assets/content/quran/surah-065-at-talaq.json',
+    'assets/content/quran/surah-066-at-tahrim.json',
+    'assets/content/quran/surah-067-al-mulk.json',
+    'assets/content/quran/surah-068-al-qalam.json',
+    'assets/content/quran/surah-069-al-haqqah.json',
+    'assets/content/quran/surah-070-al-maarij.json',
+    'assets/content/quran/surah-071-nuh.json',
+    'assets/content/quran/surah-072-al-jinn.json',
+    'assets/content/quran/surah-073-al-muzzammil.json',
+    'assets/content/quran/surah-074-al-muddaththir.json',
+    'assets/content/quran/surah-075-al-qiyamah.json',
+    'assets/content/quran/surah-076-al-insan.json',
+    'assets/content/quran/surah-077-al-mursalat.json',
+    'assets/content/quran/surah-078-an-naba.json',
+    'assets/content/quran/surah-079-an-naziat.json',
+    'assets/content/quran/surah-080-abasa.json',
+    'assets/content/quran/surah-081-at-takwir.json',
+    'assets/content/quran/surah-082-al-infitar.json',
+    'assets/content/quran/surah-083-al-mutaffifin.json',
+    'assets/content/quran/surah-084-al-inshiqaq.json',
+    'assets/content/quran/surah-085-al-buruj.json',
+    'assets/content/quran/surah-086-at-tariq.json',
+    'assets/content/quran/surah-087-al-ala.json',
+    'assets/content/quran/surah-088-al-ghashiyah.json',
+    'assets/content/quran/surah-089-al-fajr.json',
+    'assets/content/quran/surah-090-al-balad.json',
+    'assets/content/quran/surah-091-ash-shams.json',
+    'assets/content/quran/surah-092-al-layl.json',
+    'assets/content/quran/surah-093-ad-duhaa.json',
+    'assets/content/quran/surah-094-ash-sharh.json',
+    'assets/content/quran/surah-095-at-tin.json',
+    'assets/content/quran/surah-096-al-alaq.json',
+    'assets/content/quran/surah-097-al-qadr.json',
+    'assets/content/quran/surah-098-al-bayyinah.json',
+    'assets/content/quran/surah-099-az-zalzalah.json',
+    'assets/content/quran/surah-100-al-adiyat.json',
+    'assets/content/quran/surah-101-al-qariah.json',
+    'assets/content/quran/surah-102-at-takathur.json',
+    'assets/content/quran/surah-103-al-asr.json',
+    'assets/content/quran/surah-104-al-humazah.json',
+    'assets/content/quran/surah-105-al-fil.json',
+    'assets/content/quran/surah-106-quraysh.json',
+    'assets/content/quran/surah-107-al-maun.json',
+    'assets/content/quran/surah-108-al-kawthar.json',
+    'assets/content/quran/surah-109-al-kafirun.json',
+    'assets/content/quran/surah-110-an-nasr.json',
+    'assets/content/quran/surah-111-al-masad.json',
+    'assets/content/quran/surah-112-al-ikhlas.json',
+    'assets/content/quran/surah-113-al-falaq.json',
+    'assets/content/quran/surah-114-an-nas.json',
+  ];
+
+  /// Loads and parses all 114 bundled surah files once, ahead of either
+  /// import path below. Loaded concurrently rather than one at a time —
+  /// 114 sequential awaited asset reads adds up to a noticeably slower
+  /// first launch (and, in widget tests, can outrun a bounded pump-count
+  /// settle loop).
+  Future<List<Map<String, dynamic>>> _loadAllSurahData() async {
+    return Future.wait(_surahAssetPaths.map(_loadJson));
+  }
+
+  /// 114 surahs / 6,236 ayahs is far too many rows to insert one-at-a-time
+  /// with an awaited statement each (thousands of round trips) — this
+  /// stayed well within the odd hundred-millisecond range for every other
+  /// bundled content type, but at Quran scale it was slow enough to blow
+  /// past test pump budgets, and would make a real device's first launch
+  /// noticeably slow too. So: batch-insert everything in one shot on the
+  /// (overwhelmingly common) first-import case, where there's no possible
+  /// unique-key collision to resolve. A version-bump re-import (rare —
+  /// only when this method's bundled content next changes) falls back to
+  /// the slower per-row upsert, which correctly preserves each ayah's
+  /// existing `id` — and therefore any [QuranBookmarks]/[AyahNotes]
+  /// pointing at it — instead of dropping and recreating rows.
+  Future<void> _importQuran() async {
+    final alreadyImported = await (_db.selectOnly(_db.surahs)
+          ..addColumns([_db.surahs.id])
+          ..limit(1))
+        .getSingleOrNull();
+
+    if (alreadyImported == null) {
+      await _importQuranFast();
+    } else {
+      await _importQuranWithUpsert();
+    }
+  }
+
+  Future<void> _importQuranFast() async {
+    final allSurahData = await _loadAllSurahData();
+
+    await _db.batch((batch) {
+      batch.insertAll(_db.surahs, [
+        for (final surahData in allSurahData)
+          SurahsCompanion.insert(
+            number: surahData['number'] as int,
+            nameArabic: surahData['name_arabic'] as String,
+            nameEnglish: surahData['name_english'] as String,
+            nameTransliteration: surahData['name_transliteration'] as String,
+            revelationType: surahData['revelation_type'] as String,
+            ayahCount: (surahData['ayahs'] as List).length,
+          ),
+      ]);
+    });
+
+    final surahs = await _db.select(_db.surahs).get();
+    final surahIdByNumber = {for (final s in surahs) s.number: s.id};
+
+    await _db.batch((batch) {
+      for (final surahData in allSurahData) {
+        final surahId = surahIdByNumber[surahData['number'] as int]!;
+        final ayahsData = (surahData['ayahs'] as List).cast<Map<String, dynamic>>();
+
+        batch.insertAll(_db.ayahs, [
+          for (final ayahData in ayahsData) _ayahCompanion(surahId, ayahData),
+        ]);
+      }
+    });
+  }
+
+  Future<void> _importQuranWithUpsert() async {
+    for (final surahData in await _loadAllSurahData()) {
+      final ayahsData = (surahData['ayahs'] as List).cast<Map<String, dynamic>>();
+
+      final surahCompanion = SurahsCompanion.insert(
+        number: surahData['number'] as int,
+        nameArabic: surahData['name_arabic'] as String,
+        nameEnglish: surahData['name_english'] as String,
+        nameTransliteration: surahData['name_transliteration'] as String,
+        revelationType: surahData['revelation_type'] as String,
+        ayahCount: ayahsData.length,
+      );
+
+      await _db
+          .into(_db.surahs)
+          .insert(surahCompanion, onConflict: DoUpdate((_) => surahCompanion, target: [_db.surahs.number]));
+
+      final surah = await (_db.select(
+        _db.surahs,
+      )..where((t) => t.number.equals(surahData['number'] as int))).getSingle();
+
+      for (final ayahData in ayahsData) {
+        final ayahCompanion = _ayahCompanion(surah.id, ayahData);
+
+        await _db
+            .into(_db.ayahs)
+            .insert(
+              ayahCompanion,
+              onConflict: DoUpdate((_) => ayahCompanion, target: [_db.ayahs.surahId, _db.ayahs.numberInSurah]),
+            );
+      }
+    }
+  }
+
+  AyahsCompanion _ayahCompanion(int surahId, Map<String, dynamic> ayahData) {
+    final translations = (ayahData['translations'] as List?)?.cast<Map<String, dynamic>>() ?? const [];
+    final translationText = translations.isNotEmpty ? translations.first['text'] as String : '';
+
+    return AyahsCompanion.insert(
+      surahId: surahId,
+      numberInSurah: ayahData['number_in_surah'] as int,
+      juz: Value(ayahData['juz'] as int?),
+      page: Value(ayahData['page'] as int?),
+      arabicText: ayahData['arabic_text'] as String,
+      translation: translationText,
+    );
   }
 }

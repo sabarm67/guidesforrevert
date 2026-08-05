@@ -1,0 +1,1162 @@
+{
+    "number": 56,
+    "name_arabic": "الواقعة",
+    "name_english": "The Inevitable",
+    "name_transliteration": "Al-Waqi'ah",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Waqi'ah (\"The Inevitable\") is a Meccan surah of 96 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "إِذَا وَقَعَتِ ٱلْوَاقِعَةُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "When the event befalleth -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "There is no denying that it will befall -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "خَافِضَةٌ رَّافِعَةٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Abasing (some), exalting (others);"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "When the earth is shaken with a shock"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "وَبُسَّتِ ٱلْجِبَالُ بَسًّا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the hills are ground to powder"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "فَكَانَتْ هَبَآءً مُّنۢبَثًّا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "So that they become a scattered dust,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "وَكُنتُمْ أَزْوَٰجًا ثَلَـٰثَةً",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And ye will be three kinds:"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "فَأَصْحَـٰبُ ٱلْمَيْمَنَةِ مَآ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(First) those on the right hand; what of those on the right hand?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "وَأَصْحَـٰبُ ٱلْمَشْـَٔمَةِ مَآ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And (then) those on the left hand; what of those on the left hand?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "وَٱلسَّـٰبِقُونَ ٱلسَّـٰبِقُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the foremost in the race, the foremost in the race:"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "أُو۟لَـٰٓئِكَ ٱلْمُقَرَّبُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Those are they who will be brought nigh"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 12,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "فِى جَنَّـٰتِ ٱلنَّعِيمِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "In gardens of delight;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 13,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "ثُلَّةٌ مِّنَ ٱلْأَوَّلِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "A multitude of those of old"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 14,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "وَقَلِيلٌ مِّنَ ٱلْـَٔاخِرِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And a few of those of later time."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 15,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "عَلَىٰ سُرُرٍ مَّوْضُونَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "On lined couches,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 16,
+            "juz": 27,
+            "page": 534,
+            "arabic_text": "مُّتَّكِـِٔينَ عَلَيْهَا مُتَقَـٰبِلِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Reclining therein face to face."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 17,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "يَطُوفُ عَلَيْهِمْ وِلْدَٰنٌ مُّخَلَّدُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "There wait on them immortal youths"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 18,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "بِأَكْوَابٍ وَأَبَارِيقَ وَكَأْسٍ مِّن مَّعِينٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "With bowls and ewers and a cup from a pure spring"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 19,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Wherefrom they get no aching of the head nor any madness,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 20,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَفَـٰكِهَةٍ مِّمَّا يَتَخَيَّرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And fruit that they prefer"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 21,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَلَحْمِ طَيْرٍ مِّمَّا يَشْتَهُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And flesh of fowls that they desire."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 22,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَحُورٌ عِينٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And (there are) fair ones with wide, lovely eyes,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 23,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "كَأَمْثَـٰلِ ٱللُّؤْلُؤِ ٱلْمَكْنُونِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Like unto hidden pearls,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 24,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Reward for what they used to do."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 25,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "There hear they no vain speaking nor recrimination"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 26,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "إِلَّا قِيلًا سَلَـٰمًا سَلَـٰمًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(Naught) but the saying: Peace, (and again) Peace."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 27,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَأَصْحَـٰبُ ٱلْيَمِينِ مَآ أَصْحَـٰبُ ٱلْيَمِينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And those on the right hand; what of those on the right hand?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 28,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "فِى سِدْرٍ مَّخْضُودٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Among thornless lote-trees"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 29,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَطَلْحٍ مَّنضُودٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And clustered plantains,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 30,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَظِلٍّ مَّمْدُودٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And spreading shade,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 31,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَمَآءٍ مَّسْكُوبٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And water gushing,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 32,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَفَـٰكِهَةٍ كَثِيرَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And fruit in plenty"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 33,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "لَّا مَقْطُوعَةٍ وَلَا مَمْنُوعَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Neither out of reach nor yet forbidden,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 34,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَفُرُشٍ مَّرْفُوعَةٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And raised couches;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 35,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "إِنَّآ أَنشَأْنَـٰهُنَّ إِنشَآءً",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! We have created them a (new) creation"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 36,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "فَجَعَلْنَـٰهُنَّ أَبْكَارًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And made them virgins,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 37,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "عُرُبًا أَتْرَابًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lovers, friends,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 38,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "لِّأَصْحَـٰبِ ٱلْيَمِينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "For those on the right hand;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 39,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "ثُلَّةٌ مِّنَ ٱلْأَوَّلِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "A multitude of those of old"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 40,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَثُلَّةٌ مِّنَ ٱلْـَٔاخِرِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And a multitude of those of later time."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 41,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَأَصْحَـٰبُ ٱلشِّمَالِ مَآ أَصْحَـٰبُ ٱلشِّمَالِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And those on the left hand: What of those on the left hand?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 42,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "فِى سَمُومٍ وَحَمِيمٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "In scorching wind and scalding water"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 43,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَظِلٍّ مِّن يَحْمُومٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And shadow of black smoke,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 44,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "لَّا بَارِدٍ وَلَا كَرِيمٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Neither cool nor refreshing."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 45,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! heretofore they were effete with luxury"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 46,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَكَانُوا۟ يُصِرُّونَ عَلَى ٱلْحِنثِ ٱلْعَظِيمِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And used to persist in the awful sin."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 47,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "وَكَانُوا۟ يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَبْعُوثُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And they used to say: When we are dead and have become dust and bones, shall we then, forsooth, be raised again,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 48,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And also our forefathers?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 49,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْـَٔاخِرِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Say (unto them, O Muhammad): Lo! those of old and those of later time"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 50,
+            "juz": 27,
+            "page": 535,
+            "arabic_text": "لَمَجْمُوعُونَ إِلَىٰ مِيقَـٰتِ يَوْمٍ مَّعْلُومٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Will all be brought together to the tryst of an appointed day."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 51,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "ثُمَّ إِنَّكُمْ أَيُّهَا ٱلضَّآلُّونَ ٱلْمُكَذِّبُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then lo! ye, the erring, the deniers,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 52,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "لَـَٔاكِلُونَ مِن شَجَرٍ مِّن زَقُّومٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Ye verily will eat of a tree called Zaqqum"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 53,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And will fill your bellies therewith;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 54,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "فَشَـٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And thereon ye will drink of boiling water,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 55,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "فَشَـٰرِبُونَ شُرْبَ ٱلْهِيمِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Drinking even as the camel drinketh."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 56,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "هَـٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "This will be their welcome on the Day of Judgment."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 57,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "نَحْنُ خَلَقْنَـٰكُمْ فَلَوْلَا تُصَدِّقُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "We created you. Will ye then admit the truth?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 58,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "أَفَرَءَيْتُم مَّا تُمْنُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Have ye seen that which ye emit?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 59,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "ءَأَنتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَـٰلِقُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Do ye create it or are We the Creator?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 60,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ ٱلْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "We mete out death among you, and We are not to be outrun,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 61,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَـٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "That We may transfigure you and make you what ye know not."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 62,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "وَلَقَدْ عَلِمْتُمُ ٱلنَّشْأَةَ ٱلْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And verily ye know the first creation. Why, then, do ye not reflect?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 63,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "أَفَرَءَيْتُم مَّا تَحْرُثُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Have ye seen that which ye cultivate?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 64,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "ءَأَنتُمْ تَزْرَعُونَهُۥٓ أَمْ نَحْنُ ٱلزَّٰرِعُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Is it ye who foster it, or are We the Fosterer?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 65,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "لَوْ نَشَآءُ لَجَعَلْنَـٰهُ حُطَـٰمًا فَظَلْتُمْ تَفَكَّهُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "If We willed, We verily could make it chaff, then would ye cease not to exclaim:"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 66,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "إِنَّا لَمُغْرَمُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! we are laden with debt!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 67,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "بَلْ نَحْنُ مَحْرُومُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, but we are deprived!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 68,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "أَفَرَءَيْتُمُ ٱلْمَآءَ ٱلَّذِى تَشْرَبُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Have ye observed the water which ye drink?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 69,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "ءَأَنتُمْ أَنزَلْتُمُوهُ مِنَ ٱلْمُزْنِ أَمْ نَحْنُ ٱلْمُنزِلُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Is it ye who shed it from the raincloud, or are We the Shedder?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 70,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "لَوْ نَشَآءُ جَعَلْنَـٰهُ أُجَاجًا فَلَوْلَا تَشْكُرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "If We willed We verily could make it bitter. Why then, give ye not thanks?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 71,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "أَفَرَءَيْتُمُ ٱلنَّارَ ٱلَّتِى تُورُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Have ye observed the fire which ye strike out;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 72,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "ءَأَنتُمْ أَنشَأْتُمْ شَجَرَتَهَآ أَمْ نَحْنُ ٱلْمُنشِـُٔونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Was it ye who made the tree thereof to grow, or were We the grower?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 73,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "نَحْنُ جَعَلْنَـٰهَا تَذْكِرَةً وَمَتَـٰعًا لِّلْمُقْوِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "We, even We, appointed it a memorial and a comfort for the dwellers in the wilderness."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 74,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Therefor (O Muhammad), praise the name of thy Lord, the Tremendous."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 75,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "۞ فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nay, I swear by the places of the stars -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 76,
+            "juz": 27,
+            "page": 536,
+            "arabic_text": "وَإِنَّهُۥ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And lo! that verily is a tremendous oath, if ye but knew -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 77,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "إِنَّهُۥ لَقُرْءَانٌ كَرِيمٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "That (this) is indeed a noble Qur'an"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 78,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "فِى كِتَـٰبٍ مَّكْنُونٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "In a Book kept hidden"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 79,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "لَّا يَمَسُّهُۥٓ إِلَّا ٱلْمُطَهَّرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Which none toucheth save the purified,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 80,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "تَنزِيلٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "A revelation from the Lord of the Worlds."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 81,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "أَفَبِهَـٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Is it this Statement that ye scorn,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 82,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And make denial thereof your livelihood?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 83,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Why, then, when (the soul) cometh up to the throat (of the dying)"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 84,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "وَأَنتُمْ حِينَئِذٍ تَنظُرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And ye are at that moment looking"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 85,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَـٰكِن لَّا تُبْصِرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "- And We are nearer unto him than ye are, but ye see not -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 86,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "فَلَوْلَآ إِن كُنتُمْ غَيْرَ مَدِينِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Why then, if ye are not in bondage (unto Us),"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 87,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "تَرْجِعُونَهَآ إِن كُنتُمْ صَـٰدِقِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Do ye not force it back, if ye are truthful?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 88,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "فَأَمَّآ إِن كَانَ مِنَ ٱلْمُقَرَّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Thus if he is of those brought nigh,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 89,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "فَرَوْحٌ وَرَيْحَانٌ وَجَنَّتُ نَعِيمٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then breath of life, and plenty, and a Garden of delight."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 90,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "وَأَمَّآ إِن كَانَ مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And if he is of those on the right hand,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 91,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "فَسَلَـٰمٌ لَّكَ مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then (the greeting) \"Peace be unto thee\" from those on the right hand."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 92,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "وَأَمَّآ إِن كَانَ مِنَ ٱلْمُكَذِّبِينَ ٱلضَّآلِّينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But if he is of the rejecters, the erring,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 93,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "فَنُزُلٌ مِّنْ حَمِيمٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then the welcome will be boiling water"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 94,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "وَتَصْلِيَةُ جَحِيمٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And roasting at hell-fire."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 95,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "إِنَّ هَـٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! this is certain truth."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 96,
+            "juz": 27,
+            "page": 537,
+            "arabic_text": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Therefor (O Muhammad) praise the name of thy Lord, the Tremendous."
+                }
+            ]
+        }
+    ]
+}

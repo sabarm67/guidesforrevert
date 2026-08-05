@@ -1,0 +1,730 @@
+{
+    "number": 51,
+    "name_arabic": "الذاريات",
+    "name_english": "The Winnowing Winds",
+    "name_transliteration": "Adh-Dhariyat",
+    "revelation_type": "meccan",
+    "beginner_intro": "Adh-Dhariyat (\"The Winnowing Winds\") is a Meccan surah of 60 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 26,
+            "page": 520,
+            "arabic_text": "وَٱلذَّٰرِيَـٰتِ ذَرْوًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By those that winnow with a winnowing"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 26,
+            "page": 520,
+            "arabic_text": "فَٱلْحَـٰمِلَـٰتِ وِقْرًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And those that bear the burden (of the rain)"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 26,
+            "page": 520,
+            "arabic_text": "فَٱلْجَـٰرِيَـٰتِ يُسْرًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And those that glide with ease (upon the sea)"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 26,
+            "page": 520,
+            "arabic_text": "فَٱلْمُقَسِّمَـٰتِ أَمْرًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And those who distribute (blessings) by command,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 26,
+            "page": 520,
+            "arabic_text": "إِنَّمَا تُوعَدُونَ لَصَادِقٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! that wherewith ye are threatened is indeed true,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 26,
+            "page": 520,
+            "arabic_text": "وَإِنَّ ٱلدِّينَ لَوَٰقِعٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And lo! the judgment will indeed befall."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "وَٱلسَّمَآءِ ذَاتِ ٱلْحُبُكِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By the heaven full of paths,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "إِنَّكُمْ لَفِى قَوْلٍ مُّخْتَلِفٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! ye, forsooth, are of various opinion (concerning the truth)."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "يُؤْفَكُ عَنْهُ مَنْ أُفِكَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "He is made to turn away from it who is (himself) averse."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "قُتِلَ ٱلْخَرَّٰصُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Accursed be the conjecturers"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "ٱلَّذِينَ هُمْ فِى غَمْرَةٍ سَاهُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Who are careless in an abyss!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 12,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "يَسْـَٔلُونَ أَيَّانَ يَوْمُ ٱلدِّينِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "They ask: When is the Day of Judgment?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 13,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "يَوْمَ هُمْ عَلَى ٱلنَّارِ يُفْتَنُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(It is) the day when they will be tormented at the Fire,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 14,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "ذُوقُوا۟ فِتْنَتَكُمْ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تَسْتَعْجِلُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(And it will be said unto them): Taste your torment (which ye inflicted). This is what ye sought to hasten."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 15,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَعُيُونٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! those who keep from evil will dwell amid gardens and watersprings,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 16,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "ءَاخِذِينَ مَآ ءَاتَىٰهُمْ رَبُّهُمْ ۚ إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُحْسِنِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Taking that which their Lord giveth them; for lo! aforetime they were doers of good;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 17,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "كَانُوا۟ قَلِيلًا مِّنَ ٱلَّيْلِ مَا يَهْجَعُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "They used to sleep but little of the night,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 18,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And ere the dawning of each day would seek forgiveness,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 19,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "وَفِىٓ أَمْوَٰلِهِمْ حَقٌّ لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And in their wealth the beggar and the outcast had due share."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 20,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "وَفِى ٱلْأَرْضِ ءَايَـٰتٌ لِّلْمُوقِنِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And in the earth are portents for those whose faith is sure."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 21,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "وَفِىٓ أَنفُسِكُمْ ۚ أَفَلَا تُبْصِرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And (also) in yourselves. Can ye then not see?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 22,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "وَفِى ٱلسَّمَآءِ رِزْقُكُمْ وَمَا تُوعَدُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And in the heaven is your providence and that which ye are promised;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 23,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "فَوَرَبِّ ٱلسَّمَآءِ وَٱلْأَرْضِ إِنَّهُۥ لَحَقٌّ مِّثْلَ مَآ أَنَّكُمْ تَنطِقُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And by the Lord of the heavens and the earth, it is the truth, even as (it is true) that ye speak."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 24,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "هَلْ أَتَىٰكَ حَدِيثُ ضَيْفِ إِبْرَٰهِيمَ ٱلْمُكْرَمِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Hath the story of Abraham's honoured guests reached thee (O Muhammad)?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 25,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَـٰمًا ۖ قَالَ سَلَـٰمٌ قَوْمٌ مُّنكَرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "When they came in unto him and said: Peace! he answered, Peace! (and thought): Folk unknown (to me)."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 26,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "فَرَاغَ إِلَىٰٓ أَهْلِهِۦ فَجَآءَ بِعِجْلٍ سَمِينٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then he went apart unto his housefolk so that they brought a fatted calf;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 27,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "فَقَرَّبَهُۥٓ إِلَيْهِمْ قَالَ أَلَا تَأْكُلُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And he set it before them, saying: Will ye not eat?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 28,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "فَأَوْجَسَ مِنْهُمْ خِيفَةً ۖ قَالُوا۟ لَا تَخَفْ ۖ وَبَشَّرُوهُ بِغُلَـٰمٍ عَلِيمٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then he conceived a fear of them. They said: Fear not! and gave him tidings of (the birth of) a wise son."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 29,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "فَأَقْبَلَتِ ٱمْرَأَتُهُۥ فِى صَرَّةٍ فَصَكَّتْ وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then his wife came forward, making moan, and smote her face, and cried: A barren old woman!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 30,
+            "juz": 26,
+            "page": 521,
+            "arabic_text": "قَالُوا۟ كَذَٰلِكِ قَالَ رَبُّكِ ۖ إِنَّهُۥ هُوَ ٱلْحَكِيمُ ٱلْعَلِيمُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "They said: Even so saith thy Lord. Lo! He is the Wise, the Knower."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 31,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "۞ قَالَ فَمَا خَطْبُكُمْ أَيُّهَا ٱلْمُرْسَلُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(Abraham) said: And (afterward) what is your errand, O ye sent (from Allah)?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 32,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "قَالُوٓا۟ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمٍ مُّجْرِمِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "They said: Lo! we are sent unto a guilty folk,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 33,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "لِنُرْسِلَ عَلَيْهِمْ حِجَارَةً مِّن طِينٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "That we may send upon them stones of clay,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 34,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "مُّسَوَّمَةً عِندَ رَبِّكَ لِلْمُسْرِفِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Marked by thy Lord for (the destruction of) the wanton."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 35,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "فَأَخْرَجْنَا مَن كَانَ فِيهَا مِنَ ٱلْمُؤْمِنِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then we brought forth such believers as were there."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 36,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "فَمَا وَجَدْنَا فِيهَا غَيْرَ بَيْتٍ مِّنَ ٱلْمُسْلِمِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But We found there but one house of those surrendered (to Allah)."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 37,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "وَتَرَكْنَا فِيهَآ ءَايَةً لِّلَّذِينَ يَخَافُونَ ٱلْعَذَابَ ٱلْأَلِيمَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And We left behind therein a portent for those who fear a painful doom."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 38,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "وَفِى مُوسَىٰٓ إِذْ أَرْسَلْنَـٰهُ إِلَىٰ فِرْعَوْنَ بِسُلْطَـٰنٍ مُّبِينٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And in Moses (too, there is a portent) when We sent him unto Pharaoh with clear warrant,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 39,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "فَتَوَلَّىٰ بِرُكْنِهِۦ وَقَالَ سَـٰحِرٌ أَوْ مَجْنُونٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But he withdrew (confiding) in his might, and said: A wizard or a madman."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 40,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "فَأَخَذْنَـٰهُ وَجُنُودَهُۥ فَنَبَذْنَـٰهُمْ فِى ٱلْيَمِّ وَهُوَ مُلِيمٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "So We seized him and his hosts and flung them in the sea, for he was reprobate."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 41,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "وَفِى عَادٍ إِذْ أَرْسَلْنَا عَلَيْهِمُ ٱلرِّيحَ ٱلْعَقِيمَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And in (the tribe of) A'ad (there is a portent) when we sent the fatal wind against them."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 42,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "مَا تَذَرُ مِن شَىْءٍ أَتَتْ عَلَيْهِ إِلَّا جَعَلَتْهُ كَٱلرَّمِيمِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "It spared naught that it reached, but made it (all) as dust."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 43,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "وَفِى ثَمُودَ إِذْ قِيلَ لَهُمْ تَمَتَّعُوا۟ حَتَّىٰ حِينٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And in (the tribe of) Thamud (there is a portent) when it was told them: Take your ease awhile."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 44,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "فَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ فَأَخَذَتْهُمُ ٱلصَّـٰعِقَةُ وَهُمْ يَنظُرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "But they rebelled against their Lord's decree, and so the thunderbolt overtook them even while they gazed;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 45,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "فَمَا ٱسْتَطَـٰعُوا۟ مِن قِيَامٍ وَمَا كَانُوا۟ مُنتَصِرِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And they were unable to rise up, nor could they help themselves."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 46,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "وَقَوْمَ نُوحٍ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ قَوْمًا فَـٰسِقِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the folk of Noah aforetime. Lo! they were licentious folk."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 47,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "وَٱلسَّمَآءَ بَنَيْنَـٰهَا بِأَيْي۟دٍ وَإِنَّا لَمُوسِعُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "We have built the heaven with might, and We it is Who make the vast extent (thereof)."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 48,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "وَٱلْأَرْضَ فَرَشْنَـٰهَا فَنِعْمَ ٱلْمَـٰهِدُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And the earth have We laid out, how gracious is the Spreader (thereof)!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 49,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "وَمِن كُلِّ شَىْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And all things We have created by pairs, that haply ye may reflect."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 50,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "فَفِرُّوٓا۟ إِلَى ٱللَّهِ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌ مُّبِينٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Therefor flee unto Allah; lo! I am a plain warner unto you from him."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 51,
+            "juz": 27,
+            "page": 522,
+            "arabic_text": "وَلَا تَجْعَلُوا۟ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌ مُّبِينٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And set not any other god along with Allah; lo! I am a plain warner unto you from Him."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 52,
+            "juz": 27,
+            "page": 523,
+            "arabic_text": "كَذَٰلِكَ مَآ أَتَى ٱلَّذِينَ مِن قَبْلِهِم مِّن رَّسُولٍ إِلَّا قَالُوا۟ سَاحِرٌ أَوْ مَجْنُونٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Even so there came no messenger unto those before them but they said: A wizard or a madman!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 53,
+            "juz": 27,
+            "page": 523,
+            "arabic_text": "أَتَوَاصَوْا۟ بِهِۦ ۚ بَلْ هُمْ قَوْمٌ طَاغُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Have they handed down (the saying) as an heirloom one unto another? Nay, but they are froward folk."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 54,
+            "juz": 27,
+            "page": 523,
+            "arabic_text": "فَتَوَلَّ عَنْهُمْ فَمَآ أَنتَ بِمَلُومٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "So withdraw from them (O Muhammad), for thou art in no wise blameworthy,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 55,
+            "juz": 27,
+            "page": 523,
+            "arabic_text": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And warn, for warning profiteth believers."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 56,
+            "juz": 27,
+            "page": 523,
+            "arabic_text": "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "I created the jinn and humankind only that they might worship Me."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 57,
+            "juz": 27,
+            "page": 523,
+            "arabic_text": "مَآ أُرِيدُ مِنْهُم مِّن رِّزْقٍ وَمَآ أُرِيدُ أَن يُطْعِمُونِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "I seek no livelihood from them, nor do I ask that they should feed Me."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 58,
+            "juz": 27,
+            "page": 523,
+            "arabic_text": "إِنَّ ٱللَّهَ هُوَ ٱلرَّزَّاقُ ذُو ٱلْقُوَّةِ ٱلْمَتِينُ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! Allah! He it is that giveth livelihood, the Lord of unbreakable might."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 59,
+            "juz": 27,
+            "page": 523,
+            "arabic_text": "فَإِنَّ لِلَّذِينَ ظَلَمُوا۟ ذَنُوبًا مِّثْلَ ذَنُوبِ أَصْحَـٰبِهِمْ فَلَا يَسْتَعْجِلُونِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And lo! for those who (now) do wrong there is an evil day like unto the evil day (which came for) their likes (of old); so let them not ask Me to hasten on (that day)."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 60,
+            "juz": 27,
+            "page": 523,
+            "arabic_text": "فَوَيْلٌ لِّلَّذِينَ كَفَرُوا۟ مِن يَوْمِهِمُ ٱلَّذِى يُوعَدُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And woe unto those who disbelieve, from (that) their day which they are promised."
+                }
+            ]
+        }
+    ]
+}

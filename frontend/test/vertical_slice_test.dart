@@ -30,6 +30,12 @@ class _FixedLocationController extends LocationController {
 /// and providers via `flutter_test` instead, which covers the same
 /// behaviour end-to-end without those extra toolchains.
 Future<void> _settle(WidgetTester tester, {int ticks = 10}) async {
+  // Breaks out of the fake-time zone so real asset-bundle I/O (the full
+  // Quran import, on top of everything else bundled) can actually
+  // progress — plain fake-time pumping alone isn't enough at this content
+  // volume. See the seed import's first call site in this test for where
+  // this matters most.
+  await tester.runAsync(() => Future.delayed(const Duration(milliseconds: 500)));
   for (var i = 0; i < ticks; i++) {
     await tester.pump(const Duration(milliseconds: 100));
   }

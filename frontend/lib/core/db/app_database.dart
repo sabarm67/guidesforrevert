@@ -120,6 +120,57 @@ class JournalEntries extends Table {
   DateTimeColumn get updatedAt => dateTime().nullable()();
 }
 
+/// Mirrors the backend's `surahs` table — bundled, shared content imported
+/// from `content/seed/quran/*.json`, same pattern as [LearningStages].
+class Surahs extends Table {
+  IntColumn get id => integer().autoIncrement()();
+  IntColumn get number => integer().unique()();
+  TextColumn get nameArabic => text()();
+  TextColumn get nameEnglish => text()();
+  TextColumn get nameTransliteration => text()();
+
+  /// 'meccan' or 'medinan'.
+  TextColumn get revelationType => text()();
+  IntColumn get ayahCount => integer()();
+}
+
+/// Mirrors the backend's `ayahs` + `ayah_translations` tables, flattened
+/// into one row per ayah since the app only bundles a single translator
+/// (Pickthall — see content/seed/SOURCES.md) rather than the backend's
+/// multi-translator design.
+class Ayahs extends Table {
+  IntColumn get id => integer().autoIncrement()();
+  IntColumn get surahId => integer().references(Surahs, #id)();
+  IntColumn get numberInSurah => integer()();
+  IntColumn get juz => integer().nullable()();
+  IntColumn get page => integer().nullable()();
+  TextColumn get arabicText => text()();
+  TextColumn get translation => text()();
+
+  @override
+  List<Set<Column>> get uniqueKeys => [
+    {surahId, numberInSurah},
+  ];
+}
+
+/// A user's bookmarked ayahs — local-only, no backend sync, same privacy
+/// stance as [JournalEntries].
+class QuranBookmarks extends Table {
+  IntColumn get id => integer().autoIncrement()();
+  IntColumn get ayahId => integer().references(Ayahs, #id).unique()();
+  DateTimeColumn get createdAt => dateTime().withDefault(currentDateAndTime)();
+}
+
+/// A user's personal notes on a specific ayah — local-only, no backend
+/// sync, same privacy stance as [JournalEntries]. One note per ayah.
+class AyahNotes extends Table {
+  IntColumn get id => integer().autoIncrement()();
+  IntColumn get ayahId => integer().references(Ayahs, #id).unique()();
+  TextColumn get noteText => text()();
+  DateTimeColumn get createdAt => dateTime().withDefault(currentDateAndTime)();
+  DateTimeColumn get updatedAt => dateTime().nullable()();
+}
+
 @DriftDatabase(
   tables: [
     LearningStages,
@@ -131,13 +182,17 @@ class JournalEntries extends Table {
     OnboardingAnswers,
     ContentVersionMeta,
     JournalEntries,
+    Surahs,
+    Ayahs,
+    QuranBookmarks,
+    AyahNotes,
   ],
 )
 class AppDatabase extends _$AppDatabase {
   AppDatabase([QueryExecutor? executor]) : super(executor ?? _openConnection());
 
   @override
-  int get schemaVersion => 3;
+  int get schemaVersion => 4;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -148,6 +203,12 @@ class AppDatabase extends _$AppDatabase {
       }
       if (from < 3) {
         await m.addColumn(learningStages, learningStages.collectionType);
+      }
+      if (from < 4) {
+        await m.createTable(surahs);
+        await m.createTable(ayahs);
+        await m.createTable(quranBookmarks);
+        await m.createTable(ayahNotes);
       }
     },
   );

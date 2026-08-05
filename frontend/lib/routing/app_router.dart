@@ -1,7 +1,6 @@
 import 'package:go_router/go_router.dart';
 
 import '../features/community/community_screen.dart';
-import '../features/duas/dua_library_placeholder_screen.dart';
 import '../features/home/home_screen.dart';
 import '../features/journal/journal_entry_screen.dart';
 import '../features/journal/journal_list_screen.dart';
@@ -10,6 +9,8 @@ import '../features/learning/lesson_screen.dart';
 import '../features/learning/topic_collection_screen.dart';
 import '../features/onboarding/onboarding_screen.dart';
 import '../features/prayer/prayer_screen.dart';
+import '../features/quran/quran_surah_list_screen.dart';
+import '../features/quran/surah_detail_screen.dart';
 import 'app_shell.dart';
 
 const _tabPaths = ['/home', '/roadmap', '/prayer', '/duas', '/community', '/journal'];
@@ -53,6 +54,11 @@ GoRouter buildAppRouter({required bool onboardingComplete}) {
           title: 'Comparing Faiths',
         ),
       ),
+      GoRoute(
+        path: '/quran/:surahNumber',
+        builder: (context, state) =>
+            SurahDetailScreen(surahNumber: int.parse(state.pathParameters['surahNumber']!)),
+      ),
       ShellRoute(
         builder: (context, state, child) {
           final index = _tabPaths.indexWhere((p) => state.matchedLocation.startsWith(p));
@@ -66,7 +72,7 @@ GoRouter buildAppRouter({required bool onboardingComplete}) {
           GoRoute(path: '/home', builder: (context, state) => const HomeScreen()),
           GoRoute(path: '/roadmap', builder: (context, state) => const LearningRoadmapScreen()),
           GoRoute(path: '/prayer', builder: (context, state) => const PrayerScreen()),
-          GoRoute(path: '/duas', builder: (context, state) => const DuaLibraryPlaceholderScreen()),
+          GoRoute(path: '/duas', builder: (context, state) => const QuranSurahListScreen()),
           GoRoute(path: '/community', builder: (context, state) => const CommunityScreen()),
           GoRoute(path: '/journal', builder: (context, state) => const JournalListScreen()),
         ],

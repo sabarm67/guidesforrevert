@@ -1,0 +1,610 @@
+{
+    "number": 77,
+    "name_arabic": "المرسلات",
+    "name_english": "The Emissaries",
+    "name_transliteration": "Al-Mursalat",
+    "revelation_type": "meccan",
+    "beginner_intro": "Al-Mursalat (\"The Emissaries\") is a Meccan surah of 50 ayahs. Arabic text: Tanzil Project (Uthmani script). Translation: Pickthall (public domain).",
+    "ayahs": [
+        {
+            "number_in_surah": 1,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "وَٱلْمُرْسَلَـٰتِ عُرْفًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By the emissary winds, (sent) one after another"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 2,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "فَٱلْعَـٰصِفَـٰتِ عَصْفًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By the raging hurricanes,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 3,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "وَٱلنَّـٰشِرَٰتِ نَشْرًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By those which cause earth's vegetation to revive;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 4,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "فَٱلْفَـٰرِقَـٰتِ فَرْقًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By those who winnow with a winnowing,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 5,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "فَٱلْمُلْقِيَـٰتِ ذِكْرًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "By those who bring down the Reminder,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 6,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "عُذْرًا أَوْ نُذْرًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "To excuse or to warn,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 7,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Surely that which ye are promised will befall."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 8,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "So when the stars are put out,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 9,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And when the sky is riven asunder,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 10,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And when the mountains are blown away,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 11,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And when the messengers are brought unto their time appointed -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 12,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "لِأَىِّ يَوْمٍ أُجِّلَتْ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "For what day is the time appointed?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 13,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "لِيَوْمِ ٱلْفَصْلِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "For the Day of Decision."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 14,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And what will convey unto thee what the Day of Decision is! -"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 15,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto the repudiators on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 16,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "أَلَمْ نُهْلِكِ ٱلْأَوَّلِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Destroyed We not the former folk,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 17,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "ثُمَّ نُتْبِعُهُمُ ٱلْـَٔاخِرِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Then caused the latter folk to follow after?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 18,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Thus deal We ever with the guilty."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 19,
+            "juz": 29,
+            "page": 580,
+            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto the repudiators on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 20,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍ مَّهِينٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Did We not create you from a base fluid"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 21,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "فَجَعَلْنَـٰهُ فِى قَرَارٍ مَّكِينٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Which We laid up in a safe abode"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 22,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "إِلَىٰ قَدَرٍ مَّعْلُومٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "For a known term?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 23,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "فَقَدَرْنَا فَنِعْمَ ٱلْقَـٰدِرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Thus We arranged. How excellent is Our arranging!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 24,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto the repudiators on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 25,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Have We not made the earth a receptacle"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 26,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "أَحْيَآءً وَأَمْوَٰتًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Both for the living and the dead,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 27,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَـٰمِخَـٰتٍ وَأَسْقَيْنَـٰكُم مَّآءً فُرَاتًا",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And placed therein high mountains and given you to drink sweet water therein?"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 28,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto the repudiators on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 29,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "ٱنطَلِقُوٓا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(It will be said unto them:) Depart unto that (doom) which ye used to deny;"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 30,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّ ذِى ثَلَـٰثِ شُعَبٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Depart unto the shadow falling threefold,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 31,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "لَّا ظَلِيلٍ وَلَا يُغْنِى مِنَ ٱللَّهَبِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(Which yet is) no relief nor shelter from the flame."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 32,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "إِنَّهَا تَرْمِى بِشَرَرٍ كَٱلْقَصْرِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! it throweth up sparks like the castles,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 33,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "كَأَنَّهُۥ جِمَـٰلَتٌ صُفْرٌ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(Or) as it might be camels of bright yellow hue."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 34,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto the repudiators on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 35,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "هَـٰذَا يَوْمُ لَا يَنطِقُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "This is a day wherein they speak not,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 36,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Nor are they suffered to put forth excuses."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 37,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto the repudiators on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 38,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "هَـٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَـٰكُمْ وَٱلْأَوَّلِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "This is the Day of Decision, We have brought you and the men of old together."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 39,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "If now ye have any wit, outwit Me."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 40,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto the repudiators on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 41,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "إِنَّ ٱلْمُتَّقِينَ فِى ظِلَـٰلٍ وَعُيُونٍ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Lo! those who kept their duty are amid shade and fountains,"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 42,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "And fruits such as they desire."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 43,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "(Unto them it is said:) Eat, drink and welcome, O ye blessed, in return for what ye did."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 44,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Thus do We reward the good."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 45,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto the repudiators on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 46,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "كُلُوا۟ وَتَمَتَّعُوا۟ قَلِيلًا إِنَّكُم مُّجْرِمُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Eat and take your ease (on earth) a little. Lo! ye are guilty."
+                }
+            ]
+        },
+        {
+            "number_in_surah": 47,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto the repudiators on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 48,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "When it is said unto them: Bow down, they bow not down!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 49,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "Woe unto the repudiators on that day!"
+                }
+            ]
+        },
+        {
+            "number_in_surah": 50,
+            "juz": 29,
+            "page": 581,
+            "arabic_text": "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
+            "translations": [
+                {
+                    "translator": "Pickthall",
+                    "text": "In what statement, after this, will they believe?"
+                }
+            ]
+        }
+    ]
+}
