@@ -17,6 +17,21 @@ class QuranRepository {
     return (_db.select(_db.surahs)..where((t) => t.number.equals(number))).getSingleOrNull();
   }
 
+  /// Al-Fatihah's ayah 1 *is* the Bismillah in full, so its stored text
+  /// doubles as the reference used to detect and strip the Bismillah
+  /// prefixed onto every other surah's ayah 1 — see
+  /// [splitLeadingBismillah] in quran_ayah_text.dart. Fetched from the
+  /// seeded data itself (never hand-typed) so this can never drift from
+  /// whatever combining-mark encoding the actual bundled content uses.
+  Future<String> canonicalBismillah() async {
+    final query = _db.select(_db.ayahs).join([
+      innerJoin(_db.surahs, _db.surahs.id.equalsExp(_db.ayahs.surahId)),
+    ])..where(_db.surahs.number.equals(1) & _db.ayahs.numberInSurah.equals(1));
+
+    final row = await query.getSingle();
+    return row.readTable(_db.ayahs).arabicText;
+  }
+
   Stream<List<Ayah>> watchAyahsForSurah(int surahId) {
     return (_db.select(_db.ayahs)
           ..where((t) => t.surahId.equals(surahId))

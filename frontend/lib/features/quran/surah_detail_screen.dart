@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/db/app_database.dart';
 import '../../theme/app_spacing.dart';
 import '../../theme/app_typography.dart';
+import 'quran_ayah_text.dart';
 import 'quran_repository.dart';
 
 /// One surah's full ayah list — Arabic + Pickthall translation per ayah,
@@ -42,24 +43,31 @@ class _AyahList extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final ayahsAsync = ref.watch(_ayahsProvider(surahId));
+    final bismillahAsync = ref.watch(_canonicalBismillahProvider);
 
     return ayahsAsync.when(
       loading: () => const Center(child: CircularProgressIndicator()),
       error: (err, _) => Center(child: Text('Could not load ayahs: $err')),
-      data: (ayahs) => ListView.separated(
-        padding: const EdgeInsets.all(AppSpacing.md),
-        itemCount: ayahs.length,
-        separatorBuilder: (context, index) => const Divider(height: AppSpacing.xl),
-        itemBuilder: (context, index) => _AyahTile(ayah: ayahs[index]),
+      data: (ayahs) => bismillahAsync.when(
+        loading: () => const Center(child: CircularProgressIndicator()),
+        error: (err, _) => Center(child: Text('Could not load ayahs: $err')),
+        data: (canonicalBismillah) => ListView.separated(
+          padding: const EdgeInsets.all(AppSpacing.md),
+          itemCount: ayahs.length,
+          separatorBuilder: (context, index) => const Divider(height: AppSpacing.xl),
+          itemBuilder: (context, index) =>
+              _AyahTile(ayah: ayahs[index], canonicalBismillah: canonicalBismillah),
+        ),
       ),
     );
   }
 }
 
 class _AyahTile extends ConsumerWidget {
-  const _AyahTile({required this.ayah});
+  const _AyahTile({required this.ayah, required this.canonicalBismillah});
 
   final Ayah ayah;
+  final String canonicalBismillah;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -68,6 +76,11 @@ class _AyahTile extends ConsumerWidget {
     final noteAsync = ref.watch(_noteProvider(ayah.id));
     final isBookmarked = isBookmarkedAsync.valueOrNull ?? false;
     final hasNote = (noteAsync.valueOrNull?.noteText.isNotEmpty ?? false);
+
+    final bismillahSplit = ayah.numberInSurah == 1
+        ? splitLeadingBismillah(ayah.arabicText, canonicalBismillah: canonicalBismillah)
+        : null;
+    final displayArabicText = hideBrokenAnnotationMarks(bismillahSplit?.rest ?? ayah.arabicText);
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -103,8 +116,20 @@ class _AyahTile extends ConsumerWidget {
           ],
         ),
         const SizedBox(height: AppSpacing.sm),
+        if (bismillahSplit != null) ...[
+          Text(
+            hideBrokenAnnotationMarks(bismillahSplit.bismillah),
+            textDirection: TextDirection.rtl,
+            textAlign: TextAlign.center,
+            style: AppTypography.arabic(
+              colors,
+              size: AppTypography.arabicBodySize * 0.75,
+            ).copyWith(color: colors.onSurfaceVariant),
+          ),
+          const SizedBox(height: AppSpacing.sm),
+        ],
         Text(
-          ayah.arabicText,
+          displayArabicText,
           textDirection: TextDirection.rtl,
           textAlign: TextAlign.right,
           style: AppTypography.arabic(colors),
@@ -196,6 +221,10 @@ final _surahProvider = FutureProvider.family<Surah?, int>((ref, number) {
 
 final _ayahsProvider = StreamProvider.family<List<Ayah>, int>((ref, surahId) {
   return ref.watch(quranRepositoryProvider).watchAyahsForSurah(surahId);
+});
+
+final _canonicalBismillahProvider = FutureProvider<String>((ref) {
+  return ref.watch(quranRepositoryProvider).canonicalBismillah();
 });
 
 final _isBookmarkedProvider = StreamProvider.family<bool, int>((ref, ayahId) {

@@ -14,9 +14,9 @@ class PlaceMapPin {
 
 /// Shared OpenStreetMap view for the Community tab's location-lookup
 /// screens (Nearby Mosques, Halal Food Finder). Shows the user's position
-/// plus one pin per result, auto-framed to fit them all. Uses raster tiles
-/// from OSM's public tile server — the same no-API-key OpenStreetMap
-/// infrastructure already relied on for the Overpass lookups themselves.
+/// plus one pin per result. Uses raster tiles from OSM's public tile
+/// server — the same no-API-key OpenStreetMap infrastructure already
+/// relied on for the Overpass lookups themselves.
 class PlaceMap extends StatelessWidget {
   const PlaceMap({
     super.key,
@@ -25,6 +25,7 @@ class PlaceMap extends StatelessWidget {
     required this.pins,
     this.pinIcon = Icons.place,
     this.height = 220,
+    this.initialViewRadiusKm = 4,
   });
 
   final double userLatitude;
@@ -33,11 +34,26 @@ class PlaceMap extends StatelessWidget {
   final IconData pinIcon;
   final double height;
 
+  /// How far the default view frames around the user, regardless of how
+  /// far away the nearest/farthest result happens to be — a bounds fit to
+  /// the actual pins would zoom out arbitrarily far for one distant
+  /// result, which reads as "no results nearby" even when several are
+  /// close by. The user pans/zooms manually to see farther results.
+  final double initialViewRadiusKm;
+
   @override
   Widget build(BuildContext context) {
     final userPoint = latlong.LatLng(userLatitude, userLongitude);
-    final points = [userPoint, ...pins.map((p) => latlong.LatLng(p.latitude, p.longitude))];
-    final bounds = LatLngBounds.fromPoints(points);
+    final distance = const latlong.Distance();
+    final radiusMeters = initialViewRadiusKm * 1000;
+    final north = distance.offset(userPoint, radiusMeters, 0);
+    final east = distance.offset(userPoint, radiusMeters, 90);
+    final south = distance.offset(userPoint, radiusMeters, 180);
+    final west = distance.offset(userPoint, radiusMeters, 270);
+    final bounds = LatLngBounds(
+      latlong.LatLng(south.latitude, west.longitude),
+      latlong.LatLng(north.latitude, east.longitude),
+    );
 
     return SizedBox(
       height: height,
@@ -47,11 +63,7 @@ class PlaceMap extends StatelessWidget {
           children: [
             FlutterMap(
               options: MapOptions(
-                initialCameraFit: CameraFit.bounds(
-                  bounds: bounds,
-                  padding: const EdgeInsets.all(40),
-                  maxZoom: 16,
-                ),
+                initialCameraFit: CameraFit.bounds(bounds: bounds, padding: const EdgeInsets.all(8)),
               ),
               children: [
                 TileLayer(
