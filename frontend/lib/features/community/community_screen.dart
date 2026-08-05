@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
 import '../../theme/app_spacing.dart';
+import 'halal_food_screen.dart';
 import 'nearby_mosques_screen.dart';
 
-/// Hub for community-facing features. Currently just "Nearby Mosques"
-/// (a live OpenStreetMap Overpass lookup — see [NearbyMosquesScreen]);
-/// structured as a hub so more sections (halal food/shops, a community
-/// forum, etc.) can be added here later without restructuring the tab.
+/// Hub for community-facing features: "Nearby Mosques" and "Halal Food
+/// Finder" today (both live OpenStreetMap Overpass lookups — see
+/// [NearbyMosquesScreen]/[HalalFoodScreen]), structured as a hub so more
+/// sections (a community forum, etc.) can be added here later without
+/// restructuring the tab.
 class CommunityScreen extends StatelessWidget {
   const CommunityScreen({super.key});
 
@@ -26,6 +28,16 @@ class CommunityScreen extends StatelessWidget {
               onTap: () => Navigator.of(
                 context,
               ).push(MaterialPageRoute(builder: (_) => const NearbyMosquesScreen())),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.restaurant_outlined),
+              title: const Text('Halal Food Finder'),
+              subtitle: const Text('Find halal restaurants, shops, and butchers near you'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () =>
+                  Navigator.of(context).push(MaterialPageRoute(builder: (_) => const HalalFoodScreen())),
             ),
           ),
         ],
