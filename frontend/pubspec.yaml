@@ -97,6 +97,11 @@ flutter:
     - assets/images/salah/
     - assets/content/hadith/
 
+  fonts:
+    - family: UthmanicHafs
+      fonts:
+        - asset: assets/fonts/kfgqpc-uthmanic-script-hafs-regular.ttf
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

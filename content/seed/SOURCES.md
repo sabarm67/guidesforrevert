@@ -43,6 +43,17 @@ offline via the app's "Quran" tab.
   regenerates seed files from both live APIs — a content-authoring tool
   run locally, never called by the shipped app at runtime. Accepts
   `--hafazan-base` to point at a different Hafazan deployment if needed.
+- **Font (as of 2026-08)**: the Flutter app now bundles the same KFGQPC
+  "Uthmanic Script Hafs" TTF that Hafazan itself serves
+  (`hafazan.rcaquacycle.com/fonts/kfgqpc-uthmanic-script-hafs-regular.ttf`),
+  at `frontend/assets/fonts/kfgqpc-uthmanic-script-hafs-regular.ttf`,
+  registered as the `UthmanicHafs` font family in `pubspec.yaml` and
+  applied to all Arabic text via `AppTypography.arabic()`
+  (`frontend/lib/theme/app_typography.dart`). Previously the app rendered
+  Arabic with the platform's generic Arabic fallback font, which visibly
+  differs from Hafazan's own rendering even though the underlying text
+  was already correct — this makes the two visually match. Same freely-
+  distributed font, no separate licensing question from the text itself.
 
 - **Arabic text**: `text_uthmani` pulled directly from the official
   `api.quran.com` API, which mirrors the Tanzil Project's Uthmani Quran
