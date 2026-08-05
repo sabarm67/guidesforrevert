@@ -9,6 +9,7 @@ import '../features/learning/lesson_screen.dart';
 import '../features/learning/topic_collection_screen.dart';
 import '../features/onboarding/onboarding_screen.dart';
 import '../features/prayer/prayer_screen.dart';
+import '../features/prayer/qibla_compass_screen.dart';
 import '../features/quran/quran_surah_list_screen.dart';
 import '../features/quran/surah_detail_screen.dart';
 import 'app_shell.dart';
@@ -54,6 +55,7 @@ GoRouter buildAppRouter({required bool onboardingComplete}) {
           title: 'Comparing Faiths',
         ),
       ),
+      GoRoute(path: '/qibla-compass', builder: (context, state) => const QiblaCompassScreen()),
       GoRoute(
         path: '/quran/:surahNumber',
         builder: (context, state) =>
