@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../theme/app_spacing.dart';
 import '../../theme/app_typography.dart';
+import '../../theme/arabic_text_fixes.dart';
 import 'learning_repository.dart';
 
 class LessonScreen extends ConsumerWidget {
@@ -89,7 +90,7 @@ class _LessonBlock extends StatelessWidget {
               children: [
                 if (block['arabic'] != null)
                   Text(
-                    block['arabic'] as String,
+                    hideBrokenAnnotationMarks(block['arabic'] as String),
                     textDirection: TextDirection.rtl,
                     textAlign: TextAlign.right,
                     style: AppTypography.arabic(colors),

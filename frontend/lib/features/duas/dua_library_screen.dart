@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/db/app_database.dart';
 import '../../theme/app_spacing.dart';
 import '../../theme/app_typography.dart';
+import '../../theme/arabic_text_fixes.dart';
 import 'dua_repository.dart';
 
 /// A compact "Explore" card shown below the surah list on the Quran & Duas
@@ -101,7 +102,7 @@ class _DuaTile extends StatelessWidget {
         Align(
           alignment: Alignment.centerRight,
           child: Text(
-            dua.arabicText,
+            hideBrokenAnnotationMarks(dua.arabicText),
             textDirection: TextDirection.rtl,
             textAlign: TextAlign.right,
             style: AppTypography.arabic(colors, size: 20),

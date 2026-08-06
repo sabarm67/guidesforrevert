@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import '../../core/db/app_database.dart';
 import '../../theme/app_spacing.dart';
 import '../../theme/app_typography.dart';
+import '../../theme/arabic_text_fixes.dart';
 import '../duas/dua_library_screen.dart';
 import 'quran_bookmarks_screen.dart';
 import 'quran_repository.dart';
@@ -91,7 +92,7 @@ class _SurahTile extends StatelessWidget {
         subtitle: Text(
           '${surah.ayahCount} ayahs · ${surah.revelationType == 'meccan' ? 'Meccan' : 'Medinan'}',
         ),
-        trailing: Text(surah.nameArabic, style: AppTypography.arabic(colors, size: 20)),
+        trailing: Text(hideBrokenAnnotationMarks(surah.nameArabic), style: AppTypography.arabic(colors, size: 20)),
         onTap: () => context.push('/quran/${surah.number}'),
       ),
     );

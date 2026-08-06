@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../theme/app_spacing.dart';
 import '../../theme/app_typography.dart';
+import '../../theme/arabic_text_fixes.dart';
 import '../ai_mentor/ai_mentor_screen.dart';
 import '../duas/daily_dua_provider.dart';
 import '../learning/learning_repository.dart';
@@ -116,7 +117,7 @@ class _TodaysDuaCard extends ConsumerWidget {
                 Text("Today's Dua", style: Theme.of(context).textTheme.titleMedium),
                 const SizedBox(height: AppSpacing.sm),
                 Text(
-                  dua.arabicText,
+                  hideBrokenAnnotationMarks(dua.arabicText),
                   textDirection: TextDirection.rtl,
                   textAlign: TextAlign.right,
                   style: AppTypography.arabic(Theme.of(context).colorScheme),

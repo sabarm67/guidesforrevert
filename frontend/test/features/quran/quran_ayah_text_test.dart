@@ -5,6 +5,8 @@ import 'package:new_muslim_companion/features/quran/quran_ayah_text.dart';
 // this app's real bundled seed data (content/seed/quran/*.json), not
 // hand-typed — see docs/architecture/arabic-quran-text-rendering-lessons.md
 // for why a hand-typed comparison string is a trap for this exact text.
+// hideBrokenAnnotationMarks now lives in theme/arabic_text_fixes.dart —
+// see test/theme/arabic_text_fixes_test.dart for its tests.
 
 String _fromCodes(List<int> codes) => String.fromCharCodes(codes);
 
@@ -79,27 +81,4 @@ void main() {
     });
   });
 
-  group('hideBrokenAnnotationMarks', () {
-    test('removes all six marks that render as oversized glyphs in UthmanicHafs', () {
-      const broken = [0x06DE, 0x06DF, 0x06E5, 0x06E6, 0x06E9, 0x06ED];
-      final input = _fromCodes([0x0628, ...broken, 0x0645]);
-
-      expect(hideBrokenAnnotationMarks(input), _fromCodes([0x0628, 0x0645]));
-    });
-
-    test('leaves other Quranic annotation marks untouched', () {
-      const workingMark = 0x06D6;
-      final input = _fromCodes([0x0628, workingMark, 0x0645]);
-
-      expect(hideBrokenAnnotationMarks(input), input);
-    });
-
-    test('strips the broken marks actually present in At-Tawbah ayah 1 without touching base letters', () {
-      final cleaned = hideBrokenAnnotationMarks(atTawbahAyah1);
-
-      expect(cleaned.runes, isNot(contains(0x06ed)));
-      expect(cleaned.runes, isNot(contains(0x06e6)));
-      expect(cleaned.length, lessThan(atTawbahAyah1.length));
-    });
-  });
 }

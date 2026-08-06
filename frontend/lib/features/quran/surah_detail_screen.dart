@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/db/app_database.dart';
 import '../../theme/app_spacing.dart';
 import '../../theme/app_typography.dart';
+import '../../theme/arabic_text_fixes.dart';
 import 'quran_ayah_text.dart';
 import 'quran_repository.dart';
 

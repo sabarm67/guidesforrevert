@@ -1,7 +1,9 @@
-/// Fixes for the two Uthmani-text rendering bugs documented in
-/// docs/architecture/arabic-quran-text-rendering-lessons.md — both
-/// inherited from the Tanzil/Hafazan source data plus the bundled
-/// UthmanicHafs font, not introduced by this app's own content.
+/// Fix for Bug 1 in docs/architecture/arabic-quran-text-rendering-lessons.md
+/// — the customary Bismillah recitation opening prefixed onto ayah 1's
+/// stored text, inherited from the Tanzil/Hafazan source data. Bug 2 (the
+/// six oversized-glyph annotation marks) lives in
+/// ../../theme/arabic_text_fixes.dart instead, since it applies to any
+/// Arabic text rendered in the bundled font, not just Quran ayahs.
 library;
 
 /// Codepoints stripped when comparing ayah text on a "base letters only"
@@ -59,21 +61,4 @@ BismillahSplit? splitLeadingBismillah(String ayahText, {required String canonica
     bismillah: words.take(canonicalWords.length).join(' '),
     rest: words.skip(canonicalWords.length).join(' ').trim(),
   );
-}
-
-/// Six Quranic annotation marks (of the U+06D6-U+06ED block) that the
-/// bundled UthmanicHafs font renders as oversized, disconnected glyphs —
-/// intrusive dots/rosettes breaking up the word — instead of the small
-/// superscript decorations a correctly-hinted Quran font shows. Hidden at
-/// render time only; never strip these from stored ayah text, since any
-/// future feature that indexes into the raw string (tajweed highlighting,
-/// search) needs the full text to index against.
-const _brokenAnnotationMarks = {0x06DE, 0x06DF, 0x06E5, 0x06E6, 0x06E9, 0x06ED};
-
-String hideBrokenAnnotationMarks(String text) {
-  final buffer = StringBuffer();
-  for (final rune in text.runes) {
-    if (!_brokenAnnotationMarks.contains(rune)) buffer.writeCharCode(rune);
-  }
-  return buffer.toString();
 }
