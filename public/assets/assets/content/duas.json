@@ -70,5 +70,65 @@
     "benefits": "Said when stepping out of the house, placing the day's affairs in God's hands before facing the world.",
     "is_daily_featured": true,
     "order": 3
+  },
+  {
+    "category_slug": "trials-of-a-new-muslim",
+    "title": "In Times of Trial and Hardship",
+    "arabic_text": "لَا إِلَٰهَ إِلَّآ أَنتَ سُبْحَٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّٰلِمِينَ",
+    "transliteration": "La ilaha illa anta subhanaka inni kuntu minaz-zalimin",
+    "translation": "There is no deity except You; exalted are You. Indeed, I have been among the wrongdoers.",
+    "reference": "Quran 21:87",
+    "authenticity": "quran",
+    "benefits": "The dua of Prophet Yunus (Jonah), peace be upon him, cried out from the depths of hardship and answered. The Prophet Muhammad, peace be upon him, taught that no believer calls on Allah with it in any difficulty without being helped — a steadying dua for the harder days of adjusting to a new life and, sometimes, a changed relationship with family or community.",
+    "is_daily_featured": false,
+    "order": 1
+  },
+  {
+    "category_slug": "patience",
+    "title": "For Patience and Steadfastness",
+    "arabic_text": "رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَتَوَفَّنَا مُسْلِمِينَ",
+    "transliteration": "Rabbana afrigh 'alayna sabran wa tawaffana muslimeen",
+    "translation": "Our Lord, pour upon us patience and let us die as Muslims [in submission to You].",
+    "reference": "Quran 7:126",
+    "authenticity": "quran",
+    "benefits": "A short, direct request for the patience to stay firm — asked for by believers who were themselves under pressure for their faith. Fitting to repeat whenever staying the course feels difficult.",
+    "is_daily_featured": false,
+    "order": 1
+  },
+  {
+    "category_slug": "fairness-and-character",
+    "title": "For Guidance and Uprightness",
+    "arabic_text": "اللّٰهُمَّ اهْدِنِي وَسَدِّدْنِي",
+    "transliteration": "Allahumma-hdini wa saddidni",
+    "translation": "O Allah, guide me and make me upright.",
+    "reference": "Sahih Muslim 2725",
+    "authenticity": "sahih",
+    "benefits": "The Prophet, peace be upon him, taught this to his cousin Ali and explained it as asking for two things together: being guided to the right path, and being kept straight and correct — in judgment, speech, and how one treats others — once on it.",
+    "is_daily_featured": false,
+    "order": 1
+  },
+  {
+    "category_slug": "good-deeds",
+    "title": "For Gratitude and Righteous Deeds",
+    "arabic_text": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ",
+    "transliteration": "Rabbi awzi'nee an ashkura ni'mataka allatee an'amta 'alayya wa 'ala walidayya wa an a'mala salihan tardah, wa adkhilnee birahmatika fee 'ibadika-salihin",
+    "translation": "My Lord, enable me to be grateful for Your favor which You have bestowed upon me and upon my parents, and to do righteous deeds that please You, and admit me by Your mercy among Your righteous servants.",
+    "reference": "Quran 27:19",
+    "authenticity": "quran",
+    "benefits": "Prophet Sulayman's (Solomon's) dua, said on noticing a small kindness he might have overlooked — gratitude and good action held together as one request, not two separate goals.",
+    "is_daily_featured": false,
+    "order": 1
+  },
+  {
+    "category_slug": "parents",
+    "title": "For Mercy Upon One's Parents",
+    "arabic_text": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا",
+    "transliteration": "Wakhfid lahuma janahadh-dhulli minar-rahmati wa qur-rabbi irhamhuma kama rabbayanee sagheera",
+    "translation": "And lower to them the wing of humility out of mercy, and say: My Lord, have mercy upon them as they cared for me when I was small.",
+    "reference": "Quran 17:24",
+    "authenticity": "quran",
+    "benefits": "A request for good, ordinary care and gentleness toward parents in return for their care in childhood — not tied to their own faith, so it applies just as fully to parents who aren't Muslim as to parents who are.",
+    "is_daily_featured": false,
+    "order": 1
   }
 ]

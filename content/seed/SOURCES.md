@@ -107,6 +107,17 @@ offline via the app's "Quran" tab.
   Abu Dawud, At-Tirmidhi). Cross-check against a Hisnul Muslim ("Fortress of
   the Muslim") edition or sunnah.com before production use, as slight
   wording variants exist across compilations.
+- The five categories added for trials/patience/fairness/good-deeds/parents
+  (`authenticity: "quran"`) use the exact Arabic already bundled in
+  `content/seed/quran/*.json` (Tanzil/Hafazan, see the Quran section above)
+  rather than newly-typed text, sliced at clean word boundaries to avoid
+  the same combining-mark/assimilation pitfalls documented in
+  `docs/architecture/arabic-quran-text-rendering-lessons.md` — see
+  Al-Baqarah 2:2, Al-Anbya 21:87, Al-A'raf 7:126, An-Naml 27:19, and
+  Al-Isra 17:24. The one hadith-sourced entry ("Allahumma-hdini wa
+  saddidni", Sahih Muslim 2725) was cross-checked against two independent
+  sources (hadithanswers.com and a general web search) before being typed
+  in, since no bundled source existed to slice it from.
 
 ## Lessons
 

@@ -6,14 +6,14 @@ import '../../core/db/app_database.dart';
 import '../../theme/app_spacing.dart';
 import '../../theme/app_typography.dart';
 import '../../theme/arabic_text_fixes.dart';
-import '../duas/dua_library_screen.dart';
 import 'quran_bookmarks_screen.dart';
 import 'quran_repository.dart';
 
-/// Primary view of the "Quran & Duas" tab: the full 114-surah directory,
-/// so a user can jump straight into reading without going through the
-/// Learning Journey. The Dua Library lives as a secondary section below
-/// the surah list within this same tab (see [DuaLibraryScreen]).
+/// Primary view of the "Quran" tab: the full 114-surah directory, so a
+/// user can jump straight into reading without going through the Learning
+/// Journey. The Dua Library lives in the Prayer tab instead (see
+/// DuaLibraryScreen), since duas are used in the context of daily prayer
+/// and worship rather than Quran reading specifically.
 class QuranSurahListScreen extends ConsumerWidget {
   const QuranSurahListScreen({super.key});
 
@@ -23,7 +23,7 @@ class QuranSurahListScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Quran & Duas'),
+        title: const Text('Quran'),
         actions: [
           IconButton(
             icon: const Icon(Icons.bookmark_outline),
@@ -44,28 +44,8 @@ class QuranSurahListScreen extends ConsumerWidget {
 
           return ListView.builder(
             padding: const EdgeInsets.all(AppSpacing.md),
-            itemCount: surahs.length + 2,
-            itemBuilder: (context, index) {
-              if (index == 0) {
-                return Padding(
-                  padding: const EdgeInsets.only(bottom: AppSpacing.sm),
-                  child: Text(
-                    'The Quran',
-                    style: Theme.of(context).textTheme.titleLarge,
-                  ),
-                );
-              }
-
-              if (index == surahs.length + 1) {
-                return const Padding(
-                  padding: EdgeInsets.only(top: AppSpacing.lg),
-                  child: DuaLibraryCard(),
-                );
-              }
-
-              final surah = surahs[index - 1];
-              return _SurahTile(surah: surah);
-            },
+            itemCount: surahs.length,
+            itemBuilder: (context, index) => _SurahTile(surah: surahs[index]),
           );
         },
       ),

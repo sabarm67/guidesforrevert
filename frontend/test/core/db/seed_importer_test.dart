@@ -26,7 +26,7 @@ void main() {
 
     expect(stages, hasLength(8));
     expect(lessons, hasLength(122));
-    expect(duas, hasLength(6));
+    expect(duas, hasLength(11));
     expect(faqs, isNotEmpty);
     expect(surahs, hasLength(114));
     expect(ayahs, hasLength(6236));

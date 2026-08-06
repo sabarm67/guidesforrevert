@@ -16,6 +16,11 @@ class DuaSeeder extends Seeder
         'eating' => 'Eating & Drinking',
         'distress-and-difficulty' => 'Distress & Difficulty',
         'entering-leaving-home' => 'Entering & Leaving Home',
+        'trials-of-a-new-muslim' => 'Trials as a New Muslim',
+        'patience' => 'Patience',
+        'fairness-and-character' => 'Fairness & Good Character',
+        'good-deeds' => 'Good Deeds',
+        'parents' => 'For Parents',
     ];
 
     public function run(): void

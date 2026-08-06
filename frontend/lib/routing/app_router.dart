@@ -14,7 +14,7 @@ import '../features/quran/quran_surah_list_screen.dart';
 import '../features/quran/surah_detail_screen.dart';
 import 'app_shell.dart';
 
-const _tabPaths = ['/home', '/roadmap', '/prayer', '/duas', '/community', '/journal'];
+const _tabPaths = ['/home', '/roadmap', '/prayer', '/quran', '/community', '/journal'];
 
 /// Built once, after [AppStartupGate] has resolved the seed import and the
 /// onboarding status — so [initialLocation] is decided from real data
@@ -74,7 +74,7 @@ GoRouter buildAppRouter({required bool onboardingComplete}) {
           GoRoute(path: '/home', builder: (context, state) => const HomeScreen()),
           GoRoute(path: '/roadmap', builder: (context, state) => const LearningRoadmapScreen()),
           GoRoute(path: '/prayer', builder: (context, state) => const PrayerScreen()),
-          GoRoute(path: '/duas', builder: (context, state) => const QuranSurahListScreen()),
+          GoRoute(path: '/quran', builder: (context, state) => const QuranSurahListScreen()),
           GoRoute(path: '/community', builder: (context, state) => const CommunityScreen()),
           GoRoute(path: '/journal', builder: (context, state) => const JournalListScreen()),
         ],

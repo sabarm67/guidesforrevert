@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 12;
+  static const currentContentVersion = 13;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -238,6 +238,11 @@ class SeedImporter {
       'eating': 'Eating & Drinking',
       'distress-and-difficulty': 'Distress & Difficulty',
       'entering-leaving-home': 'Entering & Leaving Home',
+      'trials-of-a-new-muslim': 'Trials as a New Muslim',
+      'patience': 'Patience',
+      'fairness-and-character': 'Fairness & Good Character',
+      'good-deeds': 'Good Deeds',
+      'parents': 'For Parents',
     };
 
     // Duas has no natural unique key to upsert against (unlike lessons'

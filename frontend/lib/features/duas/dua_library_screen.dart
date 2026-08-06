@@ -7,8 +7,8 @@ import '../../theme/app_typography.dart';
 import '../../theme/arabic_text_fixes.dart';
 import 'dua_repository.dart';
 
-/// A compact "Explore" card shown below the surah list on the Quran & Duas
-/// tab (see QuranSurahListScreen) — pushes the full [DuaLibraryScreen].
+/// A compact "Explore" card for the Duas subsection of the Prayer tab (see
+/// PrayerScreen) — pushes the full [DuaLibraryScreen].
 class DuaLibraryCard extends StatelessWidget {
   const DuaLibraryCard({super.key});
 
