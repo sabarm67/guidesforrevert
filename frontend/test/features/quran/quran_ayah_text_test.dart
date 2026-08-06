@@ -81,4 +81,23 @@ void main() {
     });
   });
 
+  group('normalizeArabicForSearch', () {
+    test('matches a plain-keyboard-typed query against Quran-orthography stored text', () {
+      // "بِسْمِ" as it's actually stored (starts with a plain beh, no
+      // letter-shape issue there) followed by "ٱللَّهِ" using alef WASLA
+      // (0x0671) — the Quran-specific letter shape a normal keyboard would
+      // never produce; a user would type plain alef (0x0627) instead.
+      final storedAllah = _fromCodes([0x0671, 0x0644, 0x0644, 0x0651, 0x064e, 0x0647, 0x0650]);
+      final typedAllah = _fromCodes([0x0627, 0x0644, 0x0644, 0x0647]); // "الله", plain alef, no diacritics
+
+      expect(normalizeArabicForSearch(storedAllah), normalizeArabicForSearch(typedAllah));
+    });
+
+    test('is a substring match after normalization, for use in .contains()', () {
+      final normalizedQuery = normalizeArabicForSearch(_fromCodes([0x0627, 0x0644, 0x0644, 0x0647]));
+      final normalizedAyah = normalizeArabicForSearch(canonicalBismillah);
+
+      expect(normalizedAyah.contains(normalizedQuery), isTrue);
+    });
+  });
 }

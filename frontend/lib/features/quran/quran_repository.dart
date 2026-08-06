@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/db/app_database.dart';
 import '../../core/db/providers.dart';
+import 'quran_ayah_text.dart';
 
 class QuranRepository {
   QuranRepository(this._db);
@@ -94,6 +95,52 @@ class QuranRepository {
 
   Future<void> deleteNote(int ayahId) {
     return (_db.delete(_db.ayahNotes)..where((t) => t.ayahId.equals(ayahId))).go();
+  }
+
+  /// Full-text search over both the Arabic and the English translation of
+  /// every ayah, entirely offline against the local Drift DB.
+  ///
+  /// Matching happens in Dart, not SQL: SQLite's `LIKE` compares raw
+  /// bytes, but a user searching for an Arabic phrase from memory is very
+  /// unlikely to type the exact diacritics — or the Quran-specific letter
+  /// shapes like alef wasla — that the Uthmani text carries, so both the
+  /// query and the stored Arabic text are run through
+  /// [normalizeArabicForSearch] before comparing. The translation side is
+  /// matched case-insensitively as plain English. 6,236 ayahs is small
+  /// enough to scan in memory on every search with no noticeable delay.
+  Future<List<({Ayah ayah, Surah surah})>> searchAyahs(String query) async {
+    final trimmed = query.trim();
+    if (trimmed.isEmpty) return [];
+
+    final normalizedArabicQuery = normalizeArabicForSearch(trimmed);
+    final lowerQuery = trimmed.toLowerCase();
+
+    final rows = await _db
+        .select(_db.ayahs)
+        .join([innerJoin(_db.surahs, _db.surahs.id.equalsExp(_db.ayahs.surahId))])
+        .get();
+
+    final results = <({Ayah ayah, Surah surah})>[];
+    for (final row in rows) {
+      final ayah = row.readTable(_db.ayahs);
+      final surah = row.readTable(_db.surahs);
+
+      final arabicMatches =
+          normalizedArabicQuery.isNotEmpty &&
+          normalizeArabicForSearch(ayah.arabicText).contains(normalizedArabicQuery);
+      final translationMatches = ayah.translation.toLowerCase().contains(lowerQuery);
+
+      if (arabicMatches || translationMatches) {
+        results.add((ayah: ayah, surah: surah));
+      }
+    }
+
+    results.sort((a, b) {
+      final surahCompare = a.surah.number.compareTo(b.surah.number);
+      return surahCompare != 0 ? surahCompare : a.ayah.numberInSurah.compareTo(b.ayah.numberInSurah);
+    });
+
+    return results;
   }
 }
 

@@ -8,6 +8,7 @@ import '../../theme/app_typography.dart';
 import '../../theme/arabic_text_fixes.dart';
 import 'quran_bookmarks_screen.dart';
 import 'quran_repository.dart';
+import 'quran_search_screen.dart';
 
 /// Primary view of the "Quran" tab: the full 114-surah directory, so a
 /// user can jump straight into reading without going through the Learning
@@ -25,6 +26,12 @@ class QuranSurahListScreen extends ConsumerWidget {
       appBar: AppBar(
         title: const Text('Quran'),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.search),
+            tooltip: 'Search the Quran',
+            onPressed: () =>
+                Navigator.of(context).push(MaterialPageRoute(builder: (_) => const QuranSearchScreen())),
+          ),
           IconButton(
             icon: const Icon(Icons.bookmark_outline),
             tooltip: 'Bookmarks',

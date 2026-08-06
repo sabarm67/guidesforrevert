@@ -7,12 +7,15 @@
 library;
 
 /// Codepoints stripped when comparing ayah text on a "base letters only"
-/// basis in [splitLeadingBismillah] — Arabic diacritics/annotation marks
-/// plus a stray leading BOM. Matching on base letters (rather than exact
-/// bytes) is deliberate: two surahs in the bundled Tanzil data (At-Tin and
-/// Al-Qadr) carry an extra shadda on the Bismillah's first letter that
-/// Al-Fatihah's own copy doesn't have, so a byte-exact comparison against
-/// Al-Fatihah misses them even though the words are the same.
+/// basis — Arabic diacritics/annotation marks plus a stray leading BOM.
+/// Matching on base letters (rather than exact bytes) is deliberate: two
+/// surahs in the bundled Tanzil data (At-Tin and Al-Qadr) carry an extra
+/// shadda on the Bismillah's first letter that Al-Fatihah's own copy
+/// doesn't have, so a byte-exact comparison against Al-Fatihah misses them
+/// even though the words are the same. The same stripping is reused by
+/// [stripArabicDiacritics] for Quran search, since a user searching for a
+/// phrase from memory is very unlikely to type the exact diacritics the
+/// Uthmani text carries.
 bool _isStrippedForComparison(int codeUnit) {
   return (codeUnit >= 0x064B && codeUnit <= 0x065F) ||
       codeUnit == 0x0670 ||
@@ -24,6 +27,38 @@ String _baseLetters(String text) {
   final buffer = StringBuffer();
   for (final rune in text.runes) {
     if (!_isStrippedForComparison(rune)) buffer.writeCharCode(rune);
+  }
+  return buffer.toString();
+}
+
+/// Public wrapper around the same base-letters stripping used internally
+/// by [splitLeadingBismillah], for normalizing Arabic text before a
+/// substring search (see quran_repository.dart's `searchAyahs`).
+String stripArabicDiacritics(String text) => _baseLetters(text);
+
+/// Letter-shape variants folded to one canonical form before a search
+/// match, on top of [stripArabicDiacritics]. Diacritic-stripping alone
+/// isn't enough for search: the Uthmani text uses Quran-specific letter
+/// forms — alef wasla (ٱ), alef maqsura (ى), etc. — that a user typing a
+/// search query on a normal Arabic keyboard essentially never produces,
+/// so without this a search for "الله" typed normally would fail to match
+/// the stored "ٱللَّهِ" even after diacritics are stripped, since ٱ and ا
+/// are different base codepoints, not a diacritic difference.
+const _letterVariants = {
+  0x0671: 0x0627, // alef wasla -> alef
+  0x0622: 0x0627, // alef with madda above -> alef
+  0x0623: 0x0627, // alef with hamza above -> alef
+  0x0625: 0x0627, // alef with hamza below -> alef
+  0x0649: 0x064A, // alef maqsura -> yeh
+};
+
+/// Normalizes Arabic text for search matching: strips diacritics/annotation
+/// marks (see [stripArabicDiacritics]) and folds Quran-specific letter
+/// shapes to the plain forms a normal keyboard produces.
+String normalizeArabicForSearch(String text) {
+  final buffer = StringBuffer();
+  for (final rune in _baseLetters(text).runes) {
+    buffer.writeCharCode(_letterVariants[rune] ?? rune);
   }
   return buffer.toString();
 }
