@@ -7,6 +7,7 @@ import '../../theme/app_typography.dart';
 import '../../theme/arabic_text_fixes.dart';
 import 'quran_ayah_text.dart';
 import 'quran_repository.dart';
+import 'surah_audio_bar.dart';
 
 /// One surah's full ayah list — Arabic + Pickthall translation per ayah,
 /// each with a bookmark toggle and a personal note.
@@ -29,7 +30,15 @@ class SurahDetailScreen extends ConsumerWidget {
             return const Center(child: Text('Surah not found.'));
           }
 
-          return _AyahList(surahId: surah.id);
+          return Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(AppSpacing.md, AppSpacing.md, AppSpacing.md, 0),
+                child: SurahAudioBar(surahNumber: surahNumber),
+              ),
+              Expanded(child: _AyahList(surahId: surah.id)),
+            ],
+          );
         },
       ),
     );

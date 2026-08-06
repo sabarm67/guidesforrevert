@@ -54,6 +54,20 @@ offline via the app's "Quran" tab.
   differs from Hafazan's own rendering even though the underlying text
   was already correct — this makes the two visually match. Same freely-
   distributed font, no separate licensing question from the text itself.
+- **Recitation audio (as of 2026-08)**: streamed/downloadable per-surah
+  MP3s of Saad Al-Ghamdi's recitation, from **mp3quran.net** (reciter id
+  30, "Rewayat Hafs A'n Assem" moshaf, server
+  `https://server7.mp3quran.net/s_gmd/{surah number, zero-padded to 3
+  digits}.mp3` — e.g. `.../s_gmd/001.mp3`). Confirmed via direct HTTP
+  HEAD requests that all 114 files exist, are served as `audio/mpeg` with
+  `Access-Control-Allow-Origin: *` (so this also works from the Flutter
+  Web build, not just mobile), and that the reciter id maps to "Saad
+  Al-Ghamdi" specifically and not a different Al-Ghamdi (there are
+  several reciters sharing that family name on mp3quran.net, e.g. Khalid
+  Al-Ghamdi — checked by name, not just URL slug, to avoid conflating
+  them). See `frontend/lib/features/quran/quran_audio_service.dart`. Free,
+  no API key, publicly published for exactly this kind of use by
+  mp3quran.net's own service.
 
 - **Arabic text**: `text_uthmani` pulled directly from the official
   `api.quran.com` API, which mirrors the Tanzil Project's Uthmani Quran
