@@ -1,0 +1,59 @@
+{
+  "slug": "what-are-hadith-and-sunnah",
+  "stage_slug": "welcome-to-islam",
+  "order": 7,
+  "title": "What are Hadith and Sunnah?",
+  "summary": "The second source of Islamic guidance alongside the Quran: what hadith and Sunnah are, and how scholars judge their reliability.",
+  "estimated_minutes": 6,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "The Quran's companion source"
+    },
+    {
+      "type": "text",
+      "text": "The previous lesson covered the Quran, God's revealed word. Muslims rely on a second source alongside it: the Sunnah, the example of Prophet Muhammad (peace be upon him) — what he said, did, and approved of. A hadith is a single reported record of that example: a specific saying or action, passed down with a chain of narrators back to the Prophet. Together, the Quran and the Sunnah make up the two sources Muslims turn to for how to pray, worship, and live."
+    },
+    {
+      "type": "heading",
+      "text": "Why a second source is needed"
+    },
+    {
+      "type": "text",
+      "text": "The Quran tells Muslims to pray, but doesn't spell out the exact movements and words — that level of detail comes from the Sunnah, from watching how the Prophet himself prayed and taught his companions to pray. This pattern repeats across worship and daily life: the Quran gives the command and the principle, and the Sunnah shows the lived example of how to carry it out."
+    },
+    {
+      "type": "quote",
+      "arabic": "لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+      "translation": "Indeed in the Messenger of Allah you have a good example to follow.",
+      "reference": "Quran 33:21 (Saheeh International)"
+    },
+    {
+      "type": "heading",
+      "text": "How hadith are checked for reliability"
+    },
+    {
+      "type": "text",
+      "text": "Not every reported saying is treated as equally certain. Early scholars built a careful discipline around examining each hadith's chain of narrators — who reported it, from whom, and whether each link was known to be trustworthy and accurate — and grading the result. \"Sahih\" (authentic) and \"hasan\" (good) are the two grades solid enough to build guidance on; \"da'if\" (weak) hadith are treated with caution or set aside. Sahih al-Bukhari and Sahih Muslim are the two most rigorously verified collections, widely considered the most reliable after the Quran itself."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to memorise hadith collections to be a good Muslim?",
+      "answer": "No. Scholars spend lifetimes on this so ordinary Muslims don't have to verify every chain of narration themselves. It's enough to know the basic idea — that authenticity is checked — and to lean on trustworthy teachers and collections rather than sourcing hadith from unverified social media posts."
+    },
+    {
+      "type": "faq",
+      "question": "What if a hadith seems to contradict the Quran?",
+      "answer": "The Quran always takes precedence, and a hadith judged as weak or contradicting a clear Quranic principle is set aside. In practice this is rare in the well-established, authenticated collections — genuine tensions are usually a matter of a hadith's specific context or a weaker grading, which is exactly the kind of question worth asking a knowledgeable teacher."
+    },
+    {
+      "type": "reflection",
+      "question": "The Wudu and Salah steps you've been learning in this app come from the Sunnah as much as the Quran. Does knowing there's a documented, checked chain behind them change how you think about following them?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Sahih al-Bukhari", "reference": "sunnah.com" },
+    { "label": "Sahih Muslim", "reference": "sunnah.com" }
+  ]
+}

@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 13;
+  static const currentContentVersion = 15;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -86,12 +86,15 @@ class SeedImporter {
       'assets/content/lessons/stage1-lesson4-the-six-articles-of-faith.json',
       'assets/content/lessons/stage1-lesson5-what-is-the-quran.json',
       'assets/content/lessons/stage1-lesson6-who-was-muhammad.json',
+      'assets/content/lessons/stage1-lesson7-what-are-hadith-and-sunnah.json',
       'assets/content/lessons/prayer-lesson1-how-to-perform-wudu.json',
       'assets/content/lessons/prayer-lesson2-how-to-pray-salah.json',
       'assets/content/lessons/prayer-lesson3-types-of-prayer.json',
+      'assets/content/lessons/prayer-lesson4-how-to-perform-ghusl.json',
       'assets/content/lessons/stage2-lesson1-cleanliness-and-purity.json',
       'assets/content/lessons/stage2-lesson2-understanding-the-azan.json',
       'assets/content/lessons/stage2-lesson3-learning-wudu.json',
+      'assets/content/lessons/stage2-lesson9-learning-ghusl.json',
       'assets/content/lessons/stage2-lesson4-learning-salah.json',
       'assets/content/lessons/stage2-lesson5-entering-the-mosque.json',
       'assets/content/lessons/stage2-lesson6-islamic-greetings.json',

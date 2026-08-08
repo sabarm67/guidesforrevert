@@ -96,11 +96,11 @@ void main() {
     expect(find.text('Completed'), findsOneWidget);
 
     // 5. Back on Home, the dashboard now points at the next lesson
-    // (Stage 1 Lesson 2 - "The Shahadah"), proving progress persisted.
+    // (Stage 1 Lesson 2 - "Who was Prophet Muhammad"), proving progress persisted.
     await tester.pageBack();
     await _settle(tester);
 
-    expect(find.textContaining('Shahadah'), findsWidgets);
+    expect(find.textContaining('Muhammad'), findsWidgets);
 
     // Clean teardown so drift's stream-cleanup timers don't trip the
     // test binding's "no pending timers" invariant. Several concurrent

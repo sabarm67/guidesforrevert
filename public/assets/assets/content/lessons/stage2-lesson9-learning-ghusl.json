@@ -1,0 +1,41 @@
+{
+  "slug": "learning-ghusl",
+  "stage_slug": "your-first-week",
+  "order": 4,
+  "title": "Learning Ghusl (Full Purification)",
+  "summary": "What Ghusl is, when it's required, and where to find the full step-by-step guide.",
+  "estimated_minutes": 4,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "What Ghusl is for"
+    },
+    {
+      "type": "text",
+      "text": "Ghusl is a full-body ritual wash — every part of the body, hair included — required for a deeper state of purity than Wudu covers. It's needed after sexual intercourse or any release of sexual fluid (including during sleep), after a woman's menstrual period or postnatal bleeding ends, and is recommended before Friday prayer and the two Eid prayers. Unlike Wudu, which is repeated often through the day, Ghusl is only needed when one of these specific situations applies."
+    },
+    {
+      "type": "text",
+      "text": "In short, Ghusl covers the intention, washing the hands, washing the private parts, performing Wudu, then pouring water over the whole body — starting with the right side, then the left — making sure water reaches every part, including under the hair."
+    },
+    {
+      "type": "quote",
+      "translation": "And if you are in a state of janabah (ritual impurity), then purify yourselves.",
+      "reference": "Quran 5:6 (Saheeh International)"
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to undo braids or take out every hair tie?",
+      "answer": "No — you just need water to reach the scalp and roots, not necessarily every single strand end to end. For most people this means running fingers through the hair while pouring water rather than fully undoing a hairstyle."
+    },
+    {
+      "type": "reflection",
+      "question": "Before you move on, head to the Prayer tab for the full step-by-step Ghusl guide so you know exactly what to do the first time it's needed."
+    }
+  ],
+  "further_reading": [
+    { "label": "Learning Wudu (Ablution)", "reference": "See Stage 2, previous lesson" },
+    { "label": "How to Perform Ghusl (full step-by-step guide)", "reference": "See the Prayer tab" }
+  ]
+}

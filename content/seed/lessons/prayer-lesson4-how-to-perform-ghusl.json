@@ -1,0 +1,78 @@
+{
+  "slug": "how-to-perform-ghusl",
+  "stage_slug": "prayer-guide",
+  "order": 4,
+  "title": "How to Perform Ghusl (Full Purification)",
+  "summary": "A step-by-step walkthrough of the full-body ritual wash required after major impurity, and when it's needed.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "When Ghusl is required"
+    },
+    {
+      "type": "text",
+      "text": "Ghusl is required after sexual intercourse or any release of sexual fluid (including during sleep), and for women after a menstrual period or postnatal bleeding ends. It's also recommended (not required) before Friday prayer and the two Eid prayers. Unlike Wudu, it isn't repeated through the day — only when one of these situations applies."
+    },
+    {
+      "type": "heading",
+      "text": "The steps, in order"
+    },
+    {
+      "type": "text",
+      "text": "1. Begin with the intention (niyyah) to purify yourself from major impurity — a mental intention, not something you have to say aloud."
+    },
+    {
+      "type": "text",
+      "text": "2. Wash both hands up to the wrists."
+    },
+    {
+      "type": "text",
+      "text": "3. Wash the private parts thoroughly, removing any impurity."
+    },
+    {
+      "type": "text",
+      "text": "4. Perform a complete Wudu, as you would before Salah (see the previous guide) — some people leave the feet until the end if washing in a bath or shower where they'll be standing in water anyway."
+    },
+    {
+      "type": "text",
+      "text": "5. Pour water over the head three times, using fingers to work it down to the scalp and roots, making sure water reaches under the hair — braids or ties don't need to be undone, just enough movement for water to reach the scalp."
+    },
+    {
+      "type": "text",
+      "text": "6. Pour water over the right side of the body, from shoulder to foot, then the left side, making sure water covers the entire body with nothing left dry."
+    },
+    {
+      "type": "text",
+      "text": "7. If the feet were left until now, wash them last."
+    },
+    {
+      "type": "quote",
+      "translation": "And if you are in a state of janabah (ritual impurity), then purify yourselves.",
+      "reference": "Quran 5:6 (Saheeh International)"
+    },
+    {
+      "type": "text",
+      "text": "Once Ghusl is complete, no separate Wudu is needed before praying — Ghusl covers both the major and minor purification at once, unless something that specifically breaks Wudu (like using the toilet) happens afterward."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need special water or a specific place to perform Ghusl?",
+      "answer": "No — a normal shower or bath with plain water is completely sufficient, as long as water reaches every part of the body. There's no requirement for a particular room or type of water."
+    },
+    {
+      "type": "faq",
+      "question": "What if I'm not sure whether Ghusl is required in my situation?",
+      "answer": "For the common cases — after intercourse, sexual discharge, or the end of a menstrual/postnatal period — Ghusl is required. For anything less clear-cut, asking a knowledgeable local imam or trusted, experienced Muslim (in person or via a reputable Q&A source) is the right move rather than guessing."
+    },
+    {
+      "type": "reflection",
+      "question": "Ghusl marks a reset — a return to a state of purity after something significant. Does thinking of it that way change how routine or meaningful the act feels to you?"
+    }
+  ],
+  "further_reading": [
+    { "label": "How to Perform Wudu (Ablution)", "reference": "See Prayer tab, previous guide" },
+    { "label": "Cleanliness and Purity (Taharah)", "reference": "See Stage 2, Your First Week" }
+  ]
+}
