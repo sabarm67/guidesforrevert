@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 16;
+  static const currentContentVersion = 17;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -92,6 +92,7 @@ class SeedImporter {
       'assets/content/lessons/prayer-lesson3-types-of-prayer.json',
       'assets/content/lessons/prayer-lesson4-how-to-perform-ghusl.json',
       'assets/content/lessons/stage2-lesson1-cleanliness-and-purity.json',
+      'assets/content/lessons/stage2-lesson10-categories-of-water.json',
       'assets/content/lessons/stage2-lesson2-understanding-the-azan.json',
       'assets/content/lessons/stage2-lesson3-learning-wudu.json',
       'assets/content/lessons/stage2-lesson9-learning-ghusl.json',
@@ -100,6 +101,9 @@ class SeedImporter {
       'assets/content/lessons/stage2-lesson6-islamic-greetings.json',
       'assets/content/lessons/stage2-lesson7-arabic-pronunciation.json',
       'assets/content/lessons/stage2-lesson8-basic-duas-for-daily-life.json',
+      'assets/content/lessons/stage2-lesson11-hukm-taklifi.json',
+      'assets/content/lessons/stage2-lesson12-halal-and-haram.json',
+      'assets/content/lessons/stage2-lesson13-hukm-wadhi.json',
       'assets/content/lessons/stage3-lesson1-making-daily-prayers-a-habit.json',
       'assets/content/lessons/stage3-lesson2-engaging-with-the-quran-daily.json',
       'assets/content/lessons/stage3-lesson3-dhikr-remembrance-of-allah.json',
@@ -117,9 +121,6 @@ class SeedImporter {
       'assets/content/lessons/stage4-lesson7-marriage-in-islam.json',
       'assets/content/lessons/stage4-lesson8-islamic-finance.json',
       'assets/content/lessons/stage4-lesson9-building-community.json',
-      'assets/content/lessons/stage4-lesson10-categories-of-water.json',
-      'assets/content/lessons/stage4-lesson11-hukm-taklifi.json',
-      'assets/content/lessons/stage4-lesson12-hukm-wadhi.json',
       'assets/content/lessons/fiqh-lesson1-what-is-fiqh.json',
       'assets/content/lessons/fiqh-lesson2-halal-earning-business-ethics.json',
       'assets/content/lessons/fiqh-lesson3-marriage-divorce-fiqh.json',

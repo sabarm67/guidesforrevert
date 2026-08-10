@@ -1,7 +1,7 @@
 {
   "slug": "categories-of-water",
-  "stage_slug": "growing-in-knowledge",
-  "order": 10,
+  "stage_slug": "your-first-week",
+  "order": 2,
   "title": "Categories of Water in Purification",
   "summary": "The fiqh classification of water used for Wudu and Ghusl — which kinds purify, which don't, and why it matters.",
   "estimated_minutes": 6,
@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "text": "Stage 2 introduced Taharah (purity) and the two states — najasah (physical impurity) and hadath (ritual state) — that Wudu and Ghusl address. Both rely on water, but scholars long ago worked out that not all water is equally usable for purification. This lesson is the deeper-study follow-up: the standard classification of water itself, one of the first topics taught in traditional fiqh study."
+      "text": "The previous lesson introduced Taharah (purity) and the two states — najasah (physical impurity) and hadath (ritual state) — that Wudu and Ghusl address. Both rely on water, but scholars long ago worked out that not all water is equally usable for purification. Before you meet Wudu itself in the next few lessons, it's worth knowing the standard classification of water — one of the first topics taught in traditional fiqh study."
     },
     {
       "type": "heading",
@@ -42,7 +42,7 @@
     },
     {
       "type": "text",
-      "text": "In practice, tap water — the water almost every Muslim actually uses for Wudu and Ghusl — is treated as Tahur without a second thought; this classification exists mainly for edge cases: water left standing that's changed colour or smell, water from an unclear or questionable source, or genuinely limited access to clean water (which is where Tayammum, the dry purification mentioned in Stage 2, applies). You're very unlikely to need to actively reason through this classification day to day."
+      "text": "In practice, tap water — the water almost every Muslim actually uses for Wudu and Ghusl — is treated as Tahur without a second thought; this classification exists mainly for edge cases: water left standing that's changed colour or smell, water from an unclear or questionable source, or genuinely limited access to clean water (which is where Tayammum, the dry purification mentioned in the previous lesson, applies). You're very unlikely to need to actively reason through this classification day to day."
     },
     {
       "type": "faq",
@@ -60,7 +60,7 @@
     }
   ],
   "further_reading": [
-    { "label": "Cleanliness and Purity (Taharah)", "reference": "See Stage 2, Your First Week" },
+    { "label": "Cleanliness and Purity (Taharah)", "reference": "See Stage 2, previous lesson" },
     { "label": "How to Perform Wudu", "reference": "See Prayer tab" }
   ]
 }
