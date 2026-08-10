@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 15;
+  static const currentContentVersion = 16;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -117,6 +117,9 @@ class SeedImporter {
       'assets/content/lessons/stage4-lesson7-marriage-in-islam.json',
       'assets/content/lessons/stage4-lesson8-islamic-finance.json',
       'assets/content/lessons/stage4-lesson9-building-community.json',
+      'assets/content/lessons/stage4-lesson10-categories-of-water.json',
+      'assets/content/lessons/stage4-lesson11-hukm-taklifi.json',
+      'assets/content/lessons/stage4-lesson12-hukm-wadhi.json',
       'assets/content/lessons/fiqh-lesson1-what-is-fiqh.json',
       'assets/content/lessons/fiqh-lesson2-halal-earning-business-ethics.json',
       'assets/content/lessons/fiqh-lesson3-marriage-divorce-fiqh.json',

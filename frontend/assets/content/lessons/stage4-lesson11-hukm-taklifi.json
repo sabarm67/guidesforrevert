@@ -1,0 +1,74 @@
+{
+  "slug": "hukm-taklifi",
+  "stage_slug": "growing-in-knowledge",
+  "order": 11,
+  "title": "The Five Levels of Hukm Taklifi",
+  "summary": "The fiqh scale that every Islamic ruling on an action sits on, from obligatory to forbidden — and why most of daily life falls in the wide middle ground.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A five-point scale, not just \"halal or haram\""
+    },
+    {
+      "type": "text",
+      "text": "New Muslims often start out sorting everything into two bins: halal (allowed) and haram (forbidden). Islamic legal theory (Usul al-Fiqh) actually uses a five-point scale called Hukm Taklifi (\"the ruling that places a duty on a person\") to classify any action. Knowing the full scale removes a lot of unnecessary anxiety, since most everyday actions sit in the wide, comfortable middle."
+    },
+    {
+      "type": "heading",
+      "text": "The five levels"
+    },
+    {
+      "type": "text",
+      "text": "1. Wajib / Fard (obligatory) — required; a Muslim is rewarded for doing it and sinful for neglecting it without valid excuse. The five daily prayers and Zakat are wajib."
+    },
+    {
+      "type": "text",
+      "text": "2. Mustahabb / Mandub / Sunnah (recommended) — encouraged and rewarded, but not sinful to skip. Extra voluntary prayers and many of the Prophet's personal habits fall here."
+    },
+    {
+      "type": "text",
+      "text": "3. Mubah (permissible) — neutral; neither rewarded nor blamed either way. Most ordinary choices — what to eat for breakfast, which career to pursue, how to decorate a room — are mubah."
+    },
+    {
+      "type": "text",
+      "text": "4. Makruh (disliked) — discouraged and best avoided, but not sinful. Excessive minor waste, or interrupting someone's speech unnecessarily, are commonly cited as makruh."
+    },
+    {
+      "type": "text",
+      "text": "5. Haram (forbidden) — prohibited; sinful to do, and avoided for reward. Consuming alcohol and lying are haram."
+    },
+    {
+      "type": "quote",
+      "translation": "Allah does not burden a soul beyond that it can bear.",
+      "reference": "Quran 2:286 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Why the middle categories matter"
+    },
+    {
+      "type": "text",
+      "text": "A common source of unnecessary stress for new Muslims is assuming that if something isn't clearly \"good,\" it must be bad. In reality, the vast majority of daily choices are mubah — genuinely open, with no religious weight attached either way. Recognising that gives real freedom: Islam regulates specific matters carefully, but it doesn't turn every decision into a moral test."
+    },
+    {
+      "type": "faq",
+      "question": "How do I find out which category something falls into?",
+      "answer": "For major, well-known matters (the Five Pillars, the well-known prohibitions), it's usually obvious or already covered elsewhere in this app. For anything more specific or unfamiliar, asking a knowledgeable local teacher or a reputable Q&A source is the right move — this scale is a framework for understanding answers, not a tool for working them out alone from first principles."
+    },
+    {
+      "type": "faq",
+      "question": "Do scholars ever disagree about which category something belongs in?",
+      "answer": "Yes, especially for makruh versus haram, or mustahabb versus wajib, on specific secondary matters — this is part of the same legitimate scholarly difference of opinion covered in the Madhhabs lesson, not a contradiction in the religion itself."
+    },
+    {
+      "type": "reflection",
+      "question": "Does realising how much of daily life falls under \"mubah\" — genuinely neutral — change how much pressure you feel about getting every choice \"right\"?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Understanding the Madhhabs (Schools of Thought)", "reference": "See Stage 4, earlier lesson" },
+    { "label": "Hukm Wadh'i (Declaratory Rulings)", "reference": "See Stage 4, next lesson" }
+  ]
+}

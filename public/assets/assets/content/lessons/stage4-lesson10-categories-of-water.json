@@ -1,0 +1,66 @@
+{
+  "slug": "categories-of-water",
+  "stage_slug": "growing-in-knowledge",
+  "order": 10,
+  "title": "Categories of Water in Purification",
+  "summary": "The fiqh classification of water used for Wudu and Ghusl — which kinds purify, which don't, and why it matters.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Why water gets classified at all"
+    },
+    {
+      "type": "text",
+      "text": "Stage 2 introduced Taharah (purity) and the two states — najasah (physical impurity) and hadath (ritual state) — that Wudu and Ghusl address. Both rely on water, but scholars long ago worked out that not all water is equally usable for purification. This lesson is the deeper-study follow-up: the standard classification of water itself, one of the first topics taught in traditional fiqh study."
+    },
+    {
+      "type": "heading",
+      "text": "The three main categories"
+    },
+    {
+      "type": "text",
+      "text": "1. Tahur (pure and purifying) — water in its natural state: rain, sea, river, well, or spring water. This is the default category almost all water falls into, and the only kind fully valid for both removing impurity and performing Wudu or Ghusl."
+    },
+    {
+      "type": "text",
+      "text": "2. Tahir ghayr mutahhir (pure, but not purifying) — water that is itself clean but has lost its purifying capacity, most commonly musta'mal (already used to complete a Wudu or Ghusl), or water mixed with a pure substance that changes its taste, colour, or smell significantly (like tea or juice). It's fine to drink; it just can't be used again for ritual purification."
+    },
+    {
+      "type": "text",
+      "text": "3. Najis (impure) — water contaminated by an impurity that changes one of its three qualities (taste, colour, or smell), or a small quantity of water into which any impurity has fallen. This water cannot be used for purification or, generally, for anything else."
+    },
+    {
+      "type": "quote",
+      "translation": "He has sent down upon you from the sky, rain by which to purify you.",
+      "reference": "Quran 8:11 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Where this actually comes up in daily life"
+    },
+    {
+      "type": "text",
+      "text": "In practice, tap water — the water almost every Muslim actually uses for Wudu and Ghusl — is treated as Tahur without a second thought; this classification exists mainly for edge cases: water left standing that's changed colour or smell, water from an unclear or questionable source, or genuinely limited access to clean water (which is where Tayammum, the dry purification mentioned in Stage 2, applies). You're very unlikely to need to actively reason through this classification day to day."
+    },
+    {
+      "type": "faq",
+      "question": "Does a small amount of soap or shampoo in the water make it invalid for Wudu?",
+      "answer": "A small amount that doesn't meaningfully change the water's taste, colour, or smell is generally not a problem — this is exactly the kind of practical detail where slight positions vary between the four madhhabs, and a local, knowledgeable teacher is the best source for specifics."
+    },
+    {
+      "type": "faq",
+      "question": "Is this something I need to memorise?",
+      "answer": "No — knowing the three categories exist, and that ordinary tap water is Tahur, covers essentially all real situations a new Muslim will face. The detailed edge cases are the kind of thing scholars study in depth so you don't have to."
+    },
+    {
+      "type": "reflection",
+      "question": "Traditional fiqh study often starts with water classification before anything else. Does seeing how carefully even something this basic was worked out change how you view the rest of Islamic law?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Cleanliness and Purity (Taharah)", "reference": "See Stage 2, Your First Week" },
+    { "label": "How to Perform Wudu", "reference": "See Prayer tab" }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "hukm-wadhi",
+  "stage_slug": "growing-in-knowledge",
+  "order": 12,
+  "title": "Hukm Wadh'i: Declaratory Rulings",
+  "summary": "The second type of Islamic legal ruling — not what you should do, but what conditions, causes, and validity mean for the rulings you already follow.",
+  "estimated_minutes": 6,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "A different kind of ruling"
+    },
+    {
+      "type": "text",
+      "text": "The previous lesson covered Hukm Taklifi — the five-point scale (wajib, mustahabb, mubah, makruh, haram) that tells you what to do. Hukm Wadh'i is different: it doesn't tell a person to act at all. Instead, it declares a relationship between things — that one thing causes, conditions, blocks, or validates another. You've already been using Hukm Wadh'i concepts throughout this app without the label; this lesson just names them."
+    },
+    {
+      "type": "heading",
+      "text": "The main types"
+    },
+    {
+      "type": "text",
+      "text": "Sabab (cause) — an event that triggers a ruling. The sun setting is the sabab that makes Maghrib prayer due; the start of Ramadan is the sabab for fasting becoming obligatory."
+    },
+    {
+      "type": "text",
+      "text": "Shart (condition) — something that must be present for an act to be valid, without itself being part of the act. Wudu is a shart for Salah: it doesn't make prayer more rewarding, it's simply required before prayer counts as valid at all."
+    },
+    {
+      "type": "text",
+      "text": "Mani' (preventer) — something that blocks a ruling from applying even when its cause is present. Menstruation is a mani' that suspends the obligation to pray, even though the prayer time (the sabab) has arrived."
+    },
+    {
+      "type": "text",
+      "text": "Sahih and Batil (valid and invalid) — whether an act, once performed, actually counts. A Salah performed with all its conditions met is sahih; one performed without Wudu is batil, regardless of how sincerely it was intended."
+    },
+    {
+      "type": "text",
+      "text": "Azimah and Rukhsah (original ruling and concession) — the default ruling versus a permitted relaxation of it in genuine hardship. Fasting in Ramadan is the azimah; the concession to delay fasting while travelling or ill is a rukhsah."
+    },
+    {
+      "type": "quote",
+      "translation": "Allah intends for you ease and does not intend for you hardship.",
+      "reference": "Quran 2:185 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Why this distinction is useful"
+    },
+    {
+      "type": "text",
+      "text": "Separating \"what should I do\" (Hukm Taklifi) from \"what makes this valid, required, or blocked\" (Hukm Wadh'i) explains a lot of things that otherwise feel like exceptions or contradictions — like why missing a prayer while asleep isn't sinful (no valid sabab reached you in an actionable way) but still needs to be made up (the obligation itself doesn't disappear), or why a menstruating woman is not sinning by not praying (a genuine mani' is in effect) while still needing to make up missed fasts later, not missed prayers — a real, specific distinction rooted in exactly this framework."
+    },
+    {
+      "type": "faq",
+      "question": "Do I need to know these terms to practise Islam correctly?",
+      "answer": "No — you can follow guidance correctly without ever using this vocabulary, the same way you can speak grammatically without naming the grammar rules. It's covered here because understanding the structure behind the rulings tends to make the rulings themselves feel less arbitrary."
+    },
+    {
+      "type": "faq",
+      "question": "Is this the same as Hukm Taklifi, just with different names?",
+      "answer": "No — they answer different questions about the same situation. Hukm Taklifi asks \"is this action required, recommended, neutral, disliked, or forbidden?\" Hukm Wadh'i asks \"what triggers, enables, blocks, or validates that ruling in the first place?\" A single act, like Salah, involves both: it's wajib (Hukm Taklifi), and separately has sabab, shart, and mani' governing when and how it applies (Hukm Wadh'i)."
+    },
+    {
+      "type": "reflection",
+      "question": "Think of a rule you've followed without fully understanding why it worked the way it did. Does seeing it in terms of cause, condition, and preventer make it click differently?"
+    }
+  ],
+  "further_reading": [
+    { "label": "The Five Levels of Hukm Taklifi", "reference": "See Stage 4, previous lesson" },
+    { "label": "Understanding the Madhhabs (Schools of Thought)", "reference": "See Stage 4, earlier lesson" }
+  ]
+}
