@@ -35,20 +35,48 @@ class DuaLibraryScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(title: const Text('Dua Library')),
-      body: categoriesAsync.when(
-        loading: () => const Center(child: CircularProgressIndicator()),
-        error: (err, _) => Center(child: Text('Could not load duas: $err')),
-        data: (categories) {
-          if (categories.isEmpty) {
-            return const Center(child: Text('No duas available yet.'));
-          }
+      body: Column(
+        children: [
+          const _DirectDuaNote(),
+          Expanded(
+            child: categoriesAsync.when(
+              loading: () => const Center(child: CircularProgressIndicator()),
+              error: (err, _) => Center(child: Text('Could not load duas: $err')),
+              data: (categories) {
+                if (categories.isEmpty) {
+                  return const Center(child: Text('No duas available yet.'));
+                }
 
-          return ListView.builder(
-            padding: const EdgeInsets.all(AppSpacing.md),
-            itemCount: categories.length,
-            itemBuilder: (context, index) => _CategorySection(category: categories[index]),
-          );
-        },
+                return ListView.builder(
+                  padding: const EdgeInsets.all(AppSpacing.md),
+                  itemCount: categories.length,
+                  itemBuilder: (context, index) => _CategorySection(category: categories[index]),
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Short reminder of the belief this whole screen rests on: dua needs no
+/// intermediary, and its outcome isn't a verdict on whether it was heard.
+class _DirectDuaNote extends StatelessWidget {
+  const _DirectDuaNote();
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(AppSpacing.md, AppSpacing.sm, AppSpacing.md, 0),
+      child: Text(
+        "Dua is a direct line to Allah — no intercession needed from any other creation, living or "
+        'passed on. Every dua reaches Him and is heard. Whether it is granted, and when, is entirely '
+        'His to decide, not a measure of whether it was heard.',
+        style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: colors.onSurfaceVariant),
       ),
     );
   }
