@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 19;
+  static const currentContentVersion = 20;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -214,8 +214,12 @@ class SeedImporter {
       'assets/content/lessons/sunnishia-lesson4-a-note-for-new-muslims.json',
     ];
 
+    final currentSlugs = <String>{};
+
     for (final path in lessonAssetPaths) {
       final lessonData = await _loadJson(path);
+      final slug = lessonData['slug'] as String;
+      currentSlugs.add(slug);
 
       final stage = await (_db.select(
         _db.learningStages,
@@ -225,7 +229,7 @@ class SeedImporter {
 
       final companion = LessonsCompanion.insert(
         learningStageId: stage.id,
-        slug: lessonData['slug'] as String,
+        slug: slug,
         order: lessonData['order'] as int,
         title: lessonData['title'] as String,
         summary: Value(lessonData['summary'] as String?),
@@ -237,6 +241,24 @@ class SeedImporter {
       await _db
           .into(_db.lessons)
           .insert(companion, onConflict: DoUpdate((_) => companion, target: [_db.lessons.slug]));
+    }
+
+    // Upserting by slug (above) correctly handles new/edited/moved lessons,
+    // but never removes a row whose slug was deleted from the content set
+    // entirely (e.g. two lessons merged into one) — that row just sits
+    // there forever, orphaned, since nothing in lessonAssetPaths ever
+    // mentions its slug again to trigger an update. Delete any lesson not
+    // seen in this import pass, and its progress entries with it, so a
+    // removed lesson actually disappears instead of surviving as a ghost
+    // duplicate in whichever stage it was last assigned to.
+    final staleLessons = await (_db.select(
+      _db.lessons,
+    )..where((t) => t.slug.isNotIn(currentSlugs))).get();
+    for (final lesson in staleLessons) {
+      await (_db.delete(
+        _db.lessonProgressEntries,
+      )..where((t) => t.lessonId.equals(lesson.id))).go();
+      await (_db.delete(_db.lessons)..where((t) => t.id.equals(lesson.id))).go();
     }
   }
 

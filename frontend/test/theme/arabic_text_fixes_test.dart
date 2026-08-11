@@ -39,5 +39,22 @@ void main() {
 
       expect(hideBrokenAnnotationMarks(plain), plain);
     });
+
+    test('replaces the Arabic comma (U+060C) with a plain comma', () {
+      // "بِسْمِ اللَّهِ، تَوَكَّلْتُ" — the leaving-home dua, exact codepoints
+      // copied from content/seed/duas.json, where a bare U+060C between the
+      // two clauses renders as the same oversized-dot bug as the six marks
+      // above, despite not being one of them.
+      final input = String.fromCharCodes([
+        0x0628, 0x0650, 0x0633, 0x0652, 0x0645, 0x0650, 0x0020, 0x0627, 0x0644, 0x0644, 0x064e,
+        0x0651, 0x0647, 0x0650, 0x060c, 0x0020, 0x062a, 0x064e, 0x0648, 0x064e, 0x0643, 0x064e,
+        0x0651, 0x0644, 0x0652, 0x062a, 0x064f,
+      ]);
+
+      final cleaned = hideBrokenAnnotationMarks(input);
+
+      expect(cleaned.runes, isNot(contains(0x060c)));
+      expect(cleaned, contains(','));
+    });
   });
 }
