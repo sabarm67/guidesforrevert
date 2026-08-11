@@ -55,6 +55,11 @@ GoRouter buildAppRouter({required bool onboardingComplete}) {
           title: 'Comparing Faiths',
         ),
       ),
+      GoRoute(
+        path: '/sunni-shia',
+        builder: (context, state) =>
+            const TopicCollectionScreen(collectionType: 'sunni_shia', title: 'Sunni and Shia'),
+      ),
       GoRoute(path: '/qibla-compass', builder: (context, state) => const QiblaCompassScreen()),
       GoRoute(
         path: '/quran/:surahNumber',

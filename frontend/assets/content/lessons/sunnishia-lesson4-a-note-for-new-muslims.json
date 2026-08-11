@@ -1,0 +1,48 @@
+{
+  "slug": "a-note-for-new-muslims",
+  "stage_slug": "sunni-shia",
+  "order": 4,
+  "title": "A Note for New Muslims",
+  "summary": "This app's own perspective, and practical guidance on navigating Sunni-Shia differences respectfully as you build your own practice.",
+  "estimated_minutes": 5,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Where this app is coming from"
+    },
+    {
+      "type": "text",
+      "text": "This app draws primarily from Sunni sources — the four madhhabs, and the Bukhari and Muslim hadith collections, already referenced throughout — since that reflects the majority global tradition and the background this content was written from. That's a starting point, not a verdict on Shia Islam's place within the wider faith; the previous three lessons aimed to describe both fairly rather than argue for one."
+    },
+    {
+      "type": "heading",
+      "text": "You'll likely meet both"
+    },
+    {
+      "type": "text",
+      "text": "As a new Muslim, you'll likely meet, be befriended by, be guided by, or even marry into families from either tradition. Approaching a difference in tradition with curiosity rather than suspicion follows naturally from the shared ground the first lesson in this section covered — the overlap is much larger than the disagreement."
+    },
+    {
+      "type": "heading",
+      "text": "If you're not sure which you are (yet)"
+    },
+    {
+      "type": "text",
+      "text": "It's completely fine not to have settled views on contested historical or theological questions this early — or ever. Most Muslims worldwide are born into a tradition rather than choosing one through careful comparative study. If this specific question genuinely matters to you personally, learning directly from knowledgeable teachers within each tradition — not just a summary from an app — is the right next step, the same guidance already given elsewhere in this app for other contested details."
+    },
+    {
+      "type": "faq",
+      "question": "Is it disrespectful to ask a Muslim friend which one they are?",
+      "answer": "Not inherently — tone and context matter, the same as asking about any personal or family background. A simple, genuinely curious question is normally welcomed; framing it as \"which one is correct\" can read as adversarial. The difference is usually in how you ask, not whether."
+    },
+    {
+      "type": "reflection",
+      "question": "After these four lessons, what's one thing you'd want a Muslim friend from the other tradition to know you understand about their perspective?"
+    }
+  ],
+  "further_reading": [
+    { "label": "How Belief and Practice Differ Today", "reference": "See previous lesson" },
+    { "label": "One Ummah: What Sunni and Shia Share", "reference": "See Section start" }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "the-succession-question",
+  "stage_slug": "sunni-shia",
+  "order": 2,
+  "title": "Where the Split Began: The Succession Question",
+  "summary": "The historical origin of the Sunni-Shia division — a dispute over leadership after the Prophet's death, not a disagreement about God or the Quran.",
+  "estimated_minutes": 7,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Not a split over God or scripture"
+    },
+    {
+      "type": "text",
+      "text": "Worth stating plainly first: the division didn't begin as a disagreement about the Quran's text, about God's Oneness, or about who the final prophet was — the previous lesson covered how fully shared all of that is. It began, immediately after Prophet Muhammad's death in 632 CE, as a question about legitimate leadership: who should lead the Muslim community next."
+    },
+    {
+      "type": "heading",
+      "text": "Two views on legitimate leadership"
+    },
+    {
+      "type": "text",
+      "text": "The Sunni view: at a gathering known as Saqifah, leading companions selected Abu Bakr — a close, trusted companion and the Prophet's father-in-law — as the first Caliph, through community consultation (shura). This began the era of the four \"Rightly Guided Caliphs\": Abu Bakr, then Umar, Uthman, and Ali. \"Sunni\" comes from Ahl al-Sunnah wal-Jama'ah — roughly, \"people of the Prophetic tradition and the community\" — emphasising continuity through the wider community's consensus."
+    },
+    {
+      "type": "text",
+      "text": "The Shia view: \"Shia\" comes from Shi'atu Ali, \"the party of Ali.\" This tradition holds that the Prophet had explicitly designated his cousin and son-in-law, Ali ibn Abi Talib, as his successor — most commonly pointed to is a sermon at a place called Ghadir Khumm shortly before the Prophet's death. This began a line of Imams, understood as divinely appointed spiritual and political leaders descended from the Prophet through Ali and Fatimah (the Prophet's daughter). Sunni scholarship agrees the Ghadir Khumm sermon took place, but reads its wording as an expression of praise and close bond rather than a formal appointment to succession — a genuine, long-standing difference in how the same historical event is interpreted, not a dispute about whether it happened."
+    },
+    {
+      "type": "heading",
+      "text": "Karbala: the event that deepened it"
+    },
+    {
+      "type": "text",
+      "text": "In 680 CE, Husayn ibn Ali — the Prophet's grandson — was killed along with much of his family and companions at Karbala (in present-day Iraq), by forces of the Umayyad Caliph Yazid, after refusing to accept Yazid's legitimacy as leader. This event became especially central to Shia identity, and is commemorated every year during Ashura (the 10th day of the month of Muharram) with mourning gatherings and remembrance. Many Sunni Muslims also regard Husayn's death as a tragedy and an injustice, even without it carrying the same central theological weight it holds in Shia tradition."
+    },
+    {
+      "type": "faq",
+      "question": "Did the split happen immediately after the Prophet died?",
+      "answer": "The succession dispute itself, yes — that began right away. But the fuller theological and legal traditions, distinct communal identities, and the terms \"Sunni\" and \"Shia\" as understood today developed gradually over the following centuries, not overnight."
+    },
+    {
+      "type": "faq",
+      "question": "Is this like the Catholic-Protestant split in Christianity?",
+      "answer": "Only loosely, and the comparison can mislead more than it helps. The Catholic-Protestant split centred on theology and religious authority, arising over a thousand years after Christianity began. The Sunni-Shia split centred on political succession, starting within days of the Prophet's death — well before most of the doctrinal and legal differences covered in the next lesson had developed at all."
+    },
+    {
+      "type": "reflection",
+      "question": "This lesson traced a leadership dispute, not a disagreement about God or the Quran. Does understanding the origin this way change how you think about the labels \"Sunni\" and \"Shia\"?"
+    }
+  ],
+  "further_reading": [
+    { "label": "One Ummah: What Sunni and Shia Share", "reference": "See previous lesson" },
+    { "label": "How Belief and Practice Differ Today", "reference": "See next lesson" }
+  ]
+}

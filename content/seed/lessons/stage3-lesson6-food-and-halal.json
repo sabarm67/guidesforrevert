@@ -2,11 +2,24 @@
   "slug": "food-and-halal",
   "stage_slug": "building-daily-habits",
   "order": 6,
-  "title": "Food and Halal",
-  "summary": "What \"halal\" actually means, the main food rules to know day-to-day, and the reasoning behind them.",
-  "estimated_minutes": 7,
+  "title": "Halal and Haram: What Makes Something Permitted or Forbidden",
+  "summary": "The everyday meaning of halal and haram, the default rule that permission is the norm, the main food rules to know day-to-day, and what's forbidden beyond food.",
+  "estimated_minutes": 9,
   "need_to_know": true,
   "body": [
+    {
+      "type": "heading",
+      "text": "The default is permission, not prohibition"
+    },
+    {
+      "type": "text",
+      "text": "Back in Stage 2, you met Hukm Taklifi — the five-point scale (wajib, mustahabb, mubah, makruh, haram) every Islamic ruling sits on. That's worth restating plainly here: the general rule in Islam is that things are permitted (halal) unless there's a specific, clear reason they're forbidden (haram) — prohibition is the exception, not the default. A new Muslim doesn't need to treat every unfamiliar food, product, or activity with suspicion; the actual list of things Islam forbids is short and mostly well-known."
+    },
+    {
+      "type": "quote",
+      "translation": "O mankind, eat from whatever is on earth [that is] lawful and good.",
+      "reference": "Quran 2:168 (Saheeh International, abridged)"
+    },
     {
       "type": "heading",
       "text": "Halal means \"permissible,\" not \"blessed\" or \"special\""
@@ -30,6 +43,22 @@
     },
     {
       "type": "heading",
+      "text": "Beyond food: the other major categories"
+    },
+    {
+      "type": "text",
+      "text": "Haram isn't limited to food. Other well-established prohibitions include riba (interest-based lending/borrowing), gambling, lying, and stealing, with specific matters covered further in this app's Fiqh in Daily Life and Islamic Finance content. These share the same logic as the food rules: specific, named prohibitions against a wide, permitted default — not a vague sense that most things are suspect."
+    },
+    {
+      "type": "heading",
+      "text": "When something is genuinely unclear"
+    },
+    {
+      "type": "text",
+      "text": "Islamic teaching also recognises a middle zone — shubuhat, matters that are unclear or disputed — where caution is recommended without treating the thing as definitely haram. A well-known hadith describes halal as clear, haram as clear, and a grey area in between that a cautious person avoids out of carefulness, not because it's actually forbidden. If you're ever unsure about something specific, that uncertainty itself is normal and doesn't mean you've done something wrong by not knowing yet."
+    },
+    {
+      "type": "heading",
       "text": "A brief note on why"
     },
     {
@@ -47,12 +76,24 @@
       "answer": "Most scholars hold that seafood is broadly permissible without needing the zabihah slaughter process that applies to land animals, though there are some differences of scholarly opinion on specific categories of sea creatures between the Sunni schools of law. For everyday purposes, standard fish and shellfish are widely treated as halal; if you're ever unsure about a specific case, asking a local imam is the reliable way to get a clear answer."
     },
     {
+      "type": "faq",
+      "question": "Are all haram things equally serious?",
+      "answer": "No — Islamic teaching distinguishes major sins (kaba'ir), like consuming alcohol or interest, from minor ones (sagha'ir), and treats them differently in terms of severity and the effort expected to avoid and repent from them. Haram means forbidden either way, but \"forbidden\" isn't a single flat category any more than \"recommended\" is."
+    },
+    {
+      "type": "faq",
+      "question": "What about medicine or vaccines that might contain non-halal ingredients?",
+      "answer": "Necessity (darurah) is a recognised principle that permits otherwise-haram substances when there's no reasonable alternative and genuine harm would result from avoiding them — this covers most medical situations. It isn't a loophole for convenience, but it does mean health needs aren't held to the same standard as everyday food choices."
+    },
+    {
       "type": "reflection",
       "question": "Think about your usual weekly meals. What's one small, practical change you could make this week to start eating more consistently halal?"
     }
   ],
   "further_reading": [
-    { "label": "Halal and Haram: What Makes Something Permitted or Forbidden", "reference": "See Stage 2, Your First Week" },
+    { "label": "The Five Levels of Hukm Taklifi", "reference": "See Stage 2, Your First Week" },
+    { "label": "Halal Food Finder", "reference": "See Community tab" },
+    { "label": "Fiqh in Daily Life", "reference": "See Learning section" },
     { "label": "Why Alcohol is Prohibited", "reference": "See Understanding Islam / Background Stories section (future content)" }
   ]
 }

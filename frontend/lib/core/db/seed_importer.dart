@@ -19,7 +19,7 @@ class SeedImporter {
   /// Bumped whenever the bundled seed content changes in a way that needs
   /// re-import (e.g. new lessons added) — devices that already imported an
   /// older version will re-run the importer once and pick up the new rows.
-  static const currentContentVersion = 17;
+  static const currentContentVersion = 19;
 
   Future<void> importIfNeeded() async {
     final meta = await (_db.select(
@@ -102,7 +102,6 @@ class SeedImporter {
       'assets/content/lessons/stage2-lesson7-arabic-pronunciation.json',
       'assets/content/lessons/stage2-lesson8-basic-duas-for-daily-life.json',
       'assets/content/lessons/stage2-lesson11-hukm-taklifi.json',
-      'assets/content/lessons/stage2-lesson12-halal-and-haram.json',
       'assets/content/lessons/stage2-lesson13-hukm-wadhi.json',
       'assets/content/lessons/stage3-lesson1-making-daily-prayers-a-habit.json',
       'assets/content/lessons/stage3-lesson2-engaging-with-the-quran-daily.json',
@@ -209,6 +208,10 @@ class SeedImporter {
       'assets/content/lessons/compare-christianity-lesson46-grief-guilt-and-growth.json',
       'assets/content/lessons/compare-christianity-lesson47-common-questions-family-will-ask.json',
       'assets/content/lessons/compare-christianity-lesson48-finding-common-ground.json',
+      'assets/content/lessons/sunnishia-lesson1-shared-foundations.json',
+      'assets/content/lessons/sunnishia-lesson2-the-succession-question.json',
+      'assets/content/lessons/sunnishia-lesson3-differences-today.json',
+      'assets/content/lessons/sunnishia-lesson4-a-note-for-new-muslims.json',
     ];
 
     for (final path in lessonAssetPaths) {

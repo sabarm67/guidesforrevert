@@ -1,0 +1,50 @@
+{
+  "slug": "shared-foundations",
+  "stage_slug": "sunni-shia",
+  "order": 1,
+  "title": "One Ummah: What Sunni and Shia Share",
+  "summary": "Before the differences: the much larger common ground between Sunni and Shia Muslims.",
+  "estimated_minutes": 6,
+  "need_to_know": true,
+  "body": [
+    {
+      "type": "heading",
+      "text": "The same faith, first"
+    },
+    {
+      "type": "text",
+      "text": "Sunni and Shia are the two main branches of Islam, and the next few lessons cover where that division came from and how it plays out today. Before any of that, it's worth being clear about how much is actually shared: the same Quran, word for word, with no textual differences between the two; the same belief that Muhammad (peace be upon him) is the final prophet; the same Shahada; the same Five Pillars (Shia scholarship also groups core obligations under a closely related list, the \"Ten Practices\" or Furu al-Din, heavily overlapping with the Five Pillars rather than replacing them); the same Qibla, facing the Kaaba in Makkah; and the same core beliefs about God's Oneness, the angels, the prophets, the revealed books, and the Day of Judgment."
+    },
+    {
+      "type": "quote",
+      "translation": "And hold firmly to the rope of Allah all together and do not become divided.",
+      "reference": "Quran 3:103 (Saheeh International, abridged)"
+    },
+    {
+      "type": "heading",
+      "text": "Recognised as fellow Muslims"
+    },
+    {
+      "type": "text",
+      "text": "Mainstream Sunni and Shia scholarship, across most of Islamic history, has recognised the other as fellow Muslims sharing the same core testimony of faith, even while disagreeing on real and sometimes significant matters covered in the lessons ahead. Fringe voices on both sides have, at times, made harsher claims against the other — but that has never been the mainstream, historically dominant position on either side, and it isn't the framing this app uses."
+    },
+    {
+      "type": "faq",
+      "question": "If they agree on so much, why does this feel like such a big deal?",
+      "answer": "Partly history — the next lesson covers events, especially Karbala, that carry deep, lasting weight for many families and communities. And partly geography: most people grow up mostly around one tradition, so the other can feel more unfamiliar, and therefore more different, than the actual theological gap accounts for."
+    },
+    {
+      "type": "faq",
+      "question": "Which one is \"more correct\"?",
+      "answer": "This app doesn't take a side on that question. It aims to describe both traditions accurately and respectfully so a new Muslim understands the landscape, not to adjudicate a dispute scholars themselves have held differing views on for fourteen centuries. If it matters to you personally, learning from knowledgeable teachers within each tradition is far more valuable than a summary from an app."
+    },
+    {
+      "type": "reflection",
+      "question": "Before this lesson, did you already know how much Sunni and Shia Muslims share? Does starting from that common ground change how you'll approach the differences covered next?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Where the Split Began: The Succession Question", "reference": "See next lesson" },
+    { "label": "Understanding the Madhhabs (Schools of Thought)", "reference": "See Stage 4, Growing in Knowledge" }
+  ]
+}

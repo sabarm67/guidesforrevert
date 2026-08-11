@@ -24,8 +24,8 @@ void main() {
     final surahs = await db.select(db.surahs).get();
     final ayahs = await db.select(db.ayahs).get();
 
-    expect(stages, hasLength(8));
-    expect(lessons, hasLength(129));
+    expect(stages, hasLength(9));
+    expect(lessons, hasLength(132));
     expect(duas, hasLength(11));
     expect(faqs, isNotEmpty);
     expect(surahs, hasLength(114));
@@ -43,7 +43,7 @@ void main() {
     final surahs = await db.select(db.surahs).get();
     final ayahs = await db.select(db.ayahs).get();
 
-    expect(lessons, hasLength(129));
+    expect(lessons, hasLength(132));
     expect(faqs, hasLength(11));
     expect(surahs, hasLength(114));
     expect(ayahs, hasLength(6236));

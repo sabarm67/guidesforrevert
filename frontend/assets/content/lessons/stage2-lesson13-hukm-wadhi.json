@@ -1,7 +1,7 @@
 {
   "slug": "hukm-wadhi",
   "stage_slug": "your-first-week",
-  "order": 13,
+  "order": 12,
   "title": "Hukm Wadh'i: Declaratory Rulings",
   "summary": "The second type of Islamic legal ruling — not what you should do, but what conditions, causes, and validity mean for the rulings you already follow.",
   "estimated_minutes": 6,
@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "text": "A couple of lessons ago you met Hukm Taklifi — the five-point scale (wajib, mustahabb, mubah, makruh, haram) that tells you what to do. Hukm Wadh'i is different: it doesn't tell a person to act at all. Instead, it declares a relationship between things — that one thing causes, conditions, blocks, or validates another. You've already been using Hukm Wadh'i concepts throughout this app without the label; this lesson just names them."
+      "text": "The previous lesson covered Hukm Taklifi — the five-point scale (wajib, mustahabb, mubah, makruh, haram) that tells you what to do. Hukm Wadh'i is different: it doesn't tell a person to act at all. Instead, it declares a relationship between things — that one thing causes, conditions, blocks, or validates another. You've already been using Hukm Wadh'i concepts throughout this app without the label; this lesson just names them."
     },
     {
       "type": "heading",

@@ -62,5 +62,13 @@
     "title": "Christianity and Islam",
     "description": "For reverts who came from a Christian background: shared ground, honest differences, and how to talk about your journey with Christian family and friends — written to help you understand and explain, not to argue.",
     "icon": "collection_comparison_christianity"
+  },
+  {
+    "slug": "sunni-shia",
+    "collection_type": "sunni_shia",
+    "order": 1,
+    "title": "Sunni and Shia",
+    "description": "Where the two main branches of Islam came from, how they differ today, and the much larger shared foundation underneath — written to describe both traditions fairly, not to rank them.",
+    "icon": "collection_sunni_shia"
   }
 ]

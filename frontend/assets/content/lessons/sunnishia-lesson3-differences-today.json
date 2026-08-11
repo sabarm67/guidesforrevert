@@ -1,0 +1,62 @@
+{
+  "slug": "differences-today",
+  "stage_slug": "sunni-shia",
+  "order": 3,
+  "title": "How Belief and Practice Differ Today",
+  "summary": "The main theological and practical differences between Sunni and Shia Islam as practised today, described fairly and without ranking either.",
+  "estimated_minutes": 7,
+  "need_to_know": false,
+  "body": [
+    {
+      "type": "heading",
+      "text": "Imamah versus the Caliphate"
+    },
+    {
+      "type": "text",
+      "text": "The largest Shia branch, Twelver (Ithna Ashari) Shia Islam, holds that a line of twelve Imams began with Ali, understood as infallible in religious matters and the rightful spiritual and political heirs of the Prophet's authority. The twelfth Imam is believed to be alive but hidden (occultation), expected to return before the end of time. Sunni Islam holds no infallible human authority after the Prophet: leadership passed through the four Rightly Guided Caliphs and later dynasties, and religious authority today rests with scholars working within the four madhhabs already covered elsewhere in this app, rather than with a single infallible successor."
+    },
+    {
+      "type": "heading",
+      "text": "Hadith sources"
+    },
+    {
+      "type": "text",
+      "text": "Sunni Islam draws primarily on six major hadith collections, most authoritative among them Sahih al-Bukhari and Sahih Muslim — the collections referenced throughout this app. Shia Islam draws on its own collections, such as Al-Kafi and Man La Yahduruhu al-Faqih, with narrations traced specifically through the Prophet's family and the Imams. Both trace back to the Prophet and overlap significantly, but the two bodies of hadith aren't identical, which sometimes leads to different rulings on specific questions."
+    },
+    {
+      "type": "heading",
+      "text": "A few practical differences"
+    },
+    {
+      "type": "text",
+      "text": "Many Shia Muslims combine Dhuhr with Asr and Maghrib with Isha, praying at three times a day rather than five separate times — a difference in timing and grouping, not a reduction in the five daily prayers themselves. Some Shia practice includes an added phrase referencing Ali in the call to prayer (Azan), which isn't present in the Sunni Azan. Sunni jurisprudence prohibits mut'ah (a fixed-term temporary marriage contract), while it remains a recognised, though debated, contract in Twelver Shia jurisprudence. And Ashura mourning gatherings are central to Shia religious life in a way they generally aren't observed with the same weight in Sunni communities."
+    },
+    {
+      "type": "heading",
+      "text": "Not a single monolith on either side"
+    },
+    {
+      "type": "text",
+      "text": "Neither \"Sunni\" nor \"Shia\" is one uniform group. Sunni Islam spans the four major schools of law already covered in this app. Shia Islam includes Twelvers (the large majority of Shia Muslims), Ismailis, Zaydis, and other branches, each with its own distinct positions. This lesson describes the majority, mainstream position within each broad label — not every community within it."
+    },
+    {
+      "type": "faq",
+      "question": "Do Sunni and Shia Muslims pray together?",
+      "answer": "Often, yes — shared prayer happens regularly, especially at Islam's two holiest sites during Hajj and Umrah, and in mixed communities and mosques worldwide. In some places, distinct mosques or community centres exist along these lines, generally for practical and cultural continuity rather than a blanket refusal to pray together."
+    },
+    {
+      "type": "faq",
+      "question": "Where are Shia Muslims concentrated today?",
+      "answer": "There are significant Shia-majority populations in Iran, Iraq, Bahrain, and Azerbaijan, with substantial Shia communities in Lebanon, Pakistan, India, Saudi Arabia's Eastern Province, and elsewhere. Globally, Shia Muslims are estimated at roughly 10-15% of the world's Muslims, with Sunni Muslims forming the large majority — a demographic fact, not a ranking of legitimacy."
+    },
+    {
+      "type": "reflection",
+      "question": "Which of these differences, if any, surprised you? Which felt smaller than you expected going in?"
+    }
+  ],
+  "further_reading": [
+    { "label": "Where the Split Began: The Succession Question", "reference": "See previous lesson" },
+    { "label": "A Note for New Muslims", "reference": "See next lesson" },
+    { "label": "Understanding the Madhhabs (Schools of Thought)", "reference": "See Stage 4, Growing in Knowledge" }
+  ]
+}
