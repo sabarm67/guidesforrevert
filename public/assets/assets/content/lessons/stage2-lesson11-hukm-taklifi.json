@@ -1,7 +1,7 @@
 {
   "slug": "hukm-taklifi",
-  "stage_slug": "your-first-week",
-  "order": 11,
+  "stage_slug": "building-daily-habits",
+  "order": 6,
   "title": "The Five Levels of Hukm Taklifi",
   "summary": "The fiqh scale that every Islamic ruling on an action sits on, from obligatory to forbidden — and why most of daily life falls in the wide middle ground.",
   "estimated_minutes": 6,
@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "text": "New Muslims often start out sorting everything into two bins: halal (allowed) and haram (forbidden). Islamic legal theory (Usul al-Fiqh) actually uses a five-point scale called Hukm Taklifi (\"the ruling that places a duty on a person\") to classify any action. Knowing the full scale removes a lot of unnecessary anxiety, since most everyday actions sit in the wide, comfortable middle — and it's the framework behind Stage 3's closer look at what actually makes something halal or haram."
+      "text": "New Muslims often start out sorting everything into two bins: halal (allowed) and haram (forbidden). Islamic legal theory (Usul al-Fiqh) actually uses a five-point scale called Hukm Taklifi (\"the ruling that places a duty on a person\") to classify any action. Knowing the full scale removes a lot of unnecessary anxiety, since most everyday actions sit in the wide, comfortable middle — and it's the framework behind the next lesson's closer look at what actually makes something halal or haram."
     },
     {
       "type": "heading",
@@ -68,8 +68,8 @@
     }
   ],
   "further_reading": [
-    { "label": "The next lesson (Hukm Wadh'i: Declaratory Rulings)", "reference": "See Stage 2, next lesson" },
-    { "label": "Halal and Haram: What Makes Something Permitted or Forbidden", "reference": "See Stage 3, Building Daily Habits" },
+    { "label": "Halal and Haram: What Makes Something Permitted or Forbidden", "reference": "See next lesson" },
+    { "label": "Hukm Wadh'i: Declaratory Rulings", "reference": "See later this Stage" },
     { "label": "Understanding the Madhhabs (Schools of Thought)", "reference": "See Stage 4, Growing in Knowledge" }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "food-and-halal",
   "stage_slug": "building-daily-habits",
-  "order": 6,
+  "order": 7,
   "title": "Halal and Haram: What Makes Something Permitted or Forbidden",
   "summary": "The everyday meaning of halal and haram, the default rule that permission is the norm, the main food rules to know day-to-day, and what's forbidden beyond food.",
   "estimated_minutes": 9,
@@ -13,7 +13,7 @@
     },
     {
       "type": "text",
-      "text": "Back in Stage 2, you met Hukm Taklifi — the five-point scale (wajib, mustahabb, mubah, makruh, haram) every Islamic ruling sits on. That's worth restating plainly here: the general rule in Islam is that things are permitted (halal) unless there's a specific, clear reason they're forbidden (haram) — prohibition is the exception, not the default. A new Muslim doesn't need to treat every unfamiliar food, product, or activity with suspicion; the actual list of things Islam forbids is short and mostly well-known."
+      "text": "The previous lesson introduced Hukm Taklifi — the five-point scale (wajib, mustahabb, mubah, makruh, haram) every Islamic ruling sits on. That's worth restating plainly here: the general rule in Islam is that things are permitted (halal) unless there's a specific, clear reason they're forbidden (haram) — prohibition is the exception, not the default. A new Muslim doesn't need to treat every unfamiliar food, product, or activity with suspicion; the actual list of things Islam forbids is short and mostly well-known."
     },
     {
       "type": "quote",
@@ -91,7 +91,7 @@
     }
   ],
   "further_reading": [
-    { "label": "The Five Levels of Hukm Taklifi", "reference": "See Stage 2, Your First Week" },
+    { "label": "The Five Levels of Hukm Taklifi", "reference": "See previous lesson" },
     { "label": "Halal Food Finder", "reference": "See Community tab" },
     { "label": "Fiqh in Daily Life", "reference": "See Learning section" },
     { "label": "Why Alcohol is Prohibited", "reference": "See Understanding Islam / Background Stories section (future content)" }
